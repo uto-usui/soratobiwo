@@ -1,0 +1,27 @@
+// - - - - - - - - - - - - - - - - - - - -
+//
+// section
+//
+// - - - - - - - - - - - - - - - - - - - -
+$section-max-width: 1200px;
+$section-gutter-mobile: 25px;
+// $section-gutter-desktop: 3.75vw;
+$section-gutter-desktop: 45px;
+
+$section-padding-top-desktop: 5vw;
+$section-padding-bottom-desktop: 4.75vw;
+
+$section-max-width: 1200px;
+
+@mixin section-desktop {
+  max-width: $section-max-width;
+  padding-right: $section-gutter-desktop;
+  padding-left: $section-gutter-desktop;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin section-pad-v-desktop {
+  padding-top: $section-padding-top-desktop;
+  padding-bottom: $section-padding-bottom-desktop;
+}
