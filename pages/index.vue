@@ -1,8 +1,7 @@
 <template>
-  <Wrapper>
+  <Wrapper :get-page-ready="getPageReady">
     <Hero
       :get-page-ready="getPageReady"
-
       :get-page-height="getPageHeight"
     />
   </Wrapper>
