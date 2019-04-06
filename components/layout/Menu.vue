@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{'is-open': getMenuOpen}]" class="menu">
+  <div :class="[{'is-open': true}]" class="menu">
     <div class="menu__inner">
       <ul class="menu__list">
         <li
@@ -13,11 +13,12 @@
               class="menu__target"
               @click="setMenuOpen(false)"
               v-html="item"
-            />/
+            />
           </span>
         </li>
       </ul>
     </div>
+    <div class="menu__bg" />
   </div>
 </template>
 
@@ -36,7 +37,7 @@ export default {
       /**
        * ID List
        */
-      links: ['Latest01', 'Magazine', 'Special01', 'Videos', 'Event'],
+      links: ['Home', 'Profile', 'Listen', 'Live', 'Follow'],
     }
   },
   computed: {
@@ -51,116 +52,79 @@ export default {
 <style lang="scss" scoped>
 .menu {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: calc(100vh * 200 / 667);
+  left: calc(100vw * 10 / 375);
   z-index: $z-menu;
-  padding-top: 35px;
-  padding-right: $section-gutter-mobile;
-  padding-left: $section-gutter-mobile;
-  pointer-events: none;
-  will-change: transform;
+  overflow: hidden;
   //
   @include desktop {
-    padding-top: 45px;
-    padding-right: $section-gutter-desktop;
-    padding-left: $section-gutter-desktop;
+    top: auto;
+    bottom: calc(100vh * 114 / 768);
+    left: calc(100vw * 45 / 1024);
   }
+}
+
+.menu__bg {
+  z-index: 1;
+  background-color: $color-gray-level1;
   //
-  &::after {
-    position: absolute;
-    top: 0;
-    right: 50%;
-    bottom: 0;
-    left: 0;
-    z-index: 5;
-    content: '';
-    background-color: $color-white;
-    transition: transform 1s $easeInOutLongExpo;
-    transform: scaleY(0);
-    transform-origin: center top;
-    will-change: transform;
-  }
-  //
-  &::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 50%;
-    z-index: 5;
-    content: '';
-    background-color: $color-white;
-    transition: transform 0.75s $easeInOutLongExpo;
-    transform: scaleY(0);
-    transform-origin: center top;
-    will-change: transform;
-  }
-  //
-  &.is-open {
-    pointer-events: auto;
-    //
-    &::after {
-      transform: scaleY(1);
-      transform-origin: center bottom;
-    }
-    //
-    &::before {
-      transition-delay: 0.25s;
-      transform: scaleY(1);
-      transform-origin: center bottom;
-    }
-  }
+  @include overlay;
 }
 
 .menu__inner {
   position: relative;
   z-index: 9;
-  padding-top: 28px;
   //
   @include desktop {
-    padding-top: 40px;
+    //
   }
 }
 
 .menu__list {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
+  //
 }
 
 .menu__item {
+  margin-top: calc(100vw * 4 / 375 * -1);
+  margin-bottom: calc(100vw * 6 / 375 * -1);
   overflow: hidden;
+  text-align: right;
+  //
+  @include desktop {
+    margin-top: calc(100vh * 8 / 768 * -1);
+    margin-bottom: calc(100vh * 12 / 768 * -1);
+  }
+  //
+  + .menu__item {
+    margin-top: calc(100vw * 5 / 375);
+  }
 }
 
 .menu__item-inner {
   display: inline-block;
-  font-size: 3rem;
-  line-height: calc(1em * 80 / 60);
-  color: $color-blue;
-  will-change: transform;
-  transition: transform 0.6s $easeInOutLongExpo;
-  transform: translateY(125%);
+  //will-change: transform;
+  //transition: transform 0.6s $easeInOutLongExpo;
+  //transform: translateY(125%);
   //
   @include desktop {
-    font-size: calc(92.5vw / 14);
+    //
   }
   //
   .menu.is-open & {
-    transform: translateY(0);
-  }}
+    //transform: translateY(0);
+  }
 }
 
 .menu__target {
   display: inline-block;
-  color: inherit;
+  font-family: $font-Nunito;
+  font-size: calc(100vw * 40 / 375);
+  font-weight: $font-Nunito-bold;
+  color: $color-white;
+  text-transform: uppercase;
   //
   @include desktop {
-    //
-    &:hover {
-      color: $color-green;
-    }
+    font-size: calc(100vh * 80 / 768);
   }
 }
 </style>
