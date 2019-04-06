@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{'is-ready': getHeroReady}]" class="wrapper">
+  <div :class="[{'is-ready': getPageReady}]" class="wrapper">
     <slot />
   </div>
 </template>
@@ -8,7 +8,7 @@
 export default {
   name: 'Wrapper',
   props: {
-    getHeroReady: {
+    getPageReady: {
       type: Boolean,
       default: false,
     },
