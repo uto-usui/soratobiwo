@@ -34,7 +34,7 @@ $font-serif: 游明朝, YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho
 //
 $font-sans-serif-hiragino: -apple-system, BlinkMacSystemFont, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", MyYuGothicM, YuGothic, メイリオ, Meiryo, "Noto Sans Japanese", "Noto Sans CJK JP", sans-serif !default;
 //
-$font-sans-serif-yu: "Helvetica Neue", Helvetica, Arial, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif !default;
+$font-sans-serif-yu: 'Ubuntu', YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif !default;
 //
 $font-sans-serif: $font-sans-serif-yu;
 //
@@ -44,5 +44,7 @@ $font-tsukushi: 'Tsukushi A Round Gothic', '筑紫A丸ゴシック', "ヒラギ�
 //
 $font-ie: "Helvetica", Meiryo, sans-serif !default;
 
-$font-SilkSerif-MediumItalic: SilkSerif-MediumItalic, sans-serif !default;
-$font-SilkSerif-Medium: SilkSerif-Medium, sans-serif !default;
+$font-Nunito: 'Nunito', sans-serif !default;
+$font-Nunito-bold: 800 !default;
+$font-Ubuntu: 'Ubuntu', sans-serif !default;
+$font-Ubuntu-bold: 700 !default;

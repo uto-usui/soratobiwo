@@ -24,6 +24,11 @@ module.exports = {
     link: [
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon-precomposed', href: '/apple-touch-icon.png' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Nunito:400,400i,800,800i|Ubuntu:400,400i,700,700i',
+      },
     ],
     script: [
       {
@@ -46,18 +51,12 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    '~plugins/vue-lazyload.client.js',
-    '~plugins/console.js',
-    '~plugins/routerOption.js',
-    '~plugins/workbox-range-request.js',
-  ],
+  plugins: ['~plugins/vue-lazyload.client.js', '~plugins/console.js'],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
     'nuxt-user-agent',
