@@ -4,6 +4,24 @@
       v-lazy:background-image="require('Images/hero/item2.jpg')"
       class="hero__main"
     />
+
+    <div class="hero-sub hero-sub--lg">
+      <figure
+        v-lazy:background-image="require('Images/hero/item7.jpg')"
+        class="hero-sub__figure"
+      />
+      <div class="hero-sub__overlay" />
+      <div class="hero__sub-tape" />
+    </div>
+
+    <div class="hero-sub hero-sub--sm">
+      <figure
+        v-lazy:background-image="require('Images/hero/item13.jpg')"
+        class="hero-sub__figure"
+      />
+      <div class="hero-sub__overlay" />
+      <div class="hero__sub-tape" />
+    </div>
   </div>
 </template>
 
@@ -73,6 +91,90 @@ export default {
       height: calc(100vw * 20 / 375);
       content: '';
       background-color: $color-gray-level2;
+    }
+  }
+}
+
+.hero-sub {
+  position: absolute;
+  //
+  &--lg {
+    bottom: calc(100vh * 30 / 667);
+    left: 0;
+    width: calc(100vw * 250 / 375);
+    height: calc(100vw * 173 / 375);
+    //
+    @include desktop {
+      bottom: calc(100vh * 23 / 768);
+      left: calc(100vw * 463 / 1024);
+      width: calc(100vw * 250 / 1024);
+      height: calc(100vw * 173 / 1024);
+    }
+  }
+  //
+  &--sm {
+    right: 40px;
+    bottom: calc(100vh * 222 / 667);
+    width: calc(100vw * 173 / 375);
+    height: calc(100vw * 120 / 375);
+    //
+    @include desktop {
+      right: calc(100vw * 90 / 1024);
+      bottom: calc(100vw * 115 / 1024);
+      left: auto;
+      width: calc(100vw * 173 / 1024);
+      height: calc(100vw * 120 / 1024);
+    }
+  }
+}
+
+.hero-sub__figure {
+  //
+  @include overlay;
+  @include bg-cover;
+  //
+  .hero-sub.hero-sub--lg & {
+    filter: saturate(0);
+  }
+}
+
+.hero-sub__overlay {
+  mix-blend-mode: overlay;
+  //
+  @include overlay;
+  //
+  .hero-sub.hero-sub--lg & {
+    background-color: $color-gray-level1;
+  }
+  //
+  .hero-sub.hero-sub--sm & {
+    background-color: $color-primary;
+  }
+}
+
+.hero__sub-tape {
+  position: absolute;
+  top: calc(30px / 3 * 1 * -1);
+  left: calc(100vw * 38 / 375);
+  width: calc(100vw * 120 / 375);
+  height: calc(100vw * 40 / 375);
+  background-color: $color-blue;
+  mix-blend-mode: overlay;
+  //
+  @include desktop {
+    top: 0;
+    width: calc(100vh * 120 / 768);
+    height: calc(100vh * 40 / 768);
+    //
+    .hero-sub.hero-sub--lg & {
+      left: 0;
+      transform: translateX(-25%) rotate(-30deg);
+    }
+    //
+    .hero-sub.hero-sub--sm & {
+      right: 0;
+      left: auto;
+      transform: translateX(25%) rotate(30deg);
     }
   }
 }
