@@ -27,6 +27,10 @@ export default {
     @include desktop {
       height: calc(100vw * 30 / 1024);
     }
+    //
+    @include widescreen {
+      height: calc(100vw * 30 / 1280);
+    }
   }
 
   //
@@ -39,6 +43,10 @@ export default {
     //
     @include desktop {
       width: calc(100vw * 30 / 1024);
+    }
+    //
+    @include widescreen {
+      width: calc(100vw * 30 / 1280);
     }
   }
 
@@ -56,6 +64,11 @@ export default {
       width: calc(100vw * 30 / 1024);
       height: calc(100vw * 30 / 1024);
     }
+    //
+    @include widescreen {
+      width: calc(100vw * 30 / 1280);
+      height: calc(100vw * 30 / 1280);
+    }
   }
 
   //
@@ -70,6 +83,11 @@ export default {
     @include desktop {
       width: calc(100vw * 30 / 1024);
       height: calc(100vw * 30 / 1024);
+    }
+    //
+    @include widescreen {
+      width: calc(100vw * 30 / 1280);
+      height: calc(100vw * 30 / 1280);
     }
   }
 }

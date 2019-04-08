@@ -62,6 +62,11 @@ export default {
     bottom: calc(100vh * 114 / 768);
     left: calc(100vw * 45 / 1024);
   }
+  //
+  @include widescreen {
+    bottom: calc(100vh * 90 / 800);
+    left: calc(100vw * 80 / 1280);
+  }
 }
 
 .menu__bg {
@@ -97,6 +102,10 @@ export default {
   //
   + .menu__item {
     margin-top: calc(100vw * 5 / 375);
+    //
+    @include desktop {
+      margin-top: calc(100vw * 2 / 375);
+    }
   }
 }
 
@@ -125,6 +134,10 @@ export default {
   //
   @include desktop {
     font-size: calc(100vh * 80 / 768);
+  }
+  //
+  @include widescreen {
+    font-size: calc(100vh * 80 / 800);
   }
 }
 </style>

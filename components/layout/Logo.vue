@@ -51,6 +51,14 @@ export default {
     transform: rotate(90deg)
       translate(calc(100vw * 30 / 1024), calc(100vw * 30 / 1024));
   }
+  //
+  @include widescreen {
+    width: calc(100vw * 396 / 1280);
+    height: calc(100vw * 69 / 1280);
+    padding: calc(100vw * 10 / 1280);
+    transform: rotate(90deg)
+      translate(calc(100vw * 30 / 1280), calc(100vw * 30 / 1280));
+  }
 }
 
 .logo__inner {

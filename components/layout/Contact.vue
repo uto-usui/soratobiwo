@@ -24,6 +24,10 @@ export default {
   @include desktop {
     bottom: calc(100vw * 30 / 1024);
   }
+  //
+  @include widescreen {
+    bottom: calc(100vw * 30 / 1280);
+  }
 }
 
 .contact__text {

@@ -81,6 +81,11 @@ export default {
     height: calc(100vh * 482 / 768);
   }
   //
+  @include widescreen {
+    top: calc(100vw * 30 / 1280);
+    width: calc(100vw - 100vw * 30 / 1280);
+  }
+  //
   &::after {
     //
     @include touch {
@@ -110,6 +115,13 @@ export default {
       width: calc(100vw * 250 / 1024);
       height: calc(100vw * 173 / 1024);
     }
+    //
+    @include widescreen {
+      bottom: calc(100vw * 30 / 1280 / 2);
+      left: calc(100vw * 465 / 1280);
+      width: calc(100vw * 320 / 1280);
+      height: calc(100vw * 180 / 1280);
+    }
   }
   //
   &--sm {
@@ -120,10 +132,16 @@ export default {
     //
     @include desktop {
       right: calc(100vw * 90 / 1024);
-      bottom: calc(100vw * 115 / 1024);
+      bottom: calc(100vh * 115 / 768);
       left: auto;
       width: calc(100vw * 173 / 1024);
       height: calc(100vw * 120 / 1024);
+    }
+    //
+    @include widescreen {
+      right: calc(100vw * 90 / 1280);
+      width: calc(100vw * 225 / 1280);
+      height: calc(100vw * 126 / 1280);
     }
   }
 }

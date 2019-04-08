@@ -42,6 +42,11 @@ export default {
     margin-right: calc(100vh * 8 / 768);
     font-size: calc(100vh * 14 / 768);
   }
+  //
+  @include widescreen {
+    width: calc(100vw * 30 / 1280);
+    height: calc(100vw * 30 / 1280);
+  }
 }
 
 .copy__text {
