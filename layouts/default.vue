@@ -1,21 +1,17 @@
 <template>
   <div
     :class="[{'is-ready': getPageReady}, {'is-ie': $ua.browser() === 'Internet Explorer'}]"
-    class="wrapper"
+    class="body"
   >
     <Loader
       :get-page-ready="getPageReady"
     />
-    <Header
+    <FixedContent
       :get-menu-open="getMenuOpen"
       :get-page-height="getPageHeight"
       :get-page-scroll-y="getPageScrollY"
     />
-    <Menu
-      :get-menu-open="getMenuOpen"
-    />
     <nuxt />
-    <Footer v-show="getHeroReady" />
     <Debug v-if="false" />
   </div>
 </template>
@@ -23,19 +19,15 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
-import Header from '~/components/layout/Header'
-import Footer from '~/components/layout/Footer'
-import Menu from '~/components/layout/Menu'
-import Loader from '~/components/layout/Loader'
+import FixedContent from '~/components/layout/FixedContent'
+import Loader from '~/components/Loader'
 import Debug from '~/components/utility/Debug'
 import data from '~/assets/js/data'
 
 export default {
   components: {
+    FixedContent,
     Loader,
-    Header,
-    Menu,
-    Footer,
     Debug,
   },
   computed: {
@@ -66,6 +58,13 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.body {
+  min-height: 100vh;
+  background-color: $color-primary;
+}
+</style>
 
 <style lang="scss">
 @import '~Sass/foundation/_reset';
