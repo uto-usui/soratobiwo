@@ -9,7 +9,10 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'plugin:prettier/recommended'
+    'plugin:nuxt/recommended',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/vue'
   ],
   plugins: [
     'prettier'
@@ -18,23 +21,6 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-param-reassign': [
-      'error',
-      {
-        'props': true,
-        'ignorePropertyModificationsFor': [
-          'state',
-          'acc',
-          'e',
-          'ctx',
-          'req',
-          'request',
-          'res',
-          'config',
-          'feed'
-        ]
-      }
-    ],
     'vue/no-v-html': [
       'off',
     ]
