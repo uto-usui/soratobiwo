@@ -26,7 +26,7 @@ export default {
   //
   @include touch {
     padding: calc(100vw * 25 / 375) calc(100vw * 25 / 375)
-      calc(100vw * 28 / 375);
+      calc(100vw * 25 / 375);
   }
 }
 </style>

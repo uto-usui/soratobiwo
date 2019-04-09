@@ -8,16 +8,14 @@
       <ListInner :is-link="true">
         <div class="list__content">
           <div class="list__top">
-            <h2
-              v-if="item.title"
-              class="list__title"
-              v-html="item.title"
-            />
+            <h2 v-if="item.title" class="list__title" v-html="item.title" />
           </div>
 
           <div class="list__figure-wrap is-hidden-touch">
             <figure
-              v-lazy:background-image="`https://soratobiwo.com/wp-content/uploads/2019/04/6_11.jpg`"
+              v-lazy:background-image="
+                `https://soratobiwo.com/wp-content/uploads/2019/04/6_11.jpg`
+              "
               class="list__figure"
             />
             <div class="list__tape" />
@@ -29,11 +27,7 @@
               class="list__date"
               v-text="getDate(item.date)"
             />
-            <p
-              v-if="item.place"
-              class="list__place"
-              v-html="item.place"
-            />
+            <p v-if="item.place" class="list__place" v-html="item.place" />
           </div>
         </div>
       </ListInner>
@@ -192,8 +186,8 @@ export default {
 .list__figure-wrap {
   position: relative;
   width: 100%;
-  padding-top: calc(50% * 148 / 188);
-  padding-bottom: calc(50% * 148 / 188);
+  padding-top: calc(50vh * 148 / 768);
+  padding-bottom: calc(50vh * 148 / 768);
 }
 
 .list__figure {
