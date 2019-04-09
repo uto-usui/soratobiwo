@@ -1,7 +1,7 @@
 [
   {
     "date": "2019-06-22T17:41:31",
-    "slug": "2019-6-22-kdjapon",
+    "id": "2019-6-22-kdjapon",
     "place": "鶴舞 K.Dハポン",
     "info": " <a class=\"link\" href=\"https://kdjapon.jimdo.com/\" target=\"_blank\">K.Dハポン -空き地-</a>",
     "soldOut": false,
@@ -15,7 +15,7 @@
   },
   {
     "date": "2019-06-01T17:32:38",
-    "slug": "2019-6-1-rise-shunan",
+    "id": "2019-6-1-rise-shunan",
     "place": "山口 LIVE rise SHUNAN (森本真伍ソロ)",
     "info": " <a class=\"link\" href=\"http://www.shunan-rise.com/\" target=\"_blank\">LIVE rise SHUNAN</a>",
     "soldOut": false,
@@ -29,7 +29,7 @@
   },
   {
     "date": "2019-05-26T17:24:01",
-    "slug": "2019-5-26-kyoto-muse",
+    "id": "2019-5-26-kyoto-muse",
     "place": "KYOTO MUSE",
     "info": "<a class=\"link\" href=\"http://www.sekaiwa.info/index.html\" target=\"_blank\">イベントページ</a><br> チケット購入<br> Pコード：145-239<br> Lコード：52706<br> e+：<a class=\"link\" href=\"https://eplus.jp/sf/detail/2880740001-P0030001\" target=\"_blank\">https://eplus.jp/sf/detail/2880740001-P0030001</a>",
     "soldOut": false,
@@ -43,7 +43,7 @@
   },
   {
     "date": "2019-05-10T17:21:25",
-    "slug": "2019-5-11-iroha",
+    "id": "2019-5-11-iroha",
     "place": "四日市 ドレミファといろは",
     "info": "",
     "soldOut": false,
@@ -56,9 +56,8 @@
     "hero":  "01.jpg"
   },
   {
-    "id": 830,
     "date": "2019-05-03T17:36:37",
-    "slug": "2019-5-3-studioiz",
+    "id": "2019-5-3-studioiz",
     "place": "京都西京極studioIZ 2Fスペース (森本真伍ソロ)",
     "info": " <a class=\"link\" href=\"http://studio-iz.net/\" target=\"_blank\">京都西京極studioIZ</a>",
     "soldOut": false,
@@ -72,7 +71,7 @@
   },
   {
     "date": "2019-05-02T17:18:34",
-    "slug": "2019-5-knave",
+    "id": "2019-5-knave",
     "place": "南堀江 knave",
     "live-act": "アラウンドザ天竺 nolala 理科室コーヒー実験ブレンド soratobiwo HELLO,SADNESS meh meh white sheeps バニーブルース ライトフライト the whimsical glider ARKS ギャーギャーズ OKOJO AOI MOMENT 赤いアフロ 花柄ランタン",
     "live-fee": "adv ¥3,000　door ¥3,500",
@@ -86,7 +85,7 @@
   },
   {
     "date": "2019-04-29T17:47:38",
-    "slug": "2019-4-29-growly",
+    "id": "2019-4-29-growly",
     "place": "京都二条 GROWLY",
     "info": " <a class=\"link\" href=\"http://growly.net/\" target=\"_blank\">京都二条GROWLY</a>",
     "soldOut": false,
@@ -100,7 +99,7 @@
   },
   {
     "date": "2019-04-24T13:47:30",
-    "slug": "2019-4-24-unshudo",
+    "id": "2019-4-24-unshudo",
     "place": "吹上 鑪ら場 (森本真伍ソロ)",
     "info": " <a class=\"link\" href=\"http://www.iori-unshudo.com/access/\" target=\"_blank\">雲州堂-</a>",
     "soldOut": false,
@@ -114,7 +113,7 @@
   },
   {
     "date": "2019-04-19T19:24:29",
-    "slug": "2019-4-19-live-house-pangea",
+    "id": "2019-4-19-live-house-pangea",
     "place": "心斎橋 Live House Pangea",
     "info": " <a class=\"link\" href=\"http://livepangea.com/?page_id=5\" target=\"_blank\">Live House Pangea</a>",
     "soldOut": false,
@@ -127,9 +126,8 @@
     "hero":  "01.jpg"
   },
   {
-    "id": 796,
     "date": "2019-04-13T13:44:29",
-    "slug": "2019-4-13-mujikamujina",
+    "id": "2019-4-13-mujikamujina",
     "place": "ムジカムジナ2019",
     "info": " <a class=\"link\" href=\"http://mujica-mujina.com\" target=\"_blank\">「ムジカムジナ」特設サイト</a><br>  <a class=\"link\" href=\"https://twitter.com/mujica_mujina\" target=\"_blank\">「ムジカムジナ」ツイッター</a><br>  <a class=\"link\" href=\"https://www.facebook.com/events/2351826481558956/\" target=\"_blank\">「ムジカムジナ」フェイスブックページ</a><br>  <a class=\"link\" href=\"https://line.me/R/ti/p/%40sqw4207p\" target=\"_blank\">「ムジカムジナ」LINE@(友達追加URL)</a>",
     "soldOut": false,
