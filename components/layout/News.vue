@@ -1,5 +1,8 @@
 <template>
-  <div class="news">
+  <div
+    :class="[{'is-open': $store.state.route.fullPath === '/' || getMenuOpen}]"
+    class="news"
+  >
     <div class="news__inner">
       <h2 class="news__title">
         News
@@ -17,6 +20,12 @@
 <script>
 export default {
   name: 'News',
+  props: {
+    getMenuOpen: {
+      type: Boolean,
+      default: false,
+    },
+  },
 }
 </script>
 
@@ -31,6 +40,8 @@ export default {
   color: $color-gray-level1;
   border: 5px solid currentColor;
   //
+  opacity: 0;
+  //
   @include desktop {
     right: calc(100vw * 158 / 1024);
     bottom: calc(100vh * 283 / 768);
@@ -43,6 +54,10 @@ export default {
     bottom: calc(100vh * 245 / 800);
     width: calc(100vw * 222 / 1280);
     height: calc(100vw * 124 / 1280);
+  }
+  //
+  &.is-open {
+    opacity: 1;
   }
 }
 

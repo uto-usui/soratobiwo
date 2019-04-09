@@ -1,5 +1,8 @@
 <template>
-  <div :class="[{'is-open': true}]" class="menu">
+  <div
+    :class="[{'is-open': $store.state.route.fullPath === '/' || getMenuOpen}]"
+    class="menu"
+  >
     <div class="menu__inner">
       <ul class="menu__list">
         <li
@@ -8,8 +11,8 @@
           class="menu__item"
         >
           <span class="menu__item-inner">
-            <a
-              href="#"
+            <nuxt-link
+              :to="item"
               class="menu__target"
               @click="setMenuOpen(false)"
               v-html="item"
@@ -37,7 +40,7 @@ export default {
       /**
        * ID List
        */
-      links: ['Home', 'Profile', 'Listen', 'Live', 'Follow'],
+      links: ['home', 'profile', 'listen', 'live', 'follow'],
     }
   },
   computed: {
@@ -56,6 +59,7 @@ export default {
   left: calc(100vw * 10 / 375);
   z-index: $z-menu;
   overflow: hidden;
+  opacity: 0;
   //
   @include desktop {
     top: auto;
@@ -66,6 +70,10 @@ export default {
   @include widescreen {
     bottom: calc(100vh * 90 / 800);
     left: calc(100vw * 80 / 1280);
+  }
+  //
+  &.is-open {
+    opacity: 1;
   }
 }
 
