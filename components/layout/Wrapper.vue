@@ -1,7 +1,7 @@
 <template>
-  <div :class="[{'is-ready': getPageReady}]" class="wrapper">
+  <main :class="[{'is-ready': getPageReady}]" class="wrapper">
     <slot />
-  </div>
+  </main>
 </template>
 
 <script>
@@ -18,6 +18,17 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
+  padding-top: calc(100vw * 20 / 375);
+  padding-right: calc(100vw * 20 / 375);
   //
+  @include desktop {
+    padding-top: calc(100vw * 30 / 1024);
+    padding-right: calc(100vw * 30 / 1024);
+  }
+  //
+  @include widescreen {
+    padding-top: calc(100vw * 30 / 1280);
+    padding-right: calc(100vw * 30 / 1280);
+  }
 }
 </style>
