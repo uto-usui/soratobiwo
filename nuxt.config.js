@@ -1,12 +1,12 @@
-const path = require('path')
-const StylelintPlugin = require('stylelint-webpack-plugin')
+import path from 'path'
+import StylelintPlugin from 'stylelint-webpack-plugin'
 
-module.exports = {
+export default {
   mode: 'universal',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     htmlAttrs: {
       lang: 'ja',
@@ -39,18 +39,18 @@ module.exports = {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#fff' },
 
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: [],
 
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [
     '~plugins/vue-lazyload.client.js',
     '~plugins/console.js',
@@ -58,8 +58,8 @@ module.exports = {
   ],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
@@ -99,15 +99,15 @@ module.exports = {
   },
 
   /*
-  ** Axios module configuration
-  */
+   ** Axios module configuration
+   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     splitChunks: {
       layouts: true,
@@ -118,8 +118,8 @@ module.exports = {
     // },
 
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {

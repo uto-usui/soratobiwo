@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{'is-full': full}]" class="button-target">
+  <div :class="[{ 'is-full': full }]" class="button-target">
     <slot />
   </div>
 </template>

@@ -1,11 +1,12 @@
 <template>
   <div
-    :class="[{'is-ready': getPageReady}, {'is-ie': $ua.browser() === 'Internet Explorer'}]"
+    :class="[
+      { 'is-ready': getPageReady },
+      { 'is-ie': $ua.browser() === 'Internet Explorer' },
+    ]"
     class="body"
   >
-    <Loader
-      :get-page-ready="getPageReady"
-    />
+    <Loader :get-page-ready="getPageReady" />
     <FixedContent
       :get-menu-open="getMenuOpen"
       :get-page-height="getPageHeight"

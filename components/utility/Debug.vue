@@ -1,6 +1,7 @@
 <template>
   <div class="debug">
-    {{ getPageWidth }} / {{ getPageHeight }} / {{ getPageScrollY }} / {{ getPageMouseX }} / {{ getPageMouseY }}
+    {{ getPageWidth }} / {{ getPageHeight }} / {{ getPageScrollY }} /
+    {{ getPageMouseX }} / {{ getPageMouseY }}
   </div>
 </template>
 

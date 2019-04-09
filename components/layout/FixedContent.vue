@@ -1,23 +1,19 @@
 <template>
-  <div
-    :class="[{'is-open': getMenuOpen}]"
-    class="fixed-content"
-  >
+  <div :class="[{ 'is-open': getMenuOpen }]" class="fixed-content">
     <Logo />
     <Frame />
     <Contact />
     <Copy />
-    <News />
+    <News :get-menu-open="getMenuOpen" />
 
     <Header
+      v-if="false"
       :get-menu-open="getMenuOpen"
       :get-page-height="getPageHeight"
       :get-page-scroll-y="getPageScrollY"
     />
-    <Menu
-      :get-menu-open="getMenuOpen"
-    />
-    <Footer />
+    <Menu :get-menu-open="getMenuOpen" />
+    <Footer v-if="false" />
   </div>
 </template>
 

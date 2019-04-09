@@ -1,8 +1,5 @@
 <template>
-  <header
-    :class="[{'is-open': getMenuOpen}]"
-    class="header"
-  >
+  <header :class="[{ 'is-open': getMenuOpen }]" class="header">
     header
   </header>
 </template>

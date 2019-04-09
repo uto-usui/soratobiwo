@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="[{'is-open': $store.state.route.fullPath === '/' || getMenuOpen}]"
+    :class="[{ 'is-open': $store.state.route.fullPath === '/' || getMenuOpen }]"
     class="menu"
   >
     <div class="menu__inner">

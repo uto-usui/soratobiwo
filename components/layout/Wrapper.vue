@@ -1,5 +1,5 @@
 <template>
-  <main :class="[{'is-ready': getPageReady}]" class="wrapper">
+  <main :class="[{ 'is-ready': getPageReady }]" class="wrapper">
     <slot />
   </main>
 </template>

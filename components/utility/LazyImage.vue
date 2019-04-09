@@ -1,5 +1,5 @@
 <template>
-  <img v-lazy="src" :alt="alt">
+  <img v-lazy="src" :alt="alt" />
 </template>
 
 <script>

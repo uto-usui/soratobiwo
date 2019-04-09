@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{'is-hide': getPageReady}]" class="loader">
+  <div :class="[{ 'is-hide': getPageReady }]" class="loader">
     <div class="loader__inner">
       <div class="loader__text">
         soratobiwo

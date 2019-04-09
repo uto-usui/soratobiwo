@@ -1,7 +1,12 @@
 <template>
   <h2 class="title1">
     <div class="title1__outer">
-      <div ref="text" :class="{'is-show': show}" class="title1__inner" v-html="text" />
+      <div
+        ref="text"
+        :class="{ 'is-show': show }"
+        class="title1__inner"
+        v-html="text"
+      />
     </div>
   </h2>
 </template>
