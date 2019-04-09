@@ -13,6 +13,5 @@ export default () => {
     videoReady: false, // 2
     heroReady: false, // 3 - play video!!
     timerForLowPowerMode: false, // x - Force page forward
-    pageName: 'index',
   }
 }
