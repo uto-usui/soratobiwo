@@ -16,6 +16,7 @@ export default {
 <style lang="scss" scoped>
 .frame {
   position: fixed;
+  z-index: $z-line;
   //
   &--top {
     top: 0;
