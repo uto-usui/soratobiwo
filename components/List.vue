@@ -18,6 +18,7 @@
               "
               class="list__figure"
             />
+            <div class="list__bg"></div>
             <div class="list__tape" />
           </div>
 
@@ -185,18 +186,47 @@ export default {
 
 .list__figure-wrap {
   position: relative;
+  z-index: 3;
   width: 100%;
   padding-top: calc(50vh * 148 / 768);
   padding-bottom: calc(50vh * 148 / 768);
 }
 
+.list__bg {
+  z-index: 5;
+  background-color: $color-gray-level1;
+  mix-blend-mode: overlay;
+  //
+  @include overlay;
+}
+
 .list__figure {
+  filter: saturate(0);
   //
   @include overlay;
   @include bg-cover;
+  //
+  .list__item:hover & {
+    filter: saturate(0.85);
+  }
 }
 
 .list__tape {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 9;
+  width: calc(100vw * 120 / 375);
+  height: calc(100vw * 40 / 375);
+  background-color: $color-blue;
+  mix-blend-mode: overlay;
+  opacity: 0.85;
   //
+  @include desktop {
+    top: 0;
+    width: calc(100vh * 120 / 768);
+    height: calc(100vh * 40 / 768);
+    transform: translateX(-50%) translateY(-50%) rotate(5deg);
+  }
 }
 </style>
