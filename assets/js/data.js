@@ -8,9 +8,9 @@ const DATA = {
   domain: '',
   spW: 320,
   tabW: 768,
-  pcW: 980,
-  wideScreenW: 1024,
-  fullHdW: 1440,
+  pcW: 1024,
+  wideScreenW: 1200,
+  fullHdW: 1600,
   scrollTop: 0,
   scrollLeft: 0,
 
@@ -27,8 +27,8 @@ const DATA = {
       self.winW >= self.wideScreenW && self.winW <= self.fullHdW
     self.isFullHd = self.winW >= self.fullHdW
 
-    self.isDesktop = self.winW >= self.tabW
-    self.isMobile = self.winW <= self.tabW
+    self.isDesktop = self.winW >= self.pcW
+    self.isMobile = self.winW <= self.pcW
 
     const resize = () => {
       self.winW = window.innerWidth
@@ -43,8 +43,8 @@ const DATA = {
         self.winW >= self.wideScreenW && self.winW <= self.fullHdW
       self.isFullHd = self.winW >= self.fullHdW
 
-      self.isDesktop = self.winW >= self.tabW
-      self.isMobile = self.winW <= self.tabW
+      self.isDesktop = self.winW >= self.pcW
+      self.isMobile = self.winW <= self.pcW
     }
     resize()
 
