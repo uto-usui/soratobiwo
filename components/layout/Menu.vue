@@ -59,6 +59,7 @@ export default {
   left: calc(100vw * 10 / 375);
   z-index: $z-menu;
   overflow: hidden;
+  pointer-events: none;
   opacity: 0;
   //
   @include desktop {
@@ -73,6 +74,7 @@ export default {
   }
   //
   &.is-open {
+    pointer-events: auto;
     opacity: 1;
   }
 }

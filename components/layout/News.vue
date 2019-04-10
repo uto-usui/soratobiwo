@@ -1,6 +1,11 @@
 <template>
   <div
-    :class="[{ 'is-open': $store.state.route.fullPath === '/' || getMenuOpen }]"
+    :class="[
+      {
+        'is-open': $store.state.route.fullPath === '/' || getMenuOpen,
+        'is-sub': $store.state.route.fullPath !== '/' && getIsDesktop,
+      },
+    ]"
     class="news"
   >
     <div class="news__inner">
@@ -25,6 +30,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    getIsDesktop: {
+      type: Boolean,
+      default: false,
+    },
   },
 }
 </script>
@@ -38,6 +47,7 @@ export default {
   width: calc(100vw * 166 / 375);
   height: calc(100vw * 94 / 375);
   color: $color-gray-level1;
+  pointer-events: none;
   border: 5px solid currentColor;
   //
   opacity: 0;
@@ -57,6 +67,7 @@ export default {
   }
   //
   &.is-open {
+    pointer-events: auto;
     opacity: 1;
   }
 }
