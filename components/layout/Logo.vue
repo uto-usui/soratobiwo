@@ -1,5 +1,5 @@
 <template>
-  <div class="logo">
+  <nuxt-link :to="`/`" class="logo">
     <div class="logo__inner">
       <svg viewBox="0 0 353.87 43.78">
         <title>soratobiwo</title>
@@ -57,7 +57,7 @@
         </g>
       </svg>
     </div>
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
