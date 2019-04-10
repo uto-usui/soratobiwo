@@ -11,6 +11,7 @@
       :get-menu-open="getMenuOpen"
       :get-page-height="getPageHeight"
       :get-page-scroll-y="getPageScrollY"
+      :get-is-desktop="getIsDesktop"
     />
     <nuxt />
     <Debug v-if="false" />
@@ -45,7 +46,7 @@ export default {
 
       'getMenuOpen',
 
-      'getPageName',
+      'getIsDesktop',
     ]),
   },
   mounted() {

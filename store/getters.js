@@ -14,4 +14,5 @@ export default {
     return getters.getPageScrollY < getters.getPageHeight
   },
   getPageReady: state => state.pageReady,
+  getIsDesktop: state => state.pageData.isDesktop,
 }
