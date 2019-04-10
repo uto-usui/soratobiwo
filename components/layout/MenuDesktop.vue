@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{ 'is-open': getMenuOpen }]" class="menu">
+  <div class="menu">
     <ul class="menu__list">
       <li
         v-for="(item, index) in links"

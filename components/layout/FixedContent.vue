@@ -4,7 +4,7 @@
     <Frame />
     <Contact />
     <Copy />
-    <News :get-menu-open="getMenuOpen" />
+    <News :get-is-desktop="getIsDesktop" :get-menu-open="getMenuOpen" />
 
     <Header
       v-if="false"
