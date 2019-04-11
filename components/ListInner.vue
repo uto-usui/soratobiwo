@@ -1,7 +1,11 @@
 <template>
-  <a v-if="isLink" class="list-inner">
+  <nuxt-link
+    v-if="isLink"
+    :to="`/${$store.state.route.name}/${slug}/`"
+    class="list-inner"
+  >
     <slot />
-  </a>
+  </nuxt-link>
   <div v-else class="list-inner">
     <slot />
   </div>
@@ -14,6 +18,10 @@ export default {
     isLink: {
       type: Boolean,
       default: false,
+    },
+    slug: {
+      type: String,
+      default: '',
     },
   },
 }

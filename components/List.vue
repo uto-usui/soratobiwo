@@ -5,7 +5,7 @@
       :key="`listItem${index}`"
       class="list__item"
     >
-      <ListInner :is-link="true">
+      <ListInner :is-link="true" :slug="item.id">
         <div class="list__content">
           <div class="list__top">
             <h2 v-if="item.title" class="list__title" v-html="item.title" />

@@ -12,7 +12,7 @@
         >
           <span class="menu__item-inner">
             <nuxt-link
-              :to="item"
+              :to="item === `home` ? `/` : `/${item}/`"
               class="menu__target"
               @click="setMenuOpen(false)"
               v-html="item"
