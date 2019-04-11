@@ -1,6 +1,18 @@
 <template>
-  <n-link to="/" class="button-close" />
+  <n-link :to="path" class="button-close" />
 </template>
+
+<script>
+export default {
+  name: 'ButtonClose',
+  props: {
+    path: {
+      type: String,
+      default: '',
+    },
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 .button-close {
@@ -9,6 +21,11 @@
   width: 30px;
   height: 30px;
   background-color: $color-red;
+  //
+  @include fullhd {
+    width: 40px;
+    height: 40px;
+  }
 
   &::before {
     position: absolute;
@@ -19,6 +36,10 @@
     content: '';
     border-top: solid 1px $color-gray-level1;
     transform: translateX(50%) rotate(45deg);
+    //
+    @include fullhd {
+      width: 35px;
+    }
   }
 
   &::after {
@@ -30,6 +51,10 @@
     content: '';
     border-top: solid 1px $color-gray-level1;
     transform: translateX(50%) rotate(-45deg);
+    //
+    @include fullhd {
+      width: 35px;
+    }
   }
 }
 </style>
