@@ -10,10 +10,7 @@
     "dev:production": "NODE_ENV=production PORT=8080 HOST=0.0.0.0 nuxt -o",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate:nuxt": "NODE_ENV=production nuxt generate",
-    "generate:dev": "NODE_ENV=production NODE_API=dev nuxt generate && npm run clean && npm run copy",
-    "generate:stg": "NODE_ENV=production NODE_API=stg nuxt generate && npm run clean && npm run copy",
-    "generate:prod": "NODE_ENV=production nuxt generate && npm run clean && npm run copy",
+    "generate": "NODE_ENV=production nuxt generate",
     "copy": "cpx 'dist/**/*' '../'",
     "clean": "del --force '../_nuxt'",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
@@ -22,6 +19,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.4.1",
     "@nuxtjs/pwa": "^3.0.0-beta.14",
     "@nuxtjs/style-resources": "^0.1.2",
     "@uto-usui/nuxt-google-gtag": "^1.0.4",
