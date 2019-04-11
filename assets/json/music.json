@@ -2,45 +2,63 @@
   {
     "date": "2017-06-28T12:04:36",
     "slug": "shanghaime",
-    "title": "-会場限定 single-「シャンハイミー」",
-    "acf": {
-      "text": "",
-      "soldOut": false,
-      "music-detail": "1. シャンハイミー",
-      "music-fee": "会場限定シングル"
-    }
+    "title": "シャンハイミー",
+    "titleSub": "会場限定 single",
+    "text": "",
+    "songs": [
+      "1. シャンハイミー"
+    ],
+    "fee": "",
+    "soldOut": false
   },
   {
     "date": "2016-09-08T20:55:09",
     "slug": "kiss",
-    "title": "Free Down Load Single「kiss」",
-    "acf": {
-      "text": "<a class=\"link\" href=\"https://soratobiwo.bandcamp.com/releases\" target=\"_blank\">free download page</a>",
-      "soldOut": false,
-      "music-detail": "1. kiss",
-      "music-fee": "free download"
-    }
+    "title": "kiss",
+    "titleSub": "Free Down Load Single",
+    "text": "<a class=\"link\" href=\"https://soratobiwo.bandcamp.com/releases\" target=\"_blank\">free download page</a>",
+    "songs": [
+      "1. kiss"
+    ],
+    "fee": "free download",
+    "soldOut": false
   },
   {
     "date": "2016-05-07T01:28:46",
     "slug": "zutto-sakanani-naritakkatta",
-    "title": {
-      "rendered": "ずっと魚になりたかった"
-    },
-    "acf": {
-      "music-detail": "1.うつせみ 2.スプートニク 3.斜線 4.スナメリ 5.アンセム 6.逃げ出してしまいたい 7.さかな",
-      "soldOut": false
-    }
+    "title": "ずっと魚になりたかった",
+    "titleSub": "2st album",
+    "text": "",
+    "songs": [
+      "1.うつせみ",
+      "2.スプートニク",
+      "3.斜線",
+      "4.スナメリ",
+      "5.アンセム",
+      "6.逃げ出してしまいたい",
+      "7.さかな"
+    ],
+    "fee": "￥1,620(tax in)",
+    "soldOut": false
   },
   {
     "date": "2016-02-18T15:34:17",
     "slug": "nautilus",
-    "title": "- 1st album -「nautilus」",
-    "acf": {
-      "music-fee": "¥1,500(tax in)",
-      "music-detail": "1.nautilus<br /> 2.ユニコーン<br /> 3.プール<br /> 4.swi(m)me<br /> 5.遊覧船<br /> 6.シーラカンス<br /> 7.いろは<br /> 8.クジラウオ<br /> 9.さよなら、さらば",
-      "text": "",
-      "soldOut": false
-    }
+    "title": "nautilus",
+    "titleSub": "1st album",
+    "text": "",
+    "songs": [
+      "1.nautilus",
+      "2.ユニコーン",
+      "3.プール",
+      "4.swi(m)me",
+      "5.遊覧船",
+      "6.シーラカンス",
+      "7.いろは",
+      "8.クジラウオ",
+      "9.さよなら、さらば"
+    ],
+    "fee": "¥1,500(tax in)",
+    "soldOut": false
   }
 ]
