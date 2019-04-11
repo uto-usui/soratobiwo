@@ -160,7 +160,13 @@ export default {
   },
 
   generate: {
-    //
+    routes(callback) {
+      const liveData = require('./assets/json/live.json')
+      const livePosts = liveData.map(post => `/${post.id}`)
+      const newsData = require('./assets/json/news.json')
+      const newsPosts = newsData.map(post => `/${post.id}`)
+      callback(null, [...newsPosts, ...livePosts])
+    },
   },
 
   workbox: { cachingExtensions: '~/plugins/workbox-range-request.js' },
