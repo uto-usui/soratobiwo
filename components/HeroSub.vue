@@ -49,6 +49,7 @@ export default {
 <style lang="scss" scoped>
 .sub-hero {
   position: relative;
+  background-color: $color-gray-level1;
 }
 
 .sub-hero__title {
