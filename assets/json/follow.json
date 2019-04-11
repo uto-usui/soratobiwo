@@ -1,0 +1,65 @@
+[
+  {
+    "name": "twitter",
+    "items": [
+      {
+        "name": "shingo morimoto",
+        "link": "https://twitter.com/soratobiwo_vo"
+      },
+      {
+        "name": "tatsuya narumi",
+        "link": "https://twitter.com/narumitobiwo"
+      },
+      {
+        "name": "ryo takeshita",
+        "link": "https://twitter.com/ryo_t65"
+      },
+      {
+        "name": "captain og",
+        "link": "https://twitter.com/cap_OG"
+      },
+      {
+        "name": "potter",
+        "link": "https://twitter.com/potter_0314"
+      },
+      {
+        "name": "official",
+        "link": "https://twitter.com/soratobiwo"
+      },
+      {
+        "name": "tobiwo chi",
+        "link": "https://twitter.com/tobiwo_chi"
+      }
+    ]
+  },
+  {
+    "name": "facebook",
+    "items": [
+      {
+        "name": "official",
+        "link": "https://www.facebook.com/pg/soratobiwo/"
+      }
+    ]
+  },
+  {
+    "name": "instagram",
+    "items": [
+      {
+        "name": "shingo morimoto",
+        "link": "https://www.instagram.com/morimoto_shingo/"
+      },
+      {
+        "name": "tatsuya narumi",
+        "link": "https://www.instagram.com/narumitobiwo/"
+      },
+      {
+        "name": "ryo takeshita",
+        "link": "https://www.instagram.com/ryo_t65/"
+      },
+      {
+        "name": "captain og",
+        "link": "https://www.instagram.com/cap_og/"
+      }
+    ]
+  }
+]
