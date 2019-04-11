@@ -1,6 +1,6 @@
 <template>
   <div class="sub-hero">
-    <h1 class="sub-hero__title" v-html="title" />
+    <h1 v-if="title" class="sub-hero__title" v-html="title" />
     <figure v-lazy:background-image="image" class="sub-hero__figure" />
     <div class="sub-hero__bg" />
   </div>
