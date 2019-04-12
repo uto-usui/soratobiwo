@@ -143,9 +143,9 @@ export default {
   generate: {
     routes(callback) {
       const liveData = require('./assets/json/live.json')
-      const livePosts = liveData.map(post => `/${post.id}`)
+      const livePosts = liveData.map(post => `/live/${post.id}`)
       const newsData = require('./assets/json/news.json')
-      const newsPosts = newsData.map(post => `/${post.id}`)
+      const newsPosts = newsData.map(post => `/news/${post.id}`)
       callback(null, [...newsPosts, ...livePosts])
     },
   },
