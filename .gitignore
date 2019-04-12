@@ -82,6 +82,3 @@ dist
 
 # Service worker
 sw.*
-
-# test file
-yarn.lock
