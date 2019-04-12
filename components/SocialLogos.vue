@@ -308,36 +308,60 @@ export default {
     width: 116px;
     height: 0;
     padding-top: calc(100% * 21 / 116);
+    //
+    @include desktop {
+      width: calc(100vw * 116 / 1024);
+    }
   }
   //
   &--i {
     width: 134px;
     height: 0;
     padding-top: calc(100% * 22 / 134);
+    //
+    @include desktop {
+      width: calc(100vw * 134 / 1024);
+    }
   }
   //
   &--t {
     width: 112px;
     height: 0;
     padding-top: calc(100% * 21 / 112);
+    //
+    @include desktop {
+      width: calc(100vw * 112 / 1024);
+    }
   }
   //
   &--y {
     width: 121px;
     height: 0;
     padding-top: calc(100% * 22 / 121);
+    //
+    @include desktop {
+      width: calc(100vw * 121 / 1024);
+    }
   }
   //
   &--s {
     width: 106px;
     height: 0;
     padding-top: calc(100% * 26 / 106);
+    //
+    @include desktop {
+      width: calc(100vw * 106 / 1024);
+    }
   }
   //
   &--a {
     width: 151px;
     height: 0;
     padding-top: calc(100% * 30 / 151);
+    //
+    @include desktop {
+      width: calc(100vw * 151 / 1024);
+    }
   }
 }
 </style>
