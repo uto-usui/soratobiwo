@@ -19,6 +19,16 @@
             />
           </span>
         </li>
+        <li v-if="!getIsDesktop" class="menu__item">
+          <span class="menu__item-inner">
+            <nuxt-link
+              :to="`/news/`"
+              class="menu__target"
+              @click="setMenuOpen(false)"
+              >news</nuxt-link
+            >
+          </span>
+        </li>
       </ul>
     </div>
     <div class="menu__bg" />
@@ -31,6 +41,10 @@ import { mapActions } from 'vuex'
 export default {
   props: {
     getMenuOpen: {
+      type: Boolean,
+      default: false,
+    },
+    getIsDesktop: {
       type: Boolean,
       default: false,
     },

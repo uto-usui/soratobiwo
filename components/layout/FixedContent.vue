@@ -12,7 +12,7 @@
       :get-page-height="getPageHeight"
       :get-page-scroll-y="getPageScrollY"
     />
-    <Menu :get-menu-open="getMenuOpen" />
+    <Menu :get-is-desktop="getIsDesktop" :get-menu-open="getMenuOpen" />
     <MenuDesktop v-if="$store.state.route.fullPath !== '/' && getIsDesktop" />
     <MenuBg :get-menu-open="getMenuOpen" />
     <MenuTrigger v-if="$store.state.route.fullPath !== '/' && !getIsDesktop" />
