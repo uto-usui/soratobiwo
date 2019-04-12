@@ -67,13 +67,7 @@ export default {
     [
       '@uto-usui/nuxt-google-gtag',
       {
-        id: 'UA-23679855-1',
-        config: {
-          send_page_view: true,
-          custom_map: {
-            dimension12: 'vol32-digital-well-being',
-          },
-        },
+        id: 'UA-75027189-1',
       },
     ],
   ],
