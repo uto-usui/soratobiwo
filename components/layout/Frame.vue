@@ -55,7 +55,7 @@ export default {
   &--circle {
     top: 0;
     right: 0;
-    z-index: 9;
+    z-index: $z-circle;
     width: calc(100vw * 20 / 375);
     height: calc(100vw * 20 / 375);
     background-color: $color-red;

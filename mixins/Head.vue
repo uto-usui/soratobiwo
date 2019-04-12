@@ -1,4 +1,6 @@
 <script>
+import { pause } from 'Js/animation'
+
 /**
  * default meta
  * @type {{img: string, description: string, title: string, ogType: string}}
@@ -79,6 +81,23 @@ export default {
         { hid: 'twitter:site', name: 'twitter:site', content: '@soratobiwo' },
       ],
     }
+  },
+  //
+  /**
+   * page transition
+   */
+  transition: {
+    css: false,
+    enter(el, done) {
+      done()
+    },
+    async leave(el, done) {
+      this.$store.dispatch('setPageReady', false)
+      await pause(0.8)
+      this.$store.getters.getMenuOpen &&
+        this.$store.dispatch('setMenuOpen', false)
+      done()
+    },
   },
 }
 </script>

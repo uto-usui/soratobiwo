@@ -54,7 +54,7 @@ export default {
   },
   mounted() {
     this.$nextTick(async () => {
-      await pause(1)
+      await pause(0.1)
       this.setPageReady(true)
     })
   },

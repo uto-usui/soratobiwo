@@ -72,19 +72,6 @@ export default {
     ],
   ],
 
-  /**
-   * page transition
-   */
-  transition: {
-    css: false,
-    enter(el, done) {
-      done()
-    },
-    leave(el, done) {
-      done()
-    },
-  },
-
   styleResources: {
     scss: [
       '~/assets/sass/foundation/variable/_variable.scss',

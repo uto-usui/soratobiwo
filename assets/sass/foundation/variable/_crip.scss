@@ -4,8 +4,9 @@
 //
 // =========================================================
 //
-$clip-start: polygon(0 0, 0 0, 0 100%, 0 100%) !default;
-$clip-end: polygon(0 0, 100% 0, 100% 100%, 0 100%) !default;
+$clip-top: polygon(0 0, 0 0, 0 100%, 0 100%) !default;
+$clip-bottom: polygon(0 0, 100% 0, 100% 0, 0 0) !default;
+$clip-open: polygon(0 0, 100% 0, 100% 100%, 0 100%) !default;
 //
 //
 //
