@@ -2,7 +2,7 @@
   <Wrapper class="live" :get-page-ready="getPageReady">
     <MainOuter class="live">
       <HeroSub
-        :image="`https://soratobiwo.com/wp-content/uploads/2019/04/6_11.jpg`"
+        :image="require('Images/hero/item7.jpg')"
         :title="`live`"
         :get-page-ready="getPageReady"
       />
