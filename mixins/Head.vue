@@ -93,7 +93,7 @@ export default {
     },
     async leave(el, done) {
       this.$store.dispatch('setPageReady', false)
-      await pause(0.8)
+      await pause(0.4)
       this.$store.getters.getMenuOpen &&
         this.$store.dispatch('setMenuOpen', false)
       done()
