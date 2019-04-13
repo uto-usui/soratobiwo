@@ -8,10 +8,10 @@
     "titleMobile": "音の波、言の葉、といろは",
     "titleDesktop": "音の波、言の葉、といろは",
     "title": "音の波、言の葉、といろは 其ノ十一 ハポン編",
-    "time": "open/17:30 start/18:30",
-    "act": "ドン・タカハシ soratobiwo (o.a.)大森貴太(百長)",
-    "fee": "adv ¥3,000　door ¥3,000 (+1d)",
-    "hero": "01.jpg"
+    "time": "OPEN 17:30 / START 18:30",
+    "act": "ドン・タカハシ / soratobiwo / OA. 大森貴太(百長)",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
+    "hero": "live/2019/0622.jpg"
   },
   {
     "date": "2019-06-01T17:32:38",
@@ -22,10 +22,10 @@
     "titleMobile": "connect hatching",
     "titleDesktop": "connect hatching",
     "title": "connect hatching",
-    "time": "open/17:30 start/18:00",
-    "act": "コガラチヒロ(東京) 高瀬裕充 原田侑子 ME〈P〉WL（広島） 森本真伍（soratobiwo） photo ユタ",
-    "fee": "adv ¥2,500　door ¥2,500 (県外割引-¥500) (+1drink)",
-    "hero":  "01.jpg"
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "コガラチヒロ(東京) / 高瀬裕充 / 原田侑子 / ME〈P〉WL（広島） / 森本真伍（soratobiwo） / photo ユタ",
+    "fee": "adv ¥2,500 / door ¥2,500 / 県外割引-¥500 / +1drink",
+    "hero": "live/2019/0601.jpg"
   },
   {
     "date": "2019-05-26T17:24:01",
@@ -36,10 +36,10 @@
     "titleMobile": "いつまでも世界は",
     "titleDesktop": "いつまでも世界は",
     "title": "ザ・シックスブリッツ主催 いつまでも世界は...第八回",
-    "time": "open/--:--　start/12:00",
+    "time": "OPEN --:-- / START 12:00",
     "act": "--",
-    "fee": "adv ¥3,800　door ¥-,--- (+1d)",
-    "hero":  "01.jpg"
+    "fee": "adv ¥3,800 / door ¥-,--- / +1drink",
+    "hero": "live/2018/item02.jpg"
   },
   {
     "date": "2019-05-10T17:21:25",
@@ -50,10 +50,10 @@
     "titleMobile": "音の波、言の葉、といろは",
     "titleDesktop": "音の波、言の葉、といろは",
     "title": "音の波、言の葉、といろは 其ノ十",
-    "time": "open/18:00　start/18:30",
-    "act": "髙橋レオ(ドン・タカハシ) いとまとあやこ the Tiger soratobiwo",
-    "fee": "adv ¥2,000　door ¥2,000 (+1order)",
-    "hero":  "01.jpg"
+    "time": "OPEN 18:00 / START 1830",
+    "act": "髙橋レオ(ドン・タカハシ) / いとまとあやこ / the Tiger / soratobiwo",
+    "fee": "adv ¥2,000 / door ¥2,000 / +1order",
+    "hero": "live/2019/0511.jpg"
   },
   {
     "date": "2019-05-03T17:36:37",
@@ -64,24 +64,24 @@
     "titleMobile": "5月の深海魚",
     "titleDesktop": "5月の深海魚",
     "title": "2マンライブ『5月の深海魚』",
-    "time": "open/18:30 start/19:00",
-    "act": "北小路直也(MILKBAR) 森本真伍(soratobiwo) food もえぴごはん",
-    "fee": "adv ¥2,000　door ¥2,000 (+1drink)",
-    "hero":  "01.jpg"
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "北小路直也(MILKBAR) / 森本真伍(soratobiwo) / food もえぴごはん",
+    "fee": "adv ¥2,000 / door ¥2,000 / +1drink",
+    "hero": "live/2019/0503.jpg"
   },
   {
     "date": "2019-05-02T17:18:34",
     "id": "2019-5-knave",
-    "place": "南堀江 knave",
-    "live-act": "アラウンドザ天竺 nolala 理科室コーヒー実験ブレンド soratobiwo HELLO,SADNESS meh meh white sheeps バニーブルース ライトフライト the whimsical glider ARKS ギャーギャーズ OKOJO AOI MOMENT 赤いアフロ 花柄ランタン",
-    "live-fee": "adv ¥3,000　door ¥3,500",
-    "hero":  "01.jpg",
-    "time": "open/12:30　start/13:00",
+    "place": "南堀江 knave / SOCORE FACTORY",
+    "info": "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>",
+    "soldOut": false,
     "titleMobile": "ゴールデン南堀江",
     "titleDesktop": "ゴールデン南堀江",
     "title": "ゴールデン南堀江 DAY3 ～迷わずいけよ2会場編～",
-    "info": "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>",
-    "soldOut": false
+    "time": "OPEN 12:30 / START 13:00",
+    "act": "アラウンドザ天竺 / nolala / 理科室コーヒー実験ブレンド / soratobiwo / HELLO,SADNESS / meh meh white sheeps / バニーブルース / ライトフライト / the whimsical glider / ARKS / ギャーギャーズ / OKOJO / AOI MOMENT / 赤いアフロ / 花柄ランタン",
+    "fee": "adv ¥3,000 / door ¥3,500",
+    "hero": "live/2019/0502.jpg"
   },
   {
     "date": "2019-04-29T17:47:38",
@@ -92,10 +92,10 @@
     "titleMobile": "GROWLY 7th Anniversary",
     "titleDesktop": "GROWLY 7th Anniversary",
     "title": "GROWLY 7th Anniversary!! “秘技、常連の愛-改-”",
-    "time": "open/17:30 start/18:00",
-    "act": "シンガロンパレード memento森 soratobiwo SAPPY アフターアワーズ food 食卓JAPAN",
-    "fee": "adv ¥2,300　door ¥2,800 (free drink) ",
-    "hero":  "01.jpg"
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "シンガロンパレード / memento森 / soratobiwo / SAPPY / アフターアワーズ / food 食卓JAPAN",
+    "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
+    "hero": "live/2019/0429.jpg"
   },
   {
     "date": "2019-04-24T13:47:30",
@@ -106,10 +106,10 @@
     "titleMobile": "Chima春の絵本リリースツアー",
     "titleDesktop": "Chima春の絵本リリースツアー",
     "title": "Chima春の絵本リリースツアー［大阪編］",
-    "time": "start/19:00",
-    "act": "Chima with 永見行崇 森本真伍 ※vo.森本のソロ公演となります。",
-    "fee": "adv ¥2,500　door ¥2,500 (+1d)",
-    "hero":  "01.jpg"
+    "time": "OPEN --:-- / START 19:00",
+    "act": "Chima with 永見行崇 / 森本真伍",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
+    "hero": "live/2018/item03.jpg"
   },
   {
     "date": "2019-04-19T19:24:29",
@@ -120,10 +120,10 @@
     "titleMobile": "スタンドバイミー リリースライブ",
     "titleDesktop": "スタンドバイミー リリースライブ",
     "title": "soratobiwo new album「スタンドバイミー」 release party『若者たち』",
-    "time": "open/18:30 start/19:00",
-    "act": "soratobiwo Bacon モケーレムベンベ UNUBORE -DJ- サカグチマナブ(MUSicK/サラケダス)",
-    "fee": "adv ¥2,500　door ¥3,000 (+1drink)",
-    "hero":  "01.jpg"
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo  /Bacon / モケーレムベンベ / UNUBORE / -DJ- サカグチマナブ(MUSicK/サラケダス)",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "live/2019/0419.jpg"
   },
   {
     "date": "2019-04-13T13:44:29",
@@ -134,9 +134,9 @@
     "titleMobile": "ムジカムジナ2019",
     "titleDesktop": "ムジカムジナ2019",
     "title": "ムジカムジナ2019",
-    "time": "open/11:30 start/12:30",
-    "act": "アシガルユース ISEKI 大柴広己 梶本ヒロシ(ワゴンズ) キネマズ Quadrifoglio～かなことえいことしほとまこ～ SANISAI ステレオタイプ soratobiwo 高田志麻 高橋てつやバンド トミタショウゴバンド 花＊花 フジタユウスケ ふらっと♭ Prof.Moriarty&Smiley-Todd Bacon ポンジー ····and more!! ",
-    "fee": "チケット購入者 3500円 ホームページ予約(取り置き) 4000円 当日券 4500円 (+1drink)",
-    "hero":  "01.jpg"
+    "time": "OPEN 11:30 / START 12:30",
+    "act": "アシガルユース / ISEKI / 大柴広己 / 梶本ヒロシ(ワゴンズ) / キネマズ / Quadrifoglio～かなことえいことしほとまこ～ / SANISAI / ステレオタイプ / soratobiwo / 高田志麻 / 高橋てつやバンド / トミタショウゴバンド / 花＊花 / フジタユウスケ / ふらっと♭ / Prof.Moriarty&Smiley-Todd / Bacon / ポンジー / ····and more!!",
+    "fee": "チケット購入者 ¥2,500 / ホームページ予約(取り置き) ¥2,500 / 当日券 ¥4,500 / +1drink",
+    "hero": "live/2019/0413.jpg"
   }
 ]
