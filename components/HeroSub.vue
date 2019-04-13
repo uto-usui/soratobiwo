@@ -1,7 +1,9 @@
 <template>
   <div class="sub-hero">
     <h1 v-if="title" class="sub-hero__title" v-html="title" />
-    <figure v-lazy:background-image="image" class="sub-hero__figure" />
+    <div class="sub-hero__figure-wrap">
+      <figure v-lazy:background-image="image" class="sub-hero__figure" />
+    </div>
     <div class="sub-hero__bg" />
   </div>
 </template>
@@ -74,17 +76,35 @@ export default {
   }
 }
 
-.sub-hero__figure {
+.sub-hero__figure-wrap {
   position: relative;
   z-index: 1;
   height: calc(100vh / 3);
-  filter: saturate(0);
-  //
-  @include bg-cover;
+  overflow: hidden;
   //
   @include desktop {
     height: calc(100vh / 3 * 2);
   }
+}
+
+.sub-hero__figure {
+  filter: saturate(0);
+  backface-visibility: hidden;
+  box-shadow: 0 0 0 rgba($color-black, 0);
+  //
+  &[lazy='loading'] {
+    opacity: 0;
+    transform: skewY(8deg) skewX(8deg) scale(1.2) translateZ(1px);
+  }
+  //
+  &[lazy='loaded'] {
+    opacity: 1;
+    transition: all 1s $easeFadeIn;
+    transform: skewY(0deg) skewX(0deg) scale(1) translateZ(1px);
+  }
+  //
+  @include overlay;
+  @include bg-cover;
 }
 
 .sub-hero__bg {
