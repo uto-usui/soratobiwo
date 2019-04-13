@@ -56,7 +56,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: meta.img,
+          content: this.ogImg || meta.img,
         },
         {
           hid: 'twitter:card',
