@@ -19,7 +19,7 @@ export default {
   //
   @include desktop {
     width: calc(100vw / 3 * 2);
-    padding-bottom: calc(100vw * 30 / 1280);
+    padding-bottom: calc(100vw * 30 / 1280 + 5px);
   }
 }
 </style>
