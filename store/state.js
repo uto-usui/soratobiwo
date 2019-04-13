@@ -7,6 +7,7 @@ export default () => {
     pageData: {},
     domain: 'https://wired.j/wellbeing',
     menuOpen: false,
+    formOpen: false,
 
     postReady: false, // 0
     pageReady: false, // 1

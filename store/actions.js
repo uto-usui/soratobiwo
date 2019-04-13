@@ -13,6 +13,10 @@ export default {
   setMenuOpen({ commit }, value) {
     commit('menuOpen', value)
   },
+  setFormOpen({ commit }, value) {
+    console.log('formOpen', value)
+    commit('formOpen', value)
+  },
   setPageReady({ commit }, value) {
     commit('pageReady', value)
   },

@@ -1,15 +1,20 @@
 <template>
   <div class="contact">
-    <p class="contact__text">
+    <a href="#" class="contact__text" @click.prevent="setFormOpen(true)">
       cont<span>a</span>ct
-    </p>
+    </a>
     <div class="contact__bar" />
   </div>
 </template>
 
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   name: 'Contact',
+  methods: {
+    ...mapActions(['setFormOpen']),
+  },
 }
 </script>
 
@@ -20,6 +25,9 @@ export default {
   bottom: 50px;
   left: 0;
   z-index: $z-contact;
+  line-height: 0.75;
+  text-align: right;
+  pointer-events: none;
   //
   @include desktop {
     bottom: calc(100vw * 30 / 1024);
@@ -31,12 +39,12 @@ export default {
 }
 
 .contact__text {
+  display: inline-block;
   font-size: 3.4rem;
   font-weight: $font-Ubuntu-bold;
-  line-height: 0.75;
   color: $color-gray-level1;
-  text-align: right;
   text-transform: uppercase;
+  pointer-events: auto;
   //
   @include desktop {
     font-size: calc(100vw * 36 / 1024);

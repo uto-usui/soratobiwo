@@ -1,5 +1,6 @@
 export default {
   getMenuOpen: state => state.menuOpen,
+  getFormOpen: state => state.formOpen,
   getPageHeight: state => state.pageData.winH,
   getPageWidth: state => state.pageData.winW,
   getPageScrollY: state => state.pageData.scrollTop,

@@ -8,6 +8,9 @@ export default {
   menuOpen(state, data) {
     state.menuOpen = data
   },
+  formOpen(state, data) {
+    state.formOpen = data
+  },
   pageReady(state, data) {
     state.pageReady = data
   },
