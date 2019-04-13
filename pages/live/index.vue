@@ -22,11 +22,13 @@ import MainOuter from '~/components/MainOuter'
 import HeroSub from '~/components/HeroSub'
 import List from '~/components/List'
 
-import liveData from '~/assets/json/live'
+import liveJson from '~/assets/json/live'
 
 import HeadMixin from '~/mixins/Head'
 
 import { pause } from 'Js/animation'
+
+const liveData = liveJson.filter(el => new Date(el.date) > new Date()).reverse()
 
 export default {
   components: {
