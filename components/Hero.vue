@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div
-      v-lazy:background-image="require('Images/hero/item2.jpg')"
+      v-lazy:background-image="require('Images/sakura/item0.jpg')"
       class="hero__main"
     />
 
