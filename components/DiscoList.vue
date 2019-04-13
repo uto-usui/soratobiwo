@@ -19,7 +19,7 @@
             <p v-if="item.fee" class="list-disco__fee" v-text="item.fee" />
             <p v-if="item.text" class="list-disco__text" v-text="item.text" />
             <p v-if="item.soldOut" class="list-disco__sold">
-              thanks to sold out !
+              Thank you for sold out !
             </p>
           </div>
           <div class="list-disco__right">
