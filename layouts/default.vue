@@ -14,6 +14,7 @@
       :get-is-desktop="getIsDesktop"
     />
     <nuxt />
+    <FormContent />
     <Debug v-if="false" />
   </div>
 </template>
@@ -24,6 +25,7 @@ import { mapActions, mapGetters } from 'vuex'
 import FixedContent from '~/components/layout/FixedContent'
 import Loader from '~/components/Loader'
 import Debug from '~/components/utility/Debug'
+import FormContent from '~/components/layout/FormContent'
 import data from '~/assets/js/data'
 
 export default {
@@ -31,6 +33,7 @@ export default {
     FixedContent,
     Loader,
     Debug,
+    FormContent,
   },
   computed: {
     ...mapGetters([

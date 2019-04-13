@@ -17,7 +17,6 @@
     <MenuBg :get-menu-open="getMenuOpen" />
     <MenuTrigger v-if="$store.state.route.fullPath !== '/' && !getIsDesktop" />
     <Footer v-if="false" />
-    <FormContent />
   </div>
 </template>
 
@@ -33,14 +32,12 @@ import Logo from '~/components/layout/Logo'
 import Contact from '~/components/layout/Contact'
 import Copy from '~/components/layout/Copy'
 import News from '~/components/layout/News'
-import FormContent from '~/components/layout/FormContent'
 
 export default {
   components: {
     News,
     Copy,
     Contact,
-    FormContent,
     Logo,
     Frame,
     Header,
