@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       followData,
-      title: 'news|soratobiwo',
+      title: 'follow|soratobiwo',
     }
   },
   computed: {
