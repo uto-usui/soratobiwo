@@ -55,7 +55,7 @@ export default {
     if (post) {
       return {
         post,
-        ogImg: post.hero,
+        ogImg: post.hero + '|soratobiwo',
         title: post.title,
       }
     } else {

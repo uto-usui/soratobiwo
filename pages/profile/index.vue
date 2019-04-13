@@ -146,7 +146,7 @@ export default {
   data() {
     return {
       profileData,
-      title: 'follow|soratobiwo',
+      title: 'profile|soratobiwo',
     }
   },
   computed: {

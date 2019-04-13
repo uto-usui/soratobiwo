@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       posts: [],
-      title: 'soratobiwo',
+      title: '',
     }
   },
   computed: {
