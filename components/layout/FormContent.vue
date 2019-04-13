@@ -2,6 +2,7 @@
   <div :class="[{ 'is-open': getFormOpen }]" class="form">
     <div class="form__inner">
       <form name="contact" method="POST" action="/thanks/" netlify>
+        <input type="hidden" name="form-name" value="contact" />
         <div class="form__area">
           <p class="form__item">
             <label class="form__label"
