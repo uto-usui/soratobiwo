@@ -81,13 +81,17 @@ export default {
   }
 }
 
+.article__head {
+  // position: absolute;
+}
+
 .article__body {
   max-height: 100%;
   overflow: auto;
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.5;
-  text-align: left;
+  text-align: justify;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   //
@@ -137,9 +141,8 @@ export default {
   @include desktop {
     position: absolute;
     top: -0.25em;
-    left: calc(100% - 0.2em);
-    font-size: calc(100vw * 14 / 1024);
-    line-height: 1.5;
+    left: calc(100% - 0.15em);
+    font-size: calc(100vw * 34 / 1024);
     letter-spacing: normal;
     white-space: nowrap;
     transform: translateY(-100%) rotate(90deg);
