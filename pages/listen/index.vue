@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="follow" :get-page-ready="getPageReady">
+  <Wrapper class="listen" :get-page-ready="getPageReady">
     <MainOuter>
       <HeroSub
         :image="require('Images/hero/item19.jpg')"
@@ -7,7 +7,12 @@
         :get-page-ready="getPageReady"
       />
       <MainInner>
-        <FollowList :list-data="listenData" />
+        <div class="listen__list">
+          <FollowList :list-data="listenData" />
+        </div>
+        <div class="listen__list">
+          <DiscoList :list-data="musicData" />
+        </div>
       </MainInner>
     </MainOuter>
   </Wrapper>
@@ -21,8 +26,10 @@ import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
 import HeroSub from '~/components/HeroSub'
 import FollowList from '~/components/FollowList'
+import DiscoList from '~/components/DiscoList'
 
 import listenData from '~/assets/json/listen'
+import musicData from '~/assets/json/music'
 
 import HeadMixin from '~/mixins/Head'
 
@@ -33,6 +40,7 @@ export default {
     Wrapper,
     HeroSub,
     FollowList,
+    DiscoList,
     MainInner,
     MainOuter,
   },
@@ -40,6 +48,7 @@ export default {
   data() {
     return {
       listenData,
+      musicData,
       title: 'listen|soratobiwo',
     }
   },
@@ -63,3 +72,16 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.listen__list {
+  //
+  + .listen__list {
+    margin-top: calc(100vw * 20 / 375);
+    //
+    @include desktop {
+      margin-top: calc(100vw * 30 / 1024);
+    }
+  }
+}
+</style>

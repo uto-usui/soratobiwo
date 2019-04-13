@@ -39,7 +39,7 @@ import SocialLogos from '~/components/SocialLogos'
 import dateMixin from '~/mixins/Date'
 
 export default {
-  name: 'List',
+  name: 'FollowList',
   components: { ListInner, SocialLogos },
   mixins: [dateMixin],
   props: {
@@ -147,16 +147,20 @@ export default {
   width: 50%;
   height: auto;
   margin-bottom: 1.5em;
-  font-size: 1.2rem;
+  font-size: calc(100vw * 12 / 375);
   font-weight: $font-Ubuntu-bold;
   text-align: left;
   white-space: nowrap;
   //
   @include desktop {
     width: 100%;
-    font-size: 1.6rem;
+    font-size: calc(100vw * 14 / 1024);
     text-align: center;
     //
+  }
+  //
+  @include widescreen {
+    font-size: calc(100vw * 16 / 1280);
   }
 }
 
