@@ -3,31 +3,33 @@
     "date": "2017-06-28T12:04:36",
     "slug": "shanghaime",
     "title": "シャンハイミー",
-    "titleSub": "会場限定 single",
+    "titleSub": "会場限定 Single",
     "text": "",
     "songs": [
       "1. シャンハイミー"
     ],
     "fee": "",
-    "soldOut": false
+    "soldOut": true,
+    "img": "shanghai.jpg"
   },
   {
     "date": "2016-09-08T20:55:09",
     "slug": "kiss",
     "title": "kiss",
     "titleSub": "Free Down Load Single",
-    "text": "<a class=\"link\" href=\"https://soratobiwo.bandcamp.com/releases\" target=\"_blank\">free download page</a>",
+    "text": "",
     "songs": [
       "1. kiss"
     ],
     "fee": "free download",
-    "soldOut": false
+    "soldOut": true,
+    "img": "kiss.jpg"
   },
   {
     "date": "2016-05-07T01:28:46",
     "slug": "zutto-sakanani-naritakkatta",
     "title": "ずっと魚になりたかった",
-    "titleSub": "2st album",
+    "titleSub": "2st Album",
     "text": "",
     "songs": [
       "1.うつせみ",
@@ -39,13 +41,14 @@
       "7.さかな"
     ],
     "fee": "￥1,620(tax in)",
-    "soldOut": false
+    "soldOut": false,
+    "img": "zutto.jpg"
   },
   {
     "date": "2016-02-18T15:34:17",
     "slug": "nautilus",
     "title": "nautilus",
-    "titleSub": "1st album",
+    "titleSub": "1st Album",
     "text": "",
     "songs": [
       "1.nautilus",
@@ -59,6 +62,7 @@
       "9.さよなら、さらば"
     ],
     "fee": "¥1,500(tax in)",
-    "soldOut": false
+    "soldOut": false,
+    "img": "nautilus.jpg"
   }
 ]
