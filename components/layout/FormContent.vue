@@ -1,7 +1,7 @@
 <template>
   <div :class="[{ 'is-open': getFormOpen }]" class="form">
     <div class="form__inner">
-      <form name="contact" method="POST" action="https://soratobiwo.com/thanks/" netlify>
+      <form name="contact" method="POST" action="/thanks/" netlify>
         <div class="form__area">
           <p class="form__item">
             <label class="form__label"

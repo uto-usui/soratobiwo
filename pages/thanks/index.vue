@@ -41,10 +41,12 @@
 </style>
 
 <script>
+import { mapActions } from 'vuex'
 import HeadMixin from '~/mixins/Head'
 
+import { pause } from 'Js/animation'
+
 export default {
-  layout: 'thanks',
   components: {
     //
   },
@@ -53,6 +55,15 @@ export default {
     return {
       title: 'thanks',
     }
+  },
+  mounted() {
+    this.$nextTick(async () => {
+      await pause(1)
+      this.setPageReady(true)
+    })
+  },
+  methods: {
+    ...mapActions(['setPageReady']),
   },
 }
 </script>
