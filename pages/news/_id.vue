@@ -3,7 +3,7 @@
     <MainOuter>
       <MainInner>
         <Article :get-is-desktop="getIsDesktop" :post="post" />
-        <ArticleBottom :image="require('Images/hero/item10.jpg')" />
+        <ArticleBottom :image="require(`Images/${post.hero}`)" />
       </MainInner>
     </MainOuter>
   </Wrapper>
@@ -55,6 +55,7 @@ export default {
     if (post) {
       return {
         post,
+        ogImg: post.hero,
         title: post.title,
       }
     } else {

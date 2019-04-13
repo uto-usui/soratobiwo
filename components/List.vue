@@ -13,9 +13,7 @@
 
           <div class="list__figure-wrap is-hidden-touch">
             <figure
-              v-lazy:background-image="
-                `https://soratobiwo.com/wp-content/uploads/2019/04/6_11.jpg`
-              "
+              v-lazy:background-image="require(`Images/${item.hero}`)"
               class="list__figure"
             />
             <div class="list__bg"></div>
@@ -221,12 +219,13 @@ export default {
   background-color: $color-blue;
   mix-blend-mode: overlay;
   opacity: 0.85;
+  transform: skewX(5deg);
   //
   @include desktop {
     top: 0;
     width: calc(100vh * 120 / 768);
     height: calc(100vh * 40 / 768);
-    transform: translateX(-50%) translateY(-50%) rotate(5deg);
+    transform: skewX(5deg) translateX(-50%) translateY(-50%) rotate(5deg);
   }
 }
 </style>
