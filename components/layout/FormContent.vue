@@ -1,17 +1,26 @@
 <template>
   <div :class="[{ 'is-open': getFormOpen }]" class="form">
     <div class="form__inner">
-      <form name="contact" method="POST" action="/thanks/" netlify>
+      <form
+        name="contact"
+        method="POST"
+        action="/thanks/"
+        netlify
+        data-netlify-honeypot="bot-field"
+      >
         <input type="hidden" name="form-name" value="contact" />
+        <input name="bot-field" type="hidden" />
         <div class="form__area">
           <p class="form__item">
             <label class="form__label"
-              >お名前 <input class="form__input" type="text" name="name"
+              >お名前
+              <input class="form__input" type="text" name="name" required
             /></label>
           </p>
           <p class="form__item">
             <label class="form__label"
-              >Email <input class="form__input" type="email" name="email"
+              >Email
+              <input class="form__input" type="email" name="email" required
             /></label>
           </p>
           <p class="form__item">
