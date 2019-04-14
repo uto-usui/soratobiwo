@@ -61,6 +61,7 @@ export default {
 .article {
   position: relative;
   z-index: 5;
+  padding-bottom: calc(100vw * 30 / 375);
   //
   @include desktop {
     padding: calc(2vw);
