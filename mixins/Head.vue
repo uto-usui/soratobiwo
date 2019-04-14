@@ -9,7 +9,7 @@ const meta = {
   title: '大阪のロックバンド「soratobiwo | ソラトビヲ」のオフィシャルサイト。',
   description:
     '大阪のロックバンド「soratobiwo | ソラトビヲ」のオフィシャルサイト。プロフィール・ライブスケジュール・音源情報・ニュース・ブログなどsoratobiwoの情報が満載です。',
-  img: '',
+  img: 'https://soratobiwo.com/ogp.png',
   ogType: 'website',
   keywords: '大阪,バンド,ロックバンド,soratobiwo,ソラトビヲ',
 }
@@ -77,7 +77,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: meta.img,
+          content: this.ogImg || meta.img,
         },
         { hid: 'twitter:site', name: 'twitter:site', content: '@soratobiwo' },
       ],
