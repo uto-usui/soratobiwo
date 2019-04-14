@@ -98,6 +98,8 @@ export default {
 }
 
 .logo__inner {
-  //
+  .a {
+    fill: $color-gray-level1;
+  }
 }
 </style>
