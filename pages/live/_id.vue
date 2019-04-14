@@ -56,7 +56,7 @@ export default {
       return {
         post,
         desc: post.act + post.time + post.fee,
-        ogImg: `https://soratobiwo.com/assets/${post.hero}`,
+        ogImg: require(`Images/${post.hero}`),
         title: post.title + '|soratobiwo',
       }
     } else {

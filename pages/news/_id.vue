@@ -55,7 +55,7 @@ export default {
     if (post) {
       return {
         post,
-        ogImg: `https://soratobiwo.com/assets/${post.hero}`,
+        ogImg: require(`Images/${post.hero}`),
         title: post.title + '|soratobiwo',
       }
     } else {
