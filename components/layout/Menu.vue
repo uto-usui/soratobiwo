@@ -5,6 +5,16 @@
   >
     <div class="menu__inner">
       <ul class="menu__list">
+        <li v-if="!getIsDesktop" class="menu__item">
+          <span class="menu__item-inner">
+            <nuxt-link
+              :to="`/home/`"
+              class="menu__target"
+              @click="setMenuOpen(false)"
+              >home</nuxt-link
+            >
+          </span>
+        </li>
         <li
           v-for="(item, index) in links"
           :key="`menu${index}`"
@@ -12,21 +22,11 @@
         >
           <span class="menu__item-inner">
             <nuxt-link
-              :to="item === `home` ? `/` : `/${item}/`"
+              :to="`/${item}/`"
               class="menu__target"
               @click="setMenuOpen(false)"
               v-html="item"
             />
-          </span>
-        </li>
-        <li v-if="!getIsDesktop" class="menu__item">
-          <span class="menu__item-inner">
-            <nuxt-link
-              :to="`/news/`"
-              class="menu__target"
-              @click="setMenuOpen(false)"
-              >news</nuxt-link
-            >
           </span>
         </li>
       </ul>
@@ -54,7 +54,7 @@ export default {
       /**
        * ID List
        */
-      links: ['home', 'profile', 'listen', 'live', 'follow'],
+      links: ['news', 'live', 'profile', 'listen', 'follow'],
     }
   },
   computed: {
