@@ -92,8 +92,10 @@ export default {
     enter(el, done) {
       done()
     },
-    async leave(el, done) {
+    beforeLeave() {
       this.$store.dispatch('setPageReady', false)
+    },
+    async leave(el, done) {
       await pause(0.4)
       this.$store.getters.getMenuOpen &&
         this.$store.dispatch('setMenuOpen', false)
