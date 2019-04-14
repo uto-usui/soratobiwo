@@ -178,6 +178,7 @@ export default {
   height: calc(100vw * 40 / 375);
   background-color: $color-blue;
   mix-blend-mode: overlay;
+  transform: skewX(5deg);
   //
   @include desktop {
     top: 0;
@@ -186,13 +187,13 @@ export default {
     //
     .hero-sub.hero-sub--lg & {
       left: 0;
-      transform: translateX(-25%) rotate(-30deg);
+      transform: skewX(3deg) translateX(-25%) rotate(-30deg);
     }
     //
     .hero-sub.hero-sub--sm & {
       right: 0;
       left: auto;
-      transform: translateX(25%) rotate(30deg);
+      transform: skewX(3deg) translateX(25%) rotate(30deg);
     }
   }
 }
