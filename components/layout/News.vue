@@ -10,11 +10,12 @@
   >
     <div class="news__inner">
       <h2 class="news__title">
-        News
+        <nuxt-link class="news__target" to="/news/">News</nuxt-link>
       </h2>
       <p class="news__text">
-        <nuxt-link class="news__target" to="/">
-          new album release!!!
+        <nuxt-link class="news__target" to="/news/new-album-stand-by-me/">
+          New Album <br />
+          スタンドバイミー リリース決定 !!!
         </nuxt-link>
       </p>
     </div>
@@ -111,6 +112,7 @@ export default {
 .news__text {
   font-size: 1.4rem;
   font-weight: bold;
+  line-height: 1.35;
   text-align: left;
   //
   @include desktop {
