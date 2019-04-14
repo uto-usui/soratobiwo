@@ -205,13 +205,11 @@ export default {
   border: 5px solid currentColor;
   //
   @include desktop {
-    height: 50px;
-    padding-top: calc((50px - 0.75em * 2) / 2);
-    padding-bottom: calc((50px - 0.75em * 2) / 2);
+    height: 60px;
   }
   //
   &--ms {
-    height: 5em;
+    height: 120px;
   }
 }
 
