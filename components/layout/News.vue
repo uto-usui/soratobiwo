@@ -89,7 +89,7 @@ export default {
 <style lang="scss" scoped>
 .news {
   position: fixed;
-  top: calc(100vh * 433 / 667);
+  top: calc(100vh * 330 / 667);
   right: calc(100vw * 20 / 375 / 2);
   z-index: $z-contact;
   width: calc(100vw * 166 / 375);
@@ -100,8 +100,8 @@ export default {
   border: 5px solid currentColor;
   //
   opacity: 0;
-  transition: top 1s 2s $easeInOutSine, right 1s 2s $easeInOutSine,
-    transform 1s 2s $easeInOutSine;
+  transition: top 0.4s 0.4s $easeInOutSine, right 0.4s 0.4s $easeInOutSine,
+    transform 0.4s 0.4s $easeInOutSine;
   //
   @include desktop {
     top: calc(100vh * 375 / 768);
