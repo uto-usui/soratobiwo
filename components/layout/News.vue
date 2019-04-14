@@ -72,7 +72,7 @@ export default {
       this.sfText.setText(this.newsData[this.counter].title)
       this.sfText.start()
       this.counterNext()
-      await pause(3)
+      await pause(5)
       this.textAnimation()
     },
     counterNext() {
@@ -89,27 +89,30 @@ export default {
 <style lang="scss" scoped>
 .news {
   position: fixed;
+  top: calc(100vh * 433 / 667);
   right: calc(100vw * 20 / 375 / 2);
-  bottom: calc(100vh * 140 / 667);
   z-index: $z-contact;
   width: calc(100vw * 166 / 375);
   height: calc(100vw * 94 / 375);
+  overflow: hidden;
   color: $color-gray-level1;
   pointer-events: none;
   border: 5px solid currentColor;
   //
   opacity: 0;
+  transition: top 1s 2s $easeInOutSine, right 1s 2s $easeInOutSine,
+    transform 1s 2s $easeInOutSine;
   //
   @include desktop {
+    top: calc(100vh * 375 / 768);
     right: calc(100vw * 158 / 1024);
-    bottom: calc(100vh * 283 / 768);
     width: calc(100vw * 222 / 1024);
     height: calc(100vw * 124 / 1024);
   }
   //
   @include widescreen {
+    top: calc(100vh * 430 / 800);
     right: calc(100vw * 387 / 1280);
-    bottom: calc(100vh * 245 / 800);
     width: calc(100vw * 222 / 1280);
     height: calc(100vw * 124 / 1280);
   }
