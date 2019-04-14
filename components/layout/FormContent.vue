@@ -13,19 +13,19 @@
         <div class="form__area">
           <p class="form__item">
             <label class="form__label"
-              >お名前
+              ><span class="form__text">お名前</span>
               <input class="form__input" type="text" name="name" required
             /></label>
           </p>
           <p class="form__item">
             <label class="form__label"
-              >Email
+              ><span class="form__text">Email</span>
               <input class="form__input" type="email" name="email" required
             /></label>
           </p>
           <p class="form__item">
             <label class="form__label"
-              >ご用件
+              ><span class="form__text">ご用件</span>
               <select class="form__input" name="role">
                 <option value="--" v-text="`--`" />
                 <option
@@ -38,7 +38,7 @@
           </p>
           <p class="form__item">
             <label class="form__label"
-              >イベント会場
+              ><span class="form__text">イベント会場</span>
               <select class="form__input" name="event">
                 <option value="--" v-text="`--`" />
                 <option
@@ -53,13 +53,13 @@
           </p>
           <p class="form__item">
             <label class="form__label"
-              >チケット枚数
+              ><span class="form__text">チケット枚数</span>
               <input class="form__input" type="number" name="number"
             /></label>
           </p>
           <p class="form__item">
             <label class="form__label"
-              >メッセージ
+              ><span class="form__text">メッセージ</span>
               <textarea
                 class="form__input form__input--ms"
                 name="message"
@@ -114,6 +114,7 @@ export default {
   bottom: calc(50px + 10px);
   left: 0;
   z-index: $z-form-bg;
+  overflow: auto;
   pointer-events: none;
   background-color: rgba($color-gray-level2, 1);
   opacity: 0;
@@ -137,7 +138,8 @@ export default {
 }
 
 .form__inner {
-  padding: calc(100vw * 30 / 375);
+  padding: calc(100vw * 30 / 375 - 100vw * 20 / 375) calc(100vw * 30 / 375)
+    calc(100vw * 30 / 375);
   //
   @include desktop {
     padding: calc(100vw * 30 / 1024);
@@ -183,13 +185,20 @@ export default {
 .form__label {
   display: block;
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: $color-gray-level1;
   //
   @include desktop {
     font-size: 1.6rem;
   }
+}
+
+.form__text {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: $color-white;
+  background-color: $color-gray-level1;
 }
 
 .form__input {

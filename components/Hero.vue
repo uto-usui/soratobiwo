@@ -1,9 +1,16 @@
 <template>
   <div class="hero">
-    <div
-      v-lazy:background-image="require('Images/sakura/item0.jpg')"
-      class="hero__main"
-    />
+    <div v-images-loaded="imageLoaded" class="hero__images">
+      <img
+        v-for="(item, index) in images"
+        :key="`img${index}`"
+        :src="item"
+        alt=""
+      />
+    </div>
+    <div class="hero__main">
+      <canvas ref="canvas" class="hero__canvas"></canvas>
+    </div>
 
     <div class="hero-sub hero-sub--lg">
       <figure
@@ -26,6 +33,8 @@
 </template>
 
 <script>
+import { pause } from 'Js/animation'
+
 export default {
   name: 'Hero',
   components: {},
@@ -42,21 +51,77 @@ export default {
   data() {
     return {
       height: '',
+      images: [
+        require('Images/sakura/item0.jpg'),
+        require('Images/sakura/item2.jpg'),
+        require('Images/sakura/item1.jpg'),
+        require('Images/sakura/item3.jpg'),
+        require('Images/sakura/item5.jpg'),
+        require('Images/sakura/item8.jpg'),
+      ],
+      isLoaded: true,
+      isMounted: false,
+      imagesSrc: [],
+      counter: 0,
+      mainCanvas: null,
     }
   },
   computed: {
     //
+  },
+  watch: {
+    isLoaded(value) {
+      value && this.isMounted && this.canvasInit()
+    },
+    isMounted(value) {
+      value && this.isLoaded && this.canvasInit()
+    },
   },
   created() {
     //
   },
   mounted() {
     this.$nextTick(() => {
-      //
+      this.isMounted = true
     })
   },
   methods: {
-    //
+    imageLoaded(instance) {
+      instance.images.forEach(el => {
+        this.imagesSrc.push(el.img.src)
+      })
+      // console.log('🍱️ this.imagesSrc', this.imagesSrc)
+      this.isLoaded = true
+    },
+    async canvasInit() {
+      window.global = window
+      const distotion = await import('Js/distotion')
+
+      this.mainCanvas = new distotion.CanvasSlides({
+        target: this.$refs.canvas,
+        sprites: this.imagesSrc,
+        displacementImage: require('Images/texture/noise.jpg'),
+        autoPlay: true,
+        autoPlaySpeed: [1, 3],
+        displaceScale: [70, 40],
+      })
+      // console.log('initCanvasSlide', this.mainCanvas)
+      this.animation()
+    },
+    async animation() {
+      await pause(3)
+      this.counterNext()
+      await pause(3)
+      this.animation()
+    },
+    counterNext() {
+      if (this.counter >= this.images.length - 1) {
+        this.counter = 0
+      } else {
+        this.counter++
+      }
+      this.mainCanvas.moveSlider(this.counter)
+    },
   },
 }
 </script>
@@ -66,14 +131,28 @@ export default {
   //
 }
 
+.hero__images {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.hero__canvas {
+  //
+  @include overlay;
+  // mix-blend-mode: multiply;
+  // opacity: 0.15;
+}
+
 .hero__main {
   position: fixed;
   top: calc(100vw * 20 / 375);
   left: 0;
   width: calc(100vw * 300 / 375);
   height: calc(100vh * 200 / 667);
-  //
-  @include bg-cover;
+  overflow: hidden;
+  background-color: $color-gray-level2;
   //
   @include desktop {
     top: calc(100vw * 30 / 1024);

@@ -40,7 +40,9 @@ export default {
     height: 0;
     content: '';
     border-top: solid 1px $color-gray-level1;
-    transform: translateX(50%) rotate(45deg);
+    //
+    transition: transform 0.3s $easeOutSine;
+    transform: translateX(50%) rotate(45deg) translateZ(1px);
     //
     @include desktop {
       width: calc(100vw * 25 / 1024);
@@ -59,8 +61,8 @@ export default {
     height: 0;
     content: '';
     border-top: solid 1px $color-gray-level1;
-    transform: translateX(50%) rotate(-45deg);
-    //
+    transition: transform 0.3s $easeOutSine;
+    transform: translateX(50%) rotate(-45deg) translateZ(1px);
     //
     @include desktop {
       width: calc(100vw * 25 / 1024);
@@ -68,6 +70,19 @@ export default {
     //
     @include widescreen {
       width: calc(100vw * 25 / 1280);
+    }
+  }
+  //
+  @include desktop {
+    &:hover {
+      //
+      &::before {
+        transform: translateX(50%) rotate(135deg) translateZ(1px);
+      }
+      //
+      &::after {
+        transform: translateX(50%) rotate(45deg) translateZ(1px);
+      }
     }
   }
 }

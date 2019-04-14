@@ -53,6 +53,7 @@ export default {
    */
   plugins: [
     '~plugins/vue-lazyload.client.js',
+    '~plugins/imageLoaded.client.js',
     '~plugins/console.js',
     '~plugins/vuex-router-sync.js',
   ],
