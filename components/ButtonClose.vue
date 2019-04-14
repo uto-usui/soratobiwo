@@ -22,9 +22,14 @@ export default {
   height: 30px;
   background-color: $color-red;
   //
-  @include fullhd {
-    width: 40px;
-    height: 40px;
+  @include desktop {
+    width: calc(100vw * 30 / 1024);
+    height: calc(100vw * 30 / 1024);
+  }
+  //
+  @include widescreen {
+    width: calc(100vw * 30 / 1280);
+    height: calc(100vw * 30 / 1280);
   }
 
   &::before {
@@ -37,8 +42,12 @@ export default {
     border-top: solid 1px $color-gray-level1;
     transform: translateX(50%) rotate(45deg);
     //
-    @include fullhd {
-      width: 35px;
+    @include desktop {
+      width: calc(100vw * 25 / 1024);
+    }
+    //
+    @include widescreen {
+      width: calc(100vw * 25 / 1280);
     }
   }
 
@@ -52,8 +61,13 @@ export default {
     border-top: solid 1px $color-gray-level1;
     transform: translateX(50%) rotate(-45deg);
     //
-    @include fullhd {
-      width: 35px;
+    //
+    @include desktop {
+      width: calc(100vw * 25 / 1024);
+    }
+    //
+    @include widescreen {
+      width: calc(100vw * 25 / 1280);
     }
   }
 }
