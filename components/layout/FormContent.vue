@@ -46,7 +46,7 @@
                     el => new Date(el.date) > new Date(),
                   )"
                   :key="`event${index}`"
-                  :value="item"
+                  :value="`${getDate(item.date)} ${item.place}`"
                   v-text="`${getDate(item.date)} ${item.place}`"
                 /> </select
             ></label>
