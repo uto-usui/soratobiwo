@@ -55,8 +55,9 @@ export default {
     if (post) {
       return {
         post,
-        ogImg: post.hero + '|soratobiwo',
-        title: post.title,
+        desc: post.act + post.time + post.fee,
+        ogImg: `https://soratobiwo.com/assets/${post.hero}`,
+        title: post.title + '|soratobiwo',
       }
     } else {
       return { statusCode: 404, message: 'Post not found' }
