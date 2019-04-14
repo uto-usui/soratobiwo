@@ -13,10 +13,12 @@
         <nuxt-link class="news__target" to="/news/">News</nuxt-link>
       </h2>
       <p class="news__text">
-        <nuxt-link class="news__target" to="/news/new-album-stand-by-me/">
-          New Album <br />
-          スタンドバイミー リリース決定 !!!
-        </nuxt-link>
+        <nuxt-link
+          ref="text"
+          class="news__target"
+          :to="`/news/${newsData[counter].id}/`"
+          v-text="newsData[counter].title"
+        />
       </p>
     </div>
     <div class="news__bg" />
@@ -24,6 +26,13 @@
 </template>
 
 <script>
+import ShuffleText from 'shuffle-text'
+import { pause } from 'Js/animation'
+
+import newsJson from '~/assets/json/news'
+
+const newsData = newsJson.slice(0, 5)
+
 export default {
   name: 'News',
   props: {
@@ -34,6 +43,44 @@ export default {
     getIsDesktop: {
       type: Boolean,
       default: false,
+    },
+  },
+  data() {
+    return {
+      newsData,
+      sfText: null,
+      links: [],
+      counter: 0,
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.textAnimationInit()
+      this.textAnimation()
+    })
+  },
+  beforeDestroy() {
+    this.sfText && this.sfText.dispose()
+  },
+  methods: {
+    textAnimationInit() {
+      this.sfText && this.sfText.dispose()
+      this.sfText = new ShuffleText(this.$refs.text.$el)
+      this.sfText.duration = 1000
+    },
+    async textAnimation() {
+      this.sfText.setText(this.newsData[this.counter].title)
+      this.sfText.start()
+      this.counterNext()
+      await pause(3)
+      this.textAnimation()
+    },
+    counterNext() {
+      if (this.counter >= this.newsData.length - 1) {
+        this.counter = 0
+      } else {
+        this.counter++
+      }
     },
   },
 }
@@ -70,6 +117,20 @@ export default {
   &.is-open {
     pointer-events: auto;
     opacity: 1;
+  }
+  //
+  &.is-sub {
+    @include desktop {
+      top: calc(100vw * 30 / 1024);
+      right: calc(100vw / 3);
+      pointer-events: auto;
+      opacity: 1;
+      transform: translateX(100%);
+    }
+    //
+    @include widescreen {
+      top: calc(100vw * 30 / 1280);
+    }
   }
 }
 
