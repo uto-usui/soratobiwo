@@ -120,6 +120,11 @@ export default {
   /deep/ a {
     color: inherit;
     border-bottom: 2px solid currentColor;
+    //
+    &:hover {
+      color: $color-gray-level1;
+      background-color: $color-white;
+    }
   }
 }
 
