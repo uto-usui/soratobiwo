@@ -17,6 +17,7 @@ export default {
 <style lang="scss" scoped>
 .button-close {
   position: relative;
+  z-index: 1;
   display: block;
   width: 30px;
   height: 30px;
@@ -36,13 +37,14 @@ export default {
     position: absolute;
     top: 50%;
     right: 50%;
+    z-index: 5;
     width: 25px;
     height: 0;
     content: '';
     border-top: solid 1px $color-gray-level1;
     //
     transition: transform 0.3s $easeOutSine;
-    transform: translateX(50%) rotate(45deg) translateZ(1px);
+    transform: translateX(50%) rotate(45deg) translateZ(-1px);
     //
     @include desktop {
       width: calc(100vw * 25 / 1024);
@@ -57,12 +59,13 @@ export default {
     position: absolute;
     top: 50%;
     right: 50%;
+    z-index: 5;
     width: 25px;
     height: 0;
     content: '';
     border-top: solid 1px $color-gray-level1;
     transition: transform 0.3s $easeOutSine;
-    transform: translateX(50%) rotate(-45deg) translateZ(1px);
+    transform: translateX(50%) rotate(-45deg) translateZ(-1px);
     //
     @include desktop {
       width: calc(100vw * 25 / 1024);
