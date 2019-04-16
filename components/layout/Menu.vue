@@ -8,7 +8,7 @@
         <li v-if="!getIsDesktop" class="menu__item">
           <span class="menu__item-inner">
             <nuxt-link
-              :to="`/home/`"
+              :to="`/`"
               class="menu__target"
               @click="setMenuOpen(false)"
               >home</nuxt-link
