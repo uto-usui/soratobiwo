@@ -1,13 +1,5 @@
 <template>
   <div class="hero">
-    <div v-images-loaded="imageLoaded" class="hero__images">
-      <img
-        v-for="(item, index) in images"
-        :key="`img${index}`"
-        :src="item"
-        alt=""
-      />
-    </div>
     <div class="hero__main">
       <canvas ref="canvas" class="hero__canvas"></canvas>
     </div>
@@ -34,6 +26,7 @@
 
 <script>
 import { pause } from 'Js/animation'
+import { CanvasSlides } from 'Js/distotion'
 
 export default {
   name: 'Hero',
@@ -59,8 +52,7 @@ export default {
         require('Images/sakura/item5.jpg'),
         require('Images/sakura/item8.jpg'),
       ],
-      isLoaded: true,
-      isMounted: false,
+      isActive: true,
       imagesSrc: [],
       counter: 0,
       mainCanvas: null,
@@ -70,47 +62,43 @@ export default {
     //
   },
   watch: {
-    isLoaded(value) {
-      value && this.isMounted && this.canvasInit()
-    },
-    isMounted(value) {
-      value && this.isLoaded && this.canvasInit()
-    },
+    //
   },
   created() {
     //
   },
   mounted() {
     this.$nextTick(() => {
-      this.isMounted = true
+      this.canvasInit()
     })
   },
+  beforeDestroy() {
+    console.log('🗑 hero beforeDestroy')
+    this.isActive = false
+    this.mainCanvas.destroy()
+  },
   methods: {
-    imageLoaded(instance) {
-      instance.images.forEach(el => {
-        this.imagesSrc.push(el.img.src)
-      })
-      // console.log('🍱️ this.imagesSrc', this.imagesSrc)
-      this.isLoaded = true
-    },
-    async canvasInit() {
-      window.global = window
-      const distotion = await import('Js/distotion')
-
-      this.mainCanvas = new distotion.CanvasSlides({
+    // imageLoaded(instance) {
+    //   instance.images.forEach(el => {
+    //     this.imagesSrc.push(el.img.src)
+    //   })
+    //   this.isLoaded = true
+    // },
+    canvasInit() {
+      this.mainCanvas = new CanvasSlides({
         target: this.$refs.canvas,
-        sprites: this.imagesSrc,
+        sprites: this.images,
         displacementImage: require('Images/texture/noise.jpg'),
         autoPlay: true,
         autoPlaySpeed: [1, 3],
-        displaceScale: [70, 40],
+        displaceScale: [20, 40],
       })
       // console.log('initCanvasSlide', this.mainCanvas)
       this.animation()
     },
     async animation() {
       await pause(3)
-      this.counterNext()
+      this.isActive && this.counterNext()
       await pause(3)
       this.animation()
     },

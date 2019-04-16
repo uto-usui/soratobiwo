@@ -1,12 +1,8 @@
 /* eslint new-cap: 0 */
-import * as PIXI from 'pixi.js'
+// import * as PIXI from 'pixi.js' - global import
 import { TweenMax, TimelineMax } from 'gsap'
 
 export const CanvasSlides = function(options) {
-  //  SCOPE
-  /// ---------------------------
-  const that = this
-
   //  OPTIONS
   /// ---------------------------
   options = options || {}
@@ -71,14 +67,16 @@ export const CanvasSlides = function(options) {
       view: options.target,
     },
   )
-  const stage = new PIXI.Container()
-  const slidesContainer = new PIXI.Container()
+  let stage = new PIXI.Container()
+  let slidesContainer = new PIXI.Container()
   const displacementSprite = new PIXI.Sprite.fromImage(
     options.displacementImage,
   )
   const displacementFilter = new PIXI.filters.DisplacementFilter(
     displacementSprite,
   )
+  let ticker = new PIXI.ticker.Ticker()
+  let baseTimeline = null
 
   //  TEXTS
   /// ---------------------------
@@ -93,6 +91,19 @@ export const CanvasSlides = function(options) {
   //  SLIDES ARRAY INDEX
   /// ---------------------------
   this.currentIndex = 0
+
+  /**
+   * destroy method
+   */
+  this.destroy = () => {
+    stage.destroy(true)
+    stage = null
+    slidesContainer.destroy(true)
+    slidesContainer = null
+    ticker.destroy()
+    ticker = null
+    baseTimeline && baseTimeline.kill() && baseTimeline.remove()
+  }
 
   /// ---------------------------
   //  INITIALISE PIXI
@@ -191,8 +202,6 @@ export const CanvasSlides = function(options) {
   //  DEFAULT RENDER/ANIMATION
   /// ---------------------------
   if (options.autoPlay === true) {
-    const ticker = new PIXI.ticker.Ticker()
-
     ticker.autoStart = options.autoPlay
 
     ticker.add(delta => {
@@ -202,11 +211,9 @@ export const CanvasSlides = function(options) {
       renderer.render(stage)
     })
   } else {
-    const render = new PIXI.ticker.Ticker()
+    ticker.autoStart = true
 
-    render.autoStart = true
-
-    render.add(delta => {
+    ticker.add(delta => {
       renderer.render(stage)
     })
   }
@@ -219,9 +226,9 @@ export const CanvasSlides = function(options) {
   this.moveSlider = newIndex => {
     isPlaying = true
 
-    const baseTimeline = new TimelineMax({
-      onComplete() {
-        that.currentIndex = newIndex
+    baseTimeline = new TimelineMax({
+      onComplete: () => {
+        this.currentIndex = newIndex
         isPlaying = false
         if (options.wacky === true) {
           displacementSprite.scale.set(1)
@@ -241,12 +248,14 @@ export const CanvasSlides = function(options) {
       return
     }
 
+    console.log('🏙 distortion newIndex', newIndex)
+
     baseTimeline
       .to(displacementFilter.scale, 1, {
         x: options.displaceScale[0],
         y: options.displaceScale[1],
       })
-      .to(slideImages[that.currentIndex], 0.5, { alpha: 0 })
+      .to(slideImages[this.currentIndex], 0.5, { alpha: 0 })
       .to(slideImages[newIndex], 0.5, { alpha: 1 }, 0.25)
       .to(displacementFilter.scale, 1, {
         x: options.displaceScaleTo[0],
@@ -260,7 +269,7 @@ export const CanvasSlides = function(options) {
   const nav = options.navElement
 
   for (const navItem of nav) {
-    navItem.onclick = function(event) {
+    navItem.onclick = event => {
       // Make sure the previous transition has ended
       if (isPlaying) {
         return false
@@ -268,20 +277,20 @@ export const CanvasSlides = function(options) {
 
       if (this.getAttribute('data-nav') === 'next') {
         if (
-          that.currentIndex >= 0 &&
-          that.currentIndex < slideImages.length - 1
+          this.currentIndex >= 0 &&
+          this.currentIndex < slideImages.length - 1
         ) {
-          that.moveSlider(that.currentIndex + 1)
+          this.moveSlider(this.currentIndex + 1)
         } else {
-          that.moveSlider(0)
+          this.moveSlider(0)
         }
       } else if (
-        that.currentIndex > 0 &&
-        that.currentIndex < slideImages.length
+        this.currentIndex > 0 &&
+        this.currentIndex < slideImages.length
       ) {
-        that.moveSlider(that.currentIndex - 1)
+        this.moveSlider(this.currentIndex - 1)
       } else {
-        that.moveSlider(options.pixiSprites.length - 1)
+        this.moveSlider(options.pixiSprites.length - 1)
       }
 
       return false
@@ -293,8 +302,8 @@ export const CanvasSlides = function(options) {
   /// ---------------------------
 
   this.init = () => {
-    that.initPixi()
-    that.loadPixiSprites(options.pixiSprites)
+    this.initPixi()
+    this.loadPixiSprites(options.pixiSprites)
 
     /*
       if ( options.fullScreen === true ) {

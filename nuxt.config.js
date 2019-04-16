@@ -56,6 +56,7 @@ export default {
     '~plugins/imageLoaded.client.js',
     '~plugins/console.js',
     '~plugins/vuex-router-sync.js',
+    '~plugins/pixi.client.js',
   ],
 
   /*
