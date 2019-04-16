@@ -195,13 +195,18 @@ export default {
 }
 
 .form__text {
+  position: relative;
+  z-index: 9;
   padding-right: 5px;
   padding-left: 5px;
   color: $color-white;
   background-color: $color-gray-level1;
+  border-bottom: 5px solid $color-red;
 }
 
 .form__input {
+  position: relative;
+  z-index: 5;
   display: inline-block;
   width: 100%;
   height: 40px;
