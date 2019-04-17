@@ -38,6 +38,7 @@ export default {
 .article-bottom__inner {
   position: relative;
   z-index: 1;
+  overflow: hidden;
   background-color: $color-gray-level1;
 }
 
@@ -47,6 +48,9 @@ export default {
   height: calc(100vh / 2);
   filter: saturate(0);
   //
+  transition: filter 2s $easeOutSine, transform 5s $easeFadeIn;
+  will-change: filter, transform;
+  //
   @include bg-cover;
   //
   @include desktop {
@@ -54,6 +58,7 @@ export default {
     //
     .article-bottom:hover & {
       filter: saturate(1);
+      transform: scale(1.05);
     }
   }
 }
@@ -62,23 +67,30 @@ export default {
   z-index: 2;
   background-color: $color-gray-level1;
   mix-blend-mode: overlay;
+  transition: opacity 5s $easeFadeIn;
   //
   @include overlay;
   //
   .article-bottom:hover & {
-    opacity: 0;
+    // opacity: 0;
   }
 }
 
 .article-bottom__text {
   position: relative;
   z-index: 5;
+  display: inline-block;
   padding-top: 40px;
   font-size: 1.4rem;
   font-weight: $font-Ubuntu-bold;
   color: $color-white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  border-bottom: 2px solid currentColor;
+  //
+  @include desktop {
+    //
+  }
   //
   @include widescreen {
     font-size: 1.6rem;
