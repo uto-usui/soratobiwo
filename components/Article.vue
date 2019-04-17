@@ -26,7 +26,13 @@
         <p v-if="post.act" class="article__act" v-html="post.act"></p>
         <p v-if="post.time" class="article__time" v-html="post.time"></p>
         <p v-if="post.fee" class="article__fee" v-html="post.fee"></p>
-        <p v-if="post.info" class="article__info" v-html="post.info"></p>
+        <div v-if="post.info[0]" class="article__info">
+          <p
+            v-for="(item, index) in post.info"
+            :key="`postInfo${index}`"
+            v-html="item"
+          />
+        </div>
       </div>
       <div class="article__close">
         <ButtonClose :path="`../`" />

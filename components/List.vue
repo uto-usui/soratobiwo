@@ -13,11 +13,12 @@
 
           <div class="list__figure-wrap is-hidden-touch">
             <figure
-              v-lazy:background-image="require(`Images/${item.hero}`)"
+              v-lazy:background-image="
+                item.wp ? item.hero : require(`Images/${item.hero}`)
+              "
               class="list__figure"
             />
-            <div class="list__bg"></div>
-            <div class="list__tape" />
+            <div class="list__bg" />
           </div>
 
           <div class="list__bottom">
@@ -125,6 +126,12 @@ export default {
     right: 0;
     left: 0;
     padding: calc(100vh * 20 / 768);
+    //
+    transition: transform 0.5s $easeFadeIn;
+    //
+    .list__item:hover & {
+      transform: translateY(10px);
+    }
   }
 }
 
@@ -154,6 +161,12 @@ export default {
     left: 0;
     padding: calc(100vh * 20 / 768);
     line-height: 1.5;
+    //
+    transition: transform 0.5s 0.1s $easeFadeIn;
+    //
+    .list__item:hover & {
+      transform: translateY(-10px);
+    }
   }
 }
 
@@ -188,24 +201,34 @@ export default {
   width: 100%;
   padding-top: calc(50vh * 148 / 768);
   padding-bottom: calc(50vh * 148 / 768);
+  overflow: hidden;
 }
 
 .list__bg {
   z-index: 5;
   background-color: $color-gray-level1;
   mix-blend-mode: overlay;
+  transition: opacity 1s $easeFadeIn;
+  will-change: overlay;
   //
   @include overlay;
+  //
+  .list__item:hover & {
+    opacity: 0;
+  }
 }
 
 .list__figure {
   filter: saturate(0);
+  transition: filter 1s $easeFadeIn, transform 1s $easeFadeIn;
+  will-change: filter, transform;
   //
   @include overlay;
   @include bg-cover;
   //
   .list__item:hover & {
-    filter: saturate(0.85);
+    filter: saturate(1);
+    transform: scale(1.05);
   }
 }
 
@@ -214,6 +237,7 @@ export default {
   top: 0;
   left: 50%;
   z-index: 9;
+  display: none;
   width: calc(100vw * 120 / 375);
   height: calc(100vw * 40 / 375);
   background-color: $color-blue;
@@ -225,7 +249,12 @@ export default {
     top: 0;
     width: calc(100vh * 120 / 768);
     height: calc(100vh * 40 / 768);
+    transition: transform 1s $easeFadeIn;
     transform: skewX(5deg) translateX(-50%) translateY(-50%) rotate(5deg);
+    //
+    .list__item:hover & {
+      transform: skewX(10deg) translateX(-50%) translateY(-50%) rotate(5deg);
+    }
   }
 }
 </style>
