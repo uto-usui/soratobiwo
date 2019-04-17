@@ -64,6 +64,10 @@ export default {
   mix-blend-mode: overlay;
   //
   @include overlay;
+  //
+  .article-bottom:hover & {
+    opacity: 0;
+  }
 }
 
 .article-bottom__text {
