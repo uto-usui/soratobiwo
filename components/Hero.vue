@@ -91,17 +91,18 @@ export default {
         displacementImage: require('Images/texture/noise.jpg'),
         autoPlay: true,
         autoPlaySpeed: [1, 3],
-        displaceScale: [90, 50],
+        displaceScale: [100, 50],
+        displaceScaleTo: [100, 50],
         interactive: true,
-        interactionEvent: 'both',
+        interactionEvent: 'click',
       })
       // console.log('initCanvasSlide', this.mainCanvas)
       this.animation()
     },
     async animation() {
-      await pause(3)
+      await pause(2.5)
       this.isActive && this.counterNext()
-      await pause(3)
+      await pause(2.5)
       this.animation()
     },
     counterNext() {
