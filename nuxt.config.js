@@ -148,7 +148,9 @@ export default {
       const livePosts = liveData.map(post => `/live/${post.id}`)
       const newsData = require('./assets/json/news.json')
       const newsPosts = newsData.map(post => `/news/${post.id}`)
-      callback(null, [...newsPosts, ...livePosts])
+      const specialData = require('./assets/json/special.json')
+      const specialPosts = specialData.map(post => `/special/${post.id}`)
+      callback(null, [...newsPosts, ...livePosts, ...specialPosts])
     },
   },
 
