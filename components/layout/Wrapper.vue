@@ -20,6 +20,7 @@ export default {
 .wrapper {
   padding-top: calc(100vw * 20 / 375);
   padding-right: calc(100vw * 20 / 375);
+  overflow: hidden;
   //
   @include desktop {
     padding-top: calc(100vw * 30 / 1024);
