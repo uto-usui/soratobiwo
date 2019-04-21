@@ -149,6 +149,7 @@ export default {
 }
 
 .menu__target {
+  position: relative;
   display: inline-block;
   font-family: $font-Nunito;
   font-size: calc(100vw * 40 / 375);
@@ -158,6 +159,24 @@ export default {
   //
   @include desktop {
     font-size: calc(100vh * 80 / 768);
+    //
+    &::after {
+      z-index: -1;
+      content: '';
+      background-color: $color-red;
+      transition: transform 1s $easePowerInOut;
+      transform: scaleX(0);
+      transform-origin: left center;
+      //
+      @include overlay;
+    }
+    //
+    &:hover {
+      &::after {
+        transform: scaleX(1);
+        transform-origin: right center;
+      }
+    }
   }
   //
   @include widescreen {
