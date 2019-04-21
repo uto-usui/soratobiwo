@@ -12,10 +12,7 @@
           :key="`profileSection${index}`"
           class="profile__section"
         >
-          <h2 class="profile__title">
-            <div class="profile__title-en" v-text="item.titleEn" />
-            <div class="profile__title-ja" v-text="item.titleJa" />
-          </h2>
+          <Title2 :item="item" />
           <div v-if="item.artistImage" class="profile__artist-wrap">
             <img
               :src="require(`Images/${item.artistImage}`)"
@@ -46,50 +43,6 @@
     @include desktop {
       margin-top: calc(100vw * 100 / 1024);
     }
-  }
-}
-
-.profile__title {
-  position: relative;
-  margin-bottom: 30px;
-  //
-  @include desktop {
-    margin-bottom: calc(100vw * 35 / 1024);
-  }
-}
-
-.profile__title-en {
-  height: 0.85em;
-  font-family: $font-Nunito;
-  font-size: calc(100vw * 45 / 375);
-  font-weight: $font-Nunito-bold;
-  color: $color-primary;
-  text-align: right;
-  text-transform: uppercase;
-  mix-blend-mode: multiply;
-  //
-  @include touch {
-    margin-right: calc(100vw * 30 / 375 * -1);
-    margin-left: calc(100vw * 30 / 375 * -1);
-  }
-  //
-  @include desktop {
-    height: 0.75em;
-    margin-left: calc(100vw * 90 / 1024 * -1);
-    font-size: calc(100vw * 120 / 1024);
-    line-height: 0.85;
-    text-align: left;
-  }
-}
-
-.profile__title-ja {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: calc(100vw * 14 / 375);
-  //
-  @include desktop {
-    font-size: calc(100vw * 14 / 1024);
   }
 }
 
@@ -128,6 +81,7 @@ import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
 import HeroSub from '~/components/HeroSub'
+import Title2 from '~/components/Title2'
 
 import profileData from '~/assets/json/profile'
 
@@ -137,6 +91,7 @@ import { pause } from 'Js/animation'
 
 export default {
   components: {
+    Title2,
     Wrapper,
     HeroSub,
     MainOuter,
