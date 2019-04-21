@@ -167,6 +167,11 @@ export default {
 .list-follow__target {
   color: $color-white;
   border-bottom: 2px solid currentColor;
+  //
+  &:hover {
+    color: $color-gray-level1;
+    background-color: $color-white;
+  }
 }
 
 .list-follow__logo {
