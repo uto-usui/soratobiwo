@@ -16,10 +16,16 @@
             </div>
             <h2 class="list-disco__title" v-text="item.title" />
             <h3 class="list-disco__subtitle" v-text="item.titleSub" />
-            <p v-if="item.fee" class="list-disco__fee" v-text="item.fee" />
+            <p v-if="item.fee" class="list-disco__fee" v-html="item.fee" />
             <p v-if="item.text" class="list-disco__text" v-text="item.text" />
             <p v-if="item.soldOut" class="list-disco__sold">
               Thank you for sold out !
+            </p>
+            <p v-if="item.special" class="list-disco__special">
+              <n-link
+                :to="`/special/${item.slug}/`"
+                v-text="`${item.special}`"
+              />
             </p>
           </div>
           <div class="list-disco__right">
@@ -233,6 +239,34 @@ export default {
   //
   @include widescreen {
     font-size: calc(100vw * 12 / 1280);
+  }
+}
+
+.list-disco__special {
+  margin-top: calc(100vw * 10 / 375);
+  margin-bottom: calc(100vw * 10 / 375);
+  font-size: calc(100vw * 9 / 375);
+  //
+  @include desktop {
+    margin-top: calc(100vw * 10 / 1024);
+    margin-bottom: calc(100vw * 10 / 1024);
+    font-size: calc(100vw * 12 / 1024);
+  }
+  //
+  @include widescreen {
+    margin-top: calc(100vw * 15 / 1280);
+    margin-bottom: calc(100vw * 15 / 1280);
+    font-size: calc(100vw * 12 / 1280);
+  }
+  //
+  a {
+    color: inherit;
+    border-bottom: 2px solid currentColor;
+    //
+    &:hover {
+      color: $color-gray-level1;
+      background-color: $color-white;
+    }
   }
 }
 
