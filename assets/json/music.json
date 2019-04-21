@@ -1,5 +1,27 @@
 [
   {
+    "date": "2017-04-19T12:04:36",
+    "slug": "standbyme",
+    "title": "スタンドバイミー",
+    "titleSub": "1st Full Album",
+    "text": "",
+    "songs": [
+      "1.若者のすべて",
+      "2.KISS",
+      "3.青春のすべて",
+      "4.言えなくて、夏",
+      "5.神様、鍵かけて",
+      "6.シャンハイミー",
+      "7.アンテナと僕のすみか",
+      "8.ガールフレンド",
+      "9.さよなら、僕のシーラカンス",
+      "10.若者たち"
+    ],
+    "fee": "STMS-0001 <br /> ¥2000 (tax in)",
+    "img": "standbyme.jpg",
+    "special": "member comments page"
+  },
+  {
     "date": "2017-06-28T12:04:36",
     "slug": "shanghaime",
     "title": "シャンハイミー",
@@ -40,7 +62,7 @@
       "6.逃げ出してしまいたい",
       "7.さかな"
     ],
-    "fee": "￥1,620(tax in)",
+    "fee": "￥1,620 (tax in)",
     "soldOut": false,
     "img": "zutto.jpg"
   },
@@ -61,7 +83,7 @@
       "8.クジラウオ",
       "9.さよなら、さらば"
     ],
-    "fee": "¥1,500(tax in)",
+    "fee": "¥1,500 (tax in)",
     "soldOut": false,
     "img": "nautilus.jpg"
   }
