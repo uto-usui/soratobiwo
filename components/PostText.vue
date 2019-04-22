@@ -31,6 +31,7 @@ export default {
   }
   //
   @include fullhd {
+    max-width: 650px;
     font-size: 1.6rem;
     line-height: 2.5;
   }
