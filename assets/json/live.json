@@ -4,7 +4,7 @@
     "id": "2019-7-23-gattaca",
     "place": "京都 GATTACA",
     "info": [
-      "INFO INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
+      "INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
     ],
     "soldOut": false,
     "titleMobile": "スタンドバイミーrelease tour",
@@ -21,7 +21,7 @@
     "id": "2019-6-22-kdjapon",
     "place": "鶴舞 K.Dハポン",
     "info": [
-      "INFO INFO <a href=\"https://kdjapon.jimdo.com/\" target=\"_blank\">K.Dハポン -空き地-</a>"
+      "INFO <a href=\"https://kdjapon.jimdo.com/\" target=\"_blank\">K.Dハポン -空き地-</a>"
     ],
     "soldOut": false,
     "titleMobile": "音の波、言の葉、といろは",
@@ -65,11 +65,11 @@
     "hero": "live/2018/item02.jpg"
   },
   {
-    "date": "2019-05-12T17:41:31",
-    "id": "2019-5-12-slowbird",
+    "date": "2019-05-21T17:41:31",
+    "id": "2019-5-21-slowbird",
     "place": "心斎橋 Slow Bird",
     "info": [
-      "INFO INFO <a href=\"https://slowbird.jimdo.com/\" target=\"_blank\">Slow Bird</a>"
+      "INFO <a href=\"https://slowbird.jimdo.com/\" target=\"_blank\">Slow Bird</a>"
     ],
     "soldOut": false,
     "titleMobile": "Fly Me To The Moon",
