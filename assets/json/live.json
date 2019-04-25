@@ -1,5 +1,22 @@
 [
   {
+    "date": "2019-07-23T17:41:31",
+    "id": "2019-7-23-gattaca",
+    "place": "京都 GATTACA",
+    "info": [
+      "INFO INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "スタンドバイミーrelease tour",
+    "titleDesktop": "スタンドバイミーrelease tour",
+    "title": "「スタンドバイミー」release tour 『新説・クリス チェンバーズは生きている！』",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "GENNARI / 橙々 / THE SHELOVERS / かゑる / soratobiwo",
+    "fee": "adv ¥1,800 / door ¥2,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/04/20190723.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-06-22T17:41:31",
     "id": "2019-6-22-kdjapon",
     "place": "鶴舞 K.Dハポン",
@@ -46,6 +63,23 @@
     "act": "--",
     "fee": "adv ¥3,800 / door ¥-,--- / +1drink",
     "hero": "live/2018/item02.jpg"
+  },
+  {
+    "date": "2019-05-12T17:41:31",
+    "id": "2019-5-12-slowbird",
+    "place": "心斎橋 Slow Bird",
+    "info": [
+      "INFO INFO <a href=\"https://slowbird.jimdo.com/\" target=\"_blank\">Slow Bird</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Fly Me To The Moon",
+    "titleDesktop": "Fly Me To The Moon",
+    "title": "Fly Me To The Moon",
+    "time": "OPEN --:-- / START 19:00",
+    "act": "岩瀬敬吾 / 森本真伍（soratobiwo） / ライカシア / サカイアキラ / 小寺雅和",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_13.jpg",
+    "wp": true
   },
   {
     "date": "2019-05-10T17:21:25",
