@@ -67,6 +67,40 @@
     "wp": true
   },
   {
+    "date": "2019-06-16T17:41:31",
+    "id": "2019-6-16-kyotostation",
+    "place": "京都駅ビル東広場",
+    "info": [
+      "INFO <a href=\"https://goo.gl/maps/MiCA9Sp8SDy9GWZh7\" target=\"_blank\">京都駅 Map</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "a-LIVE SQUARE",
+    "titleDesktop": "a-LIVE SQUARE",
+    "title": "京都駅ビル presents a-LIVE SQUARE in 京都駅ビル",
+    "time": "OPEN --:-- / START 15:00",
+    "act": "梶本ヒロシ / soratobiwo",
+    "fee": "adv ¥free / door ¥free",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/05/20190616.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-06-08T17:32:38",
+    "id": "2019-6-8-rise-shunan",
+    "place": "山口 LIVE rise SHUNAN (森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"http://www.shunan-rise.com/\" target=\"_blank\">LIVE rise SHUNAN</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Art-usic",
+    "titleDesktop": "Art-usic",
+    "title": "Art-usic",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "EARNIE FROGs(名古屋) / soratobiwo(大阪) / kittyCrack(広島) / はる(広島) / 猫jealousy(福岡) / the relic(山口) and more... / live paint: いわもん / ユタ / 雨季朋美",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/05/20190608.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-06-01T17:32:38",
     "id": "2019-6-1-rise-shunan",
     "place": "山口 LIVE rise SHUNAN (森本真伍ソロ)",
@@ -93,9 +127,9 @@
     "titleMobile": "いつまでも世界は",
     "titleDesktop": "いつまでも世界は",
     "title": "ザ・シックスブリッツ主催 いつまでも世界は...第八回",
-    "time": "OPEN --:-- / START 12:00",
+    "time": "OPEN 11:30 / START 12:00",
     "act": "--",
-    "fee": "adv ¥3,800 / door ¥-,--- / +1drink",
+    "fee": "adv ¥3,800 / door 4,300 / +1drink",
     "hero": "live/2018/item02.jpg"
   },
   {
