@@ -1,5 +1,22 @@
 [
   {
+    "date": "2019-08-18T17:41:31",
+    "id": "2019-8-18-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "音の波、言の葉、といろは",
+    "titleDesktop": "音の波、言の葉、といろは",
+    "title": "音の波、言の葉、といろは 其ﾉ十二 歌う魚編",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "大瀧ヌーバンド（名古屋） / 森本真伍（soratobiwo） / 井澤聖一（モケーレムベンベ） / 西脇庸介（神戸）",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/05/20190818.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-07-23T17:41:31",
     "id": "2019-7-23-gattaca",
     "place": "京都 GATTACA",
@@ -131,38 +148,5 @@
     "act": "--",
     "fee": "adv ¥3,800 / door 4,300 / +1drink",
     "hero": "live/2018/item02.jpg"
-  },
-  {
-    "date": "2019-05-21T17:41:31",
-    "id": "2019-5-21-slowbird",
-    "place": "心斎橋 Slow Bird (森本真伍ソロ)",
-    "info": [
-      "INFO <a href=\"https://slowbird.jimdo.com/\" target=\"_blank\">Slow Bird</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "Fly Me To The Moon",
-    "titleDesktop": "Fly Me To The Moon",
-    "title": "Fly Me To The Moon",
-    "time": "OPEN --:-- / START 19:00",
-    "act": "岩瀬敬吾 / 森本真伍（soratobiwo） / ライカシア / サカイアキラ / 小寺雅和",
-    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_13.jpg",
-    "wp": true
-  },
-  {
-    "date": "2019-05-11T17:21:25",
-    "id": "2019-5-11-iroha",
-    "place": "四日市 ドレミファといろは",
-    "info": [
-      "INFO <a href=\"https://www.doremifatoiroha.com/\" target=\"_blank\">四日市 ドレミファといろは</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "音の波、言の葉、といろは",
-    "titleDesktop": "音の波、言の葉、といろは",
-    "title": "音の波、言の葉、といろは 其ノ十",
-    "time": "OPEN 18:00 / START 1830",
-    "act": "髙橋レオ(ドン・タカハシ) / いとまとあやこ / the Tiger / soratobiwo",
-    "fee": "adv ¥2,000 / door ¥2,000 / +1order",
-    "hero": "live/2019/0511.jpg"
   }
 ]

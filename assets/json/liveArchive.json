@@ -1,5 +1,22 @@
 [
   {
+    "date": "2019-05-21T17:41:31",
+    "id": "2019-5-21-slowbird",
+    "place": "心斎橋 Slow Bird (森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"https://slowbird.jimdo.com/\" target=\"_blank\">Slow Bird</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Fly Me To The Moon",
+    "titleDesktop": "Fly Me To The Moon",
+    "title": "Fly Me To The Moon",
+    "time": "OPEN --:-- / START 19:00",
+    "act": "岩瀬敬吾 / 森本真伍（soratobiwo） / ライカシア / サカイアキラ / 小寺雅和",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_13.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-05-11T17:21:25",
     "id": "2019-5-11-iroha",
     "place": "四日市 ドレミファといろは",
