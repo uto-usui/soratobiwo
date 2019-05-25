@@ -64,11 +64,18 @@
 
 .profile__text {
   position: relative;
-  font-size: calc(100vw * 12 / 375);
-  line-height: 2;
+  max-width: 550px;
+  font-size: 1.2rem;
+  line-height: 1.95;
   //
   @include desktop {
-    font-size: calc(100vw * 14 / 1024);
+    font-size: 1.4rem;
+    line-height: 2.25;
+  }
+  //
+  @include fullhd {
+    max-width: 650px;
+    font-size: 1.6rem;
     line-height: 2.5;
   }
 }
