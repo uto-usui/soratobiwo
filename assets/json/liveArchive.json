@@ -1,4 +1,37 @@
 [
+
+  {
+    "date": "2019-06-01T17:32:38",
+    "id": "2019-6-1-rise-shunan",
+    "place": "山口 LIVE rise SHUNAN (森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"http://www.shunan-rise.com/\" target=\"_blank\">LIVE rise SHUNAN</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "connect hatching",
+    "titleDesktop": "connect hatching",
+    "title": "connect hatching",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "コガラチヒロ(東京) / 高瀬裕充 / 原田侑子 / ME〈P〉WL（広島） / 森本真伍（soratobiwo） / photo ユタ",
+    "fee": "adv ¥2,500 / door ¥2,500 / 県外割引-¥500 / +1drink",
+    "hero": "live/2019/0601.jpg"
+  },
+  {
+    "date": "2019-05-26T17:24:01",
+    "id": "2019-5-26-kyoto-muse",
+    "place": "京都26会場のサーキット",
+    "info": [
+      "INFO <a href=\"http://www.sekaiwa.info/index.html\" target=\"_blank\">イベントページ</a><br> チケット購入<br> Pコード：145-239<br> Lコード：52706<br> e+：<a href=\"https://eplus.jp/sf/detail/2880740001-P0030001\" target=\"_blank\">https://eplus.jp/sf/detail/2880740001-P0030001</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "いつまでも世界は",
+    "titleDesktop": "いつまでも世界は",
+    "title": "ザ・シックスブリッツ主催 いつまでも世界は...第八回",
+    "time": "OPEN 11:30 / START 12:00",
+    "act": "--",
+    "fee": "adv ¥3,800 / door 4,300 / +1drink",
+    "hero": "live/2018/item02.jpg"
+  },
   {
     "date": "2019-05-21T17:41:31",
     "id": "2019-5-21-slowbird",
