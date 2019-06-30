@@ -1,5 +1,71 @@
 [
-
+  {
+    "date": "2019-06-22T17:41:31",
+    "id": "2019-6-22-kdjapon",
+    "place": "鶴舞 K.Dハポン",
+    "info": [
+      "INFO <a href=\"https://kdjapon.jimdo.com/\" target=\"_blank\">K.Dハポン -空き地-</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "音の波、言の葉、といろは",
+    "titleDesktop": "音の波、言の葉、といろは",
+    "title": "音の波、言の葉、といろは 其ノ十一 ハポン編",
+    "time": "OPEN 17:30 / START 18:30",
+    "act": "ドン・タカハシ / soratobiwo / OA. 大森貴太(百長)",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
+    "hero": "live/2019/0622.jpg"
+  },
+  {
+    "date": "2019-06-17T17:41:31",
+    "id": "2019-6-17-BananaHall",
+    "place": "梅田 BananaHall",
+    "info": [
+      "INFO <a href=\"https://www.banana-hall.com/\" target=\"_blank\">梅田 BananaHall</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "hand to hand",
+    "titleDesktop": "hand to hand",
+    "title": "hand to hand vol.15 SMASH YOUTH 16th Anniversary!!!",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "SMASH YOUTH / soratobiwo / カタオカセブン(東京) / GENNARI(京都) / 我、君に咲き誇る(名古屋) / ウエダケイタ",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_34.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-06-16T17:41:31",
+    "id": "2019-6-16-kyotostation",
+    "place": "京都駅ビル東広場",
+    "info": [
+      "INFO <a href=\"https://goo.gl/maps/MiCA9Sp8SDy9GWZh7\" target=\"_blank\">京都駅 Map</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "a-LIVE SQUARE",
+    "titleDesktop": "a-LIVE SQUARE",
+    "title": "京都駅ビル presents a-LIVE SQUARE in 京都駅ビル",
+    "time": "OPEN --:-- / START 15:00",
+    "act": "梶本ヒロシ / soratobiwo",
+    "fee": "adv ¥free / door ¥free",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/05/20190616.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-06-08T17:32:38",
+    "id": "2019-6-8-rise-shunan",
+    "place": "山口 LIVE rise SHUNAN",
+    "info": [
+      "INFO <a href=\"http://www.shunan-rise.com/\" target=\"_blank\">LIVE rise SHUNAN</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Art-usic",
+    "titleDesktop": "Art-usic",
+    "title": "Art-usic",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "EARNIE FROGs(名古屋) / soratobiwo(大阪) / kittyCrack(広島) / はる(広島) / 猫jealousy(福岡) / the relic(山口) and more... / live paint: いわもん / ユタ / 雨季朋美",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/05/20190608.jpg",
+    "wp": true
+  },
   {
     "date": "2019-06-01T17:32:38",
     "id": "2019-6-1-rise-shunan",
