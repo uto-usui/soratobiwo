@@ -154,5 +154,50 @@ export default {
     },
   },
 
-  workbox: { cachingExtensions: '~/plugins/workbox-range-request.js' },
+  workbox: {
+    cachingExtensions: '~/plugins/workbox-range-request.js',
+    runtimeCaching: [
+      // wp assets
+      {
+        urlPattern: `/wp-content/.*`,
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: {
+          cacheExpiration: {
+            maxAgeSeconds: 60 * 60 * 24 * 7, // 1 week
+          },
+          cacheableResponse: {
+            statuses: [200],
+          },
+        },
+      },
+      // wp rest API response
+      {
+        urlPattern: `/wp-json/.*`,
+        handler: 'networkFirst',
+        method: 'GET',
+        strategyOptions: {
+          cacheExpiration: {
+            maxAgeSeconds: 60 * 60 * 24 * 7, // 1 week
+          },
+          cacheableResponse: {
+            statuses: [200],
+          },
+        },
+      },
+      // google fonts
+      {
+        urlPattern: 'https://fonts.googleapis.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+      },
+      {
+        urlPattern: 'https://fonts.gstatic.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+      },
+    ],
+  },
 }
