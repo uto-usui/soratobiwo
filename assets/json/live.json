@@ -17,6 +17,23 @@
     "wp": true
   },
   {
+    "date": "2019-09-21T17:41:31",
+    "id": "2019-09-21-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ベアフットエイジーズ12",
+    "titleDesktop": "ベアフットエイジーズ12",
+    "title": "モケーレムベンベ企画『ベアフットエイジーズ12』-モケーレムベンベ1st E.P.「通りすぎる町」release party-",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "モケーレムベンベ / ベランパレード / soratobiwo",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/07/S__33759235.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-09-01T17:41:31",
     "id": "2019-09-01-utausakana",
     "place": "心斎橋 歌う魚",
@@ -52,7 +69,7 @@
   },
   {
     "date": "2019-08-25T17:21:25",
-    "id": "2019-08-25-iroha",
+    "id": "2019-08-25-nano",
     "place": "ナノボロフェスタ2019 (森本真伍ソロ)",
     "info": [
       "INFO <a href=\"https://borofesta.jp/nanoboro/\" target=\"_blank\">ナノボロフェスタ2019</a><br><a href=\" https://eplus.jp/borofesta\" target=\"_blank\">e+</a>"
