@@ -119,6 +119,8 @@ export default {
 }
 
 .list__top {
+  position: relative;
+  z-index: 5;
   //
   @include desktop {
     position: absolute;
