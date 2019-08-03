@@ -17,6 +17,40 @@
     "wp": true
   },
   {
+    "date": "2019-11-02T17:41:31",
+    "id": "2019-11-02-cafe",
+    "place": "cafe ロト・プルチーノ",
+    "info": [
+      "INFO <a href=\"https://lotopulcino.business.site/\" target=\"_blank\">cafe ロト・プルチーノ</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "good time, good day special live",
+    "titleDesktop": "good time, good day special live",
+    "title": "good time, good day special live",
+    "time": "OPEN 17:00 / START 18:00",
+    "act": "EARNIE FROGs(fr.Nagoya) / soratobiwo / 三国未来+@ / repuro / Shop: nana.(嶽下なな)",
+    "fee": "adv ¥1,000 / door ¥-,--- / +2drink (¥1,000)",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/08/20191102.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-10-26T17:41:31",
+    "id": "2019-10-26-kbs",
+    "place": "ボロフェスタ2019 京都KBSホール",
+    "info": [
+      "INFO <a href=\"https://borofesta.jp/\" target=\"_blank\">ボロフェスタ2019 OFFICIAL</a> <a href=\" https://eplus.jp/sf/word/44386\" target=\"_blank\">TICKET: e+</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ボロフェスタ2019",
+    "titleDesktop": "ボロフェスタ2019",
+    "title": "ボロフェスタ2019",
+    "time": "OPEN 11:00 / START 11:55",
+    "act": "YAKUSHIMA TREASURE(水曜日のカンパネラ x オオルタイチ) / Homecomings Chamber Set / Hump Back / ハルカミライ / フィロソフィーのダンス / LEARNERS / ハンブレッダーズ / toconoma / DENIMS / 台風クラブ / 愛はズボーン / OUTATBERO / ワンダフルボーイズ / ELEKIBASS / 突然少年 / No Buses / 徳利 / Hi,how are you? / HALFBY / FEELIN’FELLOWS DJs / soratobiwo / 君島大空 / xiangyu / in the blue shirt / さとうもか / Sawa Angstrom / 浪漫革命 / DAIJIRO NAKAGAWA(from JYOCHO) / NaNoMoRaL / アイアムアイ / nishikeke / mogran’BAR / KID FRESINO / 柴田聡子 / Tempalay / Age Factory / NOT WONK / ズーカラデル / the engy / teto / 踊る！ディスコ室町 / THE FULL TEENZ / YOLZ IN THE SKY / クリトリック・リス / ボギー / folk enough / Acidy Peeping Tom（From Taiwan） / Johnnivan / the seadays / Gue / toe / Polaris / Limited Express (has gone?)×ロベルト吉野 / ミツメ / King Gnu / カネコアヤノ（バンドセット） / SuiseiNoboAz / 思い出野郎Aチーム / Homecomings / GEZAN / KONCOS / Koochewsen / ナードマグネット / ゆーきゃんカラス・クインテット / 折坂悠太 / ラッキーオールドサン / The Chorizo Vibes / ベランパレード / おとぼけビ～バ～ / 台風クラブ / Hello Hawk / 河内REDS / ベランダ / アイアムアイ / Moccobond / メシアと人人 / ULTRA CUB / わたなべよしくに / ときめき☆ジャンボジャンボ",
+    "fee": "adv ¥5,000 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2017/06/38.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-09-21T17:41:31",
     "id": "2019-09-21-knave",
     "place": "南堀江 knave",
@@ -32,6 +66,22 @@
     "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/07/S__33759235.jpg",
     "wp": true
+  },
+  {
+    "date": "2019-09-16T17:41:31",
+    "id": "2019-9-16-utausakana",
+    "place": "心斎橋 歌う魚 (森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "逢ふれる〜弾き語り編",
+    "titleDesktop": "逢ふれる〜弾き語り編",
+    "title": "逢ふれる〜弾き語り編 vol.2〜",
+    "time": "OPEN 15:00 / START 15:30",
+    "act": "杉本小生&あらた(脳内麻薬ズ) / Ūki(pixy lit the Brooklyn.) / 森本真伍(soratobiwo) / ふなむし(quolia) / 富岡大輝 / 岡本冬馬(the whimsical glider) / 藤原祐太(PRIMAL) / ミヤザキナツキ(砂場) / 林田裕馬(橙々)",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
+    "hero": "live/2019/0601.jpg"
   },
   {
     "date": "2019-09-01T17:41:31",
@@ -103,7 +153,7 @@
   {
     "date": "2019-08-18T17:41:31",
     "id": "2019-8-18-utausakana",
-    "place": "心斎橋 歌う魚",
+    "place": "心斎橋 歌う魚 (森本真伍ソロ)",
     "info": [
       "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>"
     ],
@@ -150,90 +200,5 @@
     "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
     "hero": "live/2018/item02.jpg",
     "wp": false
-  },
-  {
-    "date": "2019-07-28T17:41:31",
-    "id": "2019-7-28-NEVERLAND",
-    "place": "奈良 NEVERLAND",
-    "info": [
-      "INFO <a href=\"http://nara-neverland.com/pc/\" target=\"_blank\">奈良 NEVERLAND</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "スタンドバイミーrelease tour",
-    "titleDesktop": "スタンドバイミーrelease tour",
-    "title": "「スタンドバイミー」release tour 『新説・クリス チェンバーズは生きている！』",
-    "time": "OPEN 17:00 / START 17:30",
-    "act": "soratobiwo / 寂しがり屋なピアニシモ / 阿南遼介 / And Because / 夜な夜な / nonari ueda(Birthday Act)",
-    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/06/20190728.jpg",
-    "wp": true
-  },
-  {
-    "date": "2019-07-23T17:41:31",
-    "id": "2019-7-23-gattaca",
-    "place": "京都 GATTACA",
-    "info": [
-      "INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "スタンドバイミーrelease tour",
-    "titleDesktop": "スタンドバイミーrelease tour",
-    "title": "「スタンドバイミー」release tour 『新説・クリス チェンバーズは生きている！』",
-    "time": "OPEN 17:30 / START 18:00",
-    "act": "GENNARI / 橙々 / THE SHELOVERS / かゑる / soratobiwo",
-    "fee": "adv ¥1,800 / door ¥2,300 / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/04/20190723.jpg",
-    "wp": true
-  },
-  {
-    "date": "2019-07-21T17:41:31",
-    "id": "2019-07-21-vijon",
-    "place": "北堀江 club vijon",
-    "info": [
-      "INFO <a href=\"https://vijon.jp//\" target=\"_blank\">北堀江 club vijon</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "GOOD MUSIC, GOOD BEER vol.1",
-    "titleDesktop": "GOOD MUSIC, GOOD BEER vol.1",
-    "title": "寂しがり屋なピアニシモ 1st single 「waves of planets」 GOOD MUSIC, GOOD BEER vol.1",
-    "time": "OPEN 11:30 / START 12:00",
-    "act": "寂しがり屋なピアニシモ / soratobiwo / shule And christmas / 103CA / airlie / Food: spice house カリーノアトリエ",
-    "fee": "adv ¥2,300 / door ¥2,800 / +1drink / お魚ロック割引: お魚ロック2019のPASS持参で￥500＋1drink代で入場",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/06/20190721.jpg",
-    "wp": true
-  },
-  {
-    "date": "2019-07-14T17:41:31",
-    "id": "2019-7-14-osakana",
-    "place": "大阪堀江 5会場",
-    "info": [
-      "INFO <a href=\"https://osakana-fes.com/\" target=\"_blank\">堀江 お魚ロックフェスティバル 2019</a> <br> <a href=\"https://eplus.jp/sf/detail/2896190001-P0030001\" target=\"_blank\">e+イープラス</a> <br> <a href=\"https://twitter.com/osakanafes\" target=\"_blank\">@osakanafes</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "堀江 お魚ロックフェスティバル 2019",
-    "titleDesktop": "堀江 お魚ロックフェスティバル 2019",
-    "title": "堀江 お魚ロックフェスティバル 2019",
-    "time": "OPEN 11:00 / START 12:00",
-    "act": "soratobiwo / GOING UNDER GROUND / about a ROOM / airlie / Andare / 弱虫倶楽部 / Nicetime Workerz / PERO / ULTRACUB / UNUBORE / YURERU PINK TOPAZ / アマイ ワナ / いつまでもそのテンポで / イヌガヨ / カトキット / ギャーギャーズ / スキッツォイドマン / ふるかわののこ / モケーレムベンベ / 四丁目のアンナ / Bacon / 林青空 / 百長 / 鈴木実貴子ズ / Dr.FOOL / EARNIE FROGs / komodo Inc. / OKOJO / shule And christmas / GENNARI / PURPLE HUMPTY / ステレオタイプ / ザ・シックスブリッツ / nishikeke / スムージチークス / ワゴンズ / 橙々 / 浅野毅 / ナツコポラリス / わたなべよしくに / 猫を堕ろす / ヒミツノミヤコ / memento森 / SAPPY / ソウルフード / RED EARTH / 空中ループ",
-    "fee": "adv ¥3,500 / +1drink",
-    "hero": "https://osakana-fes.com/ogp.png",
-    "wp": true
-  },
-  {
-    "date": "2019-06-30T17:41:31",
-    "id": "2019-6-30-tataraba",
-    "place": "名古屋 鑪ら場 (森本真伍ソロ)",
-    "info": [
-      "INFO <a href=\"http://tataraba-live.com/\" target=\"_blank\">鑪ら場</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "名古屋 鑪ら場",
-    "titleDesktop": "名古屋 鑪ら場",
-    "title": "名古屋 鑪ら場",
-    "time": "OPEN 12:30 / START 13:00",
-    "act": "岩瀬敬吾 / 篠山浩生(THURSDAY’S YOUTH) / 森本真伍(soratobiwo)",
-    "fee": "adv ¥2,000 / door ¥-,---- / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2017/06/54.jpg",
-    "wp": true
   }
 ]
