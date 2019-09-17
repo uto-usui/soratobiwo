@@ -1,5 +1,22 @@
 [
   {
+    "date": "2019-12-01T17:32:38",
+    "id": "2019-12-1-rise-shunan",
+    "place": "山口 LIVE rise SHUNAN",
+    "info": [
+      "INFO <a href=\"http://www.shunan-rise.com/\" target=\"_blank\">LIVE rise SHUNAN</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Art-usic",
+    "titleDesktop": "Art-usic",
+    "title": "Art-usic",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "THREEOUT(名古屋) / EARNIE FROGs(名古屋) / soratobiwo(大阪) / the paddles(大阪) / mimosa(愛媛) / Trinity(山口) / 【絵描き】いわもん/ ユタ / Chacha. /【photo】 慶太郎",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2016/10/26.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-11-09T17:41:31",
     "id": "2019-11-09-vijon",
     "place": "北堀江 club vijon",
@@ -31,6 +48,23 @@
     "act": "EARNIE FROGs(fr.Nagoya) / soratobiwo / 三国未来+@ / repuro / Shop: nana.(嶽下なな)",
     "fee": "adv ¥1,000 / door ¥-,--- / +2drink (¥1,000)",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/08/20191102.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-10-28T17:41:31",
+    "id": "2019-10-28-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp//\" target=\"_blank\">北堀江 club vijon</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "松藤ROCK FESTIVAL'19 day2千秋楽「藤」",
+    "titleDesktop": "松藤ROCK FESTIVAL'19 day2千秋楽「藤」",
+    "title": "松藤ROCK FESTIVAL'19 day2千秋楽「藤」",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "あいくれ / イヌガヨ / um-hum / カトキット / シンクロニシティ / soratobiwo / 四丁目のアンナ",
+    "fee": "adv ¥2,500 / door ¥3,000 / 2日通し券 ¥3,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/09/20191028.jpg",
     "wp": true
   },
   {
