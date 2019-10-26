@@ -3,8 +3,16 @@
     "name": "apple music",
     "items": [
       {
+        "name": "スタンドバイミー",
+        "link": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%90%E3%82%A4%E3%83%9F%E3%83%BC/1481935694?app=music&ign-mpt=uo%3D4"
+      },
+      {
         "name": "ずっと魚になりたかった",
         "link": "https://itunes.apple.com/jp/album/%E3%81%9A%E3%81%A3%E3%81%A8%E9%AD%9A%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8B%E3%81%A3%E3%81%9F/1458975109"
+      },
+      {
+        "name": "nautilus",
+        "link": "https://music.apple.com/jp/album/nautilus/1481934985?app=music&ign-mpt=uo%3D4"
       }
     ]
   },
@@ -12,7 +20,15 @@
     "name": "spotify",
     "items": [
       {
+        "name": "スタンドバイミー",
+        "link": "https://open.spotify.com/album/1MvgwsvsuQXrGURiGA6ENF"
+      },
+      {
         "name": "ずっと魚になりたかった",
+        "link": "https://open.spotify.com/album/1MvgwsvsuQXrGURiGA6ENF"
+      },
+      {
+        "name": "nautilus",
         "link": "https://open.spotify.com/album/3PhnbaUPHlQhftR01xO8mn"
       }
     ]
