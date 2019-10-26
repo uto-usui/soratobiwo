@@ -1,5 +1,22 @@
 [
   {
+    "date": "2019-12-06T17:32:38",
+    "id": "2019-12-6-fandango",
+    "place": "Live Bar fandango",
+    "info": [
+      "INFO <a href=\"https://www.fandango-go.com/jp/jindex.htm\" target=\"_blank\">Live Bar fandango</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "松田直也企画 堺クリティカルヒット！！",
+    "titleDesktop": "松田直也企画 堺クリティカルヒット！！",
+    "title": "松田直也企画 堺クリティカルヒット！！",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "blondy / soratobiwo / 人性補欠 / ロケットボーイズ",
+    "fee": "adv ¥2,000 / door ¥2,500 / (学生証提示で500円OFF) +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/10/20191206.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-12-01T17:32:38",
     "id": "2019-12-1-rise-shunan",
     "place": "山口 LIVE rise SHUNAN",
@@ -12,8 +29,25 @@
     "title": "Art-usic",
     "time": "OPEN 18:00 / START 18:30",
     "act": "THREEOUT(名古屋) / EARNIE FROGs(名古屋) / soratobiwo(大阪) / the paddles(大阪) / mimosa(愛媛) / Trinity(山口) / 【絵描き】いわもん/ ユタ / Chacha. /【photo】 慶太郎",
-    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink ",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2016/10/26.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-11-24T17:41:31",
+    "id": "2019-11-24-horie",
+    "place": "堀江 ２会場 サーキットイベント",
+    "info": [
+      "INFO e + <a href=\"https://eplus.jp/sf/detail/3076400001-P0030001\" target=\"_blank\">https://eplus.jp/sf/detail/3076400001-P0030001</a>※ SOCORE FACTORYと南堀江knaveの2会場サーキット形式 ※リストバンド交換はknave1階の受付で11時より"
+    ],
+    "soldOut": false,
+    "titleMobile": "君がそうなら僕はこう主催サーキットイベント ［スーパーほめロックフェスタ2019］",
+    "titleDesktop": "君がそうなら僕はこう主催サーキットイベント ［スーパーほめロックフェスタ2019］",
+    "title": "君がそうなら僕はこう主催サーキットイベント ［スーパーほめロックフェスタ2019］",
+    "time": "OPEN 12:00 / START 13:00",
+    "act": "君がそうなら僕はこう / アシガルユース / ワタナベフラワー / Agorophius / ヒミツノミヤコ / 安西彩矢 / ウエダケイタ / 花柄ランタン / sotatobiwo / and more...",
+    "fee": "adv ¥3,000 / door ¥3,500 / (※中学生以下半額) +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/10/20191124.jpg",
     "wp": true
   },
   {
