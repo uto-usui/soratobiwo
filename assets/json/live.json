@@ -17,6 +17,23 @@
     "wp": true
   },
   {
+    "date": "2019-12-30T13:18:34",
+    "id": "2019-12-30-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "STAR FESTIVAL2019冬 DAY2",
+    "titleDesktop": "STAR FESTIVAL2019冬 DAY2",
+    "title": "STAR FESTIVAL2019冬 DAY2",
+    "time": "OPEN 13:30 / START 14:00",
+    "act": "Yellow Studs / モケーレムベンベ / soratobiwo / それでも尚、未来に媚びる / 理科室コーヒー実験ブレンド / TAKIMOTO.age / ネコレクション / ウパルパ猫dogプロペラ猫dogいぬ",
+    "fee": "adv ¥2,900 / door ¥3,400 / ※2日通し券(5000円)はknave店頭にて11.21より販売開始(数量限定),",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-12-30T17:41:31",
     "id": "2019-12-30-vijon",
     "place": "北堀江 club vijon",
@@ -31,6 +48,23 @@
     "act": "...",
     "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/11/2019-12-30.jpg",
+    "wp": true
+  },
+  {
+    "date": "2019-12-20T17:41:31",
+    "id": "2019-12-20-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp//\" target=\"_blank\">北堀江 club vijon</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ウチミズ、爆誕。〜妖精ナイト〜",
+    "titleDesktop": "ウチミズ、爆誕。〜妖精ナイト〜",
+    "title": "ウチミズ、爆誕。〜妖精ナイト〜",
+    "time": "OPEN 23:30 / START 23:50",
+    "act": "メタボリックシンジゲート / STEP UP BOYS(ｶﾘ) / Agorophius / ロボトミートロボ / soratobiwo / 淀川パリジェンヌ / 男肉du solaile / 岸っしゃん / DJ - せんむ。 / つむ,",
+    "fee": "adv ¥2,000 / door ¥2,000 / ※ワンマンのチケット半券提示でチケット代¥1,000キャッシュバック / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/11/2019-12-20.jpg",
     "wp": true
   },
   {
