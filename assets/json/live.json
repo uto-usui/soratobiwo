@@ -1,5 +1,22 @@
 [
   {
+    "date": "2020-04-11T13:44:29",
+    "id": "2020-4-11-mujikamujina",
+    "place": "ムジカムジナ2020",
+    "info": [
+      "INFO  <a href=\"http://mujica-mujina.com\" target=\"_blank\">「ムジカムジナ」特設サイト</a><br>  <a href=\"https://twitter.com/mujica_mujina\" target=\"_blank\">「ムジカムジナ」ツイッター</a><br>  <a href=\"https://www.facebook.com/events/2351826481558956/\" target=\"_blank\">「ムジカムジナ」フェイスブックページ</a><br>  <a href=\"https://line.me/R/ti/p/%40sqw4207p\" target=\"_blank\">「ムジカムジナ」LINE@(友達追加URL)</a> <br><a href=\"https://eplus.jp/sf/detail/3190780001-P0030001\" target=\"_blank\">プレイガイド (eプラス)</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ムジカムジナ2020",
+    "titleDesktop": "ムジカムジナ2020",
+    "title": "ムジカムジナ2020",
+    "time": "OPEN 11:30 / START 12:30",
+    "act": "アシガルユース / ISEKI(ex.キマグレン) / 大柴広己 / Quadrifoglio～かなことえいことしほとまこ～ / サスケ / ステレオタイプ / soratobiwo / 東京60WATTS / トミタショウゴバンド / Nobusan`s / ふらっと♭ / ポセイドン・石川 / PONGEE / マツモトコウジ / ワタナベフラワー / ····and more!!",
+    "fee": "チケット購入者 ¥3,800 / ホームページ予約(取り置き) ¥3,800 / 当日券 ¥4,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2019/12/20200411.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-03-25T17:18:34",
     "id": "2020-3-25-knave",
     "place": "南堀江 knave",
