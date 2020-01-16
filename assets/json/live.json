@@ -51,6 +51,40 @@
     "wp": true
   },
   {
+    "date": "2020-03-07T17:41:31",
+    "id": "2020-3-7-gattaca",
+    "place": "京都 GATTACA",
+    "info": [
+      "INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ろでぃぞうpresents『愛フェス』",
+    "titleDesktop": "ろでぃぞうpresents『愛フェス』",
+    "title": "ろでぃぞうpresents『愛フェス』",
+    "time": "OPEN 13:00 / START 13:30",
+    "act": "Dr.FOOL / about a ROOM / スムージチークス / soratobiwo / 橙々 / AOI MOMENT / and more / food ろでぃぞうの愛飯,",
+    "fee": "adv ¥2,800 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/01/2020-03-07.jpg",
+    "wp": true
+  },
+  {
+    "date": "2020-02-24T17:41:31",
+    "id": "2020-2-24-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ロックトゥザフューチャー13",
+    "titleDesktop": "ロックトゥザフューチャー13",
+    "title": "ステレオタイプ企画 ロックトゥザフューチャー13",
+    "time": "OPEN --:-- / START --:--",
+    "act": "--",
+    "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/01/2020-02-24.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-01-14T17:41:31",
     "id": "2020-1-14-vijon",
     "place": "北堀江 club vijon",
