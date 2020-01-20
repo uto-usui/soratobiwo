@@ -17,6 +17,23 @@
     "wp": true
   },
   {
+    "date": "2020-04-05T17:18:34",
+    "id": "2020-4-5-knave",
+    "place": "梅田 Zeela",
+    "info": [
+      "INFO <a href=\"https://osaka-zeela.jp/\" target=\"_blank\">梅田 Zeela</a> <br> <a href=\"https://sorekobi.com/oifes-2020/\" target=\"_blank\">OIFES 2020 ｜ それでも尚、未来に媚びる</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "オーバーイグニッションフェスティバル オイフェス 2020",
+    "titleDesktop": "オーバーイグニッションフェスティバル オイフェス 2020",
+    "title": "オーバーイグニッションフェスティバル オイフェス 2020",
+    "time": "OPEN 14:00 / START 14:30",
+    "act": "ANABANTFULLS / BAN'S ENCOUNTER / IRIE BOYS / KAKASHI / soratobiwo / それでも世界が続くなら / 毛利翔太郎(LONE) / 森智義 / それでも尚、未来に媚びる / ... and more!! / フード カレーライスおじさん",
+    "fee": "adv ¥3,000 / door ¥-,--- / 2日通し券 ¥4,500",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/01/2020-04-05.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-03-25T17:18:34",
     "id": "2020-3-25-knave",
     "place": "南堀江 knave",
