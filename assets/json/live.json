@@ -1,5 +1,22 @@
 [
   {
+    "date": "2020-05-24T17:24:01",
+    "id": "2020-5-24-kyoto-muse",
+    "place": "京都サーキット",
+    "info": [
+      "INFO <a href=\"http://www.sekaiwa.info/\" target=\"_blank\">イベントページ</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "いつまでも世界は",
+    "titleDesktop": "いつまでも世界は",
+    "title": "いつまでも世界は .第九回",
+    "time": "OPEN --:-- / START --:--",
+    "act": "--",
+    "fee": "adv ¥-,--- / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/10/4b354172aa11d0074be960192442f5b3.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-04-13T13:44:29",
     "id": "2020-4-13-live-house-pangea",
     "place": "心斎橋 Live House Pangea",
@@ -11,7 +28,7 @@
     "titleDesktop": "キャットウォーク！-Gum Girl 2nd EP “b.eatle EP” Release Party in OSAKA-",
     "title": "キャットウォーク！-Gum Girl 2nd EP “b.eatle EP” Release Party in OSAKA-",
     "time": "OPEN 18:00 / START 18:30",
-    "act": "Gum Girl / POP ART TOWN / 四丁目のアンナ / soratobiwo",
+    "act": "Gum Girl / POP ART TOWN / 四丁目のアンナ / soratobiwo / DJ enou",
     "fee": "adv ¥2,500 / door ¥3,000",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/02/2020-4-13.jpg",
     "wp": true
