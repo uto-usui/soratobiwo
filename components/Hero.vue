@@ -45,12 +45,9 @@ export default {
     return {
       height: '',
       images: [
-        require('Images/sakura/item0.jpg'),
-        require('Images/sakura/item2.jpg'),
-        require('Images/sakura/item1.jpg'),
-        require('Images/sakura/item3.jpg'),
-        require('Images/sakura/item5.jpg'),
-        require('Images/sakura/item8.jpg'),
+        require('Images/2020/1.jpg'),
+        require('Images/2020/2.jpg'),
+        require('Images/2020/3.jpg'),
       ],
       isActive: true,
       imagesSrc: [],
