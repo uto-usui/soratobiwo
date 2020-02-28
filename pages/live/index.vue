@@ -2,7 +2,7 @@
   <Wrapper class="live" :get-page-ready="getPageReady">
     <MainOuter class="live">
       <HeroSub
-        :image="require('Images/hero/item7.jpg')"
+        :image="require('Images/2020/6.jpg')"
         :title="`live`"
         :get-page-ready="getPageReady"
       />

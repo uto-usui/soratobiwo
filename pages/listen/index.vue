@@ -2,7 +2,7 @@
   <Wrapper class="listen" :get-page-ready="getPageReady">
     <MainOuter>
       <HeroSub
-        :image="require('Images/hero/item19.jpg')"
+        :image="require('Images/2020/5.jpg')"
         :title="`listen`"
         :get-page-ready="getPageReady"
       />

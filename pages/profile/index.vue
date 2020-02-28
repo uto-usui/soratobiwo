@@ -2,7 +2,7 @@
   <Wrapper class="profile" :get-page-ready="getPageReady">
     <MainOuter>
       <HeroSub
-        :image="require('Images/hero/item2.jpg')"
+        :image="require('Images/2020/8.jpg')"
         :title="`profile`"
         :get-page-ready="getPageReady"
       />

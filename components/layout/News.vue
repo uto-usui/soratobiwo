@@ -71,8 +71,8 @@ export default {
     async textAnimation() {
       this.sfText.setText(this.newsData[this.counter].title)
       this.sfText.start()
-      this.counterNext()
       await pause(5)
+      this.counterNext()
       this.textAnimation()
     },
     counterNext() {

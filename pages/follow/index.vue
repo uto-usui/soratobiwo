@@ -2,7 +2,7 @@
   <Wrapper class="follow" :get-page-ready="getPageReady">
     <MainOuter>
       <HeroSub
-        :image="require('Images/hero/item15.jpg')"
+        :image="require('Images/2020/4.jpg')"
         :title="`follow`"
         :get-page-ready="getPageReady"
       />
