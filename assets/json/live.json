@@ -17,6 +17,23 @@
     "wp": true
   },
   {
+    "date": "2020-06-11T17:47:38",
+    "id": "2020-6-11-rocktown",
+    "place": "阿倍野 ROCKTOWN",
+    "info": [
+      "INFO  <a href=\"http://rocktown.jp/index.html\" target=\"_blank\">ROCKTOWN　OFFICIAL WEB SITE</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Andend boom Pre.【NE\"X\"TAGE】",
+    "titleDesktop": "Andend boom Pre.【NE\"X\"TAGE】",
+    "title": "Andend boom Pre.【NE\"X\"TAGE】",
+    "time": "OPEN --:-- / START --:--",
+    "act": "Andend boom / soratobiwo / chouchou / Leica / 遣ノ雨 / ...and more",
+    "fee": "adv ¥2,400 / door ¥2,900 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/03/20200611.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-05-24T17:24:01",
     "id": "2020-5-24-kyoto-muse",
     "place": "京都サーキット",
@@ -121,13 +138,13 @@
   {
     "date": "2020-04-11T13:44:29",
     "id": "2020-4-11-mujikamujina",
-    "place": "ムジカムジナ2020",
+    "place": "ムジカムジナ2020 開催中止",
     "info": [
       "INFO  <a href=\"http://mujica-mujina.com\" target=\"_blank\">「ムジカムジナ」特設サイト</a><br>  <a href=\"https://twitter.com/mujica_mujina\" target=\"_blank\">「ムジカムジナ」ツイッター</a><br>  <a href=\"https://www.facebook.com/events/2351826481558956/\" target=\"_blank\">「ムジカムジナ」フェイスブックページ</a><br>  <a href=\"https://line.me/R/ti/p/%40sqw4207p\" target=\"_blank\">「ムジカムジナ」LINE@(友達追加URL)</a> <br><a href=\"https://eplus.jp/sf/detail/3190780001-P0030001\" target=\"_blank\">プレイガイド (eプラス)</a>"
     ],
-    "soldOut": false,
-    "titleMobile": "ムジカムジナ2020",
-    "titleDesktop": "ムジカムジナ2020",
+    "soldOut": true,
+    "titleMobile": "ムジカムジナ2020 開催中止",
+    "titleDesktop": "ムジカムジナ2020 開催中止",
     "title": "ムジカムジナ2020",
     "time": "OPEN 11:30 / START 12:30",
     "act": "アシガルユース / ISEKI(ex.キマグレン) / 大柴広己 / Quadrifoglio～かなことえいことしほとまこ～ / サスケ / ステレオタイプ / soratobiwo / 東京60WATTS / トミタショウゴバンド / Nobusan`s / ふらっと♭ / ポセイドン・石川 / PONGEE / マツモトコウジ / ワタナベフラワー / ····and more!!",
