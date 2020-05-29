@@ -1,5 +1,21 @@
 [
-
+  {
+    "date": "2020-05-24T17:24:01",
+    "id": "2020-5-24-kyoto-muse",
+    "place": "京都サーキット",
+    "info": [
+      "INFO <a href=\"http://www.sekaiwa.info/\" target=\"_blank\">イベントページ</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "いつまでも世界は",
+    "titleDesktop": "いつまでも世界は",
+    "title": "いつまでも世界は .第九回",
+    "time": "OPEN --:-- / START --:--",
+    "act": "--",
+    "fee": "adv ¥-,--- / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/10/4b354172aa11d0074be960192442f5b3.jpg",
+    "wp": true
+  },
   {
     "date": "2020-04-27T17:47:38",
     "id": "2020-4-27-growly",

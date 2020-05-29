@@ -34,20 +34,24 @@
     "wp": true
   },
   {
-    "date": "2020-05-24T17:24:01",
-    "id": "2020-5-24-kyoto-muse",
-    "place": "京都サーキット",
+    "date": "2020-06-01T17:41:31",
+    "id": "2020-6-1-vijon",
+    "place": "北堀江 club vijon",
     "info": [
-      "INFO <a href=\"http://www.sekaiwa.info/\" target=\"_blank\">イベントページ</a>"
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "INFO <a href=\"https://twitcasting.tv/clubvijon/shopcart/7528/\" target=\"_blank\">ツイキャスプレミアム配信</a>",
+      "INFO <a href=\"https://botshop.thebase.in/items/29547636/\" target=\"_blank\">サイン入りバックステージパス(投げ銭)</a>",
+      "INFO <a href=\"https://store.bitfan.id/vijonlive/items/340\" target=\"_blank\">出演者に好きなドリンク差し入れ</a>",
+      "INFO <a href=\"https://store.bitfan.id/vijonlive/items/342\" target=\"_blank\">club vijon出演者に好きなシャンパン差し入れ</a>"
     ],
     "soldOut": false,
-    "titleMobile": "いつまでも世界は",
-    "titleDesktop": "いつまでも世界は",
-    "title": "いつまでも世界は .第九回",
-    "time": "OPEN --:-- / START --:--",
-    "act": "--",
-    "fee": "adv ¥-,--- / door ¥-,--- / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/10/4b354172aa11d0074be960192442f5b3.jpg",
+    "titleMobile": "vijon生放送無観客ライブ",
+    "titleDesktop": "vijon生放送無観客ライブ",
+    "title": "3manツイキャスプレミアムライブ vijon生放送無観客ライブ",
+    "time": "OPEN 19:30 / START 20:30",
+    "act": "ソウルフード / 森本真伍 (soratobiwo) / 寺澤ちゃん(RED EARTH)",
+    "fee": "adv ¥1,500 / door ¥1,500",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/05/20200601.jpg",
     "wp": true
   }
 ]
