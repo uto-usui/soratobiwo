@@ -17,6 +17,23 @@
     "wp": true
   },
   {
+    "date": "2020-06-17T17:47:38",
+    "id": "2020-6-17-utau-sakana-youtube",
+    "place": "歌う魚 youtube channel",
+    "info": [
+      "INFO  <a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">歌う魚 youtube channel</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "眼鏡の向こう側 配信2マンライブ",
+    "titleDesktop": "眼鏡の向こう側 配信2マンライブ",
+    "title": "眼鏡の向こう側-井澤聖一(モケーレムベンベ)×森本真伍(soratobiwo) 配信2マンライブ-",
+    "time": "OPEN 19:00 / START 19:10",
+    "act": "井澤聖一(モケーレムベンベ) / 森本真伍(soratobiwo)",
+    "fee": "adv ¥f,ree / door ¥f,ree / ",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/02/2020_1.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-06-11T17:47:38",
     "id": "2020-6-11-rocktown",
     "place": "阿倍野 ROCKTOWN",
@@ -24,9 +41,9 @@
       "INFO  <a href=\"http://rocktown.jp/index.html\" target=\"_blank\">ROCKTOWN　OFFICIAL WEB SITE</a>"
     ],
     "soldOut": false,
-    "titleMobile": "Andend boom Pre.【NE\"X\"TAGE】",
-    "titleDesktop": "Andend boom Pre.【NE\"X\"TAGE】",
-    "title": "Andend boom Pre.【NE\"X\"TAGE】",
+    "titleMobile": "Andend boom Pre.【NE\"X\"TAGE】 公演中止",
+    "titleDesktop": "Andend boom Pre.【NE\"X\"TAGE】 公演中止",
+    "title": "Andend boom Pre.【NE\"X\"TAGE】 公演中止",
     "time": "OPEN 17:00 / START 17:30",
     "act": "Andend boom / soratobiwo / chouchou / Leica / 遣ノ雨 / しらぬい(名古屋)",
     "fee": "adv ¥2,400 / door ¥2,900 / +1drink",
