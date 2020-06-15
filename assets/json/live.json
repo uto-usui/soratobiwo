@@ -17,8 +17,8 @@
     "wp": true
   },
   {
-    "date": "2020-06-17T17:47:38",
-    "id": "2020-6-17-utau-sakana-youtube",
+    "date": "2020-06-27T17:47:38",
+    "id": "2020-6-27-utau-sakana-youtube",
     "place": "歌う魚 youtube channel",
     "info": [
       "INFO  <a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">歌う魚 youtube channel</a>"
@@ -56,10 +56,10 @@
     "place": "北堀江 club vijon",
     "info": [
       "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
-      "INFO <a href=\"https://twitcasting.tv/clubvijon/shopcart/7528/\" target=\"_blank\">ツイキャスプレミアム配信</a>",
-      "INFO <a href=\"https://botshop.thebase.in/items/29547636/\" target=\"_blank\">サイン入りバックステージパス(投げ銭)</a>",
-      "INFO <a href=\"https://store.bitfan.id/vijonlive/items/340\" target=\"_blank\">出演者に好きなドリンク差し入れ</a>",
-      "INFO <a href=\"https://store.bitfan.id/vijonlive/items/342\" target=\"_blank\">club vijon出演者に好きなシャンパン差し入れ</a>"
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/7528/\" target=\"_blank\">ツイキャスプレミアム配信</a>",
+      "<a href=\"https://botshop.thebase.in/items/29547636/\" target=\"_blank\">サイン入りバックステージパス(投げ銭)</a>",
+      "<a href=\"https://store.bitfan.id/vijonlive/items/340\" target=\"_blank\">出演者に好きなドリンク差し入れ</a>",
+      "<a href=\"https://store.bitfan.id/vijonlive/items/342\" target=\"_blank\">club vijon出演者に好きなシャンパン差し入れ</a>"
     ],
     "soldOut": false,
     "titleMobile": "vijon生放送無観客ライブ",
