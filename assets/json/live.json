@@ -2,16 +2,21 @@
   {
     "date": "2020-07-19T17:41:31",
     "id": "2020-7-19-osakana",
-    "place": "大阪堀江 6会場",
+    "place": "大阪堀江 3会場 + youtube",
     "info": [
-      "INFO <a href=\"https://twitter.com/osakanafes\" target=\"_blank\">@osakanafes</a>"
+      "INFO <a href=\"https://twitter.com/osakanafes\" target=\"_blank\">@osakanafes</a>",
+      "○各会場入場規制があります。",
+      "○チケット受付させていただいたときに予約してもらったバンドは優先的に見ていただけるようになります。出演時間の１５分前までに会場にお越しください。",
+      "○各ライブハウス1アーティストごとに換気のため、入場者の入れ替えを行います。ご了承ください。",
+      "<img src=\"https://wp.soratobiwo.com/wp-content/uploads/2020/06/2020-07-19.jpg\" alt=\"\">",
+      "<img src=\"https://wp.soratobiwo.com/wp-content/uploads/2020/06/2020-07-19-2.jpg\" alt=\"\">"
     ],
     "soldOut": false,
     "titleMobile": "お魚フェス2020",
     "titleDesktop": "お魚フェス2020",
     "title": "お魚フェス2020",
-    "time": "OPEN 11:00 / START 12:00",
-    "act": "60組",
+    "time": "OPEN 12:00 / START 13:00",
+    "act": "live house: soratobiwo / um-hum / MILKBAR / airlie / 雰囲気バンド / アマイワナ / アフターアワーズ / ALL ITEM 10 TIMES / モケーレムベンベ / ギャーギャーズ / スキッツォイドマン / Bacon / RobotMeetRobo / 鈴木実貴子ズ / ザ・シックスブリッツ / イヌガヨ / シンガロンパレード / GENNARI / Andend boom / shule And christmas / ハレルヤ / 井上ヤスオバーガー / 寂しがり屋なピアニシモ / スムージチークス / ヒミツノミヤコ / バニーブルース / asmi / 百長 / ステレオタイプ / ジャンキー58% / 寺澤ちゃん / 浅野毅 / UNUBORE || youtube: 花柄ランタン / Pororoca / 橙々 / まちぶせ / ワゴンズ / 四丁目のアンナ / セカイイチ(アコースティック) / soratobiwo",
     "fee": "adv ¥3,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/02/11507297844983.jpg",
     "wp": true
