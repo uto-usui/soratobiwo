@@ -1,5 +1,58 @@
 [
   {
+    "date": "2019-08-25T17:21:25",
+    "id": "2019-8-25-iroha",
+    "place": "四日市 ドレミファといろは (森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"https://www.doremifatoiroha.com/\" target=\"_blank\">四日市 ドレミファといろは</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "週末でもないのに",
+    "titleDesktop": "週末でもないのに",
+    "title": "週末でもないのに",
+    "time": "OPEN 19:30 / START 20:00",
+    "act": "西島衛（京都・シックスブリッツ） / 森本真伍（大阪・soratobiwo）",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1order",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/08/20200825.jpg",
+    "wp": true
+  },
+  {
+    "date": "2020-08-16T17:41:31",
+    "id": "2020-8-16-natsuuta",
+    "place": "京都スタジオIZ + 配信",
+    "info": [
+      "INFO <a href=\"http://studio-iz.net/natsuuta2020/\" target=\"_blank\">natsuuta 2020</a>",
+      " （ご予約はイベントHPでご案内しているメールアドレスのみで受付ます）",
+      "オンライン配信配信：投げ銭熱望"
+    ],
+    "soldOut": false,
+    "titleMobile": "今年の夏も歌が聴こえた～2020",
+    "titleDesktop": "今年の夏も歌が聴こえた～2020",
+    "title": "今年の夏も歌が聴こえた～2020",
+    "time": "OPEN 12:00 / START 13:00",
+    "act": "井上ヤスオバーガー / 大野賢治 / 北小路直也(MILKBAR) / 河野圭佑 / 酒井ヒロキ / 杉本ラララ / 武田英祐一(リモート出演者) / 谷井大介 / タマキング / チャー絆 / 村島洋一 / 森本真伍(soratobiwo) / 山口進(夜ハ短),",
+    "fee": "adv ¥3,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/08/20200816.jpg",
+    "wp": true
+  },
+  {
+    "date": "2020-08-02T17:41:31",
+    "id": "2020-8-2-nano",
+    "place": "京都nano + 配信",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>"
+    ],
+    "soldOut": true,
+    "titleMobile": "合体！ソラトモケーレム・ビヲベンベ",
+    "titleDesktop": "合体！ソラトモケーレム・ビヲベンベ",
+    "title": "合体！ソラトモケーレム・ビヲベンベ",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "soratobiwo モケーレムベンベ",
+    "fee": "adv ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/08/20200802.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-07-19T17:41:31",
     "id": "2020-7-19-osakana",
     "place": "大阪堀江 3会場 + youtube",
