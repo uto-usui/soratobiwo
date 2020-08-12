@@ -1,5 +1,25 @@
 [
   {
+    "date": "2020-08-23T17:41:31",
+    "id": "2020-8-23-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp//\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (着席40名限定) <a href=\"https://tiget.net/events/100054\" target=\"_blank\">購入はこちら</a>",
+      "配信チケット¥1,500 ツイキャスプレミアム<a href=\"https://twitcasting.tv/clubvijon/shopcart/18516\" target=\"_blank\">購入はこちら</a>",
+      "※40名限定の着席ライブになっております。<br>※大阪府から発表された「ライブハウスにおける感染拡大予防に関わる業種別暫定ガイドライン（令和2年5月）」に沿って運営いたします。<br>※お客様はマスクの着用を必須とします。<br>※ご入場時お並びになられる際、1m以上の距離を保って頂きます。<br>※ご入場時の検温をいたします。平熱ではない場合、ご入場をお断りいたします。<br>※大阪府のコロナ追跡システムのQRコードスマホで読み取ってご登録頂きます。"
+    ],
+    "soldOut": false,
+    "titleMobile": "-無事、安全にサーキット出来たよ大感謝SPECIAL-",
+    "titleDesktop": "-無事、安全にサーキット出来たよ大感謝SPECIAL-",
+    "title": "【堀江 お魚アフターパーティー 】無事、安全にサーキット出来たよ大感謝SPECIAL",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "soratobiwo / RobotMeetRobo / grunband / and more 後日発表",
+    "fee": "online ¥1,500 / door ¥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/08/20200823.jpg",
+    "wp": true
+  },
+  {
     "date": "2019-08-25T17:21:25",
     "id": "2019-8-25-iroha",
     "place": "四日市 ドレミファといろは (森本真伍ソロ)",
