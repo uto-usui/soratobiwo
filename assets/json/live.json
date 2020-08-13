@@ -1,24 +1,5 @@
 [
   {
-    "date": "2020-09-01T17:41:31",
-    "id": "2020-09-01-utausakana",
-    "place": "心斎橋 歌う魚",
-    "info": [
-      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
-      "<a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">配信はこちら</a>",
-      "<a href=\"https://passmarket.yahoo.co.jp/event/show/detail/01pujh1154w5w.html\" target=\"_blank\">投げ銭はこちら</a>"
-    ],
-    "soldOut": false,
-    "titleMobile": "続続・僕達の青春のすべて",
-    "titleDesktop": "続続・僕達の青春のすべて",
-    "title": "歌う魚-3rd Anniversary-ちゃっかり愛で鯛1匹目- 続続・僕達の青春のすべて",
-    "time": "OPEN 19:00 / START 19:30",
-    "act": "松本素生(GOING UNDER GROUND) / soratobiwo",
-    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/08/20200901.jpg",
-    "wp": true
-  },
-  {
     "date": "2020-08-23T17:41:31",
     "id": "2020-8-23-vijon",
     "place": "北堀江 club vijon",
@@ -39,8 +20,8 @@
     "wp": true
   },
   {
-    "date": "2019-08-25T17:21:25",
-    "id": "2019-8-25-iroha",
+    "date": "2020-08-25T17:21:25",
+    "id": "2020-8-25-iroha",
     "place": "四日市 ドレミファといろは (森本真伍ソロ)",
     "info": [
       "INFO <a href=\"https://www.doremifatoiroha.com/\" target=\"_blank\">四日市 ドレミファといろは</a>"
