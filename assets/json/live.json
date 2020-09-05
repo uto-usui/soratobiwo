@@ -1,5 +1,22 @@
 [
   {
+    "date": "2020-10-13T17:18:34",
+    "id": "2020-10-13-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a> <a href=\"https://twitcasting.tv/c:knave__/shopcart/23362\" target=\"_blank\">視聴券2500円(ツイキャスプレミア)</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Midnight Express",
+    "titleDesktop": "Midnight Express",
+    "title": "Midnight Express",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "弱虫倶楽部 / soratobiwo / 穢土川番狂わす / HELLO,SADNESS",
+    "fee": "adv ¥2,500 / door ¥3,000 / twitcasting ¥2,500",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/09/20201013.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-09-01T17:41:31",
     "id": "2020-09-01-utausakana",
     "place": "心斎橋 歌う魚",
