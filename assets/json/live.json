@@ -1,5 +1,24 @@
 [
   {
+    "date": "2020-10-25T17:41:31",
+    "id": "2020-10-25-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp//\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (スタンディング60名限定) <a href=\"https://tiget.net/events/104854\" target=\"_blank\">購入はこちら</a>",
+      "配信チケット¥1,500 ツイキャスプレミアム<a href=\"https://tiget.net/events/104857\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "松藤ROCK FESTIVAL'20 day2 中日「藤」",
+    "titleDesktop": "松藤ROCK FESTIVAL'20 day2 中日「藤」",
+    "title": "松藤ROCK FESTIVAL'20 day2 中日「藤」",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "grunband / さんかくとバツ / メタボリックシンジゲート / アシガルユース / RobotMeetRobo / soratobiwo",
+    "fee": "online ¥1,500 / door ¥2,500 +1drink / 3days ticket ¥6,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/09/20201025.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-10-13T17:18:34",
     "id": "2020-10-13-knave",
     "place": "南堀江 knave",
