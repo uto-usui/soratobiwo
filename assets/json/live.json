@@ -1,5 +1,22 @@
 [
   {
+    "date": "2020-11-3T17:41:31",
+    "id": "2020-11-3-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "soraとbar",
+    "titleDesktop": "soraとbar",
+    "title": "soraとbar",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "soratobiwo / MILKBAR",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/10/20201103.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-10-25T17:41:31",
     "id": "2020-10-25-vijon",
     "place": "北堀江 club vijon",
