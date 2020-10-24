@@ -1,5 +1,17 @@
 [
   {
+    "date": "2020-10-24T20:00:00",
+    "id": "osakana-fes-2020",
+    "title": "HANDRED MUSIC 楽曲掲載",
+    "titleMobile": "HANDRED MUSIC 楽曲掲載",
+    "titleDesktop": "HANDRED MUSIC 楽曲掲載",
+    "info": [
+      "新しい音楽プラットフォーム<a href=\"https://www.handred.co.jp/music/author/soratobiwo/\" target=\"_blank\">「HANDRED MUSIC」</a>にて、soratobiwoの曲が掲載されました！<br>是非ご覧ください！<br>"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/10/4b354172aa11d0074be960192442f5b3.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-06-06T20:00:00",
     "id": "osakana-fes-2020",
     "title": "2020/7/19（日）お魚フェス開催決定",
