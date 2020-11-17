@@ -6,53 +6,73 @@ export const CanvasSlides = function(options) {
   //  OPTIONS
   /// ---------------------------
   options = options || {}
+  // eslint-disable-next-line no-prototype-builtins
   options.target = options.hasOwnProperty('target') ? options.target : null
+  // eslint-disable-next-line no-prototype-builtins
   options.stageWidth = options.hasOwnProperty('stageWidth')
     ? options.stageWidth
     : 1920
+  // eslint-disable-next-line no-prototype-builtins
   options.stageHeight = options.hasOwnProperty('stageHeight')
     ? options.stageHeight
     : 1080
+  // eslint-disable-next-line no-prototype-builtins
   options.pixiSprites = options.hasOwnProperty('sprites') ? options.sprites : []
+  // eslint-disable-next-line no-prototype-builtins
   options.centerSprites = options.hasOwnProperty('centerSprites')
     ? options.centerSprites
     : false
-  options.texts = options.hasOwnProperty('texts') ? options.texts : []
+  // eslint-disable-next-line no-prototype-builtins
+  options.texts = options.hasOwnProperty('texts') ? options.texts : [] // eslint-disable-next-line no-prototype-builtins
+
+  // eslint-disable-next-line no-prototype-builtins
   options.autoPlay = options.hasOwnProperty('autoPlay')
     ? options.autoPlay
     : true
+  // eslint-disable-next-line no-prototype-builtins
   options.autoPlaySpeed = options.hasOwnProperty('autoPlaySpeed')
     ? options.autoPlaySpeed
     : [10, 3]
+  // eslint-disable-next-line no-prototype-builtins
   options.fullScreen = options.hasOwnProperty('fullScreen')
     ? options.fullScreen
     : true
+  // eslint-disable-next-line no-prototype-builtins
   options.displaceScale = options.hasOwnProperty('displaceScale')
     ? options.displaceScale
     : [200, 70]
+  // eslint-disable-next-line no-prototype-builtins
   options.displacementImage = options.hasOwnProperty('displacementImage')
     ? options.displacementImage
     : ''
+  // eslint-disable-next-line no-prototype-builtins
   options.navElement = options.hasOwnProperty('navElement')
     ? options.navElement
     : document.querySelectorAll('.scene-nav')
+  // eslint-disable-next-line no-prototype-builtins
   options.displaceAutoFit = options.hasOwnProperty('displaceAutoFit')
     ? options.displaceAutoFit
     : false
+  // eslint-disable-next-line no-prototype-builtins
   options.wacky = options.hasOwnProperty('wacky') ? options.wacky : false
+  // eslint-disable-next-line no-prototype-builtins
   options.interactive = options.hasOwnProperty('interactive')
     ? options.interactive
     : false
+  // eslint-disable-next-line no-prototype-builtins
   options.interactionEvent = options.hasOwnProperty('interactionEvent')
     ? options.interactionEvent
     : ''
   options.displaceScaleTo = options.autoPlay === false ? [0, 0] : [20, 20]
+  // eslint-disable-next-line no-prototype-builtins
   options.textColor = options.hasOwnProperty('textColor')
     ? options.textColor
     : '#fff'
+  // eslint-disable-next-line no-prototype-builtins
   options.displacementCenter = options.hasOwnProperty('displacementCenter')
     ? options.displacementCenter
     : false
+  // eslint-disable-next-line no-prototype-builtins
   options.dispatchPointerOver = options.hasOwnProperty('dispatchPointerOver')
     ? options.dispatchPointerOver
     : false

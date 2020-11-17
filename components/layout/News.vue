@@ -15,9 +15,9 @@
       <p class="news__text">
         <nuxt-link
           ref="text"
-          class="news__target"
           :to="`/news/${newsData[counter].id}/`"
           v-text="newsData[counter].title"
+          class="news__target"
         />
       </p>
     </div>

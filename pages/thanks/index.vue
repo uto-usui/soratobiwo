@@ -42,9 +42,8 @@
 
 <script>
 import { mapActions } from 'vuex'
-import HeadMixin from '~/mixins/Head'
-
 import { pause } from 'Js/animation'
+import HeadMixin from '~/mixins/Head'
 
 export default {
   components: {

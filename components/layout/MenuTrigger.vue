@@ -1,6 +1,6 @@
 <template>
   <div class="menu-trigger">
-    <a class="menu-trigger__inner" @click.prevent="toggleMenuOpen">
+    <a @click.prevent="toggleMenuOpen" class="menu-trigger__inner">
       <p class="menu-trigger__text">
         menu
       </p>

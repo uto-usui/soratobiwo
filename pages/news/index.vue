@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="live" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="live">
     <MainOuter class="live">
       <HeroSub
         :image="require('Images/2020/7.jpg')"
@@ -16,6 +16,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -25,8 +26,6 @@ import List from '~/components/List'
 import newsData from '~/assets/json/news'
 
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

@@ -1,7 +1,7 @@
 <template>
   <h2 class="title2">
-    <div class="title2-en" v-text="item.titleEn" />
-    <div class="title2-ja" v-text="item.titleJa" />
+    <div v-text="item.titleEn" class="title2-en" />
+    <div v-text="item.titleJa" class="title2-ja" />
   </h2>
 </template>
 

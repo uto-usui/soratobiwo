@@ -1,5 +1,5 @@
 <template>
-  <p class="post-text" v-html="text" />
+  <p v-html="text" class="post-text" />
 </template>
 
 <script>

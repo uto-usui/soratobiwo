@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="listen" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="listen">
     <MainOuter>
       <HeroSub
         :image="require('Images/2020/5.jpg')"
@@ -21,6 +21,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -32,8 +33,6 @@ import listenData from '~/assets/json/listen'
 import musicData from '~/assets/json/music'
 
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

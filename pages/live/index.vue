@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="live" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="live">
     <MainOuter class="live">
       <HeroSub
         :image="require('Images/2020/6.jpg')"
@@ -16,6 +16,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -25,8 +26,6 @@ import List from '~/components/List'
 import liveJson from '~/assets/json/live'
 
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 const liveData = liveJson.filter(el => new Date(el.date) > new Date()).reverse()
 

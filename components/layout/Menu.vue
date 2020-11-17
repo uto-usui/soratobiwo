@@ -9,8 +9,8 @@
           <span class="menu__item-inner">
             <nuxt-link
               :to="`/`"
-              class="menu__target"
               @click="setMenuOpen(false)"
+              class="menu__target"
               >home</nuxt-link
             >
           </span>
@@ -23,9 +23,9 @@
           <span class="menu__item-inner">
             <nuxt-link
               :to="`/${item}/`"
-              class="menu__target"
               @click="setMenuOpen(false)"
               v-html="item"
+              class="menu__target"
             />
           </span>
         </li>

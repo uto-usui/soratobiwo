@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="follow" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="follow">
     <MainOuter>
       <HeroSub
         :image="require('Images/2020/4.jpg')"
@@ -16,6 +16,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -25,8 +26,6 @@ import FollowList from '~/components/FollowList'
 import followData from '~/assets/json/follow'
 
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

@@ -4,28 +4,28 @@
       <div class="article__head">
         <h1
           v-if="post.title"
-          class="article__title"
           v-html="getIsDesktop ? post.titleDesktop : post.titleMobile"
+          class="article__title"
         />
         <div class="article__head-inner">
           <time
             v-if="post.date"
-            class="article__date"
             v-text="getDate(post.date)"
+            class="article__date"
           />
-          <p v-if="post.place" class="article__place" v-html="post.place" />
+          <p v-if="post.place" v-html="post.place" class="article__place" />
         </div>
       </div>
       <div class="article__body">
-        <h2 v-if="post.title" class="article__title-sub" v-html="post.title" />
+        <h2 v-if="post.title" v-html="post.title" class="article__title-sub" />
         <p
           v-if="getIsDesktop && post.place"
-          class="article__place-pc"
           v-html="post.place"
+          class="article__place-pc"
         />
-        <p v-if="post.act" class="article__act" v-html="post.act"></p>
-        <p v-if="post.time" class="article__time" v-html="post.time"></p>
-        <p v-if="post.fee" class="article__fee" v-html="post.fee"></p>
+        <p v-if="post.act" v-html="post.act" class="article__act"></p>
+        <p v-if="post.time" v-html="post.time" class="article__time"></p>
+        <p v-if="post.fee" v-html="post.fee" class="article__fee"></p>
         <div v-if="post.info[0]" class="article__info">
           <p
             v-for="(item, index) in post.info"

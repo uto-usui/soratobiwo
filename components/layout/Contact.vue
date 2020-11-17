@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <a href="#" class="contact__text" @click.prevent="setFormOpen(true)">
+    <a @click.prevent="setFormOpen(true)" href="#" class="contact__text">
       cont<span>a</span>ct
     </a>
     <div class="contact__bar" />

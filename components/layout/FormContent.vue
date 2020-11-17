@@ -27,7 +27,7 @@
             <label class="form__label"
               ><span class="form__text">ご用件</span>
               <select class="form__input" name="role">
-                <option value="--" v-text="`--`" />
+                <option v-text="`--`" value="--" />
                 <option
                   v-for="(_item, _index) in roleData"
                   :key="`role${_index}`"
@@ -40,7 +40,7 @@
             <label class="form__label"
               ><span class="form__text">イベント会場</span>
               <select class="form__input" name="event">
-                <option value="--" v-text="`--`" />
+                <option v-text="`--`" value="--" />
                 <option
                   v-for="(item, index) in liveData.filter(
                     el => new Date(el.date) > new Date(),
@@ -72,18 +72,18 @@
         </div>
       </form>
     </div>
-    <div class="form__close" @click.prevent="setFormOpen(false)">
+    <div @click.prevent="setFormOpen(false)" class="form__close">
       <ButtonClose />
     </div>
   </div>
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex'
 import ButtonClose from '~/components/ButtonClose'
 
 import liveJson from '~/assets/json/live'
 import Date from '~/mixins/Date'
-import { mapGetters, mapActions } from 'vuex'
 
 const liveData = [...liveJson].filter(el => el.soldOut !== true).reverse()
 

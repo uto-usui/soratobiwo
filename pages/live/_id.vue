@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="live" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="live">
     <MainOuter>
       <MainInner>
         <Article :get-is-desktop="getIsDesktop" :post="post" />
@@ -14,6 +14,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -23,8 +24,6 @@ import ArticleBottom from '~/components/ArticleBottom'
 
 import HeadMixin from '~/mixins/Head'
 import liveData from '~/assets/json/live'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

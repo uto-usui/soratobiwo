@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="special" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="special">
     <MainOuter class="special">
       <HeroSub
         :image="require(`Images/album/${post.name}.jpg`)"
@@ -37,6 +37,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -49,8 +50,6 @@ import PostText from '~/components/PostText'
 import specialJson from '~/assets/json/special'
 
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

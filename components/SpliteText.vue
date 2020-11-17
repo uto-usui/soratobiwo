@@ -1,11 +1,11 @@
 <template>
   <span
-    class="sprite-text"
     :style="{
       animationDelay: `${delay}s`,
       animationDuration: `${duration}s`,
     }"
     v-text="item"
+    class="sprite-text"
   />
 </template>
 

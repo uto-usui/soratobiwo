@@ -1,5 +1,5 @@
 <template>
-  <Wrapper class="profile" :get-page-ready="getPageReady">
+  <Wrapper :get-page-ready="getPageReady" class="profile">
     <MainOuter>
       <HeroSub
         :image="require('Images/2020/8.jpg')"
@@ -20,7 +20,7 @@
               class="profile__artist"
             />
           </div>
-          <p v-if="item.text" class="profile__text" v-html="item.text" />
+          <p v-if="item.text" v-html="item.text" class="profile__text" />
         </div>
       </MainInner>
     </MainOuter>
@@ -84,6 +84,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import MainInner from '~/components/MainInner'
 import MainOuter from '~/components/MainOuter'
@@ -93,8 +94,6 @@ import Title2 from '~/components/Title2'
 import profileData from '~/assets/json/profile'
 
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

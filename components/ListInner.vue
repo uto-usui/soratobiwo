@@ -1,14 +1,16 @@
 <template>
-  <nuxt-link
-    v-if="isLink"
-    :to="`/${$store.state.route.name}/${slug}/`"
-    class="list-inner"
-  >
-    <slot />
-  </nuxt-link>
-  <div v-else class="list-inner">
-    <slot />
-  </div>
+  <span>
+    <nuxt-link
+      v-if="isLink"
+      :to="`/${$store.state.route.name}/${slug}/`"
+      class="list-inner"
+    >
+      <slot />
+    </nuxt-link>
+    <div v-else class="list-inner">
+      <slot />
+    </div>
+  </span>
 </template>
 
 <script>

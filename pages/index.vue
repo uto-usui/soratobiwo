@@ -6,11 +6,10 @@
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
+import { pause } from 'Js/animation'
 import Wrapper from '~/components/layout/Wrapper'
 import Hero from '~/components/Hero'
 import HeadMixin from '~/mixins/Head'
-
-import { pause } from 'Js/animation'
 
 export default {
   components: {

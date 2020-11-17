@@ -4,8 +4,8 @@
       <div
         ref="text"
         :class="{ 'is-show': show }"
-        class="title1__inner"
         v-html="text"
+        class="title1__inner"
       />
     </div>
   </h2>

@@ -16,9 +16,9 @@
               >
                 <a
                   :href="_item.link"
+                  v-html="_item.name"
                   target="_blank"
                   class="list-follow__target"
-                  v-html="_item.name"
                 ></a>
               </li>
             </ul>

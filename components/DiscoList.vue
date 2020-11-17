@@ -14,10 +14,10 @@
                 class="list-disco__figure"
               ></figure>
             </div>
-            <h2 class="list-disco__title" v-text="item.title" />
-            <h3 class="list-disco__subtitle" v-text="item.titleSub" />
-            <p v-if="item.fee" class="list-disco__fee" v-html="item.fee" />
-            <p v-if="item.text" class="list-disco__text" v-text="item.text" />
+            <h2 v-text="item.title" class="list-disco__title" />
+            <h3 v-text="item.titleSub" class="list-disco__subtitle" />
+            <p v-if="item.fee" v-html="item.fee" class="list-disco__fee" />
+            <p v-if="item.text" v-text="item.text" class="list-disco__text" />
             <p v-if="item.soldOut" class="list-disco__sold">
               Thank you for sold out !
             </p>
@@ -33,8 +33,8 @@
               <li
                 v-for="(_item, _index) in item.songs"
                 :key="`song${_index}`"
-                class="list-disco__song"
                 v-text="_item"
+                class="list-disco__song"
               />
             </ul>
           </div>

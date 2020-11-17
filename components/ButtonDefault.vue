@@ -1,5 +1,5 @@
 <template>
-  <div class="button-default" v-text="text" />
+  <div v-text="text" class="button-default" />
 </template>
 
 <script>

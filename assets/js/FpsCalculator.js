@@ -5,6 +5,7 @@ export class FpsCalculator {
     this._prevTime = this._beginTime
     this._frames = 0
   }
+
   start() {
     if (this._isRunning) {
       return null
@@ -24,10 +25,12 @@ export class FpsCalculator {
     }
     loop()
   }
+
   stop() {
     this._isRunning = false
     this._frames = 0
   }
+
   _update() {
     this._frames++
     const prevTime = this._prevTime
