@@ -10,10 +10,29 @@
     "titleMobile": "2nd full album release I Need To Be In Love -青春の輝き-",
     "titleDesktop": "2nd full album release I Need To Be In Love -青春の輝き-",
     "title": "2nd full album release I Need To Be In Love -青春の輝き-",
-    "time": "OPEN 18:00 / START 18:30",
+    "time": "OPEN 18:00 / START 19:00",
     "act": "soratobiwo one-man live",
     "fee": "adv ¥3,000 / door ¥3,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/11/2021116.jpg",
+    "wp": true
+  },
+  {
+    "date": "2020-12-30T17:41:31",
+    "id": "2020-12-30-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (スタンディング80名限定) <a href=\"https://tiget.net/events/111613\" target=\"_blank\">購入はこちら</a>",
+      "配信チケット¥2,000 ツイキャスプレミアム<a href=\"https://twitcasting.tv/clubvijon/shopcart/38131\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "club vijon EMPEROR GOD ULTIMATE BOφWNENKAY",
+    "titleDesktop": "club vijon EMPEROR GOD ULTIMATE BOφWNENKAY",
+    "title": "club vijon EMPEROR GOD ULTIMATE BOφWNENKAY",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "ayn / asmi / ALL ITEM 10 TIMES / grunband / soratobiwo / hyne / FENNEC FENNEC / 密会と耳鳴り / RobotMeetRobo / ワダアツシとビアウマイオールスターズ / ワンダフル放送局 / and more ",
+    "fee": "online ¥2,000 / adv ¥2,500 / 2days(26-30) ¥4,000 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/11/20201231.jpg",
     "wp": true
   },
   {
