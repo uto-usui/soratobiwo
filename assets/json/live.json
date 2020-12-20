@@ -1,7 +1,7 @@
 [
   {
     "date": "2021-02-08T17:41:31",
-    "id": "2021-02-08-QUATTRO",
+    "id": "2021-2-8-QUATTRO",
     "place": "心斎橋JANUS",
     "info": [
       "INFO <a href=\"http://www.arm-live.com/janus/\" target=\"_blank\">Music Club JANUS</a>"
@@ -39,7 +39,7 @@
   },
   {
     "date": "2021-01-16T17:41:31",
-    "id": "2021-01-16-QUATTRO",
+    "id": "2021-1-16-QUATTRO",
     "place": "梅田 CLUB QUATTRO",
     "info": [
       "INFO <a href=\"https://www.club-quattro.com/umeda/\" target=\"_blank\">UMEDA CLUB QUATTRO</a>"
@@ -52,6 +52,25 @@
     "act": "soratobiwo one-man live",
     "fee": "adv ¥3,000 / door ¥3,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/11/2021116.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-01-09T17:41:31",
+    "id": "2021-1-09-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (スタンディング80名限定) <a href=\"https://tiget.net/events/114873\" target=\"_blank\">購入はこちら</a>",
+      "配信チケット¥2,000 ツイキャスプレミアム<a href=\"https://twitcasting.tv/clubvijon/shopcart/43104\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "SAPPY新アルバム“2020，煌めき“リリースパーティー堀江編",
+    "titleDesktop": "SAPPY新アルバム“2020，煌めき“リリースパーティー堀江編",
+    "title": "SAPPY新アルバム“2020，煌めき“リリースパーティー堀江編",
+    "time": "OPEN 17:45 / START 18:15",
+    "act": "SAPPY / soratobiwo / ステラシュガレット / CHIKIMARCH / The Shelly’s / THE BEARSKINS",
+    "fee": "online ¥2,000 / adv ¥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2020/12/20210109.jpg",
     "wp": true
   },
   {
