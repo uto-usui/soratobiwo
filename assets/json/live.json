@@ -18,6 +18,24 @@
   },
   {
     "date": "2021-01-27T17:41:31",
+    "id": "2021-1-27-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "YouTube配信あり"
+    ],
+    "soldOut": false,
+    "titleMobile": "松藤聖誕祭 LEVEL42",
+    "titleDesktop": "松藤聖誕祭 LEVEL42",
+    "title": "松藤聖誕祭 LEVEL42",
+    "time": "大体20分くらい一口サイズライブ OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / サラケダス / nagori / 未遂ドロップス / An Sept. / すーじん&ひろし(懺悔ライブ) / ワダアツシ / 6rockB / ウチミズ (メタボリックシンジゲート) / and シークレット多数",
+    "fee": "online ¥2,000 / adv ¥2,500 +1drink / バンドマンゲストはまさかの申告制 2Drink ¥1,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/01/20210127.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-01-27T17:41:31",
     "id": "2021-1-27-nano",
     "place": "京都 nano (森本真伍ソロ)",
     "info": [
