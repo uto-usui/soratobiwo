@@ -17,6 +17,40 @@
     "wp": true
   },
   {
+    "date": "2021-02-07T17:41:31",
+    "id": "2021-2-7-DIPLOMA-CIRCUIT",
+    "place": "無観客配信ライブ",
+    "info": [
+      "INFO <a href=\"https://espdiplomacircuit.wixsite.com/2021\" target=\"_blank\">公式サイト</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "DIPLOMA CIRCUIT 2021",
+    "titleDesktop": "DIPLOMA CIRCUIT 2021",
+    "title": "DIPLOMA CIRCUIT 2021",
+    "time": "OPEN --:-- / START --:--",
+    "act": "",
+    "fee": "adv ¥free / door ¥free",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/01/20210207-2.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-02-07T17:41:31",
+    "id": "2021-2-7-SUN-HALL",
+    "place": "大阪SUN HALLなど全5会場",
+    "info": [
+      "INFO <a href=\"https://eplus.jp/sf/word/0000126943\" target=\"_blank\">チケット購入は e+</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "日本を元気に！ちょこフェスサーキットツアー大阪編",
+    "titleDesktop": "日本を元気に！ちょこフェスサーキットツアー大阪編",
+    "title": "日本を元気に！ちょこフェスサーキットツアー大阪編",
+    "time": "OPEN 11:00 / START 12:00",
+    "act": "",
+    "fee": "adv ¥3,400 / door ¥3,900",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/01/20210207.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-01-27T17:41:31",
     "id": "2021-1-27-vijon",
     "place": "北堀江 club vijon",
@@ -28,7 +62,7 @@
     "titleMobile": "松藤聖誕祭 LEVEL42",
     "titleDesktop": "松藤聖誕祭 LEVEL42",
     "title": "松藤聖誕祭 LEVEL42",
-    "time": "大体20分くらい一口サイズライブ OPEN 18:30 / START 19:00",
+    "time": "大体20分くらい一口サイズライブ OPEN 17:30 / START 18:00",
     "act": "soratobiwo / サラケダス / nagori / 未遂ドロップス / An Sept. / すーじん&ひろし(懺悔ライブ) / ワダアツシ / 6rockB / ウチミズ (メタボリックシンジゲート) / and シークレット多数",
     "fee": "online ¥2,000 / adv ¥2,500 +1drink / バンドマンゲストはまさかの申告制 2Drink ¥1,000",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/01/20210127.jpg",
