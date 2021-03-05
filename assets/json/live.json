@@ -18,6 +18,23 @@
     "wp": true
   },
   {
+    "date": "2021-04-07T13:44:29",
+    "id": "2021-4-7-live-house-pangea",
+    "place": "心斎橋 Live House Pangea",
+    "info": [
+      "INFO  <a href=\"http://livepangea.com/?page_id=5\" target=\"_blank\">Live House Pangea</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Pangea 10th Anniversary 『agartha20210407』",
+    "titleDesktop": "Pangea 10th Anniversary 『agartha20210407』",
+    "title": "Pangea 10th Anniversary 『agartha20210407』",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "MINAMIS / Bacon / soratobiwo / ミスターリトルブレイブ",
+    "fee": "adv ¥2,500 / door ¥-,---",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/03/20210407.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-04-02T17:41:31",
     "id": "2021-4-2-nano",
     "place": "京都 nano",
