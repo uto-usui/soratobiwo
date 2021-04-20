@@ -17,6 +17,23 @@
     "wp": true
   },
   {
+    "date": "2021-05-29T17:41:31",
+    "id": "2021-5-29-gattaca",
+    "place": "京都 GATTACA",
+    "info": [
+      "INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "実録！勝手にレコ発",
+    "titleDesktop": "実録！勝手にレコ発",
+    "title": "実録！勝手にレコ発",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "林田裕馬(橙々) / Axith / GENNARI / soratobiwo",
+    "fee": "adv ¥2,000 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/04/20210529.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-05-27T17:41:31",
     "id": "2021-5-27-vijon",
     "place": "北堀江 club vijon",
