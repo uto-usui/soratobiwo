@@ -11,9 +11,44 @@
     "titleDesktop": "お魚フェスティバル 2021",
     "title": "お魚フェスティバル 2021",
     "time": "OPEN --:-- / START --:--",
-    "act": "soratobiwo / and more！！",
+    "act": "soratobiwo / シンガロンパレード / JUNIOR BREATH / Transit My Youth / 林青空 / スキッツォイドマン / MILKBAR / about a ROOM / 四丁目のアンナ / イヌガヨ / Bacon / モケーレムベンベ / ジャンキー58% / 弱虫倶楽部 / ハレルヤ / まちぶせ / RobotMeetRobo / ザ・シックスブリッツ / Andend boom / nagori",
     "fee": "adv ¥3,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/04/20210718.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-06-06T17:41:31",
+    "id": "2021-6-6-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "群青の花びら",
+    "titleDesktop": "群青の花びら",
+    "title": "群青の花びら",
+    "time": "OPEN 13:00 / START 13:30",
+    "act": "松本素生(GOING UNDER GROUND) / 須田亮太(ナードマグネット) / 伊藤祐樹(THE FULL TEENZ） / 森本真伍(soratobiwo)",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_13.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-06-01T17:18:34",
+    "id": "2021-6-1-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>",
+      "<a href=\"https://twitcasting.tv/c:knave__/shopcart/71729\" target=\"_blank\">ツイキャスプレミア</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "shine on you crazy diamond",
+    "titleDesktop": "shine on you crazy diamond",
+    "title": "shine on you crazy diamond",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / BAD END BOYS / おとなりアイニー / and more...",
+    "fee": "adv ¥2,300 / door ¥2,800 / 視聴券2000円(ツイキャスプレミア)",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/05/20210601.jpg",
     "wp": true
   },
   {
