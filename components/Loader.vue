@@ -54,11 +54,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  clip-path: $clip-open;
   pointer-events: none;
   background-color: $color-gray-level2;
   backface-visibility: hidden;
   transform: skew(0deg);
-  clip-path: $clip-open;
   will-change: clip-path, transform;
   //
   &.loading-enter-active {
@@ -70,13 +70,13 @@ export default {
   }
   //
   &.loading-enter {
-    transform: skewX(-3deg);
     clip-path: $clip-top;
+    transform: skewX(-3deg);
   }
 
   &.loading-leave-to {
-    transform: skewY(3deg);
     clip-path: $clip-bottom;
+    transform: skewY(3deg);
   }
 }
 
