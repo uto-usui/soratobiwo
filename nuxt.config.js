@@ -2,7 +2,7 @@ import path from 'path'
 import StylelintPlugin from 'stylelint-webpack-plugin'
 
 export default {
-  mode: 'universal',
+  target: 'static',
 
   /*
    ** Headers of the page
