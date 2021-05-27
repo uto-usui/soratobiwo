@@ -11,9 +11,26 @@
     "titleDesktop": "お魚フェスティバル 2021",
     "title": "お魚フェスティバル 2021",
     "time": "OPEN --:-- / START --:--",
-    "act": "soratobiwo / シンガロンパレード / JUNIOR BREATH / Transit My Youth / 林青空 / スキッツォイドマン / MILKBAR / about a ROOM / 四丁目のアンナ / イヌガヨ / Bacon / モケーレムベンベ / ジャンキー58% / 弱虫倶楽部 / ハレルヤ / まちぶせ / RobotMeetRobo / ザ・シックスブリッツ / Andend boom / nagori",
+    "act": "soratobiwo / シンガロンパレード / JUNIOR BREATH / Transit My Youth / 林青空 / スキッツォイドマン / MILKBAR / about a ROOM / 四丁目のアンナ / イヌガヨ / Bacon / モケーレムベンベ / ジャンキー58% / 弱虫倶楽部 / ハレルヤ / まちぶせ / RobotMeetRobo / ザ・シックスブリッツ / Andend boom / nagori / GET BILL MONKEYS / 百回中百回 / バニーブルース / airlie / アマイワナ / 花柄ランタン / ぷすっぽ(ex.スムージチークス) / メタボリックシンジゲート / shule And christmas / ミックスナッツハウス / grunband / 浅野毅 / ヒミツノミヤコ",
     "fee": "adv ¥3,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/04/20210718.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-06-12T17:41:31",
+    "id": "2021-6-12-nano",
+    "place": "京橋 FLOOR 色s",
+    "info": [
+      "INFO <a href=\"https://twitter.com/floorshocks\" target=\"_blank\">京橋 FLOOR 色s</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "輕常-yagaku-",
+    "titleDesktop": "輕常-yagaku-",
+    "title": "輕常-yagaku-",
+    "time": "OPEN 12:00 / START 13:00",
+    "act": "石毛輝(the telephones / Yap!!!) / 森本真伍(soratobiwo) / miyabi-gt(s:cod)",
+    "fee": "adv ¥3,800 / door ¥3,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/05/20210612.jpg",
     "wp": true
   },
   {
