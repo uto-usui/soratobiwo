@@ -11,7 +11,7 @@
     "titleDesktop": "お魚フェスティバル 2021",
     "title": "お魚フェスティバル 2021",
     "time": "OPEN --:-- / START --:--",
-    "act": "soratobiwo / シンガロンパレード / JUNIOR BREATH / Transit My Youth / 林青空 / スキッツォイドマン / MILKBAR / about a ROOM / 四丁目のアンナ / イヌガヨ / Bacon / モケーレムベンベ / ジャンキー58% / 弱虫倶楽部 / ハレルヤ / まちぶせ / RobotMeetRobo / ザ・シックスブリッツ / Andend boom / nagori / GET BILL MONKEYS / 百回中百回 / バニーブルース / airlie / アマイワナ / 花柄ランタン / ぷすっぽ(ex.スムージチークス) / メタボリックシンジゲート / shule And christmas / ミックスナッツハウス / grunband / 浅野毅 / ヒミツノミヤコ",
+    "act": "soratobiwo / シンガロンパレード / JUNIOR BREATH / Transit My Youth / 林青空 / スキッツォイドマン / MILKBAR / about a ROOM / 四丁目のアンナ / イヌガヨ / Bacon / モケーレムベンベ / ジャンキー58% / 弱虫倶楽部 / ハレルヤ / まちぶせ / RobotMeetRobo / ザ・シックスブリッツ / Andend boom / nagori / GET BILL MONKEYS / 百回中百回 / バニーブルース / airlie / アマイワナ / 花柄ランタン / ぷすっぽ(ex.スムージチークス) / メタボリックシンジゲート / shule And christmas / ミックスナッツハウス / grunband / 浅野毅 / ヒミツノミヤコ / SAPPY / ハヤシライフ / クリトリック・リス",
     "fee": "adv ¥3,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/04/20210718.jpg",
     "wp": true
@@ -21,9 +21,10 @@
     "id": "2021-6-12-nano",
     "place": "京橋 FLOOR 色s",
     "info": [
+      "緊急事態宣言の為、出演中止になりました。",
       "INFO <a href=\"https://twitter.com/floorshocks\" target=\"_blank\">京橋 FLOOR 色s</a>"
     ],
-    "soldOut": false,
+    "soldOut": true,
     "titleMobile": "輕常-yagaku-",
     "titleDesktop": "輕常-yagaku-",
     "title": "輕常-yagaku-",
