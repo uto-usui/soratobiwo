@@ -1,5 +1,22 @@
 [
   {
+    "date": "2021-09-01T17:41:31",
+    "id": "2021-09-01-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "続・僕達の青春のすべて",
+    "titleDesktop": "続・僕達の青春のすべて",
+    "title": "歌う魚-4nd Anniversary-それでも愛で鯛1匹目- それでも続く/僕たちの青春のすべて",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "松本素生(GOING UNDER GROUND) / soratobiwo",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/08/20210901.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-08-25T17:41:31",
     "id": "2021-8-25-JANUS",
     "place": "心斎橋JANUS",
@@ -18,12 +35,29 @@
     "wp": true
   },
   {
+    "date": "2021-08-14T17:18:34",
+    "id": "2020-8-14-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "真夏のメモリーズ2021 DAY７ HA!! BANANice Day!!",
+    "titleDesktop": "真夏のメモリーズ2021 DAY７ HA!! BANANice Day!!",
+    "title": "真夏のメモリーズ2021 DAY７ HA!! BANANice Day!!",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "GET BILL MONKEYS / soratobiwo / マルシーボク / ネコレクション",
+    "fee": "adv ¥2,500 / door ¥3,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/08/20210814.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-08-09T17:41:31",
     "id": "2021-8-9-vijon",
     "place": "北堀江 club vijon",
     "info": [
       "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
-      "入場チケット￥2,300 別途Drink代￥600 (スタンディング80名限定) <a href=\"https://tiget.net/events/133380/\" target=\"_blank\">購入はこちら</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (スタンディング80名限定) <a href=\"https://tiget.net/events/133380/\" target=\"_blank\">購入はこちら</a>",
       "配信チケット¥2,000 ツイキャスプレミアム<a href=\"https://twitcasting.tv/clubvijon/shopcart/77673\" target=\"_blank\">購入はこちら</a>"
     ],
     "soldOut": false,
@@ -31,9 +65,9 @@
     "titleDesktop": "ライブズライフ〜ハヤシライフのジャジ発〜<リベンジ延期公演>",
     "title": "ライブズライフ〜ハヤシライフのジャジ発〜<リベンジ延期公演>",
     "time": "OPEN 17:30 / START 18:00",
-    "act": "ハヤシライフ / soratobiwo / バニーブルース / イロマキトリドリ / 天上天下 / 柴犬とラーメン",
+    "act": "ハヤシライフ / soratobiwo / バニーブルース / 天上天下 / 柴犬とラーメン",
     "fee": "online ¥2,000 / adv ¥2,300 / door ¥-,--- +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/04/20210527.jpg",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/08/20210809.jpg",
     "wp": true
   },
   {
