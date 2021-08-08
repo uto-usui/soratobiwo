@@ -1,5 +1,18 @@
 [
   {
+    "date": "2021-08-08T20:00:00",
+    "id": "2021808-osakana",
+    "title": "お魚フェス2021無事終了しました。",
+    "titleMobile": "お魚フェス2021無事終了しました。",
+    "titleDesktop": "お魚フェス2021無事終了しました。",
+    "info": [
+      "お魚フェス2021無事終了しました。",
+      "<a href=\"https://soratobiwo.com/live/2021-7-14-osakana/\">お魚フェス2021</a>"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/08/osakana2021.jpg",
+    "wp": true
+  },
+  {
     "date": "2020-06-13T20:00:00",
     "id": "2021613-osakana",
     "title": "お魚フェス2021 第3弾アーティスト発表！！",
