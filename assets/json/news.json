@@ -1,5 +1,19 @@
 [
   {
+    "date": "2021-8-25T20:00:00",
+    "id": "2021825-minami",
+    "title": "FM802 MINAMI WHEEL 2021出演決定！！",
+    "titleMobile": "FM802 MINAMI WHEEL 2021出演決定！！",
+    "titleDesktop": "FM802 MINAMI WHEEL 2021出演決定！！",
+    "info": [
+      "soratobiwoは2021/10/9(土)に出演となります。",
+      "詳細はMINAMI WHEEL 2021のHPをチェック！",
+      "INFO <a href=\"https://minamiwheel.jp/\" target=\"_blank\">minamiwheel 2021</a>"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/08/20211008.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-08-08T20:00:00",
     "id": "2021808-osakana",
     "title": "お魚フェス2021無事終了しました。",
