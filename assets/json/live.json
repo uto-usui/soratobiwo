@@ -1,5 +1,55 @@
 [
   {
+    "date": "2021-10-31T17:41:31",
+    "id": "2021-10-31-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (スタンディング80名限定) <a href=\"https://tiget.net/events/144579/\" target=\"_blank\">購入はこちら</a>",
+      "<a href=\"https://www.youtube.com/watch?v=qdlbKbbvFts\" target=\"_blank\">YouTube配信あり</a>",
+      "※大阪府から発表された「ライブハウスにおける感染拡大予防に関わる業種別暫定ガイドライン（令和2年5月）」に沿って運営いたします。",
+      "※お客様はマスクの着用を必須とします。",
+      "※ご入場時お並びになられる際、1m以上の距離を保って頂きます。",
+      "※ご入場時の検温をいたします。平熱ではない場合、ご入場をお断りいたします。",
+      "※大阪府のコロナ追跡システムのQRコードスマホで読み取ってご登録頂きます。"
+    ],
+    "soldOut": false,
+    "titleMobile": "ギターバトル王座決定戦2021決勝&コピバン大会-",
+    "titleDesktop": "ギターバトル王座決定戦2021決勝&コピバン大会-",
+    "title": "ギターバトル王座決定戦2021決勝&コピバン大会-",
+    "time": "OPEN 14:30 / START 15:00",
+
+    "act": "<ギターバトル決勝進出者> イシハラレイ(ex.lahaha) / 井上ヨースケ(赤いアフロ) / sumida(ディフェンディングチャンピオン) / ケンジゾンビ(ELECTRIC MAMA) / ろんれのん(um-hum) / わたせ(Axith) <敗者復活枠> Zn(ハヤシライブ) キャプテンOG(soratobiwo) ワダアツシ(memento森) / 柊-shu-(umbrella) <司会> MIYA-Z(memento森) <プロレスに例えての解説> サカグチマナブ <審査員> kyon / しんご(soratobiwo) / and more <リズム隊> <Ba.>ジャスティン(GRADATIONS) / 新田(ハヤシライフ) / and more / <Dr.> / ゆーぼー(Juniper Berry) / 将-sho-(umbrella) / and more / <ラウンドガール>織部さおり / <普段オリジナルで活躍しているのにコピーバンド> Tama-Tama(um-hum) / rage against WRACK SYSTEM(SCYTHEWRACK SYSTEM) / Purfume Otsuji(Miranda Otsuji & 三国未来 & こうへい(ドットルーム)) / Y'Arki～arun～Ciel(ハヤシライフ) / 誤爆キャンディーハウス (新世界ホシヲand three Rockers) / OISIS(浅野毅) / 6rockB ",
+    "fee": "adv ¥2,500 / door ¥-,--- +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/09/2021-10-31.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-10-24T17:41:31",
+    "id": "2021-10-24-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥2,500 別途Drink代￥600 (スタンディング60名限定) <a href=\"https://tiget.net/events/144286/\" target=\"_blank\">購入はこちら</a>",
+      "四日通し入場チケット￥8,000 別途Drink代￥600 (スタンディング80名限定) <a href=\"https://tiget.net/events/144289/\" target=\"_blank\">購入はこちら</a>",
+      "配信チケット¥2,000 ツイキャスプレミアム<a href=\"https://twitcasting.tv/clubvijon/shopcart/96422\" target=\"_blank\">購入はこちら</a>",
+      "※大阪府から発表された「ライブハウスにおける感染拡大予防に関わる業種別暫定ガイドライン（令和2年5月）」に沿って運営いたします。",
+      "※お客様はマスクの着用を必須とします。",
+      "※ご入場時お並びになられる際、1m以上の距離を保って頂きます。",
+      "※ご入場時の検温をいたします。平熱ではない場合、ご入場をお断りいたします。",
+      "※大阪府のコロナ追跡システムのQRコードスマホで読み取ってご登録頂きます。"
+    ],
+    "soldOut": false,
+    "titleMobile": " club vijon19周年 【松藤ROCK FESTIVAL'21】day4 千秋楽「軌」",
+    "titleDesktop": " club vijon19周年 【松藤ROCK FESTIVAL'21】day4 千秋楽「軌」",
+    "title": " club vijon19周年 【松藤ROCK FESTIVAL'21】day4 千秋楽「軌」",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "pleetz / JUNIOR BREATH / メタボリックシンジゲート / 数式とライオン / カトキット / ALL I TEM 10 TIMES / soratobiwo",
+    "fee": "online ¥2,000 / adv ¥2,500 / door ¥-,--- +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/09/2021-10-24.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-10-09T17:41:31",
     "id": "2021-10-9-minamiwheel",
     "place": "minami wheel",
