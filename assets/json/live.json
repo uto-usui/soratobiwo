@@ -1,5 +1,24 @@
 [
   {
+    "date": "2021-11-27T17:41:31",
+    "id": "2021-11-27-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット￥3,000 別途Drink代￥600 (スタンディング60名限定) <a href=\"https://tiget.net/events/149780/\" target=\"_blank\">購入はこちら</a>",
+      "配信チケット¥2,000 ツイキャスプレミアム<a href=\"https://twitcasting.tv/clubvijon/shopcart/105930\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Pleasure'21.11 -天体(ほし)降る夜に騒ごう-",
+    "titleDesktop": "Pleasure'21.11 -天体(ほし)降る夜に騒ごう-",
+    "title": "Pleasure'21.11 -天体(ほし)降る夜に騒ごう-",
+    "time": "OPEN 16:00 / START 16:30",
+    "act": "天体3349 / ハシグチカナデリヤ / soratobiwo / RobotMeetRobo / バニーブルース / メタボリックシンジゲート /  hizume",
+    "fee": "online ¥2,000 / adv ¥3,000 / door ¥-,--- +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/09/2021-10-24.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-10-31T17:41:31",
     "id": "2021-10-31-vijon",
     "place": "北堀江 club vijon",
