@@ -72,6 +72,23 @@
     "wp": true
   },
   {
+    "date": "2021-12-21T17:41:31",
+    "id": "2021-12-21-vijon",
+    "place": "アメリカ村 CLAPPER",
+    "info": [
+      "INFO <a href=\"https://www.clapper.jp/\" target=\"_blank\">アメリカ村 CLAPPER</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ウチミズLv.32生誕祭 〜新システムお披露目⁉︎〜",
+    "titleDesktop": "ウチミズLv.32生誕祭 〜新システムお披露目⁉︎〜",
+    "title": "ウチミズLv.32生誕祭 〜新システムお披露目⁉︎〜",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "メタボリックシンジゲート / soratobiwo / grunband / アクロバット少年 / 男肉 du Soleil",
+    "fee": "online ¥1,500 / adv ¥3,200",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2021/12/20211221.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-12-15T17:41:31",
     "id": "2021-12-15-nano",
     "place": "京都 nano(森本真伍ソロ)",
