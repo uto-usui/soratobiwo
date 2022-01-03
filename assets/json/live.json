@@ -38,6 +38,23 @@
   },
   {
     "date": "2021-12-30T17:18:34",
+    "id": "2021-12-30-SOCORE-FACTORY",
+    "place": "SOCORE FACTORY",
+    "info": [
+      "INFO <a href=\"https://socorefactory.com/\" target=\"_blank\">SOCORE FACTORY</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "SUCK IS BACK2021",
+    "titleDesktop": "SUCK IS BACK2021",
+    "title": "SUCK IS BACK2021",
+    "time": "OPEN 14:00 / START 14:30",
+    "act": "Great music / soratobiwo / sixteencoins / 雨市 / THE SUNSHINE / nayuta / ガリザベン / ASAYAKE 01 / Qu / 重田 拓成 / NEMU / 霜降り猫 / ハンバーグオムレツ / 瀧井 豊治",
+    "fee": "adv ¥2,900 / door ¥2,900 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/01/20211230.jpg",
+    "wp": true
+  },
+  {
+    "date": "2021-12-30T17:18:34",
     "id": "2021-12-30-knave",
     "place": "南堀江 knave",
     "info": [
