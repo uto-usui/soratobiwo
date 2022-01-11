@@ -1,5 +1,31 @@
 [
   {
+    "date": "2022-07-17T20:00:00",
+    "id": "2022-07-17-osakana",
+    "title": "お魚フェスティバル2021 開催決定",
+    "titleMobile": "お魚フェスティバル2021 開催決定",
+    "titleDesktop": "お魚フェスティバル2021 開催決定",
+    "info": [
+      "2022年7月17日(日)<br>『お魚フェスティバル2022』<br>今年も開催決定！！"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/01/2021-01-11.jpg",
+    "wp": true
+  },
+  {
+    "date": "2022-01-07T20:32:06",
+    "id": "HAPPY-NEW-YEAR-2022",
+    "title": "★☆HAPPY NEW YEAR 2022☆★",
+    "titleMobile": "★☆HAPPY NEW YEAR 2022☆★",
+    "titleDesktop": "★☆HAPPY NEW YEAR 2022☆★",
+    "info": [
+      "新年あけましておめでとうございます",
+      "いよいよ10周年イヤーに突入しました！<br>楽しいこと沢山計画中！！",
+      "今年もかっ飛ばしていくので皆さんよろしくお願いします！<br>一生青春！！！！"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/01/2022-01-07.jpg",
+    "wp": true
+  },
+  {
     "date": "2021-8-25T20:00:00",
     "id": "2021825-minami",
     "title": "FM802 MINAMI WHEEL 2021出演決定！！",
