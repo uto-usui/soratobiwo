@@ -1,5 +1,22 @@
 [
   {
+    "date": "2022-06-17T17:41:31",
+    "id": "2022-6-17-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"https://bigcat-live.com/\" target=\"_blank\">心斎橋BIGCAT</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "hand to hand vol.25",
+    "titleDesktop": "hand to hand vol.25",
+    "title": "hand to hand vol.25",
+    "time": "OPEN 16:00 / START 16:30",
+    "act": "SMASH YOUTH / aivolic / SOUTH BLOW / soratobiwo / GENNARI / ウエダケイタ / 咲弥 / 大平伸正 / てふてふ\n",
+    "fee": "adv ¥3,000 / door ¥3,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/02/2022-06-17.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-03-23T17:41:31",
     "id": "2022-3-23-nano",
     "place": "京都 nano(森本真伍ソロ)",
@@ -17,6 +34,24 @@
     "act": "山下キヨシ / 北小路直也 / ひなね / fuyuco. / 森本真伍 / たなかけんすけ",
     "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2016/10/20.jpg",
+    "wp": true
+  },
+  {
+    "date": "2022-03-22T17:41:31",
+    "id": "2022-3-22-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>",
+      "配信チケット¥2,000 ツイキャスプレミアム<a href=\"https://twitcasting.tv/c:knave__/shopcart/135135\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Banana kills Polpo",
+    "titleDesktop": "Banana kills Polpo",
+    "title": "Banana kills Polpo",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "GET BILL MONKEYS / soratobiwo / ネコレクション / PsychedelicJoe / Pince-Nez",
+    "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/02/2022-03-22.jpg",
     "wp": true
   },
   {
