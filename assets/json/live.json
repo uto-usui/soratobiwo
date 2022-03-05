@@ -17,6 +17,25 @@
     "wp": true
   },
   {
+    "date": "2021-04-07T17:41:31",
+    "id": "2021-4-7-JANUS",
+    "place": "心斎橋JANUS",
+    "info": [
+      "INFO <a href=\"http://www.arm-live.com/janus/\" target=\"_blank\">Music Club JANUS</a>",
+      "延期となった昨年8/25の公演の振替公演です",
+      "2021/2/8、5/17、8/25の未使用チケット入場可 2021/2/8チケット半券提示で¥500キャッシュバック"
+    ],
+    "soldOut": true,
+    "titleMobile": "サトリトレ",
+    "titleDesktop": "サトリトレ",
+    "title": "サトリトレ",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / バニーブルース / ネコレクション / 君がそうなら僕はこう",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/03/20220407.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-03-23T17:41:31",
     "id": "2022-3-23-nano",
     "place": "京都 nano(森本真伍ソロ)",
