@@ -69,6 +69,25 @@
     "wp": true
   },
   {
+    "date": "2022-04-10T17:41:31",
+    "id": "2022-04-10-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット <a href=\"https://tiget.net/events/167335/\" target=\"_blank\">購入はこちら</a> 100名限定名のスタンディングライブ",
+      "ツイキャスプレミアム配信チケット <a href=\"https://twitcasting.tv/clubvijon/shopcart/133791/\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "UTOPIA",
+    "titleDesktop": "UTOPIA",
+    "title": "UTOPIA",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "Andend boom / soratobiwo / raciku",
+    "fee": "adv ¥2,900 / door ¥-,--- +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/03/20220410.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-04-07T17:41:31",
     "id": "2022-4-7-JANUS",
     "place": "心斎橋JANUS",
