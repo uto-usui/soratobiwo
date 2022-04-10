@@ -17,6 +17,25 @@
     "wp": true
   },
   {
+    "date": "2022-05-30T17:41:31",
+    "id": "2022-05-30-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット <a href=\"https://tiget.net/events/175442/\" target=\"_blank\">購入はこちら</a> 100名限定名のスタンディングライブ",
+      "ツイキャスプレミアム配信チケット <a href=\"https://twitcasting.tv/clubvijon/shopcart/145827/\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "さすらいフェス 6",
+    "titleDesktop": "さすらいフェス 6",
+    "title": "さすらいフェス 6",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "soratobiwo / ELECTRIC MAMA / バニーブルース / ハヤシライフ / 霜降り猫 / AC/KC / <food協力> もっさんcafe(主催が酔った時の保険も兼ねて) / <ウイスキーガール> さおりん",
+    "fee": "adv ¥2,500 / door ¥-,--- +1drink ※次回の出店から使えるオムライス無料券付き",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/04/20220530.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-05-15T17:41:31",
     "id": "2022-5-15-NOZFEST22",
     "place": "大阪アメリカ村5会場6ステージ",
