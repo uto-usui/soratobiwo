@@ -71,6 +71,23 @@
     "wp": true
   },
   {
+    "date": "2022-05-02T17:41:31",
+    "id": "2022-5-2-SlowBird",
+    "place": "新大阪淡路 SlowBird",
+    "info": [
+      "INFO <a href=\"https://slowbird.jimdofree.com/\" target=\"_blank\">新大阪淡路SlowBird</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "はじまりと終わりの在る場所 vol.19",
+    "titleDesktop": "はじまりと終わりの在る場所 vol.19",
+    "title": "はじまりと終わりの在る場所 vol.19",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "屋並 真介(SMASH YOUTH) / 森本真伍(soratobiwo) / ウエダケイタ / サタケトオル(GENNARI) / 大島直人",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/03/20220507.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-04-19T17:41:31",
     "id": "2022-4-19-para-dice",
     "place": "扇町 para-dice",
