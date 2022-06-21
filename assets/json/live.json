@@ -1,5 +1,23 @@
 [
   {
+    "date": "2022-08-21T17:41:31",
+    "id": "2022-8-21-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>",
+      "配信チケット¥1,500 ツイキャスプレミアム<a href=\"https://twitcasting.tv/c:knave__/shopcart/162174\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "GO!GO!821!!",
+    "titleDesktop": "GO!GO!821!!",
+    "title": "GO!GO!821!!",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "バニーブルース / ガストバーナー / soratobiwo / ハヤシライフ / THE BEG",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/06/20220821.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-08-01T17:47:38",
     "id": "2022-8-1-rocktown",
     "place": "阿倍野 ROCKTOWN",
