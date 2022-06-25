@@ -1,5 +1,22 @@
 [
   {
+    "date": "2022-10-01T17:41:31",
+    "id": "2022-10-1-knave",
+    "place": "片男波公園 野外ステージ",
+    "info": [
+      "INFO <a href=\"muevo.jp/campaigns/3312/\" target=\"_blank\">クラウドファンディング</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "POP ROCK MUSIC 2022",
+    "titleDesktop": "POP ROCK MUSIC 2022",
+    "title": "POP ROCK MUSIC 2022",
+    "time": "OPEN --:-- / START --:--",
+    "act": "みのべありさ / soratobiwo / Lala / 前田琴音 / シンガロンパレード / 鈴木友里絵 / Limonium / ワンダフル放送局 / マルシーボク / 県立和歌山高校",
+    "fee": "adv ¥Free / door ¥Free / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/06/2022-10-01.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-08-21T17:41:31",
     "id": "2022-8-21-knave",
     "place": "南堀江 knave",
