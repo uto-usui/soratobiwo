@@ -35,6 +35,25 @@
     "wp": true
   },
   {
+    "date": "2022-08-05T17:41:31",
+    "id": "2022-8-5-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "<a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">配信URL</a>",
+      "<a href=\"https://passmarket.yahoo.co.jp/event/show/detail/021rsjk02bf21.html\" target=\"_blank\">投げ銭URL</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "第二回ゆうと会",
+    "titleDesktop": "第二回ゆうと会",
+    "title": "第二回ゆうと会",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "ゆうと(ぷすっぽ) / 屋並真介(SMASH YOUTH) / ウエダケイタ / サタケトオル(GENNARI) / 林田裕馬(橙々) / 森本真伍とキャプテンOG(soratobiwo)",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2017/06/51.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-08-01T17:47:38",
     "id": "2022-8-1-rocktown",
     "place": "阿倍野 ROCKTOWN",
