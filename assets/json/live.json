@@ -54,6 +54,23 @@
     "wp": true
   },
   {
+    "date": "2021-08-11T17:41:31",
+    "id": "2021-8-11-gattaca",
+    "place": "京都 GATTACA",
+    "info": [
+      "INFO <a href=\"http://kyoto-gattaca.jp/\" target=\"_blank\">京都 GATTACA</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ENCOUNTER with 1Drink.12",
+    "titleDesktop": "ENCOUNTER with 1Drink.12",
+    "title": "ENCOUNTER with 1Drink.12",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "LENNONS / グッド・バイ / 森本真伍(soratobiwo) / 橙々",
+    "fee": "adv Free / door Free / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/07/20220811.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-08-07T17:32:38",
     "id": "2022-8-7-fandango",
     "place": "Live Bar fandango",
