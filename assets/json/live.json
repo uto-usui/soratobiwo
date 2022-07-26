@@ -1,5 +1,22 @@
 [
   {
+    "date": "2022-10-15T17:41:31",
+    "id": "2022-10-15-tataraba",
+    "place": "名古屋 鑪ら場 (森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"http://tataraba-live.com/\" target=\"_blank\">鑪ら場</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "すべては愛でできている",
+    "titleDesktop": "すべては愛でできている",
+    "title": "すべては愛でできている",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "大瀧ヌー / 井澤聖一（モケーレムベンベ） / 菅野創一朗 / 森本真伍（soratobiwo）",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/07/20221015.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-10-01T17:41:31",
     "id": "2022-10-1-knave",
     "place": "片男波公園 野外ステージ",
@@ -33,6 +50,23 @@
     "act": "松本素生(GOING UNDER GROUND) / soratobiwo",
     "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/07/2022-9-1.jpg",
+    "wp": true
+  },
+  {
+    "date": "2022-08-31T17:41:31",
+    "id": "2022-8-31-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "10th Anniversary one-man-live 8月32日なんていらない",
+    "titleDesktop": "10th Anniversary one-man-live 8月32日なんていらない",
+    "title": "10th Anniversary one-man-live 8月32日なんていらない",
+    "time": "OPEN 19:30 / START 20:00",
+    "act": "soratobiwo",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/07/20220831.jpg",
     "wp": true
   },
   {
