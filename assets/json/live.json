@@ -1,5 +1,24 @@
 [
   {
+    "date": "2022-10-21T17:41:31",
+    "id": "2022-10-21-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット <a href=\"https://tiget.net/events/196914\" target=\"_blank\">購入はこちら</a> 120名限定名のスタンディングライブ",
+      "ツイキャスプレミアム配信チケット <a href=\"https://twitcasting.tv/clubvijon/shopcart/174612/\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "松藤ROCK FESTIVAL'22】day2「藤」",
+    "titleDesktop": "松藤ROCK FESTIVAL'22】day2「藤」",
+    "title": "松藤ROCK FESTIVAL'22】day2「藤」",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "ジャンキー58% / メタボリックシンジゲート / ワダアツシとビアウマイオールスターズ / ハシグチカナデリヤ / soratobiwo / クリトリック・リス",
+    "fee": "adv ¥2,500 / door ¥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/05/2022-6-23.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-10-15T17:41:31",
     "id": "2022-10-15-tataraba",
     "place": "名古屋 鑪ら場 (森本真伍ソロ)",
@@ -12,7 +31,7 @@
     "title": "すべては愛でできている",
     "time": "OPEN 17:00 / START 17:30",
     "act": "大瀧ヌー / 井澤聖一（モケーレムベンベ） / 菅野創一朗 / 森本真伍（soratobiwo）",
-    "fee": "adv ¥3,000 / door ¥3,000 / (1drink込)",
+    "fee": "adv ¥3,000 / door ¥3,000 / (1drink込) / 四日通し入場チケット ¥8,000",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/07/20221015.jpg",
     "wp": true
   },
