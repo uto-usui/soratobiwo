@@ -36,6 +36,41 @@
     "wp": true
   },
   {
+    "date": "2022-10-10T17:41:31",
+    "id": "2022-10-10-minamiwheel",
+    "place": "minami wheel",
+    "info": [
+      "INFO <a href=\"https://minamiwheel.jp/\" target=\"_blank\">minamiwheel 2022</a>",
+      "料金：3days Pass 8500円／Saturday Pass、Sunday Pass、Monday Pass 3800円"
+    ],
+    "soldOut": true,
+    "titleMobile": "Eggs presents FM802 MINAMI WHEEL 2022",
+    "titleDesktop": "Eggs presents FM802 MINAMI WHEEL 2022",
+    "title": "Eggs presents FM802 MINAMI WHEEL 2022",
+    "time": "OPEN --:-- / START --:--",
+    "act": "--",
+    "fee": "3DAYS PASS（先行受付【先着】500円OFF!）￥8,000 | 通常 ￥8,500 / 1DAY PASS ￥3,800",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/09/20221010.jpeg",
+    "wp": true
+  },
+  {
+    "date": "2022-10-03T17:18:34",
+    "id": "2022-10-3-knave",
+    "place": "梅田 Zeela",
+    "info": [
+      "INFO <a href=\"https://osaka-zeela.jp/\" target=\"_blank\">梅田 Zeela</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "RIKA ROCK FESTIVAL ’42 ～day.1～",
+    "titleDesktop": "RIKA ROCK FESTIVAL ’42 ～day.1～",
+    "title": "RIKA ROCK FESTIVAL ’42 ～day.1～",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "イロマキトリドリ / airlie / soratobiwo / ダブディフォー / ハシグチカナデリヤ / ハヤシライフ",
+    "fee": "adv ¥2,300 / door ¥2,800",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/09/20221003.jpeg",
+    "wp": true
+  },
+  {
     "date": "2022-10-01T17:41:31",
     "id": "2022-10-1-knave",
     "place": "片男波公園 野外ステージ",
