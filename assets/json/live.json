@@ -37,6 +37,23 @@
   },
   {
     "date": "2022-10-10T17:41:31",
+    "id": "2022-10-10-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "空飛ぶ童貞お魚でフィニッシュ！",
+    "titleDesktop": "空飛ぶ童貞お魚でフィニッシュ！",
+    "title": "空飛ぶ童貞お魚でフィニッシュ！",
+    "time": "OPEN 21:30 / START 22:00",
+    "act": "soratobiwo / メタボリックシンジゲート / <FOOD> さすらい厨房 trattoria may",
+    "fee": "adv ¥1,000 / door ¥-,--- +1drink / ミナミホイールのパス提示で￥0！ ドリンク代のみで入場可能",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/09/20221010.jpg",
+    "wp": true
+  },
+  {
+    "date": "2022-10-10T17:41:31",
     "id": "2022-10-10-minamiwheel",
     "place": "minami wheel",
     "info": [
