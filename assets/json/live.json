@@ -1,5 +1,22 @@
 [
   {
+    "date": "2022-12-20T17:41:31",
+    "id": "2022-12-20-JANUS",
+    "place": "心斎橋JANUS",
+    "info": [
+      "INFO <a href=\"http://www.arm-live.com/janus/\" target=\"_blank\">Music Club JANUS</a>"
+    ],
+    "soldOut": true,
+    "titleMobile": "点と線",
+    "titleDesktop": "点と線",
+    "title": "点と線",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "さんかくとバツ / アシガルユース / soratobiwo",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/09/20221220.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-10-21T17:41:31",
     "id": "2022-10-21-vijon",
     "place": "北堀江 club vijon",
