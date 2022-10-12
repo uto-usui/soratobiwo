@@ -17,6 +17,25 @@
     "wp": true
   },
   {
+    "date": "2022-12-19T17:41:31",
+    "id": "2022-12-19-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "入場チケット <a href=\"https://tiget.net/events/207770\" target=\"_blank\">購入はこちら</a> 120名限定名のスタンディングライブ",
+      "ツイキャスプレミアム配信チケット <a href=\"https://twitcasting.tv/clubvijon/shopcart/188358\" target=\"_blank\">購入はこちら</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "NEW DAY TOGETHER",
+    "titleDesktop": "NEW DAY TOGETHER",
+    "title": "NEW DAY TOGETHER",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "electric scooter / soratobiwo / Kruglyy / neroad (O.A.)",
+    "fee": "adv ¥2,500 / door ¥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/10/S__92512302.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-11-20T17:41:31",
     "id": "2022-11-20-VOXhall",
     "place": "京都PUB VOXhall",
@@ -33,10 +52,6 @@
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/10/2022-11-20.jpg",
     "wp": true
   },
-
-
-
-
   {
     "date": "2022-11-01T17:24:01",
     "id": "2022-11-1-kyoto-muse",
