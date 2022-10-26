@@ -36,6 +36,23 @@
     "wp": true
   },
   {
+    "date": "2022-12-14T17:41:31",
+    "id": "2022-12-14-utausakana",
+    "place": "心斎橋 歌う魚(森本真伍ソロ)",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ゆうと39バースデー!!",
+    "titleDesktop": "ゆうと39バースデー!!",
+    "title": "ゆうと39バースデー!!",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "ゆうと(ぷすっぽ) / 碩 真也(あおみどり/SOUTH BLOW) / 森本真伍(soratobiwo) / サタケトオル(GENNARI) / こんそめぱんち☆木村(みみみ食堂) / ゆっけ(exUNUBORE) / 前田琴音",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/10/20221214.jpeg",
+    "wp": true
+  },
+  {
     "date": "2022-11-20T17:41:31",
     "id": "2022-11-20-VOXhall",
     "place": "京都PUB VOXhall",
@@ -50,6 +67,23 @@
     "act": "ヘクトーよるをまもる / ラウンドヘッド / 村島洋一 / the seadays / soratobiwo",
     "fee": "adv ¥2,500 / door ¥-,--- +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/10/2022-11-20.jpg",
+    "wp": true
+  },
+  {
+    "date": "2022-11-15T17:41:31",
+    "id": "2022-11-15-circus",
+    "place": "CIRCUS Osaka",
+    "info": [
+      "INFO <a href=\"https://circus-osaka.com/\" target=\"_blank\">CIRCUS Osaka</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Harvey Elliott",
+    "titleDesktop": "Harvey Elliott",
+    "title": "Harvey Elliott",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / チセツナガラ / QLIP",
+    "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/10/20221115.jpeg",
     "wp": true
   },
   {
