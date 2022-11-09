@@ -1,5 +1,42 @@
 [
   {
+    "date": "2022-12-30T17:41:31",
+    "id": "2022-12-30-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/213186\" target=\"_blank\">忘年会 TIGET予約</a><br><a href=\",https://tiget.net/events/213188\" target=\"_blank\">新年会 TIGET予約</a><br><a href=\",https://tiget.net/events/213189\" target=\"_blank\">2days TIGET予約</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/195709\" target=\"_blank\">忘年会 ツイキャスプレミアム配信</a> <br><a href=\",https://twitcasting.tv/clubvijon/shopcart/195710\" target=\"_blank\">新年会 ツイキャスプレミアム配信</a>",
+      "自己申告制: vijon出演バンドさんは3ドリンク¥1,500でご入場頂けます。"
+    ],
+    "soldOut": false,
+    "titleMobile": "EMPEROR GOD ULTIMATE BOΦWNENKAI&SHINNENKAI22-23",
+    "titleDesktop": "EMPEROR GOD ULTIMATE BOΦWNENKAI&SHINNENKAI22-23",
+    "title": "EMPEROR GOD ULTIMATE BOΦWNENKAI&SHINNENKAI22-23",
+    "time": "OPEN --:-- / START --:--",
+    "act": "ofuton / 去勢 / ☆Skeleton panties☆ / soratobiwo / 立川dancingず / トライコット/ 未遂ドロップス / メタボリックシンジゲート / 病み騎士ぼっち丸くん。(お掃除アクト) / ワダアツシとビアウマイオールスターズ / ワンダー久道(※配信はございません) / and more <50音順> / <FOOD> さすらい厨房trattoria may / <DJ > kyon / and more",
+    "fee": "adv ¥2,500 / door ¥2,500 +1drink / 2daysチケット ¥4,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/11/2022-12-30.jpeg",
+    "wp": true
+  },
+  {
+    "date": "2022-12-27T17:41:31+09:00",
+    "id": "2022-12-27-SOCORE",
+    "place": "SOCORE FACTORY",
+    "info": [
+      "INFO <a href=\"https://socorefactory.com//\" target=\"_blank\">SOCORE FACTORY</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "太陽祭~年末LAST~",
+    "titleDesktop": "太陽祭~年末LAST~",
+    "title": "太陽祭~年末LAST~",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "ハレルヤ / shule And christmas / soratobiwo / B玉 / 礒崎陽平(50/50’s) / ニコラス / 賄いFOOD ゆうすけ",
+    "fee": "adv ¥2,000 / door ¥2,500",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/11/20221227.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-12-20T17:41:31",
     "id": "2022-12-20-JANUS",
     "place": "心斎橋JANUS",
@@ -84,6 +121,23 @@
     "act": "soratobiwo / チセツナガラ / QLIP",
     "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/10/20221115.jpeg",
+    "wp": true
+  },
+  {
+    "date": "2022-11-12T17:41:31",
+    "id": "2022-11-12-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Club BAGSY WARS2022",
+    "titleDesktop": "Club BAGSY WARS2022",
+    "title": "Club BAGSY WARS2022",
+    "time": "OPEN 23:30 / START 23:30",
+    "act": "影正一貴 / ume-rock / ムラカミダイスケ / Casio / ゆっきー / Guest DJ / サカグチマナブ / KLEPTO / soratobiwo",
+    "fee": "adv ¥2,500 / door ¥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/11/2022-11-12.jpg",
     "wp": true
   },
   {
