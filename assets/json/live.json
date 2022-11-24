@@ -90,6 +90,23 @@
     "wp": true
   },
   {
+    "date": "2022-11-27T17:41:31",
+    "id": "2022-11-27-VOXhall",
+    "place": "西宮CASABLANCA",
+    "info": [
+      "INFO <a href=\"https://www.casablanca.blue/\" target=\"_blank\">西宮CASABLANCA</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "神戸D×Q opening party 英英 ei-ei",
+    "titleDesktop": "神戸D×Q opening party 英英 ei-ei",
+    "title": "神戸D×Q opening party 英英 ei-ei",
+    "time": "OPEN 15:00 / START 15:00",
+    "act": "SAITO.Q. / シキシヅキ / 立川dancingず / 森本真伍",
+    "fee": "adv ¥1,000 / door ¥1,00 +1order",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/11/2022-11-27.jpeg",
+    "wp": true
+  },
+  {
     "date": "2022-11-20T17:41:31",
     "id": "2022-11-20-VOXhall",
     "place": "京都PUB VOXhall",
