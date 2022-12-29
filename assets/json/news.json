@@ -2,6 +2,20 @@
   {
     "date": "2022-12-11T20:00:00",
     "id": "2022-12-11",
+    "title": "new goods 発売開始！",
+    "titleMobile": "new goods 発売開始！",
+    "titleDesktop": "new goods 発売開始！",
+    "info": [
+      "✔️soratobiwoマルチケース<br>✔️りょちゃんアクリルキーホルダー<br>✔️soratobiwoアクリルキーホルダー<br>✔️soratobiwoシールくじ",
+      "<img src=\"https://wp.soratobiwo.com/wp-content/uploads/2022/12/IMG_3959.jpg\" alt=\"森本真伍\">",
+      "ライブ会場にて発売開始！！<br>是非、手に入れて下さい！！"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2022/12/IMG_3959.jpg",
+    "wp": true
+  },
+  {
+    "date": "2022-12-11T20:00:00",
+    "id": "2022-12-11",
     "title": "2022年ライブ納めは12/30！！",
     "titleMobile": "2022年ライブ納めは12/30！！",
     "titleDesktop": "2022年ライブ納めは12/30！！",
