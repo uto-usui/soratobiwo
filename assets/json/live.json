@@ -1,20 +1,36 @@
 [
   {
-    "date": "2023-01-12T17:41:31",
-    "id": "2023-01-12-circus",
-    "place": "CIRCUS Osaka",
+    "date": "2022-03-23T17:41:31",
+    "id": "2022-3-23-nano",
+    "place": "京都 nano",
     "info": [
-      "INFO <a href=\"https://circus-osaka.com/\" target=\"_blank\">CIRCUS Osaka</a>",
-      "<a href=\"https://twitcasting.tv/nozfest2020/shopcart/207932\" target=\"_blank\">ツイキャスプレミア</a>"
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>"
     ],
     "soldOut": false,
-    "titleMobile": "New View Point",
-    "titleDesktop": "New View Point",
-    "title": "New View Point",
+    "titleMobile": "GOKIGEN DANCE",
+    "titleDesktop": "GOKIGEN DANCE",
+    "title": "GOKIGEN DANCE",
     "time": "OPEN 18:30 / START 19:00",
-    "act": "soratobiwo / みみみ食堂 / 目下奴言水",
-    "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/IMG_4109.jpg",
+    "act": "シンガロンパレード / soratobiwo / POOLS",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/20220323.jpeg",
+    "wp": true
+  },
+  {
+    "date": "2023-03-04T17:41:31+09:00",
+    "id": "2023-3-4-MUSIC-FARM",
+    "place": "名古屋MUSIC FARM",
+    "info": [
+      "INFO <a href=\"http://musicfarm.co.jp/\" target=\"_blank\">名古屋MUSIC FARM</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Go to ナンダナンナンダナンダフルトゥナイト",
+    "titleDesktop": "Go to ナンダナンナンダナンダフルトゥナイト",
+    "title": "Go to ナンダナンナンダナンダフルトゥナイト",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "ハシグチカナデリヤ / ITAZURA STORE / ナカノアツシ / soratobiwo / 植田健一",
+    "fee": "adv ¥3,000 / door ¥3,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/2023-03-04.jpg",
     "wp": true
   },
   {
@@ -32,6 +48,43 @@
     "act": "ネモトラボルタ / もるつオーケストラ / Heartful★Funks / the Sokai / soratobiwo",
     "fee": "adv ¥3,000 / door ¥3,500",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-01-30T17:41:31",
+    "id": "2023-01-30-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/219272\" target=\"_blank\">入場チケット 購入</a>",
+      "バンドマンゲストはまさかの申告制 2Drink ¥1,000 <br> ※誕生日プレゼントはお酒以外でお願いします。"
+    ],
+    "soldOut": false,
+    "titleMobile": "松藤聖誕祭 LEVEL44",
+    "titleDesktop": "松藤聖誕祭 LEVEL44",
+    "title": "松藤聖誕祭 LEVEL44",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "TAN-JOVI / 椎名珍子(ハヤシライフ&密会と耳鳴り&色々) / 激しく胸が張り裂けティックシステム(SCYTHEWRACK SYSTEM) / 玉金工事(安全痴態/ニアフレンズ&色々) / SM NETWORK(サカグチマナブ&色々) / soratobiWeezer / 真似スキン(さすらい厨房trattoria may&色々) / Red Big Chin Poppers(新世界ホシヲ&グルーヴ先生&色々) / DICK SLYME(Miya-z&浅野毅&立川dancingず&NA2MI) / Miyaz aGrunband the Atsushine(THE BODY ) / ぱふゅちゃんず(MirandaOtsuji&三国未来) /",
+    "fee": "adv ¥2,500 / door ¥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/20230130.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-01-12T17:41:31",
+    "id": "2023-01-12-circus",
+    "place": "CIRCUS Osaka",
+    "info": [
+      "INFO <a href=\"https://circus-osaka.com/\" target=\"_blank\">CIRCUS Osaka</a>",
+      "<a href=\"https://twitcasting.tv/nozfest2020/shopcart/207932\" target=\"_blank\">ツイキャスプレミア</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "New View Point",
+    "titleDesktop": "New View Point",
+    "title": "New View Point",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / みみみ食堂 / 目下奴言水",
+    "fee": "adv ¥2,300 / door ¥2,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/IMG_4109.jpg",
     "wp": true
   }
 ]
