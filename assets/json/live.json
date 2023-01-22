@@ -17,6 +17,22 @@
     "wp": true
   },
   {
+    "date": "2023-03-17T17:41:31+09:00",
+    "id": "2023-3-17-2nd-LINE",
+    "place": "LIVE SQUARE 2nd LINE",
+    "info": [
+      "INFO <a href=\"http://www.arm-live.com/2nd/\" target=\"_blank\">LIVE SQUARE 2nd LINE</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "SMASH YOUTH 20th Anniversary road to namba hatch 3rd step",
+    "titleDesktop": "SMASH YOUTH 20th Anniversary road to namba hatch 3rd step",
+    "title": "SMASH YOUTH 20th Anniversary road to namba hatch 3rd step",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "SMASH YOUTH / soratobiwo / ウエダケイタ / りさボルト&Hys / ぷすっぽ / 金谷好益",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/2023-3-17.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-03-04T17:41:31+09:00",
     "id": "2023-3-4-MUSIC-FARM",
     "place": "名古屋MUSIC FARM",
@@ -31,6 +47,24 @@
     "act": "ハシグチカナデリヤ / ITAZURA STORE / ナカノアツシ / soratobiwo / 植田健一",
     "fee": "adv ¥3,000 / door ¥3,000",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/2023-03-04.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-02-14T17:41:31",
+    "id": "2023-2-14-JANUS",
+    "place": "心斎橋JANUS",
+    "info": [
+      "INFO <a href=\"http://www.arm-live.com/janus/\" target=\"_blank\">Music Club JANUS</a>",
+      "森本真伍とキャプテンOG、ユニットでの出演となります,"
+    ],
+    "soldOut": false,
+    "titleMobile": "パーティーキルズミー！バレンタインスペシャル♡",
+    "titleDesktop": "パーティーキルズミー！バレンタインスペシャル♡",
+    "title": "パーティーキルズミー！バレンタインスペシャル♡",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "いぬいとかほすけ / なきりとはるちゃん。 / 森本真伍とキャプテンOG(soratobiwo) / Charmant coco / プラットホーム",
+    "fee": "adv ¥2,6æ00 / door ¥3,100 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/01/2023-02-14.jpg",
     "wp": true
   },
   {
