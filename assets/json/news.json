@@ -1,5 +1,41 @@
 [
   {
+    "date": "2022-04-23T21:00:00",
+    "id": "2022-4-23",
+    "title": "お魚フェス2023第1弾アーティスト発表！！",
+    "titleMobile": "お魚フェス2023第1弾アーティスト発表！！",
+    "titleDesktop": "お魚フェス2023第1弾アーティスト発表！！",
+    "info": [
+      "【第1弾アーティスト】(12組) / soratobiwo / アフターアワーズ / GET BILL MONKEYS / Transit My Youth / 西島衛(ザ・シックスブリッツ) / ハレルヤ / VANQULLWAR'S / ハンバーグオムレツ / 百回中百回 / Bacon / モケーレムベンベ / 弱虫倶楽部 / 続報をお待ちください！！"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/04/20230423-2.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-04-22T20:00:00",
+    "id": "2023-04-22-osakana",
+    "title": "お魚フェス2023 開催決定!",
+    "titleMobile": "お魚フェス2023 開催決定!",
+    "titleDesktop": "お魚フェス2023 開催決定!",
+    "info": [
+      "2023年7月16日(日)<br>『お魚フェス2023』<br>今年も開催決定！！"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/04/20230423.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-04-20T20:00:00",
+    "id": "2023-04-20",
+    "title": "Ba.鳴海達也 活動休止について",
+    "titleMobile": "Ba.鳴海達也 活動休止について",
+    "titleDesktop": "Ba.鳴海達也 活動休止について",
+    "info": [
+      "年明けごろから精神的な理由により身体的不調が見られ <br> バンド活動を休止し療養に努めることとなりました。 <br> 5人でのライブを楽しみにされていた方、本当に申し訳ありませんが <br> 当面は4人での活動となります。 <br> 引き続きの応援をよろしくお願い致します。"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
+    "wp": true
+  },
+  {
     "date": "2022-12-19T20:00:00",
     "id": "2022-12-19",
     "title": "new goods 発売開始！",
