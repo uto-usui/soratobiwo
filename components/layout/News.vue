@@ -31,7 +31,7 @@ import { pause } from 'Js/animation'
 
 import newsJson from '~/assets/json/news'
 
-const newsData = newsJson.slice(0, 5)
+const newsData = newsJson.slice(0, 3)
 
 export default {
   name: 'News',
