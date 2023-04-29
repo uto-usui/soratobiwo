@@ -1,5 +1,26 @@
 [
   {
+    "date": "2023-07-29T17:41:31",
+    "id": "2023-07-29-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/242598\" target=\"_blank\">TIGET予約</a>",
+      "<a href=\"https://t.livepocket.jp/e/x4dag\" target=\"_blank\">LivePocket販売</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/230577\" target=\"_blank\">ツイキャスプレミアム ￥2,500</a>",
+      "<a href=\"https://youtu.be/9OphUre0SUA\" target=\"_blank\">バチバチのイベントPV</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "Andend boom pre.【GEKOKUJOH】",
+    "titleDesktop": "Andend boom pre.【GEKOKUJOH】",
+    "title": "Andend boom pre.【GEKOKUJOH】",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "Andend boom / Pomodolo(東京) / ELECTRIC MAMA / ハイファイコーヒーズ / RobotMeetRobo / soratobiwo",
+    "fee": "adv ¥3,000 / Tシャツ付き ¥5,555 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/04/20230729.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-07-67T17:41:31",
     "id": "2023-7-16-osakana",
     "place": "大阪堀江 5会場",
@@ -15,6 +36,23 @@
     "act": "soratobiwo / アフターアワーズ / GET BILL MONKEYS / Transit My Youth / 西島衛(ザ・シックスブリッツ) / ハレルヤ / VANQULLWAR'S / ハンバーグオムレツ / 百回中百回 / Bacon / モケーレムベンベ / 弱虫倶楽部 / and more...",
     "fee": "adv ¥3,900 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/04/20230423-2.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-06-19T17:41:31",
+    "id": "2023-6-19-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>"
+    ],
+    "soldOut": false,
+    "titleMobile": "ボーイミーツガールナイトVol.1",
+    "titleDesktop": "ボーイミーツガールナイトVol.1",
+    "title": "ボーイミーツガールナイトVol.1",
+    "time": "OPEN 19:00 / START 19:30",
+    "act": "meh meh white sheeps / 立ち耳スコティッシュフォールド / Transit My Youth / soratobiwo",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/04/2023-06-19.jpg",
     "wp": true
   },
   {
