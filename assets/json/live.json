@@ -39,6 +39,43 @@
     "wp": true
   },
   {
+    "date": "2023-07-11T17:41:31",
+    "id": "2023-11-17-para-dice",
+    "place": "扇町 para-dice",
+    "info": [
+      "INFO <a href=\"http://para-dice.net/\" target=\"_blank\">扇町 para-dice</a>",,
+      "フレッシュさん誕生日を強烈なスリーマンで！"
+    ],
+    "soldOut": true,
+    "titleMobile": "ミラーボールを噛み砕け！",
+    "titleDesktop": "ミラーボールを噛み砕け！",
+    "title": "ミラーボールを噛み砕け！",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "THE SUNSHINE / JUNIOR BREATH / soratobiwo",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_34.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-07-01T17:41:31",
+    "id": "2023-7-1-mihoudai",
+    "place": "アメリカ村周辺20会場",
+    "info": [
+      "INFO <a href=\"https://eplus.jp/mihoudai2023/\" target=\"_blank\">北堀江 club vijon</a>",
+      "アーティスト手売りチケット<br>第三弾出演者より、該当アーティストより随時販売開始しています<br>該当アーティストに関しては、Dropbox内画像をご確認いただけますと幸いです<br>ライブハウス店頭販売<br>OSAKA MUSE / 2nd LINE / TH-R HALL / 下北沢近松",
+      "見放題2023でお魚フェスコラボステージが登場！<br>ここでしか見られないステージをお楽しみに！"
+    ],
+    "soldOut": false,
+    "titleMobile": "見放題2023",
+    "titleDesktop": "見放題2023",
+    "title": "見放題2023",
+    "time": "OPEN --:-- / START --:--",
+    "act": "soratobiwo / 他出演者多数",
+    "fee": "adv ¥-,---",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/06/2023-07-01.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-06-30T17:41:31",
     "id": "2023-6-30-SOCORE",
     "place": "SOCORE FACTORY",
