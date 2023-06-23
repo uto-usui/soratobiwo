@@ -1,5 +1,24 @@
 [
   {
+    "date": "2023-08-05T17:41:31",
+    "id": "2023-8-5-vijon",
+    "place": "北堀江 club vijon / 南堀江Knave 2会場サーキット",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://t.livepocket.jp/e/kzr0j\" target=\"_blank\">プレイガイド(livepocket)</a>",
+      "気づいたら劇団 主催の夏フェスです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "夏全部フェス",
+    "titleDesktop": "夏全部フェス",
+    "title": "夏全部フェス",
+    "time": "OPEN 12:00 / START 12:30",
+    "act": "気づいたら劇団 / クリトリック・リス / 三四少女 / チセツナガラ / 林奈緒美 / ヒミツノミヤコ / びわ湖くん / soratobiwo / スクールガールズエンド / OKOJO / muk / QLIP / and more...!!",
+    "fee": "adv ¥3,000 / Tシャツ付き ¥5,555 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/06/20230805.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-07-29T17:41:31",
     "id": "2023-07-29-vijon",
     "place": "北堀江 club vijon",
@@ -18,6 +37,26 @@
     "act": "Andend boom / Pomodolo(東京) / ELECTRIC MAMA / ハイファイコーヒーズ / RobotMeetRobo / soratobiwo",
     "fee": "adv ¥3,000 / Tシャツ付き ¥5,555 +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/04/20230729.jpg",
+    "wp": true
+  },
+  {
+    "date": "2023-07-17T17:41:31",
+    "id": "2023-7-17-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "<a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">配信URL</a>",
+      "<a href=\"https://passmarket.yahoo.co.jp/event/show/detail/02pfinzbak431.html\" target=\"_blank\">投げ銭URL</a>",
+      "お魚フェス2023翌日はアコースティックで後夜祭！<br>お魚フェスの余韻たっぷりにお届け！"
+    ],
+    "soldOut": false,
+    "titleMobile": "お魚フェス2023後夜祭-歩き疲れたし翌日はアコースティックではんなり編-",
+    "titleDesktop": "お魚フェス2023後夜祭-歩き疲れたし翌日はアコースティックではんなり編-",
+    "title": "お魚フェス2023後夜祭-歩き疲れたし翌日はアコースティックではんなり編-",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "soratobiwo",
+    "fee": "adv ¥2,800 / door ¥2,800 / +1drink（お魚フェス2023のリストバンド提示で¥1000割引）",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/06/20230717.jpg",
     "wp": true
   },
   {
