@@ -58,6 +58,24 @@
     "wp": true
   },
   {
+    "date": "2023-08-13T17:41:31",
+    "id": "2023-8-13-dxq",
+    "place": "心斎橋 FootRock&BEERS",
+    "info": [
+      "INFO <a href=\"http://footrock.jp/\" target=\"_blank\">心斎橋FootRock&BEERS</a>",
+      "約10年の時を経て、club jungleで催していた企画ナイトジュエルが一夜復活！<br>沢山の要望に応え、最初で最後の同窓会をFootRock&BEERS(旧club jungle)にて開催！"
+    ],
+    "soldOut": false,
+    "titleMobile": "Night Jewel",
+    "titleDesktop": "Night Jewel",
+    "title": "Night Jewel",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "風花(1日復活) / soratobiwo / 天田優子 / unclose / airlie / 岡本規 / 空風",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/07/20230813.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-08-05T17:41:31",
     "id": "2023-8-5-vijon",
     "place": "北堀江 club vijon / 南堀江Knave 2会場サーキット",
