@@ -20,6 +20,24 @@
     "wp": true
   },
   {
+    "date": "2023-08-31T17:41:31",
+    "id": "2023-8-31-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>",
+      "お魚フェス2023の締めくくり！"
+    ],
+    "soldOut": false,
+    "titleMobile": "お魚フェス2023後夜祭-これがほんとの2023夏の終わり編",
+    "titleDesktop": "お魚フェス2023後夜祭-これがほんとの2023夏の終わり編",
+    "title": "お魚フェス2023後夜祭-これがほんとの2023夏の終わり編",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / ハレルヤ / ワダアツシとビアウマイオールスターズ / ラウンドヘッド",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/07/20230831.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-08-20T17:41:31",
     "id": "2023-8-20-vijon",
     "place": "北堀江 club vijon",
