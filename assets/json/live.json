@@ -38,6 +38,24 @@
     "wp": true
   },
   {
+    "date": "2023-10-12T17:41:31",
+    "id": "2023-10-12-vijon",
+    "place": "梅田 シャングリラ",
+    "info": [
+      "INFO <a href=\"https://www.shan-gri-la.jp/\" target=\"_blank\">梅田 シャングリラ</a>",
+      "超久々の梅田シャングリラで最高の夜！"
+    ],
+    "soldOut": false,
+    "titleMobile": "Everybody Ready",
+    "titleDesktop": "Everybody Ready",
+    "title": "Everybody Ready",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "GET BILL MONKEYS / soratobiwo / QLIP / メタボリックシンジゲート",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/10/20231012.jpg",
+    "wp": true
+  },
+  {
     "date": "2023-10-09T17:41:31",
     "id": "2023-10-09-vijon",
     "place": "北堀江 club vijon",
