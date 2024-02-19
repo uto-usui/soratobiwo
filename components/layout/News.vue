@@ -30,6 +30,7 @@ import ShuffleText from 'shuffle-text'
 import { pause } from 'Js/animation'
 
 import newsJson from '~/assets/json/news'
+const currentYear = new Date().getFullYear()
 
 export default {
   name: 'News',
