@@ -17,6 +17,24 @@
     "wp": true
   },
   {
+    "date": "2024-6-8T17:41:31",
+    "id": "2024-6-8-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "2024年初めてのアコースティック？<br>温かい夜になりそう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "世界は今夜オレたちのもの",
+    "titleDesktop": "世界は今夜オレたちのもの",
+    "title": "世界は今夜オレたちのもの",
+    "time": "OPEN 17:45 / START 18:30",
+    "act": "市川セカイ / 大瀧ヌー / 北小路直也（MILKBAR） / 森本真伍&キャプテンOG（soratobiwo）",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink（お魚フェス2023のリストバンド提示で¥1000割引）",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/02/202468.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-03-12T17:41:31",
     "id": "2024-3-12-dxq",
     "place": "D×Q 神戸",
