@@ -31,12 +31,6 @@ import { pause } from 'Js/animation'
 
 import newsJson from '~/assets/json/news'
 
-
-const currentYearData = newsJson.filter(item => {
-  const itemYear = new Date(item.date).getFullYear()
-  return itemYear === currentYear
-})
-
 export default {
   name: 'News',
   props: {
@@ -51,7 +45,10 @@ export default {
   },
   data() {
     return {
-      newsData: currentYearData,
+      newsData: newsJson.filter(item => {
+        const itemYear = new Date(item.date).getFullYear()
+        return itemYear === currentYear
+      }),
       sfText: null,
       links: [],
       counter: 0,
