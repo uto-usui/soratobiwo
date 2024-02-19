@@ -6,22 +6,22 @@
         'is-sub': $store.state.route.fullPath !== '/' && getIsDesktop,
       },
     ]"
-    class="news"
+    class='news'
   >
-    <div class="news__inner">
-      <h2 class="news__title">
-        <nuxt-link class="news__target" to="/news/">News</nuxt-link>
+    <div class='news__inner'>
+      <h2 class='news__title'>
+        <nuxt-link class='news__target' to='/news/'>News</nuxt-link>
       </h2>
-      <p class="news__text">
+      <p class='news__text'>
         <nuxt-link
-          ref="text"
-          :to="`/news/${newsData[counter].id}/`"
-          v-text="newsData[counter].title"
-          class="news__target"
+          ref='text'
+          :to='`/news/${newsData[counter].id}/`'
+          v-text='newsData[counter].title'
+          class='news__target'
         />
       </p>
     </div>
-    <div class="news__bg" />
+    <div class='news__bg' />
   </div>
 </template>
 
@@ -31,7 +31,11 @@ import { pause } from 'Js/animation'
 
 import newsJson from '~/assets/json/news'
 
-const newsData = newsJson.slice(0, 3)
+
+const currentYearData = newsJson.filter(item => {
+  const itemYear = new Date(item.date).getFullYear()
+  return itemYear === currentYear
+})
 
 export default {
   name: 'News',
@@ -47,7 +51,7 @@ export default {
   },
   data() {
     return {
-      newsData,
+      newsData: currentYearData,
       sfText: null,
       links: [],
       counter: 0,
@@ -86,7 +90,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang='scss' scoped>
 .news {
   position: fixed;
   top: calc(100vh * 330 / 667);
@@ -101,7 +105,7 @@ export default {
   //
   opacity: 0;
   transition: top 0.4s 0.4s $easeInOutSine, right 0.4s 0.4s $easeInOutSine,
-    transform 0.4s 0.4s $easeInOutSine;
+  transform 0.4s 0.4s $easeInOutSine;
   //
   @include desktop {
     top: calc(100vh * 375 / 768);
@@ -121,6 +125,7 @@ export default {
     pointer-events: auto;
     opacity: 1;
   }
+
   //
   &.is-sub {
     @include desktop {
