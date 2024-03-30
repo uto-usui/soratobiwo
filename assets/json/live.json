@@ -17,6 +17,44 @@
     "wp": true
   },
   {
+    "date": "2024-06-28T17:41:31",
+    "id": "2024-6-28-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "soratobiwo約4年ぶりとなる新作をリリース！<br>4人体制初の音源リリースとなります。<br>全員集合でお願いします！"
+    ],
+    "soldOut": false,
+    "titleMobile": "soratobiwo new album レコ発",
+    "titleDesktop": "soratobiwo new album レコ発",
+    "title": "soratobiwo new album レコ発",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / and more..",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/03/20240628.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-06-20T17:41:31",
+    "id": "2024-6-20-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/309043\" target=\"_blank\">入場チケット ¥2,500</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/299166\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,000</a>",
+      "ELECTRIC MAMAケンジゾンビ爆誕祭！"
+    ],
+    "soldOut": false,
+    "titleMobile": "「Astro Dancer」Release Party&ケンジゾンビ爆誕祭",
+    "titleDesktop": "「Astro Dancer」Release Party&ケンジゾンビ爆誕祭",
+    "title": "「Astro Dancer」Release Party&ケンジゾンビ爆誕祭",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "ELECTRIC MAMA / WtB / ハイファイコーヒーズ / soratobiwo / YOWLL / 天上天下",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/03/IMG_6369.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-06-08T17:41:31",
     "id": "2024-6-8-utausakana",
     "place": "心斎橋 歌う魚",
@@ -32,6 +70,26 @@
     "act": "市川セカイ / 大瀧ヌー / 北小路直也（MILKBAR） / 森本真伍&キャプテンOG（soratobiwo）",
     "fee": "adv ¥3,000 / door ¥3,000 / +1drink（お魚フェス2023のリストバンド提示で¥1000割引）",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/02/202468.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-05-16T17:41:31",
+    "id": "2024-5-16-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/308317\" target=\"_blank\">入場チケット ¥2,500</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/298521\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,000</a>",
+      "グッバイ松藤！松藤さんにお世話になった人は全員集合！"
+    ],
+    "soldOut": false,
+    "titleMobile": "【MATSUFUJI FOREVER】vol.0",
+    "titleDesktop": "【MATSUFUJI FOREVER】vol.0",
+    "title": "【MATSUFUJI FOREVER】vol.0",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "soratobiwo / shule And christmas / mothercoat / LOVE ING / DJ K (ex.uchuu;) & matsufuji lovers / and more",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/03/20240516.jpg",
     "wp": true
   },
   {
