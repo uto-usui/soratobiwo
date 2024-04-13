@@ -35,23 +35,22 @@
     "wp": true
   },
   {
-    "date": "2024-06-20T17:41:31",
-    "id": "2024-6-20-vijon",
-    "place": "北堀江 club vijon",
+    "date": "2024-06-22T17:41:31",
+    "id": "2024-6-22-vijon",
+    "place": "6会場",
     "info": [
       "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
-      "<a href=\"https://tiget.net/events/309043\" target=\"_blank\">入場チケット ¥2,500</a>",
-      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/299166\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,000</a>",
-      "ELECTRIC MAMAケンジゾンビ爆誕祭！"
+      "<a href=\"https://tiget.net/events/312693\" target=\"_blank\">チケット予約</a>",
+      "いつせかを感じるなんだこのイベントは！目撃せよ！<br>森本真伍&キャプテンOGで出演！"
     ],
     "soldOut": false,
-    "titleMobile": "「Astro Dancer」Release Party&ケンジゾンビ爆誕祭",
-    "titleDesktop": "「Astro Dancer」Release Party&ケンジゾンビ爆誕祭",
-    "title": "「Astro Dancer」Release Party&ケンジゾンビ爆誕祭",
-    "time": "OPEN 17:30 / START 18:00",
-    "act": "ELECTRIC MAMA / WtB / ハイファイコーヒーズ / soratobiwo / YOWLL / 天上天下",
-    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/03/IMG_6369.jpg",
+    "titleMobile": "いつまでも!ザ・ワールド!!!",
+    "titleDesktop": "いつまでも!ザ・ワールド!!!",
+    "title": "いつまでも!ザ・ワールド!!!",
+    "time": "OPEN 12:00 / START 12:30",
+    "act": "松本敏将(tobacco juice) / 三木康次郎(THE HillAndon) / にたないけん / 井上ヤスオバーガー / かんじょうえみ / よしこストンペア / 谷澤ウッドストック / 余類 / 松ノ葉楽団 / 森本真伍&キャプテンOG(soratobiwo) / 立川dancing / 高岳銘 / 西島衛(ザ・シックスブリッツ)",
+    "fee": "adv ¥3,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/04/2024-6-22.jpg",
     "wp": true
   },
   {
@@ -90,6 +89,26 @@
     "act": "soratobiwo / shule And christmas / mothercoat / LOVE ING / DJ K (ex.uchuu;) & matsufuji lovers / and more",
     "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/03/20240516.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-05-04T17:41:31",
+    "id": "2024-05-04-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "<a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">配信</a>",
+      "<a href=\"https://passmarket.yahoo.co.jp/event/show/detail/02pvrg6ns0p31.html\" target=\"_blank\">投げ銭</a>",
+      "超久々の森本真伍とキャプテンOG！<br>こちらの編成見たことない方もぜひ！"
+    ],
+    "soldOut": false,
+    "titleMobile": "reunion",
+    "titleDesktop": "reunion",
+    "title": "reunion",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "おがた(from_ofutun) / ナツノコエ / airlie / 森本真伍とキャプテンOG(soratobiwo)",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink（お魚フェス2023のリストバンド提示で¥1000割引）",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2016/10/20.jpg",
     "wp": true
   },
   {
