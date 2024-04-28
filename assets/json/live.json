@@ -72,6 +72,26 @@
     "wp": true
   },
   {
+    "date": "2024-06-06T17:41:31",
+    "id": "2024-6-6-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>",
+      "<a href=\"https://www.youtube.com/c/livehousenanosince2004\" target=\"_blank\">配信</a>",
+      "<a href=\"https://livehousenano.stores.jp/\" target=\"_blank\">投げ銭</a>",
+      "久々のnano!初めてがいっぱいの楽しみな夜です！<br>出番遅め！"
+    ],
+    "soldOut": false,
+    "titleMobile": "バック・トゥ・プールサイド",
+    "titleDesktop": "バック・トゥ・プールサイド",
+    "title": "バック・トゥ・プールサイド",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / Akene Streaking Crowd / To Be Honest / コモンドール",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/07/20230831.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-05-16T17:41:31",
     "id": "2024-5-16-vijon",
     "place": "北堀江 club vijon",
@@ -107,8 +127,26 @@
     "title": "reunion",
     "time": "OPEN 18:30 / START 19:00",
     "act": "おがた(from_ofutun) / ナツノコエ / airlie / 森本真伍とキャプテンOG(soratobiwo)",
-    "fee": "adv ¥2,500 / door ¥2,500 / +1drink（お魚フェス2023のリストバンド提示で¥1000割引）",
+    "fee": "adv ¥2,500 / door ¥2,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2016/10/20.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-04-29T17:41:31",
+    "id": "2024-4-29-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "新作MV撮影を兼ねたスペシャルライブです。<br>みなさん集合してくれたらとっても嬉しい！<br>一緒に新しいMV作ろう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "新作MV撮影するのでエキストラでみんなに集まってほしい緊急(ちょこっと)ワンマンライブ",
+    "titleDesktop": "新作MV撮影するのでエキストラでみんなに集まってほしい緊急(ちょこっと)ワンマンライブ",
+    "title": "新作MV撮影するのでエキストラでみんなに集まってほしい緊急(ちょこっと)ワンマンライブ",
+    "time": "OPEN 20:00 / START 20:30",
+    "act": "soratobiwo",
+    "fee": "adv ¥f,ree / door ¥f,ree / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/04/20240429.jpg",
     "wp": true
   },
   {
