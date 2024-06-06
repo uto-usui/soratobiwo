@@ -1,5 +1,117 @@
 [
   {
+    "date": "2024-09-08T17:41:31",
+    "id": "2024-9-8-nano",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "<a href=\"https://www.youtube.com/channel/UCpxzAZQlmqbRDz1BLDts2Ug\" target=\"_blank\">配信</a>",
+      "<a href=\"https://passmarket.yahoo.co.jp/event/show/detail/02gs9hgc41t31.html\" target=\"_blank\">投げ銭</a>",
+      "GOING UNDER GROUND素生さんとの2マンも7回目！ <br>歌う魚7周年を祝しての大切な2マンライブです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "歌う魚 7th Anniversaryラッキー！愛で鯛11匹目〜僕たちの青春のすべて",
+    "titleDesktop": "歌う魚 7th Anniversaryラッキー！愛で鯛11匹目〜僕たちの青春のすべて",
+    "title": "歌う魚 7th Anniversaryラッキー！愛で鯛11匹目〜僕たちの青春のすべて",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "soratobiwo / 松本素生(GOING UNDER GROUND)",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/06/2024-9-8.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-08-26T17:41:31",
+    "id": "2024-8-26-BANGBOO",
+    "place": "梅田 BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">UMEDA BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/321657\" target=\"_blank\">TIGET予約</a>",
+      "<a href=\"https://twitcasting.tv/bangbooinfo/shopcart/310779\" target=\"_blank\">ツイキャスプレミアム ￥2,500</a>",
+      "UMEDA BANGBOOオープンを祝してらくだのこぶXと待望の2マン！<br>この日だけのスペシャルな一夜です！"
+    ],
+    "soldOut": false,
+    "titleMobile": "ぼくがかんがえたさいきょうのツーマン",
+    "titleDesktop": "ぼくがかんがえたさいきょうのツーマン",
+    "title": "ぼくがかんがえたさいきょうのツーマン",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / らくだのこぶX / FAMILIA(OA)",
+    "fee": "adv ¥3,000 / door ¥3,600 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/06/2024-08-26.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-08-24T17:41:31",
+    "id": "2024-8-24-HOKAGE",
+    "place": "アメ村 火影 -HOKAGE-",
+    "info": [
+      "INFO <a href=\"http://musicbarhokage.net/\" target=\"_blank\">火影 -HOKAGE-</a>",
+      "真夏のすごい日！もうなんか凄すぎて説明不要です！"
+    ],
+    "soldOut": false,
+    "titleMobile": "未知鳴る世界でさるかに楽戦",
+    "titleDesktop": "未知鳴る世界でさるかに楽戦",
+    "title": "未知鳴る世界でさるかに楽戦",
+    "time": "OPEN 11:30 / START 12:00",
+    "act": "soratobiwo / ZOOZ / nagori / ムステインズ / superback / 巨大ジューシーソーセージズ / たろたろwith餓鬼Иちょ / エダワカレ / 南風とクジラ / 以津真天 / アトゾメ / 怪我童子 / ワッペリン / DRAQ EEDEN / 純情マゼラン / 夜が明ければ",
+    "fee": "adv ¥3,500 / door ¥3,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/06/2024-08-24.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-08-18T17:41:31",
+    "id": "2024-8-18-kdjapon",
+    "place": "鶴舞 K.Dハポン",
+    "info": [
+      "INFO <a href=\"https://kdjapon.jimdo.com/\" target=\"_blank\">K.Dハポン -空き地-</a>",
+      "アルバムレコ発名古屋編！素敵な3マン！最高のお昼になりそう！<br>みんな大集合でお願いします,！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『すべては愛でできている』vol.4",
+    "titleDesktop": "『すべては愛でできている』vol.4",
+    "title": "『すべては愛でできている』vol.4",
+    "time": "OPEN 11:30 / START 12:00",
+    "act": "soratobiwo / GET BILL MONKEYS / 大瀧ヌーバンド",
+    "fee": "adv ¥3,000 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/06/2024-08-18.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-06-28T17:41:31",
+    "id": "2024-6-28-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "soratobiwo約4年ぶりとなる新作をリリース！<br>4人体制初の音源リリースとなります。<br>全員集合でお願いします！"
+    ],
+    "soldOut": false,
+    "titleMobile": "soratobiwo new album レコ発",
+    "titleDesktop": "soratobiwo new album レコ発",
+    "title": "soratobiwo new album レコ発",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / and more..",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/03/20240628.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-07-21T17:18:34",
+    "id": "2024-7-21-BBB",
+    "place": "山口 LIVE HOUSE BBB",
+    "info": [
+      "INFO <a href=\"https://bbblivehouse.wixsite.com/livehousebbb/home\" target=\"_blank\">山口 LIVE HOUSE BBB</a>",
+      "アルバムを持って超久々に山口へ！ <br>大切な土地なので非常に楽しみな1日。 <br>みんなに会いたい！"
+    ],
+    "soldOut": false,
+    "titleMobile": "construction Vol.41",
+    "titleDesktop": "construction Vol.41",
+    "title": "construction Vol.41",
+    "time": "OPEN 16:00 / START 16:30",
+    "act": "soratobiwo / 西広ショータ&His Band / わたしたち",
+    "fee": "adv ¥2,500 / door ¥2,500 / 学割 ¥1,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/06/2024-07-21.png",
+    "wp": true
+  },
+  {
     "date": "2024-07-14T17:18:34",
     "id": "2024-7-14-osakana",
     "place": "大阪堀江周辺4会場",
@@ -7,7 +119,7 @@
       "新しい風が吹く！6年目のお魚フェス！"
     ],
     "soldOut": false,
-    "titleMobile": "お魚フェス2024",
+    "titleMobile": "construction Vol.41",
     "titleDesktop": "お魚フェス2024",
     "title": "お魚フェス2024",
     "time": "OPEN --:-- / START --:--",
@@ -51,6 +163,24 @@
     "act": "松本敏将(tobacco juice) / 三木康次郎(THE HillAndon) / にたないけん / 井上ヤスオバーガー / かんじょうえみ / よしこストンペア / 谷澤ウッドストック / 余類 / 松ノ葉楽団 / 森本真伍&キャプテンOG(soratobiwo) / 立川dancing / 高岳銘 / 西島衛(ザ・シックスブリッツ)",
     "fee": "adv ¥3,500 / door ¥-,--- / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/04/2024-6-22.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-06-09T13:44:29",
+    "id": "2024-6-9-KINGCOBRA",
+    "place": "KINGCOBRA",
+    "info": [
+      "INFO <a href=\"http://king-cobra.net/\" target=\"_blank\">KINGCOBRA</a>",
+      "あのフェス2024に出演です！1日まるっと楽しめると思います！わいわいしよう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "あのフェス2024",
+    "titleDesktop": "あのフェス2024",
+    "title": "あのフェス2024 気づいてる思うけど、野音2Days赤字出たからこの規模やで、察して(泣)",
+    "time": "OPEN 12:20 / START 12:50",
+    "act": "らくだのこぶX / K星人 / メタボリックシンジゲート / たんすはさおとかぞえるんだよ / soratobiwo / アスノシオリ / WONDER CITY BOYS / ガーモートーンズ / リバースレインボー / ZUKEDO / 玉岡マサノブ / CA $ / あんどーまいか / キムラ亮 / RUCA / 魂☆レッド！！ / 春輔 / Wataru Katoo",
+    "fee": "adv ¥3,000 / door ¥3,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/06/2024-06-09.jpg",
     "wp": true
   },
   {
