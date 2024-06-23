@@ -30,6 +30,7 @@ import ShuffleText from 'shuffle-text'
 import { pause } from 'Js/animation'
 
 import newsJson from '~/assets/json/news'
+
 const currentYear = new Date().getFullYear()
 
 export default {
@@ -102,8 +103,7 @@ export default {
   border: 5px solid currentColor;
   //
   opacity: 0;
-  transition: top 0.4s 0.4s $easeInOutSine, right 0.4s 0.4s $easeInOutSine,
-  transform 0.4s 0.4s $easeInOutSine;
+  transition: top 0.4s 0.4s $easeInOutSine, right 0.4s 0.4s $easeInOutSine, transform 0.4s 0.4s $easeInOutSine;
   //
   @include desktop {
     top: calc(100vh * 375 / 768);
