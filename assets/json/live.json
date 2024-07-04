@@ -76,6 +76,44 @@
     "wp": true
   },
   {
+    "date": "2024-08-9T17:41:31",
+    "id": "2024-8-9-dxq",
+    "place": "D×Q 神戸",
+    "info": [
+      "INFO <a href=\"https://dq-kobe.com/\" target=\"_blank\">D×Q 神戸</a>",
+      "CD発売ツアー神戸編！素敵な仲間とお届け！\n"
+    ],
+    "soldOut": false,
+    "titleMobile": "「イエスタデイワンスモアーズ」のリリースを神戸でもお祝いしNIGHT",
+    "titleDesktop": "「イエスタデイワンスモアーズ」のリリースを神戸でもお祝いしNIGHT",
+    "title": "「イエスタデイワンスモアーズ」のリリースを神戸でもお祝いしNIGHT",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / モケーレムベンベ / みみみ食堂",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/07/IMG_6978.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-07-29T17:41:31",
+    "id": "2024-7-29-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/326558\" target=\"_blank\">入場チケット ¥2,500</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/315079\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,000</a>",
+      "みんなのメイちゃんフォーエバー！"
+    ],
+    "soldOut": false,
+    "titleMobile": "フォーエバーオムライス",
+    "titleDesktop": "フォーエバーオムライス",
+    "title": "フォーエバーオムライス",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "【FINAL 限定FOOD】さすらい厨房trattoria may / 【LIVE】ELECTRIC MAMA / ハヤシライフ / aomidoro / みっちー(シンガロンパレード) / Yosac OWL / おシャベリな感情 / soratobiwo / DJ kyon",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/07/2024-07-29.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-06-28T17:41:31",
     "id": "2024-6-28-vijon",
     "place": "北堀江 club vijon",
