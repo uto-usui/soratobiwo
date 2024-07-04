@@ -1,5 +1,45 @@
 [
   {
+    "date": "2024-07-02T21:00:00",
+    "id": "2023-7-2",
+    "title": "お魚フェス2024タイムテーブル解禁",
+    "titleMobile": "お魚フェス2024タイムテーブル解禁",
+    "titleDesktop": "お魚フェス2024タイムテーブル解禁",
+    "info": [
+      "お魚フェス2024のタイムテーブル解禁！<br>今年の夏も堀江で遊ぼう！",
+      "<img src=\"https://wp.soratobiwo.com/wp-content/uploads/2024/07/2024-07-02.jpg\" alt=\"タイムテーブル\">"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/07/2024-07-02.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-07-01T21:00:00",
+    "id": "2023-7-1",
+    "title": "New MV 『群青』公開",
+    "titleMobile": "New MV 『群青』公開",
+    "titleDesktop": "New MV 『群青』公開",
+    "info": [
+      "イエスタデイワンスモアーズから群青のMVを公開！",
+      "<a href=\"https://minamiwheel.jp/\" target=\"_blank\">群青</a>"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/07/2024-07-01.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-06-30T21:00:00",
+    "id": "2023-6-30",
+    "title": "3rd album『イエスタデイワンスモアーズ』リリース",
+    "titleMobile": "3rd album『イエスタデイワンスモアーズ』リリース",
+    "titleDesktop": "3rd album『イエスタデイワンスモアーズ』リリース",
+    "info": [
+      "約２年半ぶりとなる3rdアルバムがリリース。<br>4人体制初の音源となります。必聴の夏盤。",
+      "soratobiwo 3rd full album<br>『イエスタデイワンスモアーズ』<br>1.夏のイントロ<br>2.群青<br>3.ロック<br>4.8月32日<br>5.錆夏<br>6.うみ<br>7.イエスタデイワンスモアーズ<br>8.ジュビリー<br>9.ワールドイズマイン<br>10.ジュテーム",
+      "2024.06.28 リリース<br>¥3000(tax in)<br>STMS-0003"
+    ],
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/07/2024-06-30.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-01-21T21:00:00",
     "id": "2023-7-3",
     "title": "『お魚フェス2024』今年も開催決定！！",
