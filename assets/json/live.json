@@ -1,5 +1,44 @@
 [
   {
+    "date": "2024-11-19T17:41:31",
+    "id": "2024-11-19-knave",
+    "place": "南堀江 knave",
+    "info": [
+      "INFO <a href=\"http://www.knave.co.jp/\" target=\"_blank\">南堀江knave</a>",
+      "ツイキャス有料配信 <a href=\"https://twitcasting.tv/c:knave__/shopcart/333245\" target=\"_blank\">￥2,500</a>",
+      "福となせ！"
+    ],
+    "soldOut": false,
+    "titleMobile": "わざわい転じて福となせ。kurasaka wo iwae 03",
+    "titleDesktop": "わざわい転じて福となせ。kurasaka wo iwae 03",
+    "title": "わざわい転じて福となせ。kurasaka wo iwae 03",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "福 / soratobiwo / さんかくとバツ / メルシー",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/09/20241119.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-10-27T17:41:31",
+    "id": "2024-10-27-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/341079\" target=\"_blank\">入場チケット ¥2,500</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/327559\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,200</a>",
+      "ポールvijon店長&22周年を祝してハナーソニック！"
+    ],
+    "soldOut": false,
+    "titleMobile": "HANAR SONIC 2024",
+    "titleDesktop": "HANAR SONIC 2024",
+    "title": "HANAR SONIC 2024",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "soratobiwo / ELECTRIC MAMA / Asttro Attack / イロマキトリドリ / ぼっちまるくん / 散▽巡 / GET BILL MONKEYS / aida / Helpress Triangle / ハヤシライフ / [DJ] kyon / NA2MI / [FOOD]ごはんや影山",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/09/20241026.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-09-08T17:41:31",
     "id": "2024-9-8-nano",
     "place": "心斎橋 歌う魚",
