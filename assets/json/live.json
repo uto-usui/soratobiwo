@@ -1,5 +1,24 @@
 [
-
+  {
+    "date": "2024-12-23T17:41:31",
+    "id": "2024-12-23-BANGBOO",
+    "place": "梅田 BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">UMEDA BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/357879\" target=\"_blank\">TIGET予約</a>",
+      "<a href=\"https://twitcasting.tv/bangbooinfo/shopcart/341709\" target=\"_blank\">ツイキャスプレミアム ￥2,500</a>",
+      "場所をBANGBOOに移しての松藤ロック！連続出演記録更新中！"
+    ],
+    "soldOut": false,
+    "titleMobile": "松藤ROCK FESTIVAL'24-'25 day1",
+    "titleDesktop": "松藤ROCK FESTIVAL'24-'25 day1",
+    "title": "松藤ROCK FESTIVAL'24-'25 day1",
+    "time": "OPEN --:-- / START --:--",
+    "act": "soratobiwo / ハヤシライフ / THE BODY / メタボリックシンジゲート / TIGER AND DRAGON / らくだのこぶX / and more",
+    "fee": "adv ¥3,000 / door ¥-,--- +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/11/2024-12-23.jpg",
+    "wp": true
+  },
   {
     "date": "2024-12-19T17:41:31",
     "id": "2024-12-19-para-dice",
