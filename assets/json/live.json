@@ -1,5 +1,99 @@
 [
   {
+    "date": "2025-02-21T17:41:31",
+    "id": "2025-2-21-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>",
+      "京都nano21周年を祝して！壊れかけのテープレコーダーズとお魚フェス振りの再共演！とっても楽しみな1日です！"
+    ],
+    "soldOut": false,
+    "titleMobile": "rock'n roll little pieces",
+    "titleDesktop": "rock'n roll little pieces",
+    "title": "rock'n roll little pieces",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "壊れかけのテープレコーダーズ / IKIMONO / ゾッキ / 楽しんでいこうや西岡と狂ったチワワズ / soratobiwo",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/12/2025-2-21.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-01-25T17:41:31",
+    "id": "2025-1-25-fireloop",
+    "place": "寺田町 fireloop",
+    "info": [
+      "INFO <a href=\"https://fireloop.net//\" target=\"_blank\">寺田町 fireloop</a>",
+      "ヒミツノミヤコ新体制お披露目ライブは真昼間から濃厚3マン！"
+    ],
+    "soldOut": false,
+    "titleMobile": "わたしのためのカーテンコール！-新体制御披露目宴-",
+    "titleDesktop": "わたしのためのカーテンコール！-新体制御披露目宴-",
+    "title": "わたしのためのカーテンコール！-新体制御披露目宴-",
+    "time": "OPEN 12:00 / START 12:15",
+    "act": "笑女歌劇団ヒミツノミヤコ / soratobiwo / パパリガン",
+    "fee": "adv ¥3,000 / door ¥3,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/12/2025-1-25.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-01-23T17:41:31",
+    "id": "2025-1-23-BANGBOO",
+    "place": "梅田 BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">UMEDA BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/353273\" target=\"_blank\">TIGET予約</a>",
+      "<a href=\"https://twitcasting.tv/bangbooinfo/shopcart/337803\" target=\"_blank\">ツイキャスプレミアム ￥2,000</a>",
+      "2025初BANGBOO！凄そうなメンツと平日のパーティー！"
+    ],
+    "soldOut": false,
+    "titleMobile": "気ガ狂イソウナ夜 Vol.3",
+    "titleDesktop": "気ガ狂イソウナ夜 Vol.3",
+    "title": "気ガ狂イソウナ夜 Vol.3",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "soratobiwo / らくだのこぶX / 揺らいで凪 / Patrick＆Patricia / One Once Over / yashin / The Back Beats",
+    "fee": "adv ¥2,800 / door ¥3,300 / U-20割 ￥1000 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/12/2025-01-23.png",
+    "wp": true
+  },
+  {
+    "date": "2025-01-08T17:32:38",
+    "id": "2025-01-08-fandango",
+    "place": "Live Bar fandango",
+    "info": [
+      "INFO <a href=\"https://www.fandango-go.com/jp/jindex.htm\" target=\"_blank\">Live Bar fandango</a>",
+      "soratobiwo2025年一発目は堺ミュージックジャンボリー2025に出演！景気良い年明けにしよう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "第6回 新春！ 堺ミュージックジャンボリー2025-day2-",
+    "titleDesktop": "第6回 新春！ 堺ミュージックジャンボリー2025-day2-",
+    "title": "第6回 新春！ 堺ミュージックジャンボリー2025-day2-",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "バイセーシ / 千年メモリーズ / ハイファイコーヒーズ / 百回中百回 / soratobiwo / [FOOD] アッパーカリー,",
+    "fee": "adv ¥2,500 / door ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/12/2025-01-08.jpg",
+    "wp": true
+  },
+  {
+    "date": "2024-12-30T17:41:31",
+    "id": "2024-12-30-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/361349\" target=\"_blank\">DAY1＆2DAYSチケット ¥4,000</a>",
+      "<a href=\"https://tiget.net/events/361350\" target=\"_blank\">入場チケット ¥2,500</a>",
+      "2024年soratobiwoラストライブ！悔いなくあたらしい年へ！"
+    ],
+    "soldOut": false,
+    "titleMobile": "SUPER GOD EMPEROR ULTIMATE BØWNEN KAI",
+    "titleDesktop": "SUPER GOD EMPEROR ULTIMATE BØWNEN KAI",
+    "title": "SUPER GOD EMPEROR ULTIMATE BØWNEN KAI",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / らくだのこぶX / Ruby Seaside / 897MATATA / カレラ / SUN / ニドネハル",
+    "fee": "adv ¥2,500 / door ¥-,--- / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2024/12/2024-12-30.jpg",
+    "wp": true
+  },
+  {
     "date": "2024-12-23T17:41:31",
     "id": "2024-12-23-BANGBOO",
     "place": "梅田 BANGBOO",
@@ -194,7 +288,7 @@
     "place": "D×Q 神戸",
     "info": [
       "INFO <a href=\"https://dq-kobe.com/\" target=\"_blank\">D×Q 神戸</a>",
-      "CD発売ツアー神戸編！素敵な仲間とお届け！\n"
+      "CD発売ツアー神戸編！素敵な仲間とお届け！"
     ],
     "soldOut": false,
     "titleMobile": "「イエスタデイワンスモアーズ」のリリースを神戸でもお祝いしNIGHT",
