@@ -1,5 +1,24 @@
 [
   {
+    "date": "2025-04-04T00:00:00",
+    "id": "2025-4-4-misono",
+    "place": "ユニバース 大阪なんばのライブホール貸し会場",
+    "info": [
+      "INFO <a href=\"http://universe.osaka/\" target=\"_blank\">ユニバース 大阪なんばのライブホール貸し会場</a>",
+      "福の企画で味園ユニバースに最後の出演！",
+      "みんなで最高のメモリアルな1日に！"
+    ],
+    "soldOut": false,
+    "titleMobile": "福presents 今、生きてることに祝杯を。",
+    "titleDesktop": "福presents 今、生きてることに祝杯を。",
+    "title": "福presents 今、生きてることに祝杯を。",
+    "time": "OPEN TBA / START TBA",
+    "act": "福 / 赤いくらげ / soratobiwo / ギャーギャーズ / and more...",
+    "fee": "adv ¥3,300 / door ¥3,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/03/2025-04-04.jpg",
+    "wp": false
+  },
+  {
     "date": "2025-07-14T17:41:31",
     "id": "2025-7-14-osakana",
     "place": "大阪堀江 5会場",
