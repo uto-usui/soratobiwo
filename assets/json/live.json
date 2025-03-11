@@ -1,5 +1,22 @@
 [
   {
+    "date": "2025-07-14T17:41:31",
+    "id": "2025-7-14-osakana",
+    "place": "大阪堀江 5会場",
+    "info": [
+      "7年目のお魚フェス！ラッキーな1日を楽しみにしていてね！"
+    ],
+    "soldOut": false,
+    "titleMobile": "堀江 お魚ロックフェスティバル 2025",
+    "titleDesktop": "堀江 お魚ロックフェスティバル 2025",
+    "title": "堀江 お魚ロックフェスティバル 2025",
+    "time": "OPEN --:-- / START --:--",
+    "act": "soratobiwo / and more...",
+    "fee": "adv ¥3,900 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/03/2025-07-20.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-05-18T11:30:00",
     "id": "2025-5-18-kyoto",
     "place": "京都複数会場",
