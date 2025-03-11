@@ -74,6 +74,24 @@
     "wp": true
   },
   {
+    "date": "2025-04-03T18:30:00",
+    "id": "2025-4-3-janus",
+    "place": "心斎橋JANUS",
+    "info": [
+      "INFO <a href=\"https://livehousemaster.com/\" target=\"_blank\">LIVEHOUSEMASTER</a>",
+      "ヨコデさんバースデイイベント！<br>盛り上がりそうな4組でお祝い！"
+    ],
+    "soldOut": false,
+    "titleMobile": "LIVEHOUSEMASTER -YKD BIRTHDAY EVENT-",
+    "titleDesktop": "LIVEHOUSEMASTER -YKD BIRTHDAY EVENT-",
+    "title": "LIVEHOUSEMASTER -YKD BIRTHDAY EVENT-",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "アシガルユース / さんかくとバツ / soratobiwo / らくだのこぶX",
+    "fee": "adv ¥2,800 / door ¥3,100 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/03/2025-04-03.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-02-21T17:41:31",
     "id": "2025-2-21-nano",
     "place": "京都 nano",
