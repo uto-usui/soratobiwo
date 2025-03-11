@@ -1,5 +1,24 @@
 [
   {
+    "date": "2025-05-18T11:30:00",
+    "id": "2025-5-18-kyoto",
+    "place": "京都複数会場",
+    "info": [
+      "INFO <a href=\"http://www.sekaiwa.info/\" target=\"_blank\">いつまでも世界は...</a>",
+      "会場：KYOTO MUSE / 磔磔 / ライブハウス都雅都雅 / LIVE HOUSE DEWEY / UrBANGUILD / Live&Bar 音まかす / someno kyoto / Modern Times / The Weller's Club / BAR エイト / 新京極華舞台 / 東北酒肴EAGLE / ニュートレセン / 居酒屋ロッジ / 深夜喫茶多聞 / アイリッシュパブダブリン / A-bar / 今日モ今日トテ / 寺町大丈夫",
+      "いつまでも世界は…出演します！<br>最高の1日にしよう！チケットは驚愕の¥0!!"
+    ],
+    "soldOut": false,
+    "titleMobile": "いつまでも世界は...第十一回",
+    "titleDesktop": "いつまでも世界は...第十一回",
+    "title": "いつまでも世界は...第十一回",
+    "time": "OPEN 11:30 / START 12:00",
+    "act": "【第二弾】おとぼけビ〜バ〜 / おとぎ話 / AUX / 夜ハ短シ / than / The Fax / THE HillAndon / 私の思い出 / KENYATANABE / 雨市 / 佐古勇気 / 松本敏将(tobaccojuice・くふき) / はせがわかおり / ネコグルマ / Barbara / オータムス / 武装衝突 / 藤山拓バンド / 丸山 朝光 / ヨシムラタカシ / 瀬川浩平a.k.aしっぱいまん / 市村マサミ / シミズマサト / みっちー(シンガロンパレード) / ドッグフード買い太郎 / ハヤシライフ / 171 / 水平線 / ZOO KEEPER / モラトリアム / THEジャキーンズ / LaotourRadio / ザストロングパンタロンX / Passion Gold /【第一弾】ザ・シックスブリッツ / ズボンズ / KING BROTHERS / 騒音寺 / MOTHERCOAT / THE PYRAMID / TARSHI with THE SiX BULLETS / きのホ。 / 原田茶飯事 / 原田茶飯事と銀河 / No Fun / 余類 / e;in / イヌガヨ / soratobiwo / 井上ヤスオバーガー / ガリザベン / BATI-HOLIC / ジョズエ / ワッペリン / sniff / VANQULLWAR'S / 谷澤ウッドストック / ヨシムラタカシバンド / スーパーアイラブユー / The Slumbers / the seadays / 50/50's / THE PERRY / THE BLACK DOLPHINS / 高岳銘 / 融解建築 / BEETHOVEN FRIEZE / イロマキトリドリ / Shom / 梶本ヒロシ(青の時代) / 多田羅幸宏(ブリキオーケストラ)",
+    "fee": "adv ¥0 / +1drink（一部投げ銭会場あり）",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-05-10T12:00:00",
     "id": "2025-5-10-clapper",
     "place": "心斎橋CLAPPER",
