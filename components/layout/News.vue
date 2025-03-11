@@ -7,6 +7,7 @@
       },
     ]"
     class='news'
+    v-if="newsData.length > 0"
   >
     <div class='news__inner'>
       <h2 class='news__title'>
@@ -15,8 +16,8 @@
       <p class='news__text'>
         <nuxt-link
           ref='text'
-          :to='`/news/${newsData[counter].id}/`'
-          v-text='newsData[counter].title'
+          :to='`/news/${(newsData[counter] && newsData[counter].id) || ""}/`'
+          v-text='newsData[counter].title || ""'
           class='news__target'
         />
       </p>
@@ -50,7 +51,7 @@ export default {
       newsData: newsJson.filter(item => {
         const itemYear = new Date(item.date).getFullYear()
         return itemYear === currentYear
-      }),
+      }) || [],
       sfText: null,
       links: [],
       counter: 0,
@@ -68,7 +69,7 @@ export default {
   methods: {
     textAnimationInit() {
       this.sfText && this.sfText.dispose()
-      this.sfText = new ShuffleText(this.$refs.text.$el)
+      this.sfText = new ShuffleText((this.$refs.text && this.$refs.text.$el) || '')
       this.sfText.duration = 1000
     },
     async textAnimation() {
