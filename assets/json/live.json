@@ -1,5 +1,42 @@
 [
   {
+    "date": "2025-05-10T12:00:00",
+    "id": "2025-5-10-clapper",
+    "place": "心斎橋CLAPPER",
+    "info": [
+      "INFO <a href=\"https://www.clapper.jp/\" target=\"_blank\">心斎橋CLAPPER</a>",
+      "ボビー結婚パーティーライブ！<br>幸せ満開な日に！"
+    ],
+    "soldOut": false,
+    "titleMobile": "ボビまる結婚式",
+    "titleDesktop": "ボビまる結婚式",
+    "title": "ボビまる結婚式",
+    "time": "OPEN 12:00 / START 12:30",
+    "act": "メタボリックシンジゲート / あんどーまいか / yu-kai-han / K星人 / soratobiwo / らくだのこぶX / ハイファイコーヒーズ / たんすはさおとかぞえるんだよ / ELECTRIC MAMA / The Tools / rale one stance / Wataru Katoo / 【フロア乾杯ACT】岸っしゃん / 【Food】Wonder Wall / ステーキカトウ",
+    "fee": "adv ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/03/2025-05-10.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-04-19T17:30:00",
+    "id": "2025-4-19-planetk",
+    "place": "吉祥寺Planet K",
+    "info": [
+      "INFO <a href=\"http://inter-planets.net/\" target=\"_blank\">吉祥寺Planet K</a>",
+      "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLScJT62wJCBSfgXdGjjViWCcyXdn3Ww4ZrpmCMr-sHEB12y2nA/viewform\" target=\"_blank\">チケット予約</a>",
+      "momo解散10周年で一夜限りの復活！<br>Soratobiwoは5年ぶりくらいの東京！"
+    ],
+    "soldOut": false,
+    "titleMobile": "momoIRO RIOT vol.∞",
+    "titleDesktop": "momo presents momoIRO RIOT vol.∞",
+    "title": "momo presents momoIRO RIOT vol.∞",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "momo / soratobiwo(大阪) / 忘レ敵",
+    "fee": "adv ¥3,500 / door ¥4,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_26.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-02-21T17:41:31",
     "id": "2025-2-21-nano",
     "place": "京都 nano",
@@ -635,25 +672,25 @@
     "wp": true
   },
   {
-  "date": "2023-12-30T17:41:31",
-  "id": "2023-12-30-vijon",
-  "place": "北堀江 club vijon",
-  "info": [
-    "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
-    "<a href=\"https://tiget.net/events/282196\" target=\"_blank\">入場チケット ¥2,500</a>",
-    "<a href=\"https://tiget.net/events/282197\" target=\"_blank\">2日通し入場チケット ¥4,000</a>",
-    "<a href=\"https://twitcasting.tv/clubvijon/shopcart/272929\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,100</a>",
-    "年末恒例。soratobiwo2023年ラストライブです。<br>最後みんなで迎えられたら嬉しい！"
-  ],
-  "soldOut": false,
-  "titleMobile": "club vijon忘年会 【EMPEROR GOD ULTIMATE BOΦWNENKAI 2023】",
-  "titleDesktop": "club vijon忘年会 【EMPEROR GOD ULTIMATE BOΦWNENKAI 2023】",
-  "title": "club vijon忘年会 【EMPEROR GOD ULTIMATE BOΦWNENKAI 2023】",
-  "time": "OPEN 16:00 / START 16:30",
-  "act": "浅野毅 / Andend boom / いたづら / イロマキトリドリ / コスメティックラ ヴァーズ / 数式とライオン /  soratobiwo / PERRIERTO / メタボリックシンジ ゲート(この日に移動アクト) / らくだのこぶX(打ち上げアクト) <br> FOOD さすらい厨房trattoria may",
-  "fee": "adv ¥2,500 / door ¥-,--- / 2days ¥4,000 / +1drink",
-  "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/12/20231230.jpg",
-  "wp": true
+    "date": "2023-12-30T17:41:31",
+    "id": "2023-12-30-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://tiget.net/events/282196\" target=\"_blank\">入場チケット ¥2,500</a>",
+      "<a href=\"https://tiget.net/events/282197\" target=\"_blank\">2日通し入場チケット ¥4,000</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/272929\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,100</a>",
+      "年末恒例。soratobiwo2023年ラストライブです。<br>最後みんなで迎えられたら嬉しい！"
+    ],
+    "soldOut": false,
+    "titleMobile": "club vijon忘年会 【EMPEROR GOD ULTIMATE BOΦWNENKAI 2023】",
+    "titleDesktop": "club vijon忘年会 【EMPEROR GOD ULTIMATE BOΦWNENKAI 2023】",
+    "title": "club vijon忘年会 【EMPEROR GOD ULTIMATE BOΦWNENKAI 2023】",
+    "time": "OPEN 16:00 / START 16:30",
+    "act": "浅野毅 / Andend boom / いたづら / イロマキトリドリ / コスメティックラ ヴァーズ / 数式とライオン /  soratobiwo / PERRIERTO / メタボリックシンジ ゲート(この日に移動アクト) / らくだのこぶX(打ち上げアクト) <br> FOOD さすらい厨房trattoria may",
+    "fee": "adv ¥2,500 / door ¥-,--- / 2days ¥4,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2023/12/20231230.jpg",
+    "wp": true
   },
   {
     "date": "2023-12-22T17:41:31",
