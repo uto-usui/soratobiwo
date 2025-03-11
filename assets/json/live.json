@@ -37,6 +37,24 @@
     "wp": true
   },
   {
+    "date": "2025-04-29T18:30:00",
+    "id": "2025-4-29-dq",
+    "place": "神戸D&Q",
+    "info": [
+      "INFO <a href=\"https://dq-kobe.com/\" target=\"_blank\">D×Q 神戸</a>",
+      "GET BILL MONKEYSのレコ発ツアーの神戸編!!<br>踊れる3マン！"
+    ],
+    "soldOut": false,
+    "titleMobile": "このWorldにBornしたからにゃTourしなきゃ損！-神戸編-",
+    "titleDesktop": "このWorldにBornしたからにゃTourしなきゃ損！-神戸編-",
+    "title": "このWorldにBornしたからにゃTourしなきゃ損！-神戸編-",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "GET BILL MONKEYS / THE 南無ズ / soratobiwo",
+    "fee": "adv ¥3,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/03/2025-04-29.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-04-19T17:30:00",
     "id": "2025-4-19-planetk",
     "place": "吉祥寺Planet K",
