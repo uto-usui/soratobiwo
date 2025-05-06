@@ -1,5 +1,24 @@
 [
   {
+    "date": "2025-08-23T18:00:00",
+    "id": "2025-8-23-rocknroll",
+    "place": "新栄 CLUB ROCK'N'ROLL",
+    "info": [
+      "INFO <a href=\"http://clubrocknroll.net/\" target=\"_blank\">新栄 CLUB ROCK'N'ROLL</a>",
+      "<a href=\"https://eplus.jp/sf/detail/4276470001\" target=\"_blank\">e+</a>",
+      "Bacon25周年ツアー名古屋編！<br>久しぶりのロックンロール！"
+    ],
+    "soldOut": false,
+    "titleMobile": "Bacon UNDERGROUND & 25(NICO)th",
+    "titleDesktop": "Bacon UNDERGROUND & 25(NICO)th",
+    "title": "Bacon UNDERGROUND & 25(NICO)th",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "Bacon / soratobiwo / 町田直隆",
+    "fee": "adv ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/05/20250823.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-07-14T17:41:31",
     "id": "2025-7-14-osakana",
     "place": "大阪堀江 5会場",
