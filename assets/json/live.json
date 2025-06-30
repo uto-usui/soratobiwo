@@ -1,5 +1,41 @@
 [
   {
+    "date": "2025-10-04T18:30:00",
+    "id": "2025-10-4-kitawheel",
+    "place": "梅田BANGBOO・梅田Zeela・梅田HARDRAIN・弾き語り会場　計４会場",
+    "info": [
+      "TICKET：前売り¥3,800-（別途１drink",
+      "らくだのこぶXプレゼンツキタホイール！<br>なんかすごそうな1日になりそう！みんなで遊ぼう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "らくだのこぶX pre.\"KITAWHEEL2025\"",
+    "titleDesktop": "らくだのこぶX pre.\"KITAWHEEL2025\"",
+    "title": "らくだのこぶX pre.\"KITAWHEEL2025\"",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "約40アーティスト(予定)",
+    "fee": "adv ¥3,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/06/20251004.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-08-24T16:00:00",
+    "id": "2025-8-24-legato",
+    "place": "谷町九丁目cafe&bar Legato",
+    "info": [
+      "INFO <a href=\"http://cafebar-legato.com/access.html\" target=\"_blank\">谷町九丁目cafe&bar Legato</a>",
+      "名古屋のメンツで弾き語りスリーマン！<br>Bacon25周年特別な日！"
+    ],
+    "soldOut": false,
+    "titleMobile": "SHARE THE NADSAT0824",
+    "titleDesktop": "SHARE THE NADSAT0824",
+    "title": "SHARE THE NADSAT0824",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "町田直隆 / 森本真伍 / こうどたくや",
+    "fee": "adv ¥4,000 / 2drink in",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/06/20250824.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-08-23T18:00:00",
     "id": "2025-8-23-rocknroll",
     "place": "新栄 CLUB ROCK'N'ROLL",
@@ -18,6 +54,44 @@
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/05/20250823.jpg",
     "wp": true
   },
+
+  {
+    "date": "2025-08-18T18:25:00",
+    "id": "2025-8-18-vijon",
+    "place": "北堀江club vijon",
+    "info": [
+      "INFO <a href=\"https://tiget.net/events/400518\" target=\"_blank\">TIGET</a>",
+      "<a href=\"https://twitcasting.tv/clubvijon/shopcart/375223\" target=\"_blank\">ツイキャスプレミアム配信チケット ￥2,400 (ツイキャス)</a>",
+      "ポール店長就任1周年記念イベント！<br>みんなんでポールをお祝いしよう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "ポール店長就任1周年記念【New vijon devision】Day2",
+    "titleDesktop": "ポール店長就任1周年記念【New vijon devision】Day2",
+    "title": "ポール店長就任1周年記念【New vijon devision】Day2",
+    "time": "OPEN 18:00 / START 18:25",
+    "act": "ELECTRIC MAMA / ハシグチカナデリヤ / soratobiwo / ワダアツシとビアウマイオールスターズ / ハヤシライフ / Melissa Barry / Helpress Triangle / (O.A)荒牧リョウ",
+    "fee": "adv ¥2,800 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/06/20250818.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-08-12T17:00:00",
+    "id": "2025-8-12-quattro",
+    "place": "梅田CLUB QUATTORO",
+    "info": [
+      "INFO <a href=\"https://www.club-quattro.com/umeda/\" target=\"_blank\">UMEDA CLUB QUATTRO</a>",
+      "ワンマンぶり四年ぶりのクアトロ！<br>特別なステージになりそうです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "ぼちフェス2025〜クアトロまる降臨〜",
+    "titleDesktop": "ぼちフェス2025〜クアトロまる降臨〜",
+    "title": "ぼちフェス2025〜クアトロまる降臨〜",
+    "time": "OPEN 16:30 / START 17:00",
+    "act": "ぼっちまるくん / soratobiwo / YOWLL / ステレオドロシー / とんでもはっぷん！ / メタボリックシンジゲート / よさこいマン",
+    "fee": "adv ¥2,800 / door ¥3,300 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/06/20250812.jpg",
+    "wp": true
+  },
   {
     "date": "2025-07-20T17:41:31",
     "id": "2025-7-20-osakana",
@@ -33,7 +107,7 @@
     "time": "OPEN 11:00 / START 11:30",
     "act": "soratobiwo / 青い紫陽花 / 青の時代 / 浅野毅 / アシガルユース / 井澤聖一(モケーレムベンベ) / いとまとあやこ / イヌガヨ / 今村モータース / airlie(band set) / ELECTRIC MAMA / おがた(ex.EARNIE FROGs) / 気づいたら劇団 / 君がそうなら僕はこう / craft rhythm temple / QLIP / クリトリック・リス / GET BILL MONKEYS / さかな日記 / ザ・シックスブリッツ / さんかくとバツ / ジッカ / shule And christmas / 笑女歌劇団ヒミツノミヤコ / ショーウエムラ / SKIZZOIDMAN / TIGER&DRAGON / チセツナガラ / 花柄ランタン / ハヤシライフ / VANQULLWAR'S / ハンバーグオムレツ / 百回中百回 / Bacon / ベリーバッドアラモード / 福 / ぼっちまるくん / ぽてさらちゃん。 / MOTHERCOAT / MILKBAR / メタボリックシンジゲート / メガマサヒデ / yashin / ラウンドヘッド / らくだのこぶX / rale one stance / RobotMeetRobo / ワダアツシとビアウマイオールスターズ / 私の思い出 / ワンダー久道 / [Food]喫茶ツバメ / Spice house カリーノアトリエ",
     "fee": "adv ¥3,900 / +1drink",
-    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/03/2025-07-20.jpg",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/06/20250720.jpg",
     "wp": true
   },
   {
