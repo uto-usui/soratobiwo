@@ -1,5 +1,61 @@
 [
   {
+    "date": "2025-11-18T18:00:00",
+    "id": "2025-11-18-zeela",
+    "place": "Umeda Zeela",
+    "info": [
+      "INFO <a href=\"#\" target=\"_blank\">Umeda Zeela</a>",
+      "Otani Koh & szsy 企画！<br>カラフルな夜です。"
+    ],
+    "soldOut": false,
+    "titleMobile": "Otani Koh & szsy pre. 「JUNCTION BOX」",
+    "titleDesktop": "Otani Koh & szsy pre. 「JUNCTION BOX」",
+    "title": "Otani Koh & szsy pre. 「JUNCTION BOX」",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "さんかくとバツ / monocalring / soratobiwo / yo[d]aca. / ヤマシタレン / airlie / サイツアキノリ(君がそうなら僕はこう) / プラットホーム / +1act",
+    "fee": "adv ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/08/20251118.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-10-26T18:00:00",
+    "id": "2025-10-26-utauzakana",
+    "place": "歌う魚",
+    "info": [
+      "INFO <a href=\"#\" target=\"_blank\">歌う魚</a>",
+      "歌う魚8周年を記念して今年もGOING UNDER GROUND松本素生さんとの2万が決定！絶対遊びにきてね！"
+    ],
+    "soldOut": false,
+    "titleMobile": "歌う魚 8th Anniversaryぱちぱち！愛で鯛extra〜『僕たちの青春のすべて』",
+    "titleDesktop": "歌う魚 8th Anniversaryぱちぱち！愛で鯛extra〜『僕たちの青春のすべて』",
+    "title": "歌う魚 8th Anniversaryぱちぱち！愛で鯛extra〜『僕たちの青春のすべて』",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "松本素生(GOING UNDER GROUND) / soratobiwo / 君は田口(O.A)",
+    "fee": "adv/day ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/08/20251026.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-10-17T18:00:00",
+    "id": "2025-10-17-bangboo",
+    "place": "梅田BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">UMEDA BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/420035\" target=\"_blank\">TIGET予約</a>",
+      "<a href=\"https://twitcasting.tv/bangbooinfo/shopcart/389126\" target=\"_blank\">ツイキャスプレミアム ￥2,300</a>"
+      "音の旅crewが大阪にやってくるスペシャルナイトです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "BANGBOO VIBES vol.6",
+    "titleDesktop": "BANGBOO VIBES vol.6",
+    "title": "BANGBOO VIBES vol.6",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "音の旅crew / soratobiwo / ハヤシライフ / odd five / The Courtyard / Vierror / D'ypcys",
+    "fee": "adv ¥3,000 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/08/20251017.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-10-04T18:30:00",
     "id": "2025-10-4-kitawheel",
     "place": "KITAWHEEL2025",
@@ -15,6 +71,24 @@
     "act": "約40アーティスト(予定)",
     "fee": "adv ¥3,800 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/06/20251004.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-10-01T18:00:00",
+    "id": "2025-10-01-varon",
+    "place": "心斎橋VARON",
+    "info": [
+      "INFO <a href=\"#\" target=\"_blank\">心斎橋VARON</a>",
+      "長年お世話になってる大崎くん企画！"
+    ],
+    "soldOut": false,
+    "titleMobile": "俺の見たいバンド集めました vol.59 SHISANIBASHI VARON13th ANNIVERSARY!!",
+    "titleDesktop": "俺の見たいバンド集めました vol.59 SHISANIBASHI VARON13th ANNIVERSARY!!",
+    "title": "俺の見たいバンド集めました vol.59 SHISANIBASHI VARON13th ANNIVERSARY!!",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "ホシミッツ / UnpRayable / JunkUnit / ハヤシライフ / soratobiwo and more.",
+    "fee": "adv ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/08/20251001.jpg",
     "wp": true
   },
   {
