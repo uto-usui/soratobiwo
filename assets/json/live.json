@@ -1,5 +1,25 @@
 [
   {
+    "date": "2025-12-12T18:30:00",
+    "id": "2025-12-12-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "［チケット予約はこちらから］(10/13(月)22:00〜販売開始)<br><a href=\"https://t.livepocket.jp/e/7pltt\" target=\"_blank\">https://t.livepocket.jp/e/7pltt</a>",
+      "［配信URL］ツイキャスプレミア¥2000<br><a href=\"https://premier.twitcasting.tv/utausakana0901/shopcart/400108\" target=\"_blank\">https://premier.twitcasting.tv/utausakana0901/shopcart/400108</a>",
+      "古い友人deep sea clubのワンマンを祝してゲスト出演します！<br>是非遊びにきてね！"
+    ],
+    "soldOut": false,
+    "titleMobile": "deep sea club 単独公演 「きらめき」",
+    "titleDesktop": "deep sea club 単独公演 「きらめき」",
+    "title": "deep sea club 単独公演 「きらめき」",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "deep sea club / opening guest) 森本真伍とキャプテンOG(soratobiwo)",
+    "fee": "adv ¥-,--- / door ¥-,--- / online ¥2,000",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/10/20251212.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-11-18T18:00:00",
     "id": "2025-11-18-zeela",
     "place": "Umeda Zeela",
@@ -18,6 +38,26 @@
     "wp": true
   },
   {
+    "date": "2025-11-10T17:30:00",
+    "id": "2025-11-10-bangboo",
+    "place": "梅田BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">UMEDA BANGBOO</a>",
+      "①入場チケット¥3,000別途Drink代￥700 (TIGET)<br><a href=\"https://tiget.net/events/431961\" target=\"_blank\">https://tiget.net/events/431961</a>",
+      "②ツイキャスプレミアム配信チケット ￥2,500 (ツイキャス)<br><a href=\"https://premier.twitcasting.tv/bangbooinfo/shopcart/397550\" target=\"_blank\">https://premier.twitcasting.tv/bangbooinfo/shopcart/397550</a>",
+      "メイちゃんラストダンス！<br>みんなでメイちゃんをアメリカに送り出そう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "さすらいフェスvol.10 JAPAN FINAL〜最後の晩餐〜",
+    "titleDesktop": "さすらい厨房trattoria may pre.「さすらいフェスvol.10 JAPAN FINAL」〜最後の晩餐〜",
+    "title": "さすらい厨房trattoria may pre.「さすらいフェスvol.10 JAPAN FINAL」〜最後の晩餐〜",
+    "time": "OPEN 17:30 / START 17:55",
+    "act": "<MAIN STAGE> aomidoro / AC KC with G / ELECTRIC MAMA / サラケダス / soratobiwo / 立川dancing / ハヤシライフ / メタボリックシンジゲート (50音順) / <SUB STAGE>新世界ホシヲ(JUNIOR BREATH) / 井澤聖一(モケーレムベンベ) / 浅野毅 / <ウイスキーガール>ふうか / <FOOD>(さすらい厨房ではなくまさかの)レコミ屋 / <SHOP>ぷ〜にっと",
+    "fee": "adv ¥3,000 / online ¥2,500 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/10/20251018.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-10-26T18:00:00",
     "id": "2025-10-26-utauzakana",
     "place": "歌う魚",
@@ -33,6 +73,24 @@
     "act": "松本素生(GOING UNDER GROUND) / soratobiwo / 君は田口(O.A)",
     "fee": "adv/day ¥3,000 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/08/20251026.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-10-18T18:30:00",
+    "id": "2025-10-18-tataraba",
+    "place": "名古屋 鑪ら場",
+    "info": [
+      "INFO <a href=\"http://tataraba-live.com/\" target=\"_blank\">鑪ら場</a>",
+      "周年月間の鑪ら場さんへ！<br>OGもいるとかいないとか！<br>年内ラスト名古屋かな！"
+    ],
+    "soldOut": false,
+    "titleMobile": "鑪ら場ライブ",
+    "titleDesktop": "鑪ら場ライブ",
+    "title": "鑪ら場ライブ",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "雰囲気バンド / 森本真伍 / でーすいらも〜ん / アジマカズキ",
+    "fee": "adv ¥2,400 / +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
     "wp": true
   },
   {
