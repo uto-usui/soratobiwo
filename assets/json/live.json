@@ -1,5 +1,43 @@
 [
   {
+    "date": "2025-12-22T18:00:00",
+    "id": "2025-12-22-bangboo",
+    "place": "梅田BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">梅田BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/432217\" target=\"_blank\">入場チケット(TIGET)</a>",
+      "<a href=\"https://premier.twitcasting.tv/bangbooinfo/shopcart/397758\" target=\"_blank\">ツイキャスプレミアム配信</a>",
+      "最後の5人体制でのライブとなります！<br>その目に焼き付けて！"
+    ],
+    "soldOut": false,
+    "titleMobile": "【松藤ROCK FESTIVAL'25-'26】day1初日公演「忘年会」",
+    "titleDesktop": "【松藤ROCK FESTIVAL'25-'26】day1初日公演「忘年会」",
+    "title": "【松藤ROCK FESTIVAL'25-'26】day1初日公演「忘年会」",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "エダワカレ / soratobiwo / ハシグチカナデリヤ / ハヤシライフ / メタボリックシンジゲート / らくだのこぶX / 揺らいで凪",
+    "fee": "adv ¥3,000 / door ¥-,--- / ツイキャスプレミアム配信 ￥2,500 +1drink",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
+    "wp": true
+  },
+  {
+    "date": "2025-12-13T16:00:00",
+    "id": "2025-12-13-fandango",
+    "place": "堺FANDANGO",
+    "info": [
+      "INFO <a href=\"https://www.fandango-japan.com/\" target=\"_blank\">Live Bar fandango</a>",
+      "福のひよこちゃんの大誕生日会！<br>ちょっと久々のファンダンゴです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "福☆忘れたくない大忘年会!!－ひよ子もうすぐお誕生日オメデト編−",
+    "titleDesktop": "福☆忘れたくない大忘年会!!－ひよ子もうすぐお誕生日オメデト編−",
+    "title": "福☆忘れたくない大忘年会!!－ひよ子もうすぐお誕生日オメデト編−",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "ザ ニンクス / 百回中百回 / 福 / サコーンズ / バイセーシ / よさこいマン / soratobiwo / FOOD スリーべレーズ食堂",
+    "fee": "adv ¥3,000 / door ¥3,500 / 年下割23才以下¥2,000(+1d)",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_72.jpg",
+    "wp": true
+  },
+  {
     "date": "2025-12-12T18:30:00",
     "id": "2025-12-12-utausakana",
     "place": "心斎橋 歌う魚",
