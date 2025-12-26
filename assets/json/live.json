@@ -16,7 +16,7 @@
     "act": "soratobiwo / and more…",
     "fee": "アナウンスをお待ちください",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/12/20260719.jpg",
-    "wp": false
+    "wp": true
   },
   {
     "date": "2026-07-19T11:30:00",
@@ -35,7 +35,7 @@
     "act": "soratobiwo / and more…",
     "fee": "アナウンスをお待ちください",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/12/20260719.jpg",
-    "wp": false
+    "wp": true
   },
   {
     "date": "2026-06-05T19:30:00",
@@ -55,7 +55,7 @@
     "act": "soratobiwo",
     "fee": "adv ¥3,000 / day ¥3,500 / online ¥2,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/12/20260605.jpg",
-    "wp": false
+    "wp": true
   },
   {
     "date": "2025-12-30T18:30:00",
@@ -75,7 +75,7 @@
     "act": "soratobiwo / SCYTHEWRACK SYSTEM / コスメティックラヴァーズ / asano raincoat / EMILY / Stardust Alone",
     "fee": "adv ¥2,500 / door ¥3,000 / online ¥2,200 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/12/20251230-2.jpg",
-    "wp": false
+    "wp": true
   },
   {
     "date": "2025-12-30T15:00:00",
@@ -93,7 +93,7 @@
     "act": "ハンバーグオムレツ / 蜻蛉～tombo～ / オガサワラヒロユキ / ガリザベン / THE SUNSHINE / soratobiwo / サイケデリックハートブラボーズ / 伊藤成男 / 雨市 / RobotMeetRobo / nayuta / monohoxon / イシハラタツロウ",
     "fee": "adv ¥2,500 / +1drink",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/12/20251230-1.jpg",
-    "wp": false
+    "wp": true
   },
   {
     "date": "2025-12-22T18:00:00",
