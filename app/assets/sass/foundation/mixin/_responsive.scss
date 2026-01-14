@@ -1,4 +1,5 @@
 // Responsiveness
+@use "../variable/breakpoint" as *;
 
 @mixin from($device) {
   @media screen and (min-width: $device) {

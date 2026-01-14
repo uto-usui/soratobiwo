@@ -1,4 +1,5 @@
 // Display
+@use "../../foundation/mixin/mixin" as *;
 
 $displays: "block" "flex" "inline" "inline-block" "inline-flex";
 
