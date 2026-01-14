@@ -21,19 +21,19 @@ export default defineNuxtConfig({
     'Images': '~/assets/images',
   },
 
-  // グローバルCSS（Phase 2完了後に有効化）
-  // css: ['~/assets/sass/main.scss'],
+  // グローバルCSS
+  css: ['~/assets/sass/main.scss'],
 
-  // SCSS変数・mixinのグローバル注入（Phase 2完了後に有効化）
+  // SCSS変数・mixinのグローバル注入
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
           api: 'modern-compiler',
-          // additionalData: `
-          //   @use "~/assets/sass/foundation/variable/_variable.scss" as *;
-          //   @use "~/assets/sass/foundation/mixin/_mixin.scss" as *;
-          // `,
+          additionalData: `
+            @use "~/assets/sass/foundation/variable/variable" as *;
+            @use "~/assets/sass/foundation/mixin/mixin" as *;
+          `,
         },
       },
     },

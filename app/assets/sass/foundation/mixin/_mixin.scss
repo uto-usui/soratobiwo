@@ -57,6 +57,6 @@
   background-size: cover;
 }
 
-@import "animation";
-@import "responsive";
-@import "family";
+@forward "animation";
+@forward "responsive";
+@forward "family";
