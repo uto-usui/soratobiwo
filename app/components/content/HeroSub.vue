@@ -1,14 +1,40 @@
 <script setup lang="ts">
+import { ref, onMounted, watch } from 'vue'
+
 interface Props {
   getPageReady?: boolean
   title?: string
   image?: string
 }
 
-withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<Props>(), {
   getPageReady: false,
   title: '',
   image: '',
+})
+
+const isLoaded = ref(false)
+
+const loadImage = (src: string) => {
+  if (!src) return
+  const img = new Image()
+  img.onload = () => {
+    isLoaded.value = true
+  }
+  img.src = src
+}
+
+onMounted(() => {
+  if (props.image) {
+    loadImage(props.image)
+  }
+})
+
+watch(() => props.image, (newImage) => {
+  if (newImage) {
+    isLoaded.value = false
+    loadImage(newImage)
+  }
 })
 </script>
 
@@ -18,6 +44,7 @@ withDefaults(defineProps<Props>(), {
     <div class="sub-hero__figure-wrap">
       <figure
         class="sub-hero__figure"
+        :class="{ 'is-loaded': isLoaded }"
         :style="image ? { backgroundImage: `url(${image})` } : {}"
       />
     </div>
@@ -70,9 +97,14 @@ withDefaults(defineProps<Props>(), {
   filter: saturate(0);
   backface-visibility: hidden;
   box-shadow: 0 0 0 rgba($color-black, 0);
-  opacity: 1;
-  transition: all 1s $easeFadeIn;
-  transform: skewY(0deg) skewX(0deg) scale(1) translateZ(1px);
+  opacity: 0;
+  transform: skewY(8deg) skewX(8deg) scale(1.2) translateZ(1px);
+
+  &.is-loaded {
+    opacity: 1;
+    transition: all 1s $easeFadeIn;
+    transform: skewY(0deg) skewX(0deg) scale(1) translateZ(1px);
+  }
 
   @include overlay;
   @include bg-cover;

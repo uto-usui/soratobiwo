@@ -203,4 +203,30 @@ const getDate = (date: string) => formatDate(date)
     transform: scale(1.05);
   }
 }
+
+.list__tape {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 9;
+  display: none;
+  width: calc(100vw * 120 / 375);
+  height: calc(100vw * 40 / 375);
+  background-color: $color-blue;
+  mix-blend-mode: overlay;
+  opacity: 0.85;
+  transform: skewX(5deg);
+
+  @include desktop {
+    top: 0;
+    width: calc(100vh * 120 / 768);
+    height: calc(100vh * 40 / 768);
+    transition: transform 1s $easeFadeIn;
+    transform: skewX(5deg) translateX(-50%) translateY(-50%) rotate(5deg);
+
+    .list__item:hover & {
+      transform: skewX(10deg) translateX(-50%) translateY(-50%) rotate(5deg);
+    }
+  }
+}
 </style>
