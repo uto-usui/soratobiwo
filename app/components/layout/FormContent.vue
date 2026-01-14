@@ -1,0 +1,242 @@
+<script setup lang="ts">
+import type { LiveEvent } from '~/types'
+import liveJson from '~/assets/json/live.json'
+import { useMainStore } from '~/stores/main'
+
+const store = useMainStore()
+
+const { formatDate } = useFormatDate()
+
+const getDate = (date: string) => formatDate(date)
+
+const getFormOpen = computed(() => store.getFormOpen)
+
+const liveData = computed<LiveEvent[]>(() => {
+  return [...(liveJson as LiveEvent[])]
+    .filter(el => !el.soldOut)
+    .reverse()
+})
+
+const roleData = ['ライブ予約', 'ライブオファー', 'メッセージ']
+
+const upcomingLives = computed(() => {
+  return liveData.value.filter(el => new Date(el.date) > new Date())
+})
+
+const closeForm = () => {
+  store.setFormOpen(false)
+}
+</script>
+
+<template>
+  <div :class="[{ 'is-open': getFormOpen }]" class="form">
+    <div class="form__inner">
+      <form
+        name="contact"
+        method="POST"
+        action="/thanks/"
+        netlify
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="bot-field" type="hidden" />
+        <div class="form__area">
+          <p class="form__item">
+            <label class="form__label">
+              <span class="form__text">お名前</span>
+              <input class="form__input" type="text" name="name" required />
+            </label>
+          </p>
+          <p class="form__item">
+            <label class="form__label">
+              <span class="form__text">Email</span>
+              <input class="form__input" type="email" name="email" required />
+            </label>
+          </p>
+          <p class="form__item">
+            <label class="form__label">
+              <span class="form__text">ご用件</span>
+              <select class="form__input" name="role">
+                <option value="--">--</option>
+                <option
+                  v-for="(_item, _index) in roleData"
+                  :key="`role${_index}`"
+                  :value="_item"
+                >{{ _item }}</option>
+              </select>
+            </label>
+          </p>
+          <p class="form__item">
+            <label class="form__label">
+              <span class="form__text">イベント会場</span>
+              <select class="form__input" name="event">
+                <option value="--">--</option>
+                <option
+                  v-for="(item, index) in upcomingLives"
+                  :key="`event${index}`"
+                  :value="`${getDate(item.date)} ${item.place}`"
+                >{{ getDate(item.date) }} {{ item.place }}</option>
+              </select>
+            </label>
+          </p>
+          <p class="form__item">
+            <label class="form__label">
+              <span class="form__text">チケット枚数</span>
+              <input class="form__input" type="number" name="number" />
+            </label>
+          </p>
+          <p class="form__item">
+            <label class="form__label">
+              <span class="form__text">メッセージ</span>
+              <textarea
+                class="form__input form__input--ms"
+                name="message"
+              />
+            </label>
+          </p>
+          <p class="form__item form__item--button">
+            <button class="form__button" type="submit">Send mail</button>
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="form__close" @click.prevent="closeForm">
+      <ButtonClose />
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+@use "../../assets/sass/foundation/mixin/mixin" as *;
+
+.form {
+  position: fixed;
+  top: calc(100vw * 20 / 375);
+  right: calc(100vw * 20 / 375);
+  bottom: calc(50px + 10px);
+  left: 0;
+  z-index: $z-form-bg;
+  overflow: auto;
+  pointer-events: none;
+  background-color: rgba($color-gray-level2, 1);
+  opacity: 0;
+
+  @include desktop {
+    top: calc(100vw * 30 / 1024);
+    right: calc(100vw * 30 / 1024);
+    bottom: calc(100vw * 30 / 1024 + 10px);
+  }
+
+  @include widescreen {
+    top: calc(100vw * 30 / 1280);
+    right: calc(100vw * 30 / 1280);
+    bottom: calc(100vw * 30 / 1280 + 10px);
+  }
+
+  &.is-open {
+    pointer-events: auto;
+    opacity: 1;
+  }
+}
+
+.form__inner {
+  padding: calc(100vw * 30 / 375 - 100vw * 20 / 375) calc(100vw * 30 / 375)
+    calc(100vw * 30 / 375);
+
+  @include desktop {
+    padding: calc(100vw * 30 / 1024);
+  }
+}
+
+.form__area {
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: -30px;
+  }
+}
+
+.form__close {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.form__item {
+  text-align: left;
+
+  @include desktop {
+    width: calc(50% - 100vw * 10 / 1024);
+    margin-bottom: 30px;
+  }
+
+  + .form__item {
+    @include touch {
+      margin-top: 15px;
+    }
+  }
+
+  &--button {
+    text-align: right;
+  }
+}
+
+.form__label {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: $color-gray-level1;
+
+  @include desktop {
+    font-size: 1.6rem;
+  }
+}
+
+.form__text {
+  position: relative;
+  z-index: 9;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: $color-white;
+  background-color: $color-gray-level1;
+  border-bottom: 5px solid $color-red;
+}
+
+.form__input {
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  padding-top: calc((40px - 0.75em * 2) / 2);
+  padding-right: 0.75em;
+  padding-bottom: calc((40px - 0.75em * 2) / 2);
+  padding-left: 0.75em;
+  font-size: 1.6rem;
+  color: $color-gray-level1;
+  border: 5px solid currentColor;
+
+  @include desktop {
+    height: 60px;
+  }
+
+  &--ms {
+    height: 120px;
+  }
+}
+
+.form__button {
+  height: 40px;
+  padding-top: calc((40px - 0.75em * 2) / 2);
+  padding-right: 0.75em;
+  padding-bottom: calc((40px - 0.75em * 2) / 2);
+  padding-left: 0.75em;
+  font-weight: bold;
+  color: $color-gray-level1;
+  text-transform: uppercase;
+  border: 5px solid currentColor;
+}
+</style>

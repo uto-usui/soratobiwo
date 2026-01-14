@@ -62,10 +62,15 @@ function initPageData() {
     :class="[{ 'is-ready': pageReady }]"
     class="body"
   >
-    <!-- TODO: Add Loader component in Phase 5 -->
-    <!-- TODO: Add FixedContent component in Phase 5 -->
+    <ContentLoader :get-page-ready="pageReady" />
+    <LayoutFixedContent
+      :get-page-height="pageData.winH"
+      :get-page-scroll-y="pageData.scrollTop"
+      :get-menu-open="menuOpen"
+      :get-is-desktop="pageData.isDesktop"
+    />
     <slot />
-    <!-- TODO: Add FormContent component in Phase 5 -->
+    <LayoutFormContent />
   </div>
 </template>
 
