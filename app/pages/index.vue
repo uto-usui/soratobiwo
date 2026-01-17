@@ -6,19 +6,8 @@ const store = useMainStore()
 // SEO
 usePageSeo()
 
-// Set page ready after mount
-onMounted(async () => {
-  await nextTick()
-  // Small delay to allow animations
-  setTimeout(() => {
-    store.setPageReady(true)
-  }, 100)
-})
-
-// Reset page ready on unmount
-onBeforeUnmount(() => {
-  store.setPageReady(false)
-})
+// Page loading transition
+usePageLoading()
 </script>
 
 <template>

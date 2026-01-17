@@ -85,3 +85,29 @@ select {
   opacity: 1;
   transition: opacity 0.35s $easeOutSine;
 }
+
+// ==========================================================
+// Loading state - hide content until page is ready
+// ==========================================================
+
+// Initial state: hide everything except loader
+.body:not(.is-ready) {
+  .fixed-content,
+  .wrapper,
+  .page-index,
+  [class^="page-"] {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+}
+
+// Ready state: show immediately (no fade)
+.body.is-ready {
+  .fixed-content,
+  .wrapper,
+  .page-index,
+  [class^="page-"] {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

@@ -27,6 +27,7 @@ interface MainState {
   formOpen: boolean
   postReady: boolean
   pageReady: boolean
+  loaderEntered: boolean
   videoReady: boolean
   heroReady: boolean
   timerForLowPowerMode: boolean
@@ -50,6 +51,7 @@ export const useMainStore = defineStore('main', {
     formOpen: false,
     postReady: false,
     pageReady: false,
+    loaderEntered: false,
     videoReady: false,
     heroReady: false,
     timerForLowPowerMode: false,
@@ -109,6 +111,9 @@ export const useMainStore = defineStore('main', {
     // Page ready states
     setPageReady(value: boolean) {
       this.pageReady = value
+    },
+    setLoaderEntered(value: boolean) {
+      this.loaderEntered = value
     },
     setPostReady(value: boolean) {
       this.postReady = value

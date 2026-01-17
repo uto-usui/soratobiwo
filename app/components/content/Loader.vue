@@ -1,17 +1,34 @@
 <script setup lang="ts">
+import { useMainStore } from '~/stores/main'
+
 interface Props {
   getPageReady?: boolean
 }
 
-withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<Props>(), {
   getPageReady: false,
 })
-
+const store = useMainStore()
 const loadingText = '_loading'.split('')
+
+// For initial page load (loader already visible, no enter transition)
+onMounted(() => {
+  if (!props.getPageReady) {
+    store.setLoaderEntered(true)
+  }
+})
+
+function onAfterEnter() {
+  store.setLoaderEntered(true)
+}
+
+function onLeave() {
+  store.setLoaderEntered(false)
+}
 </script>
 
 <template>
-  <Transition name="loading">
+  <Transition name="loading" @after-enter="onAfterEnter" @leave="onLeave">
     <div v-if="!getPageReady" class="loader">
       <div class="loader__inner">
         <div class="loader__text">
@@ -82,7 +99,7 @@ const loadingText = '_loading'.split('')
   text-transform: uppercase;
   letter-spacing: 0.1em;
 
-  span {
+  :deep(span) {
     animation: flash 1s infinite steps(1) both;
   }
 }

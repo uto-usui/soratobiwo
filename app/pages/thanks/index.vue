@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import { useMainStore } from '~/stores/main'
-
-const store = useMainStore()
-
 // Use thanks layout
 definePageMeta({
   layout: 'thanks',
@@ -11,19 +7,6 @@ definePageMeta({
 // SEO
 usePageSeo({
   title: 'thanks|soratobiwo',
-})
-
-// Set page ready after mount
-onMounted(async () => {
-  await nextTick()
-  setTimeout(() => {
-    store.setPageReady(true)
-  }, 1000)
-})
-
-// Reset page ready on unmount
-onBeforeUnmount(() => {
-  store.setPageReady(false)
 })
 </script>
 

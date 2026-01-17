@@ -1,6 +1,5 @@
 <script setup lang="ts">
-// Hero component - PIXI.js canvas slides will be implemented in Phase 7
-// This is a placeholder component
+import { DisplacementSlider } from '~/utils/webgl'
 
 interface Props {
   getPageReady?: boolean
@@ -13,8 +12,40 @@ withDefaults(defineProps<Props>(), {
 })
 
 const canvasRef = ref<HTMLCanvasElement>()
+let slider: DisplacementSlider | null = null
 
-// PIXI.js canvas initialization will be added in Phase 7
+// Slider images
+const images = [
+  '/images/2020/1.jpg',
+  '/images/2020/2.jpg',
+  '/images/2020/3.jpg',
+]
+
+const displacementImage = '/images/texture/noise.jpg'
+
+onMounted(async () => {
+  if (!canvasRef.value) return
+
+  try {
+    slider = new DisplacementSlider(canvasRef.value, {
+      images,
+      displacementImage,
+      autoPlay: true,
+      autoPlaySpeed: 5000,
+      displaceScale: [0.08, 0.04],
+      transitionDuration: 1200,
+    })
+
+    await slider.init()
+  } catch (error) {
+    console.warn('WebGL initialization failed:', error)
+  }
+})
+
+onBeforeUnmount(() => {
+  slider?.destroy()
+  slider = null
+})
 </script>
 
 <template>
@@ -58,7 +89,11 @@ const canvasRef = ref<HTMLCanvasElement>()
 }
 
 .hero__canvas {
-  @include overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__main {
