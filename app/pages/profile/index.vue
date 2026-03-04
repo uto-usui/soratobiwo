@@ -21,7 +21,7 @@ usePageLoading()
   <LayoutWrapper :get-page-ready="getPageReady" class="profile">
     <ContentMainOuter>
       <ContentHeroSub
-        image="/images/2020/8.jpg"
+        image="/images/2026/image12.webp"
         title="profile"
         :get-page-ready="getPageReady"
       />
@@ -47,7 +47,7 @@ usePageLoading()
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .profile__section {
   font-weight: bold;

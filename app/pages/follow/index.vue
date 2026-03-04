@@ -21,7 +21,7 @@ usePageLoading()
   <LayoutWrapper :get-page-ready="getPageReady" class="follow">
     <ContentMainOuter>
       <ContentHeroSub
-        image="/images/2020/4.jpg"
+        image="/images/2026/image15.webp"
         title="follow"
         :get-page-ready="getPageReady"
       />

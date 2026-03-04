@@ -23,7 +23,7 @@ usePageLoading()
   <LayoutWrapper :get-page-ready="getPageReady" class="listen">
     <ContentMainOuter>
       <ContentHeroSub
-        image="/images/2020/5.jpg"
+        image="/images/2026/image18.webp"
         title="listen"
         :get-page-ready="getPageReady"
       />
@@ -40,7 +40,7 @@ usePageLoading()
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .listen__list {
   + .listen__list {

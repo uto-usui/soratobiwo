@@ -133,7 +133,7 @@ const closeMenu = () => {
   position: relative;
   display: inline-block;
   font-family: $font-Nunito;
-  font-size: calc(100vw * 40 / 375);
+  font-size: calc(100vw * 52 / 375);
   font-weight: $font-Nunito-bold;
   color: $color-white;
   text-transform: uppercase;

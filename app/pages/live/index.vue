@@ -6,9 +6,7 @@ const store = useMainStore()
 
 // Filter future live events and reverse order (latest first)
 const liveData = computed(() => {
-  return liveJson
-    .filter((el) => new Date(el.date) > new Date())
-    .reverse()
+  return liveJson.filter((el) => new Date(el.date) > new Date()).reverse()
 })
 
 // SEO
@@ -24,7 +22,7 @@ usePageLoading()
   <LayoutWrapper :get-page-ready="store.pageReady" class="live">
     <ContentMainOuter>
       <ContentHeroSub
-        image="/images/2020/6.jpg"
+        image="/images/2026/image10.webp"
         title="live"
         :get-page-ready="store.pageReady"
       />

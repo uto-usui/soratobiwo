@@ -16,9 +16,10 @@ let slider: DisplacementSlider | null = null
 
 // Slider images
 const images = [
-  '/images/2020/1.jpg',
-  '/images/2020/2.jpg',
-  '/images/2020/3.jpg',
+  '/images/2026/image2.webp',
+  '/images/2026/image6.webp',
+  '/images/2026/image8.webp',
+  '/images/2026/image19.webp',
 ]
 
 const displacementImage = '/images/texture/noise.jpg'
@@ -155,7 +156,7 @@ onBeforeUnmount(() => {
 
   &--sm {
     right: 40px;
-    bottom: calc(100vh * 222 / 667);
+    bottom: calc(100vh * 190 / 667);
     width: calc(100vw * 173 / 375);
     height: calc(100vw * 120 / 375);
 
