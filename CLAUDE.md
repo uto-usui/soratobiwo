@@ -4,87 +4,86 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the official website for soratobiwo (ソラトビヲ), a Japanese rock band. It's built with Nuxt.js v2.15.6 as a static site generator (SSG) using Vue.js components.
+This is the official website for soratobiwo (ソラトビヲ), a Japanese rock band. It's built with Nuxt v4 (Vue 3 + TypeScript) as a static site generator (SSG), deployed to Netlify.
 
 ## Essential Commands
 
-### Development
 ```bash
-# Start development server (port 8080)
-npm run dev:development
+# Start development server
+npm run dev
 
-# Start development server on localhost only
-npm run dev:development_localhost
-
-# Build and generate static site
+# Build and generate static site (outputs to /dist/)
 npm run generate
 
-# Run linting
-npm run lint        # ESLint for JS/Vue files
-npm run lintcss     # Stylelint for SCSS/Vue styles
+# Preview generated site
+npm run preview
 
-# Run tests
-npm test           # Jest tests (minimal coverage)
+# Linting
+npm run lint        # ESLint
+npm run lint:fix    # ESLint with auto-fix
 ```
 
 ## Architecture and Key Patterns
 
+### Directory Structure
+
+All application code lives under `/app/`:
+
+- `/app/pages/` - File-based routing with dynamic routes
+- `/app/components/` - Vue single-file components (button, content, layout, utility)
+- `/app/layouts/` - Page templates (default, thanks)
+- `/app/composables/` - Composition API utilities (date formatting, mouse follow, page loading, SEO, reveal clip, tilt)
+- `/app/stores/` - Pinia state management
+- `/app/utils/webgl/` - Custom WebGL shader utilities (DisplacementSlider)
+- `/app/assets/` - Static assets (sass, json, images, js)
+- `/app/types/` - TypeScript type definitions
+
 ### Content Management System
-The site uses a JSON-based content system where data files in `/assets/json/` drive dynamic content:
+
+JSON-based content system where data files in `/app/assets/json/` drive dynamic content:
 - `live.json` - Concert/live event data
 - `news.json` - News articles
 - `music.json` - Discography
 - `profile.json` - Band member profiles
-
-Live events can be authored in markdown format (`live.md`) and converted to JSON.
-
-### Component Architecture
-- **Pages** (`/pages/`): File-based routing with dynamic routes for live events
-- **Components** (`/components/`): Reusable Vue single-file components
-- **Layouts** (`/layouts/`): Page templates (default, thanks)
+- `follow.json`, `listen.json`, `special.json` - Additional content
 
 ### Styling System
-Uses SCSS with an ITCSS-inspired architecture:
-- Global styles auto-imported via `styleResources` in nuxt.config.js
-- Webpack aliases: `Sass` → `/assets/sass/`
-- Japanese typography with custom Yu Gothic font configuration
+
+Uses SCSS with Vite preprocessor:
+- Global styles: `/app/assets/sass/main.scss`
+- Variables and mixins are globally injected via `vite.css.preprocessorOptions` in `nuxt.config.ts`
+- Aliases: `Sass` → `~/assets/sass`, `Images` → `~/assets/images`, `Js` → `~/assets/js`
+- Google Fonts: Nunito & Ubuntu
 
 ### Animation and Graphics
-- **GSAP**: Primary animation library for complex animations
-- **PIXI.js**: WebGL graphics for advanced visual effects
-- Custom animation utilities in `/assets/js/`
+
+- **Raw WebGL**: Custom shader-based effects (e.g., `DisplacementSlider` in `/app/utils/webgl/`)
+- **Composables**: `useMouseFollow`, `useRevealClip`, `useTilt` for interactive animations
+- Animations use Web Animations API and requestAnimationFrame (no external animation library)
 
 ### Build and Deployment
+
 - Static site generation: `npm run generate` creates `/dist/`
-- PWA features with custom service worker and Workbox caching strategies
-- Deploy scripts use `copy` and `clean` commands for file management
+- Deployed to Netlify (config in `netlify.toml`)
+- Node 24 (`.nvmrc`)
 
 ## Important Implementation Details
 
 ### Dynamic Routes
-Live event pages are dynamically generated from `live.json` data. Route generation happens in `nuxt.config.js`:
-```javascript
-generate: {
-  routes() {
-    // Generates routes for each live event
+
+Live event and news pages are dynamically generated from JSON data via `prerender:routes` hook in `nuxt.config.ts`:
+
+```typescript
+hooks: {
+  async 'prerender:routes'(ctx) {
+    // Generates /live/:id and /news/:id routes from JSON
   }
 }
 ```
 
-### Asset Management
-Custom webpack aliases for imports:
-- `Images` → `/assets/images/`
-- `Js` → `/assets/js/`
-- `Sass` → `/assets/sass/`
+### Configuration
 
-### PWA Configuration
-Service worker with custom caching strategies for:
-- Static assets (images, fonts)
-- API responses
-- Offline functionality
-
-### Browser Support
-Targets last 2 browser versions, Android 4.4.4+, and IE 11 (via babel configuration).
-
-## Testing Approach
-Jest with Vue Test Utils, though test coverage is minimal. Test files go in `/test/` directory.
+- `nuxt.config.ts` - Nuxt configuration (TypeScript)
+- SSR enabled with link crawling for prerendering
+- Pinia for state management (`@pinia/nuxt`)
+- ESLint + Prettier for code quality
