@@ -2,11 +2,20 @@
 import { useMainStore } from '~/stores/main'
 
 const store = useMainStore()
+const route = useRoute()
 
 const links = ['home', 'profile', 'listen', 'live', 'follow', 'news']
 
 const closeMenu = () => {
   store.setMenuOpen(false)
+}
+
+const isActive = (item: string): boolean => {
+  const path = route.path
+  if (item === 'home') {
+    return path === '/'
+  }
+  return path.startsWith(`/${item}`)
 }
 </script>
 
@@ -21,7 +30,7 @@ const closeMenu = () => {
         <span class="menu__item-inner">
           <NuxtLink
             :to="item === 'home' ? '/' : `/${item}/`"
-            class="menu__target"
+            :class="['menu__target', { 'is-current': isActive(item) }]"
             @click="closeMenu"
           >{{ item }}</NuxtLink>
         </span>
@@ -80,7 +89,7 @@ const closeMenu = () => {
     font-size: calc(100vw * 18 / 1280);
   }
 
-  &.router-link-active {
+  &.is-current {
     &::after {
       position: absolute;
       top: 50%;
