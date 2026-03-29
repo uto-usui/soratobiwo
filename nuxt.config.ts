@@ -101,6 +101,9 @@ export default defineNuxtConfig({
         ctx.routes.add(`/live/${item.id}`)
       }
 
+      // アーカイブページ
+      ctx.routes.add('/live/archive')
+
       // news.json からルート生成
       const newsData = await import('./app/assets/json/news.json')
       for (const item of newsData.default) {
