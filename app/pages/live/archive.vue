@@ -41,6 +41,7 @@ usePageLoading()
   font-size: calc(100vw * 14 / 375);
   font-weight: bold;
   color: $color-white;
+  text-align: left;
   transition: color 0.3s ease;
 
   &:hover {
