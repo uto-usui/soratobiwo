@@ -44,6 +44,7 @@ withDefaults(defineProps<Props>(), {
   color: $color-white;
   text-transform: uppercase;
   letter-spacing: -0.045em;
+  pointer-events: none;
   mix-blend-mode: overlay;
 
   @include touch {
