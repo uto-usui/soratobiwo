@@ -76,6 +76,24 @@
     "wp": true
   },
   {
+    "date": "2026-05-23T18:00:00",
+    "id": "2026-05-23-dqkobe",
+    "place": "D×Q神戸",
+    "info": [
+      "INFO <a href=\"https://dq-kobe.com/\" target=\"_blank\">D×Q神戸</a>",
+      "Vanityyyさんのツアー神戸編！熱い夜になりそうです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "「Vanityyy 20th anniversary POWER BEAUTIFUL TOUR 2026」",
+    "titleDesktop": "「Vanityyy 20th anniversary POWER BEAUTIFUL TOUR 2026」",
+    "title": "「Vanityyy 20th anniversary POWER BEAUTIFUL TOUR 2026」",
+    "time": "OPEN 17:30 / START 18:00",
+    "act": "Vanityyy / トブトリオトス / ケンオガタ(セックスマシーン!!) / soratobiwo",
+    "fee": "adv 一般¥2,500 / 大学生¥1,400 / 高校生以下¥400 / day +¥500 / +1drink ¥600",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/05/20260523.jpg",
+    "wp": true
+  },
+  {
     "date": "2026-05-20T00:00:00",
     "id": "2026-05-20-bangboo",
     "place": "梅田 BANGBOO",
