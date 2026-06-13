@@ -1,5 +1,98 @@
 [
   {
+    "date": "2026-10-03T00:00:00",
+    "id": "2026-10-03-kitawheel",
+    "place": "大阪梅田エリアサーキットフェス",
+    "info": [
+      "INFO <a href=\"https://x.com/kitawheel2025\" target=\"_blank\">KITA WHEEL</a>",
+      "今年もキタホ出演します！今年はどんなドラマが待っているか楽しみだね！"
+    ],
+    "soldOut": false,
+    "titleMobile": "KITA WHEEL 2026",
+    "titleDesktop": "KITA WHEEL 2026",
+    "title": "KITA WHEEL 2026",
+    "time": "OPEN TBA / START TBA",
+    "act": "soratobiwo / and more…",
+    "fee": "adv ¥4,600 / day ¥5,600",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20261093.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-08-24T17:30:00",
+    "id": "2026-08-24-bangboo",
+    "place": "梅田 BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">Umeda BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/483634\" target=\"_blank\">入場チケット(TIGET)</a>",
+      "<a href=\"https://tiget.net/events/483638\" target=\"_blank\">2daysチケット(TIGET)</a>",
+      "<a href=\"https://premier.twitcasting.tv/bangbooinfo/shopcart/430817\" target=\"_blank\">ツイキャスプレミアム配信</a>",
+      "BANGBOO 2nd.anniversary！激アツメンツでお届け！"
+    ],
+    "soldOut": false,
+    "titleMobile": "BANGBOO 2nd.anniversary！【松藤ROCK FESTIVAL'26】day1「創立記念日」",
+    "titleDesktop": "BANGBOO 2nd.anniversary！【松藤ROCK FESTIVAL'26】day1初日公演「創立記念日」",
+    "title": "BANGBOO 2nd.anniversary！【松藤ROCK FESTIVAL'26】day1初日公演「創立記念日」",
+    "time": "OPEN 17:00 / START 17:30",
+    "act": "浅野毅 / クオーツ星 / JUNIOR BREATH / soratobiwo / ハシグチカナデリヤ / メタボリックシンジゲート / らくだのこぶX / ITO→たのし(O.A.)",
+    "fee": "①入場チケット¥3,300(+1drink¥700) ②2daysチケット¥6,000(+1drink¥700) ③ツイキャスプレミアム配信¥2,500",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260824.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-08-23T16:00:00",
+    "id": "2026-08-23-tanimachi9",
+    "place": "谷町九丁目 cafe&bar Legato",
+    "info": [
+      "INFO <a href=\"https://www.instagram.com/legatolinda/?hl=ja\" target=\"_blank\">谷町九丁目 cafe&bar Legato</a>",
+      "2年連続同じメンツでBaconツアーに参加します！(アコースティック編！)"
+    ],
+    "soldOut": false,
+    "titleMobile": "Bacon結成26th『SHARE THE NADSAT0823』",
+    "titleDesktop": "Bacon結成26th『SHARE THE NADSAT0823』",
+    "title": "Bacon結成26th『SHARE THE NADSAT0823』",
+    "time": "OPEN 15:30 / START 16:00",
+    "act": "町田直隆 / 森本真伍 / こうどたくや",
+    "fee": "TICKET ¥4,000(2drink込み)",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260823-1.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-08-22T18:30:00",
+    "id": "2026-08-22-rocknroll",
+    "place": "名古屋 CLUB ROCK'N'ROLL",
+    "info": [
+      "INFO <a href=\"http://clubrocknroll.net\" target=\"_blank\">名古屋 CLUB ROCK'N'ROLL</a>",
+      "2年連続同じメンツでBaconツアーに参加します！"
+    ],
+    "soldOut": false,
+    "titleMobile": "結成26th『Bacon UNDERGROUND & 26(FURO)th【名古屋編】』",
+    "titleDesktop": "結成26th『Bacon UNDERGROUND & 26(FURO)th【名古屋編】』",
+    "title": "結成26th『Bacon UNDERGROUND & 26(FURO)th【名古屋編】』",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "Bacon / soratobiwo / 町田直隆&ザ・バックバンド",
+    "fee": "adv ¥2,900 ※26歳以下無料(要1drink代金)",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260822.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-08-12T13:00:00",
+    "id": "2026-08-12-quattro",
+    "place": "梅田 CLUB QUATTRO",
+    "info": [
+      "INFO <a href=\"https://www.club-quattro.com/umeda/\" target=\"_blank\">梅田 CLUB QUATTRO</a>",
+      "今年もぼちフェス出演します！クアトロは気持ちいいからたくさん遊びに来てください！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『ぼちフェス2026』",
+    "titleDesktop": "『ぼちフェス2026』",
+    "title": "『ぼちフェス2026』",
+    "time": "OPEN 12:30 / START 13:00",
+    "act": "ぼっちまるくん / soratobiwo / THE S.O.S / さめさめバンド / 去勢 / いろかにほへと / MiYASHi / ジオメトラマ / ベリーバッドアラモード / おなじ話 / （O.B）ITO→たのし",
+    "fee": "adv ¥3,000 / day ¥3,500 / +1drink ¥600",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260812.jpg",
+    "wp": true
+  },
+  {
     "date": "2026-07-20T12:00:00",
     "id": "2026-07-20-yaon",
     "place": "服部緑地野外音楽堂",
@@ -35,6 +128,60 @@
     "act": "soratobiwo / and more…",
     "fee": "アナウンスをお待ちください",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2025/12/20260719.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-07-05T12:15:00",
+    "id": "2026-07-05-ikunopark",
+    "place": "いくのパーク",
+    "info": [
+      "INFO <a href=\"https://ikuno-park.jp/\" target=\"_blank\">いくのパーク</a>",
+      "みんな大好きレコミ屋フェス！みんな集まれー！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『レコミ屋フェス』",
+    "titleDesktop": "『レコミ屋フェス』",
+    "title": "『レコミ屋フェス』",
+    "time": "OPEN 11:30 / START 12:15",
+    "act": "yu-kai-han / あんどーまいか / K星人 / たんすはさおとかぞえるんだよ / 人人オピトピア / Yusuke Terauchi / 菱田ヒシコ / 森本真伍&キャプテンOG / 森クリスタル / 男肉 du Soleil",
+    "fee": "入場無料（投げ銭&持ち込み制）",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260705.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-06-29T19:00:00",
+    "id": "2026-06-29-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "お魚フェス2026を先取りしよう！<br>プレイベントとは思えない豪華なメンバー集合です！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『お魚フェス2026プレイベント-お魚フェスの予習しよう②-』",
+    "titleDesktop": "『お魚フェス2026プレイベント-お魚フェスの予習しよう②-』",
+    "title": "『お魚フェス2026プレイベント-お魚フェスの予習しよう②-』",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / rale one stance / サイツアキノリ(君がそうなら僕はこう) / 青い紫陽花 / 赤いアフロ / メタボリックシンジゲート",
+    "fee": "adv/day ¥2,500(2d別) ※お魚フェス1dayチケット提示で¥1,000割引 / 2daysチケット提示で入場無料",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260629.jpg",
+    "wp": true
+  },
+  {
+    "date": "2026-06-19T19:00:00",
+    "id": "2026-06-19-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "お魚フェス2026を先取りしよう！<br>プレイベントとは思えない豪華なメンバー集合です！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『お魚フェス2026プレイベント-お魚フェスの予習しよう①-』",
+    "titleDesktop": "『お魚フェス2026プレイベント-お魚フェスの予習しよう①-』",
+    "title": "『お魚フェス2026プレイベント-お魚フェスの予習しよう①-』",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "soratobiwo / らくだのこぶX / こうどたくや(Bacon) / ぽてさらちゃん。 / 目下奴言水(VANQULLWAR'S)",
+    "fee": "adv/day ¥2,500(2d別) ※お魚フェス1dayチケット提示で¥1,000割引 / 2daysチケット提示で入場無料",
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/06/20260619.jpg",
     "wp": true
   },
   {
