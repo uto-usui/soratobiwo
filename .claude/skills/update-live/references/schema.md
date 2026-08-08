@@ -4,7 +4,7 @@
 
 | フィールド | 型 | 説明 |
 |---|---|---|
-| `date` | string | ISO 8601形式 `YYYY-MM-DDThh:mm:ss`。STARTの時刻を使用。TBAの場合は `T00:00:00` |
+| `date` | string | ISO 8601形式 `YYYY-MM-DDThh:mm:ss`。STARTの時刻を使用。STARTが未定でOPENのみ判明している場合はOPENの時刻。両方TBAの場合は `T00:00:00` |
 | `id` | string | `YYYY-MM-DD-venue-shortname`。会場名を英小文字・短縮形で（例: bangboo, vijon, utausakana） |
 | `place` | string | 会場名（表示用。例: "梅田 BANGBOO", "北堀江club vijon"） |
 | `info` | string[] | 下記「info配列の構造」参照 |

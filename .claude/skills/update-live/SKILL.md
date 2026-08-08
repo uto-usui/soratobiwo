@@ -32,7 +32,7 @@ description: soratobiwoのライブ情報(app/assets/json/live.json)に新しい
 スキーマ詳細は [references/schema.md](references/schema.md) を参照。
 
 整形時の注意:
-- `date`: OPENの時刻を使用。TBAなら `T00:00:00`
+- `date`: STARTの時刻を使用。STARTが未定でOPENのみ判明している場合はOPENの時刻。両方TBAなら `T00:00:00`
 - `id`: `YYYY-MM-DD-venue` 形式。同日同会場の既存エントリがないか確認
 - `info[0]`: 会場INFO。必ず `INFO` で始める。URLがあれば `<a href="..." target="_blank">...</a>` で囲む
 - `info` 中間: チケットリンクを `<a>` タグで。ユーザー提供のURLをそのまま使用
