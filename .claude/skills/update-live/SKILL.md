@@ -47,6 +47,18 @@ description: soratobiwoのライブ情報(app/assets/json/live.json)に新しい
 
 日付降順を維持して適切な位置に挿入する。Editツールで該当箇所の前後のエントリを含めて編集する。
 
-### 5. 確認
+### 5. 過去イベントをアーカイブへ移す
+
+```bash
+node scripts/archive-past-lives.mjs --dry-run  # 対象を確認
+node scripts/archive-past-lives.mjs
+```
+
+開催日を過ぎたイベントを `liveArchive.json` へ移す（当日開催は残す）。live.jsonを触るのはこのスキルの実行時だけなので、毎回ここで流す。
+移行が発生した場合はライブ追加とは**別コミット**に分ける（例: `chore(json): move 15 past events from live.json to liveArchive.json`）。
+
+移した分の `/live/:id` 詳細ページは生成されなくなる（アーカイブは一覧のみでリダイレクトも張らない）。既存の運用どおりなので対応不要。
+
+### 6. 確認
 
 整形結果をユーザーに提示して確認を得る。修正があれば反映する。
