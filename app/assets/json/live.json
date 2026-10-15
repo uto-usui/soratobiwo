@@ -52,8 +52,8 @@
     "time": "OPEN 12:30 / START 13:30",
     "act": "大瀧ヌー(trio) / 森本真伍とキャプテンOG(soratobiwo)",
     "fee": "adv ¥Free / door ¥Free / +1drink（投げ銭）",
-    "hero": "",
-    "wp": false
+    "hero": "https://wp.soratobiwo.com/wp-content/uploads/2018/03/20171130_62.jpg",
+    "wp": true
   },
   {
     "date": "2026-11-03T11:30:00",
