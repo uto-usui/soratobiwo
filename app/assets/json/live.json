@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-30T00:00:00",
+    "id": "2026-11-30-bangboo",
+    "place": "梅田 BANGBOO",
+    "info": [
+      "INFO <a href=\"https://bangboo.jp/\" target=\"_blank\">UMEDA BANGBOO</a>",
+      "<a href=\"https://tiget.net/events/521650\" target=\"_blank\">入場チケット(TIGET)</a>",
+      "<a href=\"https://premier.twitcasting.tv/bangbooinfo/shopcart/453768\" target=\"_blank\">ツイキャスプレミアム配信</a>",
+      "赤いアフロ企画！賑やかな夜になりそう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "【ロード・オブ・ザ・アフロ】アフロから始まるWINDING ROAD",
+    "titleDesktop": "赤いアフロ&BANGBOO pre. 【ロード・オブ・ザ・アフロ】アフロから始まるWINDING ROAD",
+    "title": "赤いアフロ&BANGBOO pre. 【ロード・オブ・ザ・アフロ】アフロから始まるWINDING ROAD",
+    "time": "OPEN TBA / START TBA",
+    "act": "赤いアフロ / soratobiwo / and more…",
+    "fee": "①入場チケット¥3,000(+1drink¥700) ②ツイキャスプレミアム配信¥2,300",
+    "hero": "",
+    "wp": false
+  },
+  {
+    "date": "2026-11-11T18:30:00",
+    "id": "2026-11-11-odyssey",
+    "place": "梅田 Live Space ODYSSEY",
+    "info": [
+      "INFO <a href=\"https://umeda-odyssey.com/\" target=\"_blank\">梅田 Live Space ODYSSEY</a>",
+      "ベリーバッドアラモードの9周年企画！<br>オデッセイ初出演！"
+    ],
+    "soldOut": false,
+    "titleMobile": "ベリーバッドアラモード活動9周年記念企画「パーティーはこれから」",
+    "titleDesktop": "ベリーバッドアラモード活動9周年記念企画「パーティーはこれから」",
+    "title": "ベリーバッドアラモード活動9周年記念企画「パーティーはこれから」",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "ベリーバッドアラモード / 白航 / soratobiwo / おなじ話 / 赤いアフロ",
+    "fee": "adv ¥2,300 / door ¥2,800 / +1drink ¥700",
+    "hero": "",
+    "wp": false
+  },
+  {
+    "date": "2026-11-07T13:30:00",
+    "id": "2026-11-07-apollo",
+    "place": "駒川apollo",
+    "info": [
+      "INFO 駒川apollo",
+      "森本真伍とキャプテンOG(soratobiwo)での出演となります！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『すべては愛でできている』vol.8",
+    "titleDesktop": "『すべては愛でできている』vol.8",
+    "title": "『すべては愛でできている』vol.8",
+    "time": "OPEN 12:30 / START 13:30",
+    "act": "大瀧ヌー(trio) / 森本真伍とキャプテンOG(soratobiwo)",
+    "fee": "adv ¥Free / door ¥Free / +1drink（投げ銭）",
+    "hero": "",
+    "wp": false
+  },
+  {
     "date": "2026-11-03T11:30:00",
     "id": "2026-11-03-grandline",
     "place": "東心斎橋エリアサーキットフェス",
@@ -16,5 +72,79 @@
     "fee": "adv ¥5,000 / day ¥5,500 / +1drink ¥600",
     "hero": "https://wp.soratobiwo.com/wp-content/uploads/2026/08/20261103.jpg",
     "wp": true
+  },
+  {
+    "date": "2026-10-29T19:00:00",
+    "id": "2026-10-29-utausakana",
+    "place": "心斎橋 歌う魚",
+    "info": [
+      "INFO <a href=\"http://utausakana.com/\" target=\"_blank\">心斎橋 歌う魚</a>",
+      "グランドラインプレイベント！<br>11/3の予習に是非！"
+    ],
+    "soldOut": false,
+    "titleMobile": "グランドラインpre. THE BATTLE LOG vol.1",
+    "titleDesktop": "グランドラインpre. THE BATTLE LOG vol.1",
+    "title": "グランドラインpre. THE BATTLE LOG vol.1",
+    "time": "OPEN 18:30 / START 19:00",
+    "act": "アシガルユース / 今津直幸（ZILCONIA） / 大野賢治 / 帯盛かれん / 作人 / メタボリックシンジゲート / 森本真伍とキャプテンOG(fr.soratobiwo)",
+    "fee": "adv ¥3,000 / door ¥3,500 / +1drink",
+    "hero": "",
+    "wp": false
+  },
+  {
+    "date": "2026-10-25T16:15:00",
+    "id": "2026-10-25-vijon",
+    "place": "北堀江 club vijon",
+    "info": [
+      "INFO <a href=\"https://vijon.jp/\" target=\"_blank\">北堀江 club vijon</a>",
+      "<a href=\"https://giggs.eggs.mu/vt77z0W\" target=\"_blank\">入場チケット(GIGGS)</a>",
+      "<a href=\"https://premier.twitcasting.tv/clubvijon/shopcart/451001\" target=\"_blank\">ツイキャスプレミアム配信</a>",
+      "Vijon24周年スペシャル！この日はスペシャルなsoratobiwoです！"
+    ],
+    "soldOut": false,
+    "titleMobile": "【HANAR SONIC 2026】DAY2 -NA-",
+    "titleDesktop": "【HANAR SONIC 2026】DAY2 -NA- ～東京カメレオン『万彩のファンファーレ・鱗都のラプソディ』Release Live in OSAKA～",
+    "title": "【HANAR SONIC 2026】DAY2 -NA- ～東京カメレオン『万彩のファンファーレ・鱗都のラプソディ』Release Live in OSAKA～",
+    "time": "OPEN 16:00 / START 16:15",
+    "act": "メタボリックシンジゲート / ハヤシライフ / soratobiwo / TIGER&DRAGON / asano raincoat / 東京カメレオン / アトリエコード / kasane",
+    "fee": "①入場チケット adv ¥2,800 / door ¥3,300(+1drink¥700) ②2daysチケット¥5,000(両日+1drink¥700) ③ツイキャスプレミアム配信¥2,500",
+    "hero": "",
+    "wp": false
+  },
+  {
+    "date": "2026-10-25T11:30:00",
+    "id": "2026-10-25-neyagawa",
+    "place": "南寝屋川公園",
+    "info": [
+      "INFO 南寝屋川公園",
+      "入場無料！野外イベント！<br>フードもあるみたいなんで1日楽しもう！"
+    ],
+    "soldOut": false,
+    "titleMobile": "イノベソニック2026",
+    "titleDesktop": "イノベソニック2026",
+    "title": "イノベソニック2026",
+    "time": "OPEN 10:30 / START 11:30",
+    "act": "SMASH YOUTH / らくだのこぶメ / サイツアキノリ / soratobiwo / fit in back order schod / 摂南大学軽音部",
+    "fee": "adv ¥Free / door ¥Free",
+    "hero": "",
+    "wp": false
+  },
+  {
+    "date": "2026-10-15T18:30:00",
+    "id": "2026-10-15-nano",
+    "place": "京都 nano",
+    "info": [
+      "INFO <a href=\"http://livehouse-nano.com/\" target=\"_blank\">京都 nano</a>",
+      "久々のnano！新鮮なメンツでワクワクの予感！"
+    ],
+    "soldOut": false,
+    "titleMobile": "『一瞬を掴め』",
+    "titleDesktop": "『一瞬を掴め』",
+    "title": "『一瞬を掴め』",
+    "time": "OPEN 18:00 / START 18:30",
+    "act": "soratobiwo / wthr / 石川翔理 / ギムザ / FRANNY&SEAGLASS",
+    "fee": "adv ¥2,000 / door ¥2,500 / +1drink ¥500",
+    "hero": "",
+    "wp": false
   }
 ]
