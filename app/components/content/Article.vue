@@ -6,7 +6,7 @@ interface Props {
   getIsDesktop?: boolean
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   getIsDesktop: false,
 })
 

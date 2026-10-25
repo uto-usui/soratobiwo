@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { useMainStore } from '~/stores/main'
 import specialJson from '~/assets/json/special.json'
 
-const store = useMainStore()
 const route = useRoute()
 
 // Get the ID from the route params
