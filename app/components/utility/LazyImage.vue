@@ -4,7 +4,7 @@ interface Props {
   alt?: string
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   src: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
   alt: '',
 })
@@ -12,7 +12,6 @@ const props = withDefaults(defineProps<Props>(), {
 const imgRef = ref<HTMLImageElement>()
 const isLoaded = ref(false)
 const isInView = ref(false)
-const imageSrc = ref(props.src)
 
 // Intersection Observer for lazy loading
 onMounted(() => {
