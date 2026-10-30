@@ -96,7 +96,7 @@ export default defineNuxtConfig({
   hooks: {
     async 'prerender:routes'(ctx) {
       // live.json からルート生成
-      const liveData = await import('./app/assets/json/live.json')
+      const liveData = await import('./app/assets/json/live.json', { with: { type: 'json' } })
       for (const item of liveData.default) {
         ctx.routes.add(`/live/${item.id}`)
       }
@@ -105,7 +105,7 @@ export default defineNuxtConfig({
       ctx.routes.add('/live/archive')
 
       // news.json からルート生成
-      const newsData = await import('./app/assets/json/news.json')
+      const newsData = await import('./app/assets/json/news.json', { with: { type: 'json' } })
       for (const item of newsData.default) {
         ctx.routes.add(`/news/${item.id}`)
       }
