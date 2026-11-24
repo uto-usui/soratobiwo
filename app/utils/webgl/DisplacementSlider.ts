@@ -232,6 +232,9 @@ export class DisplacementSlider {
     })
   }
 
+  /**
+   * 1枚目を描き始めた時点で resolve する。残りの画像は裏で読み、そろったら自動再生を始める
+   */
   async init(): Promise<void> {
     const gl = this.webgl.context
 
@@ -320,13 +323,18 @@ export class DisplacementSlider {
     // Start render loop
     this.webgl.startAnimation((time) => this.render(time))
 
+    this.loadRestImages().catch((error) => {
+      console.warn('Failed to load slider images:', error)
+    })
+  }
+
+  private async loadRestImages(): Promise<void> {
     const restImages = await Promise.all(
       this.options.images.slice(1).map((url) => this.loadImageWithInfo(url))
     )
     if (this.isDestroyed) return
     this.imageInfos.push(...restImages)
 
-    // Start autoplay if enabled
     if (this.options.autoPlay && this.imageInfos.length > 1) {
       this.startAutoPlay()
     }

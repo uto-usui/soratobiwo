@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { DisplacementSlider } from '~/utils/webgl'
+// 1枚目のスライドを幅 32px に縮めたもの。canvas が描けるまでぼかして敷く
+import slidePlaceholder from '~/assets/images/hero-slide-placeholder.webp'
 
 interface Props {
   getPageReady?: boolean
@@ -12,6 +14,7 @@ withDefaults(defineProps<Props>(), {
 })
 
 const canvasRef = ref<HTMLCanvasElement>()
+const isCanvasReady = ref(false)
 let slider: DisplacementSlider | null = null
 
 // Slider images (`-800` / `-1600` variants exist for each)
@@ -37,6 +40,7 @@ onMounted(async () => {
     })
 
     await slider.init()
+    isCanvasReady.value = true
   } catch (error) {
     console.warn('WebGL initialization failed:', error)
   }
@@ -51,34 +55,38 @@ onBeforeUnmount(() => {
 <template>
   <div class="hero">
     <div class="hero__main">
-      <canvas ref="canvasRef" class="hero__canvas" />
+      <div
+        class="hero__placeholder"
+        :style="{ backgroundImage: `url(${slidePlaceholder})` }"
+      />
+      <canvas
+        ref="canvasRef"
+        class="hero__canvas"
+        :class="{ 'is-ready': isCanvasReady }"
+      />
     </div>
 
     <div class="hero-sub hero-sub--lg">
-      <img
-        class="hero-sub__figure"
-        src="/images/hero/item7-800.webp"
-        srcset="/images/hero/item7-400.webp 400w, /images/hero/item7-800.webp 800w, /images/hero/item7-1200.webp 1200w"
-        sizes="(min-width: 1024px) 25vw, 67vw"
-        width="1200"
-        height="833"
-        alt=""
-        fetchpriority="high"
-      >
+      <figure class="hero-sub__figure">
+        <UtilityCoverImage
+          src="/images/hero/item7-800.webp"
+          srcset="/images/hero/item7-400.webp 400w, /images/hero/item7-800.webp 800w, /images/hero/item7-1200.webp 1200w"
+          sizes="(min-width: 1024px) 25vw, 67vw"
+          fetchpriority="high"
+        />
+      </figure>
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
     </div>
 
     <div class="hero-sub hero-sub--sm">
-      <img
-        class="hero-sub__figure"
-        src="/images/hero/item13-800.webp"
-        srcset="/images/hero/item13-400.webp 400w, /images/hero/item13-800.webp 800w, /images/hero/item13-1200.webp 1200w"
-        sizes="(min-width: 1024px) 18vw, 47vw"
-        width="1200"
-        height="833"
-        alt=""
-      >
+      <figure class="hero-sub__figure">
+        <UtilityCoverImage
+          src="/images/hero/item13-800.webp"
+          srcset="/images/hero/item13-400.webp 400w, /images/hero/item13-800.webp 800w, /images/hero/item13-1200.webp 1200w"
+          sizes="(min-width: 1024px) 18vw, 47vw"
+        />
+      </figure>
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
     </div>
@@ -99,12 +107,31 @@ onBeforeUnmount(() => {
   opacity: 0;
 }
 
+.hero__placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: blur(16px);
+  // ぼかしで縁が透けるので、少し広げて .hero__main の overflow で切る
+  transform: scale(1.1);
+}
+
 .hero__canvas {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  transition: opacity 0.8s $easeOutSine;
+
+  &.is-ready {
+    opacity: 1;
+  }
 }
 
 .hero__main {
@@ -187,9 +214,7 @@ onBeforeUnmount(() => {
 }
 
 .hero-sub__figure {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-color: $color-gray-level2;
 
   @include overlay;
 
