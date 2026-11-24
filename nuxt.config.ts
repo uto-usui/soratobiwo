@@ -48,15 +48,6 @@ export default defineNuxtConfig({
     ],
   },
 
-  // 表示されたリンクを先読みすると、初回表示中の画像と回線を取り合うため、操作されたときだけ先読みする
-  experimental: {
-    defaults: {
-      nuxtLink: {
-        prefetchOn: { visibility: false, interaction: true },
-      },
-    },
-  },
-
   // TypeScript
   typescript: {
     strict: true,
