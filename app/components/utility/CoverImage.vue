@@ -16,25 +16,14 @@ withDefaults(defineProps<Props>(), {
   fetchpriority: undefined,
 })
 
-const imgRef = ref<HTMLImageElement>()
-const isLoaded = ref(false)
-
-const onLoad = () => {
-  isLoaded.value = true
-}
-
-onMounted(() => {
-  // 静的に書き出した HTML ではハイドレーション前に読み終わることがあり、その場合 load は二度と発火しない
-  const img = imgRef.value
-  if (img?.complete && img.naturalWidth) onLoad()
-})
+// 読み込み完了で data-loaded を付けてフェードインする。
+// 初回はローダーなしで書き出した HTML を見せるので、JS の準備を待たずに表示できるよう onload 属性で処理する
+const markLoaded = 'this.dataset.loaded=""'
 </script>
 
 <template>
   <img
-    ref="imgRef"
     class="cover-image"
-    :class="{ 'is-loaded': isLoaded }"
     :src="src"
     :srcset="srcset"
     :sizes="sizes"
@@ -42,7 +31,7 @@ onMounted(() => {
     :loading="loading"
     :fetchpriority="fetchpriority"
     decoding="async"
-    @load="onLoad"
+    :onload="markLoaded"
   >
 </template>
 
@@ -58,7 +47,7 @@ onMounted(() => {
   opacity: 0;
   transition: opacity 0.6s $easeOutSine;
 
-  &.is-loaded {
+  &[data-loaded] {
     opacity: 1;
   }
 }

@@ -6,12 +6,10 @@ export default defineNuxtConfig({
   // アプリ設定
   app: {
     head: {
-      // Critical CSS to prevent FOUC (Flash of Unstyled Content)
-      // Hide all content initially, Vue will show it when ready
+      // ページ移動でローダーが出ている間（is-ready が外れている間）は中身を隠す
       style: [
         {
           children: `
-            /* Hide content until Vue hydrates and adds is-ready class */
             .body:not(.is-ready) .fixed-content,
             .body:not(.is-ready) .wrapper,
             .body:not(.is-ready) [class^="page-"] {
