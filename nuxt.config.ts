@@ -5,7 +5,6 @@ export default defineNuxtConfig({
 
   // アプリ設定
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       // Critical CSS to prevent FOUC (Flash of Unstyled Content)
       // Hide all content initially, Vue will show it when ready

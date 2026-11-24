@@ -101,13 +101,13 @@ select {
   }
 }
 
-// ページ移動時のフェード（ローダーは初回だけ）
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.25s $easeOutSine;
-}
-
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
+// Ready state: show immediately (no fade)
+.body.is-ready {
+  .fixed-content,
+  .wrapper,
+  .page-index,
+  [class^="page-"] {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
