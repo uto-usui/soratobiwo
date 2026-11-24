@@ -39,7 +39,7 @@ usePageLoading()
             >
               <UtilityCoverImage
                 :src="`/images/${item.artistImage}`"
-                sizes="100vw"
+                sizes="(min-width: 1024px) 67vw, 95vw"
                 alt="artist image"
                 loading="lazy"
               />
