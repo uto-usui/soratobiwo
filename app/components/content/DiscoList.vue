@@ -23,6 +23,7 @@ defineProps<Props>()
                 <UtilityCoverImage
                   :src="`/images/album/${item.img}`"
                   :alt="item.title"
+                  sizes="(min-width: 1024px) 19vw, 31vw"
                   loading="lazy"
                 />
               </figure>

@@ -58,6 +58,12 @@ node scripts/wp-hero-srcset.mjs
 
 `heroSrcset` が未設定の `wp: true` エントリだけを対象にする。`not found in media library` と出た画像は書き込まれず、元画像のまま表示される。
 
+`hero` にサイト内の画像（`public/images/` に置いたもの）を入れたときは、代わりに幅違いの WebP と仮の画像を作る。
+
+```bash
+node scripts/image-variants.mjs
+```
+
 ### 6. 過去イベントをアーカイブへ移す
 
 ```bash

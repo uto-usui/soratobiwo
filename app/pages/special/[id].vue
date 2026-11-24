@@ -54,6 +54,7 @@ usePageLoading()
             <UtilityCoverImage
               :src="`/images/${item.image}`"
               :alt="item.title || ''"
+              sizes="(min-width: 800px) 760px, 95vw"
               loading="lazy"
             />
           </div>

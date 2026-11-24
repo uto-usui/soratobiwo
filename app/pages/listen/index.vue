@@ -24,7 +24,6 @@ usePageLoading()
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image18.webp"
-        :srcset="webpVariantSrcset('/images/2026/image18.webp')"
         title="listen"
         :get-page-ready="getPageReady"
       />
