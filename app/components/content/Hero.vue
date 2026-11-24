@@ -129,7 +129,7 @@ onBeforeUnmount(() => {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.25s $easeOutSine;
+  transition: opacity 0.4s $easeOutSine;
 
   &.is-ready {
     opacity: 1;

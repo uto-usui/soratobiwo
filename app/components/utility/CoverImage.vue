@@ -76,7 +76,7 @@ const markLoaded = 'this.dataset.loaded=""'
   // ぼかしで縁が透けるので、少し広げて .cover-image の overflow で切る
   transform: scale(1.1);
   // 写真のフェードインが終わってから消す。同時に消すと途中で下の背景が透ける
-  transition: opacity 0s 0.25s;
+  transition: opacity 0s 0.4s;
 
   .cover-image:has(.cover-image__img[data-loaded]) & {
     opacity: 0;
@@ -92,7 +92,7 @@ const markLoaded = 'this.dataset.loaded=""'
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 0.25s $easeOutSine;
+  transition: opacity 0.4s $easeOutSine;
 
   &[data-loaded] {
     opacity: 1;
