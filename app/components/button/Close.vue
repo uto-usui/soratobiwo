@@ -9,7 +9,9 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <NuxtLink :to="path" class="button-close" />
+  <NuxtLink v-if="path" :to="path" class="button-close" />
+  <!-- 行き先のない閉じるボタン（フォームなど）。空の to を NuxtLink に渡すと絶対 URL として先読みされ、NUXT_E7001 が出る -->
+  <button v-else type="button" class="button-close" aria-label="close" />
 </template>
 
 <style lang="scss" scoped>
@@ -19,6 +21,9 @@ withDefaults(defineProps<Props>(), {
   position: relative;
   z-index: 1;
   display: block;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
   width: 30px;
   height: 30px;
   background-color: $color-red;
