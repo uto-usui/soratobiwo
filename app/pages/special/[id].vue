@@ -46,8 +46,16 @@ usePageLoading()
           class="special-item"
         >
           <h2 v-if="item.title" class="item-title">{{ item.title }}</h2>
-          <div v-if="item.image" class="item-image">
-            <img :src="`/images/${item.image}`" :alt="item.title || ''" />
+          <div
+            v-if="item.image"
+            class="item-image"
+            :style="aspectRatioStyle(`/images/${item.image}`)"
+          >
+            <UtilityCoverImage
+              :src="`/images/${item.image}`"
+              :alt="item.title || ''"
+              loading="lazy"
+            />
           </div>
           <div v-if="item.texts" class="item-texts">
             <p v-for="(text, textIndex) in item.texts" :key="`text-${textIndex}`" v-html="text"></p>
@@ -98,13 +106,10 @@ usePageLoading()
 }
 
 .item-image {
+  position: relative;
   margin-bottom: 1rem;
-
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-  }
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .item-texts {

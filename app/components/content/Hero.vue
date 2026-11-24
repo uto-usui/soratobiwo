@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { DisplacementSlider } from '~/utils/webgl'
-// 1枚目のスライドを幅 32px に縮めたもの。canvas が描けるまでぼかして敷く
-import slidePlaceholder from '~/assets/images/hero-slide-placeholder.webp'
 
 interface Props {
   getPageReady?: boolean
@@ -12,6 +10,9 @@ withDefaults(defineProps<Props>(), {
   getPageReady: false,
   getPageHeight: 0,
 })
+
+// canvas が描けるまで、1枚目のスライドの縮小版をぼかして敷く
+const slidePlaceholder = imagePlaceholder('/images/2026/image2.webp')
 
 const canvasRef = ref<HTMLCanvasElement>()
 const isCanvasReady = ref(false)
@@ -56,8 +57,9 @@ onBeforeUnmount(() => {
   <div class="hero">
     <div class="hero__main">
       <div
+        v-if="slidePlaceholder"
         class="hero__placeholder"
-        :style="{ backgroundImage: `url(${slidePlaceholder})` }"
+        :style="{ backgroundImage: `url(${slidePlaceholder.src})` }"
       />
       <canvas
         ref="canvasRef"
@@ -127,7 +129,7 @@ onBeforeUnmount(() => {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.8s $easeOutSine;
+  transition: opacity 0.25s $easeOutSine;
 
   &.is-ready {
     opacity: 1;
