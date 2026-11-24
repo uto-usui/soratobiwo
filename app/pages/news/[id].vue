@@ -43,6 +43,7 @@ usePageLoading()
           <ContentArticle :get-is-desktop="getIsDesktop" :post="post" />
           <ContentArticleBottom
             :image="post.wp ? post.hero : `/images/${post.hero}`"
+            :srcset="post.heroSrcset"
           />
         </template>
       </ContentMainInner>

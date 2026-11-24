@@ -32,10 +32,14 @@ const getDate = (date: string) => formatDate(date)
           </div>
 
           <div class="list__figure-wrap is-hidden-touch">
-            <figure
-              class="list__figure"
-              :style="{ backgroundImage: `url(${item.wp ? item.hero : `/images/${item.hero}`})` }"
-            />
+            <figure class="list__figure">
+              <UtilityCoverImage
+                :src="item.wp ? item.hero : `/images/${item.hero}`"
+                :srcset="item.heroSrcset"
+                sizes="30vw"
+                loading="lazy"
+              />
+            </figure>
             <div class="list__bg" />
           </div>
 
@@ -196,7 +200,6 @@ const getDate = (date: string) => formatDate(date)
   will-change: filter, transform;
 
   @include overlay;
-  @include bg-cover;
 
   .list__item:hover & {
     filter: saturate(1);

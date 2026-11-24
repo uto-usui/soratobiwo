@@ -22,6 +22,7 @@ usePageLoading()
     <ContentMainOuter class="live">
       <ContentHeroSub
         image="/images/2026/image19.webp"
+        :srcset="webpVariantSrcset('/images/2026/image19.webp')"
         title="news"
         :get-page-ready="getPageReady"
       />

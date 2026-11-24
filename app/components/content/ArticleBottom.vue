@@ -1,20 +1,27 @@
 <script setup lang="ts">
 interface Props {
   image?: string
+  srcset?: string
 }
 
 withDefaults(defineProps<Props>(), {
   image: '',
+  srcset: undefined,
 })
 </script>
 
 <template>
   <NuxtLink to="../" class="article-bottom">
     <div class="article-bottom__inner">
-      <figure
-        class="article-bottom__figure"
-        :style="image ? { backgroundImage: `url(${image})` } : {}"
-      />
+      <figure class="article-bottom__figure">
+        <!-- グレースケールに重ねて見せるので、スマホは密度 2 倍程度で足りる -->
+        <UtilityCoverImage
+          v-if="image"
+          :src="image"
+          :srcset="srcset"
+          sizes="(min-width: 1024px) 100vw, 67vw"
+        />
+      </figure>
       <div class="article-bottom__bg" />
     </div>
     <div class="article-bottom__text">back to list</div>
@@ -52,8 +59,6 @@ withDefaults(defineProps<Props>(), {
   filter: saturate(0);
   transition: filter 2s $easeOutSine, transform 5s $easeFadeIn;
   will-change: filter, transform;
-
-  @include bg-cover;
 
   @include desktop {
     height: calc(100vh / 3 + 100vh / 3 / 3 * 2);
