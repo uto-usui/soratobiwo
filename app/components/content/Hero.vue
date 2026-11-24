@@ -14,18 +14,17 @@ withDefaults(defineProps<Props>(), {
 const canvasRef = ref<HTMLCanvasElement>()
 let slider: DisplacementSlider | null = null
 
-// Slider images
-const images = [
-  '/images/2026/image2.webp',
-  '/images/2026/image6.webp',
-  '/images/2026/image8.webp',
-  '/images/2026/image19.webp',
-]
+// Slider images (`-800` / `-1600` variants exist for each)
+const imageNames = ['image2', 'image6', 'image8', 'image19']
 
 const displacementImage = '/images/texture/noise.jpg'
 
 onMounted(async () => {
   if (!canvasRef.value) return
+
+  // canvas は devicePixelRatio を掛けずに描くので、CSS 上の幅で足りるサイズを選ぶ
+  const width = canvasRef.value.clientWidth <= 800 ? 800 : 1600
+  const images = imageNames.map((name) => `/images/2026/${name}-${width}.webp`)
 
   try {
     slider = new DisplacementSlider(canvasRef.value, {
@@ -56,19 +55,30 @@ onBeforeUnmount(() => {
     </div>
 
     <div class="hero-sub hero-sub--lg">
-      <figure
+      <img
         class="hero-sub__figure"
-        :style="{ backgroundImage: `url(/images/hero/item7.jpg)` }"
-      />
+        src="/images/hero/item7-800.webp"
+        srcset="/images/hero/item7-400.webp 400w, /images/hero/item7-800.webp 800w, /images/hero/item7-1200.webp 1200w"
+        sizes="(min-width: 1024px) 25vw, 67vw"
+        width="1200"
+        height="833"
+        alt=""
+        fetchpriority="high"
+      >
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
     </div>
 
     <div class="hero-sub hero-sub--sm">
-      <figure
+      <img
         class="hero-sub__figure"
-        :style="{ backgroundImage: `url(/images/hero/item13.jpg)` }"
-      />
+        src="/images/hero/item13-800.webp"
+        srcset="/images/hero/item13-400.webp 400w, /images/hero/item13-800.webp 800w, /images/hero/item13-1200.webp 1200w"
+        sizes="(min-width: 1024px) 18vw, 47vw"
+        width="1200"
+        height="833"
+        alt=""
+      >
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
     </div>
@@ -177,8 +187,11 @@ onBeforeUnmount(() => {
 }
 
 .hero-sub__figure {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
   @include overlay;
-  @include bg-cover;
 
   .hero-sub.hero-sub--lg & {
     filter: saturate(0);
