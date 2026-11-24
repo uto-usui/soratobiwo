@@ -38,6 +38,7 @@ const getDate = (date: string) => formatDate(date)
                 :srcset="item.heroSrcset"
                 sizes="30vw"
                 loading="lazy"
+                desktop-only
               />
             </figure>
             <div class="list__bg" />

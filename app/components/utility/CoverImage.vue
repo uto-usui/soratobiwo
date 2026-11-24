@@ -6,6 +6,8 @@ interface Props {
   alt?: string
   loading?: 'lazy' | 'eager'
   fetchpriority?: 'high' | 'low' | 'auto'
+  /** PC 幅でしか表示しない画像。display: none でも lazy 画像は読まれることがあるので、PC 幅未満では空画像に差し替える */
+  desktopOnly?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
@@ -14,7 +16,10 @@ withDefaults(defineProps<Props>(), {
   alt: '',
   loading: undefined,
   fetchpriority: undefined,
+  desktopOnly: false,
 })
+
+const blankImage = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 
 // 読み込み完了で data-loaded を付けてフェードインする。
 // 初回はローダーなしで書き出した HTML を見せるので、JS の準備を待たずに表示できるよう onload 属性で処理する
@@ -22,17 +27,21 @@ const markLoaded = 'this.dataset.loaded=""'
 </script>
 
 <template>
-  <img
-    class="cover-image"
-    :src="src"
-    :srcset="srcset"
-    :sizes="sizes"
-    :alt="alt"
-    :loading="loading"
-    :fetchpriority="fetchpriority"
-    decoding="async"
-    :onload="markLoaded"
-  >
+  <picture>
+    <source v-if="desktopOnly" media="(max-width: 1023px)" :srcset="blankImage">
+    <!-- Vue は書いた順に属性を設定する。src を先に入れると lazy になる前に読み込みが始まるので、src は最後に置く -->
+    <img
+      class="cover-image"
+      :loading="loading"
+      :fetchpriority="fetchpriority"
+      decoding="async"
+      :onload="markLoaded"
+      :alt="alt"
+      :sizes="sizes"
+      :srcset="srcset"
+      :src="src"
+    >
+  </picture>
 </template>
 
 <style lang="scss" scoped>
