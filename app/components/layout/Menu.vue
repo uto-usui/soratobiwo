@@ -3,12 +3,10 @@ import { useMainStore } from '~/stores/main'
 
 interface Props {
   getMenuOpen?: boolean
-  getIsDesktop?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
   getMenuOpen: false,
-  getIsDesktop: false,
 })
 
 const store = useMainStore()
@@ -28,7 +26,7 @@ const closeMenu = () => {
   >
     <div class="menu__inner">
       <ul class="menu__list">
-        <li v-if="!getIsDesktop" class="menu__item">
+        <li class="menu__item menu__item--touch">
           <span class="menu__item-inner">
             <NuxtLink
               to="/"
@@ -117,6 +115,19 @@ const closeMenu = () => {
 
     @include desktop {
       margin-top: calc(100vw * 2 / 375);
+    }
+  }
+
+  &--touch {
+    @include desktop {
+      display: none;
+    }
+  }
+
+  // PC では home を隠すので、次の項目が先頭になる
+  &--touch + & {
+    @include desktop {
+      margin-top: calc(100vh * 8 / 768 * -1);
     }
   }
 }

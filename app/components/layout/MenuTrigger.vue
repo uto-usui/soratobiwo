@@ -33,6 +33,10 @@ const toggleMenu = () => {
   left: 0;
   z-index: $z-menu-trigger;
   height: 50px;
+
+  @include desktop {
+    display: none;
+  }
 }
 
 .menu-trigger__bg {

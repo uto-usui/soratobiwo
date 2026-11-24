@@ -4,12 +4,10 @@ import newsJson from '~/assets/json/news.json'
 
 interface Props {
   getMenuOpen?: boolean
-  getIsDesktop?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
   getMenuOpen: false,
-  getIsDesktop: false,
 })
 
 const route = useRoute()
@@ -69,7 +67,7 @@ onBeforeUnmount(() => {
     :class="[
       {
         'is-open': route.fullPath === '/' || getMenuOpen,
-        'is-sub': route.fullPath !== '/' && getIsDesktop,
+        'is-sub': route.fullPath !== '/',
       },
     ]"
     class="news"
