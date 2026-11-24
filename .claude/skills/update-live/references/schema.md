@@ -16,6 +16,7 @@
 | `act` | string | 出演者を ` / ` 区切り |
 | `fee` | string | 料金情報（自由形式テキスト） |
 | `hero` | string | フライヤー画像URL。WordPressの場合 `https://wp.soratobiwo.com/wp-content/uploads/YYYY/MM/filename` |
+| `heroSrcset` | string（任意） | hero の縮小版を並べた srcset。手で書かず `node scripts/wp-hero-srcset.mjs` で書き込む |
 | `wp` | boolean | hero画像がWordPressホストなら `true` |
 
 ## info配列の構造
