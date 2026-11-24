@@ -29,22 +29,6 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: 'loading',
       },
-      link: [
-        // Google Fonts: Nunito & Ubuntu
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.googleapis.com',
-        },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
-          crossorigin: '',
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,400;1,800&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap',
-        },
-      ],
     },
   },
 
@@ -52,7 +36,20 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@nuxt/eslint',
+    '@nuxt/fonts',
   ],
+
+  // Google Fonts をビルド時に取得して自前で配信する（描画を止める外部 CSS をなくすため）
+  fonts: {
+    defaults: {
+      styles: ['normal', 'italic'],
+    },
+    families: [
+      { name: 'Nunito', provider: 'google', weights: [400, 800] },
+      { name: 'Ubuntu', provider: 'google', weights: [400, 700] },
+    ],
+  },
+
 
   // TypeScript
   typescript: {
