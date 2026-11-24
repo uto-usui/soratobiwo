@@ -19,10 +19,13 @@ defineProps<Props>()
         <div class="list-disco__inner">
           <div class="list-disco__left">
             <div class="list-disco__figure-wrap">
-              <figure
-                class="list-disco__figure"
-                :style="{ backgroundImage: `url(/images/album/${item.img})` }"
-              />
+              <figure class="list-disco__figure">
+                <UtilityCoverImage
+                  :src="`/images/album/${item.img}`"
+                  :alt="item.title"
+                  loading="lazy"
+                />
+              </figure>
             </div>
             <h2 class="list-disco__title">{{ item.title }}</h2>
             <h3 class="list-disco__subtitle">{{ item.titleSub }}</h3>
@@ -137,7 +140,6 @@ defineProps<Props>()
 
 .list-disco__figure {
   @include overlay;
-  @include bg-cover;
 }
 
 .list-disco__title {

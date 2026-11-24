@@ -166,6 +166,7 @@ export class DisplacementSlider {
     u_canvasSize: WebGLUniformLocation | null
   } | null = null
   private isInitialized = false
+  private isDestroyed = false
   private autoPlayTimer: ReturnType<typeof setTimeout> | null = null
 
   constructor(canvas: HTMLCanvasElement, options: DisplacementSliderOptions) {
@@ -198,6 +199,8 @@ export class DisplacementSlider {
       image.crossOrigin = 'anonymous'
 
       image.onload = () => {
+        // 描画中に後から届いた画像が TEXTURE0〜2 の割り当てを上書きしないよう、空きユニットで転送する
+        gl.activeTexture(gl.TEXTURE3)
         gl.bindTexture(gl.TEXTURE_2D, texture)
         gl.texImage2D(
           gl.TEXTURE_2D,
@@ -229,6 +232,9 @@ export class DisplacementSlider {
     })
   }
 
+  /**
+   * 1枚目を描き始めた時点で resolve する。残りの画像は裏で読み、そろったら自動再生を始める
+   */
   async init(): Promise<void> {
     const gl = this.webgl.context
 
@@ -279,10 +285,14 @@ export class DisplacementSlider {
       u_canvasSize: this.webgl.getUniformLocation(this.program, 'u_canvasSize'),
     }
 
-    // Load textures with dimension info
-    const imagePromises = this.options.images.map((url) => this.loadImageWithInfo(url))
-    this.imageInfos = await Promise.all(imagePromises)
-    this.displacementTexture = await this.webgl.loadTexture(this.options.displacementImage)
+    // 1枚目と displacement だけ待って描き始め、残りは後から読む
+    const [firstImage, displacementTexture] = await Promise.all([
+      this.loadImageWithInfo(this.options.images[0]),
+      this.webgl.loadTexture(this.options.displacementImage),
+    ])
+    if (this.isDestroyed) return
+    this.imageInfos = [firstImage]
+    this.displacementTexture = displacementTexture
 
     // Set up texture units
     gl.activeTexture(gl.TEXTURE0)
@@ -303,7 +313,6 @@ export class DisplacementSlider {
     gl.uniform2f(this.uniforms.u_dispScale, this.options.displaceScale[0], this.options.displaceScale[1])
 
     // Set initial image aspects and canvas size
-    const firstImage = this.imageInfos[0]
     gl.uniform2f(this.uniforms.u_imageAspect1, firstImage.width, firstImage.height)
     gl.uniform2f(this.uniforms.u_imageAspect2, firstImage.width, firstImage.height)
     gl.uniform2f(this.uniforms.u_canvasSize, this.canvas.width, this.canvas.height)
@@ -314,7 +323,18 @@ export class DisplacementSlider {
     // Start render loop
     this.webgl.startAnimation((time) => this.render(time))
 
-    // Start autoplay if enabled
+    this.loadRestImages().catch((error) => {
+      console.warn('Failed to load slider images:', error)
+    })
+  }
+
+  private async loadRestImages(): Promise<void> {
+    const restImages = await Promise.all(
+      this.options.images.slice(1).map((url) => this.loadImageWithInfo(url))
+    )
+    if (this.isDestroyed) return
+    this.imageInfos.push(...restImages)
+
     if (this.options.autoPlay && this.imageInfos.length > 1) {
       this.startAutoPlay()
     }
@@ -473,6 +493,7 @@ export class DisplacementSlider {
    * Destroy the slider and free resources
    */
   destroy(): void {
+    this.isDestroyed = true
     this.stopAutoPlay()
     this.webgl.destroy()
   }

@@ -22,6 +22,7 @@ usePageLoading()
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image15.webp"
+        :srcset="webpVariantSrcset('/images/2026/image15.webp')"
         title="follow"
         :get-page-ready="getPageReady"
       />

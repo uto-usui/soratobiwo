@@ -3,7 +3,7 @@ import { useMainStore } from '~/stores/main'
 import newsData from '~/assets/json/news.json'
 
 const store = useMainStore()
-const { getPageReady, getIsDesktop } = storeToRefs(store)
+const { getPageReady } = storeToRefs(store)
 const route = useRoute()
 
 // Get the ID from the route params
@@ -40,9 +40,10 @@ usePageLoading()
     <ContentMainOuter>
       <ContentMainInner>
         <template v-if="post">
-          <ContentArticle :get-is-desktop="getIsDesktop" :post="post" />
+          <ContentArticle :post="post" />
           <ContentArticleBottom
             :image="post.wp ? post.hero : `/images/${post.hero}`"
+            :srcset="post.heroSrcset"
           />
         </template>
       </ContentMainInner>

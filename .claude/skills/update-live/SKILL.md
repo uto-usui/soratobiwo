@@ -47,7 +47,18 @@ description: soratobiwoのライブ情報(app/assets/json/live.json)に新しい
 
 日付降順を維持して適切な位置に挿入する。Editツールで該当箇所の前後のエントリを含めて編集する。
 
-### 5. 過去イベントをアーカイブへ移す
+### 5. hero 画像の縮小版を登録する
+
+`hero` に WordPress の画像を入れたら、WordPress が自動で作った縮小版を `heroSrcset` に書き込む。
+
+```bash
+node scripts/wp-hero-srcset.mjs --dry-run  # 対象を確認
+node scripts/wp-hero-srcset.mjs
+```
+
+`heroSrcset` が未設定の `wp: true` エントリだけを対象にする。`not found in media library` と出た画像は書き込まれず、元画像のまま表示される。
+
+### 6. 過去イベントをアーカイブへ移す
 
 ```bash
 node scripts/archive-past-lives.mjs --dry-run  # 対象を確認
@@ -59,6 +70,6 @@ node scripts/archive-past-lives.mjs
 
 移した分の `/live/:id` 詳細ページは生成されなくなる（アーカイブは一覧のみでリダイレクトも張らない）。既存の運用どおりなので対応不要。
 
-### 6. 確認
+### 7. 確認
 
 整形結果をユーザーに提示して確認を得る。修正があれば反映する。

@@ -12,6 +12,8 @@ export interface LiveEvent {
   act: string
   fee: string
   hero: string
+  /** WordPress の縮小版を並べた srcset。scripts/wp-hero-srcset.mjs が書き込む */
+  heroSrcset?: string
   wp: boolean
 }
 
@@ -24,6 +26,8 @@ export interface NewsItem {
   titleDesktop: string
   info: string[]
   hero: string
+  /** WordPress の縮小版を並べた srcset。scripts/wp-hero-srcset.mjs が書き込む */
+  heroSrcset?: string
   wp: boolean
 }
 

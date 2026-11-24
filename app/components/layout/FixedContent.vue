@@ -3,14 +3,12 @@ interface Props {
   getPageHeight?: number
   getPageScrollY?: number
   getMenuOpen?: boolean
-  getIsDesktop?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
   getPageHeight: 0,
   getPageScrollY: 0,
   getMenuOpen: false,
-  getIsDesktop: false,
 })
 
 const route = useRoute()
@@ -22,7 +20,7 @@ const route = useRoute()
     <LayoutFrame />
     <LayoutContact />
     <LayoutCopy />
-    <LayoutNews :get-is-desktop="getIsDesktop" :get-menu-open="getMenuOpen" />
+    <LayoutNews :get-menu-open="getMenuOpen" />
 
     <LayoutHeader
       v-if="false"
@@ -30,10 +28,11 @@ const route = useRoute()
       :get-page-height="getPageHeight"
       :get-page-scroll-y="getPageScrollY"
     />
-    <LayoutMenu :get-is-desktop="getIsDesktop" :get-menu-open="getMenuOpen" />
-    <LayoutMenuDesktop v-if="route.fullPath !== '/' && getIsDesktop" />
+    <LayoutMenu :get-menu-open="getMenuOpen" />
+    <!-- PC とスマホの出し分けは各コンポーネントの CSS でする。JS で画面幅を見ると、最初の HTML がスマホ表示になる -->
+    <LayoutMenuDesktop v-if="route.fullPath !== '/'" />
     <LayoutMenuBg :get-menu-open="getMenuOpen" />
-    <LayoutMenuTrigger v-if="route.fullPath !== '/' && !getIsDesktop" />
+    <LayoutMenuTrigger v-if="route.fullPath !== '/'" />
     <LayoutFooter v-if="false" />
   </div>
 </template>

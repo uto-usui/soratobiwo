@@ -67,7 +67,6 @@ function initPageData() {
       :get-page-height="pageData.winH"
       :get-page-scroll-y="pageData.scrollTop"
       :get-menu-open="menuOpen"
-      :get-is-desktop="pageData.isDesktop"
     />
     <slot />
     <LayoutFormContent />

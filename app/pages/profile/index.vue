@@ -22,6 +22,7 @@ usePageLoading()
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image12.webp"
+        :srcset="webpVariantSrcset('/images/2026/image12.webp')"
         title="profile"
         :get-page-ready="getPageReady"
       />
@@ -33,11 +34,18 @@ usePageLoading()
         >
           <ContentTitle2 :item="item" />
           <div v-if="item.artistImage" class="profile__artist-wrap">
-            <img
-              :src="`/images/${item.artistImage}`"
-              alt="artist image"
+            <div
               class="profile__artist"
-            />
+              :style="aspectRatioStyle(`/images/${item.artistImage}`)"
+            >
+              <UtilityCoverImage
+                :src="`/images/${item.artistImage}`"
+                :srcset="webpVariantSrcset(`/images/${item.artistImage}`)"
+                sizes="100vw"
+                alt="artist image"
+                loading="lazy"
+              />
+            </div>
           </div>
           <p v-if="item.text" class="profile__text" v-html="item.text" />
         </div>
@@ -80,7 +88,7 @@ usePageLoading()
 }
 
 .profile__artist {
-  //
+  position: relative;
 }
 
 .profile__text {

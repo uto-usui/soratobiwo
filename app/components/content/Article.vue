@@ -3,12 +3,9 @@ import type { LiveEvent, NewsItem } from '~/types'
 
 interface Props {
   post: LiveEvent | NewsItem
-  getIsDesktop?: boolean
 }
 
-withDefaults(defineProps<Props>(), {
-  getIsDesktop: false,
-})
+defineProps<Props>()
 
 const { formatDate } = useFormatDate()
 
@@ -19,11 +16,10 @@ const getDate = (date: string) => formatDate(date)
   <article class="article">
     <div class="article__inner">
       <div class="article__head">
-        <h1
-          v-if="post.title"
-          class="article__title"
-          v-html="getIsDesktop ? post.titleDesktop : post.titleMobile"
-        />
+        <h1 v-if="post.title" class="article__title">
+          <span class="article__title-desktop" v-html="post.titleDesktop" />
+          <span class="article__title-mobile" v-html="post.titleMobile" />
+        </h1>
         <div class="article__head-inner">
           <time
             v-if="post.date"
@@ -35,7 +31,7 @@ const getDate = (date: string) => formatDate(date)
       <div class="article__body">
         <h2 v-if="post.title" class="article__title-sub" v-html="post.title" />
         <p
-          v-if="getIsDesktop && 'place' in post && post.place"
+          v-if="'place' in post && post.place"
           class="article__place-pc"
           v-html="post.place"
         />
@@ -157,6 +153,18 @@ const getDate = (date: string) => formatDate(date)
   }
 }
 
+.article__title-desktop {
+  @include touch {
+    display: none;
+  }
+}
+
+.article__title-mobile {
+  @include desktop {
+    display: none;
+  }
+}
+
 .article__head-inner {
   @include desktop {
     position: absolute;
@@ -193,6 +201,12 @@ const getDate = (date: string) => formatDate(date)
 
   @include desktop {
     font-size: calc(100vw * 12 / 1024);
+  }
+}
+
+.article__place-pc {
+  @include touch {
+    display: none;
   }
 }
 

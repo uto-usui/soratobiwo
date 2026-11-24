@@ -49,6 +49,10 @@ const isActive = (item: string): boolean => {
   z-index: $z-menu;
   transform: translateX(-15px) translateY(-100%);
 
+  @include touch {
+    display: none;
+  }
+
   @include widescreen {
     top: calc(100vw * 30 / 1280 + 100vw * 396 / 1280);
     right: calc(100vw * 30 / 1280 + 100vw * 69 / 1280);

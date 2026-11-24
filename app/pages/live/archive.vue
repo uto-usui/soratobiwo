@@ -18,6 +18,7 @@ usePageLoading()
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image10.webp"
+        :srcset="webpVariantSrcset('/images/2026/image10.webp')"
         title="archive"
         :get-page-ready="store.pageReady"
       />

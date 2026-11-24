@@ -6,12 +6,10 @@ export default defineNuxtConfig({
   // アプリ設定
   app: {
     head: {
-      // Critical CSS to prevent FOUC (Flash of Unstyled Content)
-      // Hide all content initially, Vue will show it when ready
+      // ページ移動でローダーが出ている間（is-ready が外れている間）は中身を隠す
       style: [
         {
           children: `
-            /* Hide content until Vue hydrates and adds is-ready class */
             .body:not(.is-ready) .fixed-content,
             .body:not(.is-ready) .wrapper,
             .body:not(.is-ready) [class^="page-"] {
@@ -29,22 +27,6 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: 'loading',
       },
-      link: [
-        // Google Fonts: Nunito & Ubuntu
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.googleapis.com',
-        },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
-          crossorigin: '',
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,400;1,800&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap',
-        },
-      ],
     },
   },
 
@@ -52,7 +34,19 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@nuxt/eslint',
+    '@nuxt/fonts',
   ],
+
+  // Google Fonts をビルド時に取得して自前で配信する（描画を止める外部 CSS をなくすため）
+  fonts: {
+    defaults: {
+      styles: ['normal', 'italic'],
+    },
+    families: [
+      { name: 'Nunito', provider: 'google', weights: [400, 800] },
+      { name: 'Ubuntu', provider: 'google', weights: [400, 700] },
+    ],
+  },
 
   // TypeScript
   typescript: {

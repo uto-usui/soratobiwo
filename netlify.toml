@@ -4,3 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# 画像はファイル名にハッシュがないので、差し替えが1日以内に反映される長さにとどめる
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

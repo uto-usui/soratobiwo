@@ -11,21 +11,24 @@ withDefaults(defineProps<Props>(), {
   getPageHeight: 0,
 })
 
+// canvas が描けるまで、1枚目のスライドの縮小版をぼかして敷く
+const slidePlaceholder = imagePlaceholder('/images/2026/image2.webp')
+
 const canvasRef = ref<HTMLCanvasElement>()
+const isCanvasReady = ref(false)
 let slider: DisplacementSlider | null = null
 
-// Slider images
-const images = [
-  '/images/2026/image2.webp',
-  '/images/2026/image6.webp',
-  '/images/2026/image8.webp',
-  '/images/2026/image19.webp',
-]
+// Slider images (`-800` / `-1600` variants exist for each)
+const imageNames = ['image2', 'image6', 'image8', 'image19']
 
 const displacementImage = '/images/texture/noise.jpg'
 
 onMounted(async () => {
   if (!canvasRef.value) return
+
+  // canvas は devicePixelRatio を掛けずに描くので、CSS 上の幅で足りるサイズを選ぶ
+  const width = canvasRef.value.clientWidth <= 800 ? 800 : 1600
+  const images = imageNames.map((name) => `/images/2026/${name}-${width}.webp`)
 
   try {
     slider = new DisplacementSlider(canvasRef.value, {
@@ -38,6 +41,7 @@ onMounted(async () => {
     })
 
     await slider.init()
+    isCanvasReady.value = true
   } catch (error) {
     console.warn('WebGL initialization failed:', error)
   }
@@ -52,23 +56,39 @@ onBeforeUnmount(() => {
 <template>
   <div class="hero">
     <div class="hero__main">
-      <canvas ref="canvasRef" class="hero__canvas" />
+      <div
+        v-if="slidePlaceholder"
+        class="hero__placeholder"
+        :style="{ backgroundImage: `url(${slidePlaceholder.src})` }"
+      />
+      <canvas
+        ref="canvasRef"
+        class="hero__canvas"
+        :class="{ 'is-ready': isCanvasReady }"
+      />
     </div>
 
     <div class="hero-sub hero-sub--lg">
-      <figure
-        class="hero-sub__figure"
-        :style="{ backgroundImage: `url(/images/hero/item7.jpg)` }"
-      />
+      <figure class="hero-sub__figure">
+        <UtilityCoverImage
+          src="/images/hero/item7-800.webp"
+          srcset="/images/hero/item7-400.webp 400w, /images/hero/item7-800.webp 800w, /images/hero/item7-1200.webp 1200w"
+          sizes="(min-width: 1024px) 25vw, 67vw"
+          fetchpriority="high"
+        />
+      </figure>
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
     </div>
 
     <div class="hero-sub hero-sub--sm">
-      <figure
-        class="hero-sub__figure"
-        :style="{ backgroundImage: `url(/images/hero/item13.jpg)` }"
-      />
+      <figure class="hero-sub__figure">
+        <UtilityCoverImage
+          src="/images/hero/item13-800.webp"
+          srcset="/images/hero/item13-400.webp 400w, /images/hero/item13-800.webp 800w, /images/hero/item13-1200.webp 1200w"
+          sizes="(min-width: 1024px) 18vw, 47vw"
+        />
+      </figure>
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
     </div>
@@ -89,12 +109,31 @@ onBeforeUnmount(() => {
   opacity: 0;
 }
 
+.hero__placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: blur(16px);
+  // ぼかしで縁が透けるので、少し広げて .hero__main の overflow で切る
+  transform: scale(1.1);
+}
+
 .hero__canvas {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s $easeOutSine;
+
+  &.is-ready {
+    opacity: 1;
+  }
 }
 
 .hero__main {
@@ -177,8 +216,9 @@ onBeforeUnmount(() => {
 }
 
 .hero-sub__figure {
+  background-color: $color-gray-level2;
+
   @include overlay;
-  @include bg-cover;
 
   .hero-sub.hero-sub--lg & {
     filter: saturate(0);

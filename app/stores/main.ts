@@ -50,7 +50,8 @@ export const useMainStore = defineStore('main', {
     menuOpen: false,
     formOpen: false,
     postReady: false,
-    pageReady: false,
+    // 初回は書き出した HTML をそのまま見せる。ページ移動のときだけ usePageLoading が false に戻してローダーを出す
+    pageReady: true,
     loaderEntered: false,
     videoReady: false,
     heroReady: false,
