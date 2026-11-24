@@ -11,7 +11,7 @@ const defaultMeta = {
   title: '大阪のロックバンド「soratobiwo | ソラトビヲ」のオフィシャルサイト。',
   description:
     '大阪のロックバンド「soratobiwo | ソラトビヲ」のオフィシャルサイト。プロフィール・ライブスケジュール・音源情報・ニュース・ブログなどsoratobiwoの情報が満載です。',
-  ogImage: 'https://soratobiwo.com/ogp.png',
+  ogImage: 'https://soratobiwo.com/ogp.jpg',
   ogType: 'website',
   keywords: '大阪,バンド,ロックバンド,soratobiwo,ソラトビヲ',
 }

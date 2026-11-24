@@ -22,7 +22,6 @@ usePageLoading()
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image12.webp"
-        :srcset="webpVariantSrcset('/images/2026/image12.webp')"
         title="profile"
         :get-page-ready="getPageReady"
       />
@@ -40,8 +39,7 @@ usePageLoading()
             >
               <UtilityCoverImage
                 :src="`/images/${item.artistImage}`"
-                :srcset="webpVariantSrcset(`/images/${item.artistImage}`)"
-                sizes="100vw"
+                sizes="(min-width: 1024px) 67vw, 95vw"
                 alt="artist image"
                 loading="lazy"
               />

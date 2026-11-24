@@ -14,12 +14,12 @@ withDefaults(defineProps<Props>(), {
   <NuxtLink to="../" class="article-bottom">
     <div class="article-bottom__inner">
       <figure class="article-bottom__figure">
-        <!-- グレースケールに重ねて見せるので、スマホは密度 2 倍程度で足りる -->
+        <!-- 表示幅は 67vw（スマホは 95vw あるが、グレースケールに重ねて見せるので密度 2 倍程度で足りる） -->
         <UtilityCoverImage
           v-if="image"
           :src="image"
           :srcset="srcset"
-          sizes="(min-width: 1024px) 100vw, 67vw"
+          sizes="67vw"
         />
       </figure>
       <div class="article-bottom__bg" />

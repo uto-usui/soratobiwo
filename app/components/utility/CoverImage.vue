@@ -1,6 +1,7 @@
 <script setup lang="ts">
 interface Props {
   src: string
+  /** 省略すると、scripts/image-variants.mjs が作った幅違いの WebP から組む */
   srcset?: string
   sizes?: string
   alt?: string
@@ -19,7 +20,8 @@ const props = withDefaults(defineProps<Props>(), {
   desktopOnly: false,
 })
 
-const placeholder = computed(() => imagePlaceholder(props.src))
+const placeholder = computed(() => imageInfo(props.src)?.placeholder)
+const resolvedSrcset = computed(() => props.srcset ?? imageSrcset(props.src))
 
 const blankImage = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 
@@ -33,7 +35,7 @@ const markLoaded = 'this.dataset.loaded=""'
     <span
       v-if="placeholder"
       class="cover-image__placeholder"
-      :style="{ backgroundImage: `url(${placeholder.src})` }"
+      :style="{ backgroundImage: `url(${placeholder})` }"
     />
     <picture>
       <source v-if="desktopOnly" media="(max-width: 1023px)" :srcset="blankImage">
@@ -46,7 +48,7 @@ const markLoaded = 'this.dataset.loaded=""'
         :onload="markLoaded"
         :alt="alt"
         :sizes="sizes"
-        :srcset="srcset"
+        :srcset="resolvedSrcset"
         :src="src"
       >
     </picture>

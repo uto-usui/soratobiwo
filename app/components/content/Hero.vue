@@ -12,7 +12,7 @@ withDefaults(defineProps<Props>(), {
 })
 
 // canvas が描けるまで、1枚目のスライドの縮小版をぼかして敷く
-const slidePlaceholder = imagePlaceholder('/images/2026/image2.webp')
+const slidePlaceholder = imageInfo('/images/2026/image2.webp')?.placeholder
 
 const canvasRef = ref<HTMLCanvasElement>()
 const isCanvasReady = ref(false)
@@ -59,7 +59,7 @@ onBeforeUnmount(() => {
       <div
         v-if="slidePlaceholder"
         class="hero__placeholder"
-        :style="{ backgroundImage: `url(${slidePlaceholder.src})` }"
+        :style="{ backgroundImage: `url(${slidePlaceholder})` }"
       />
       <canvas
         ref="canvasRef"
@@ -71,8 +71,7 @@ onBeforeUnmount(() => {
     <div class="hero-sub hero-sub--lg">
       <figure class="hero-sub__figure">
         <UtilityCoverImage
-          src="/images/hero/item7-800.webp"
-          srcset="/images/hero/item7-400.webp 400w, /images/hero/item7-800.webp 800w, /images/hero/item7-1200.webp 1200w"
+          src="/images/hero/item7.jpg"
           sizes="(min-width: 1024px) 25vw, 67vw"
           fetchpriority="high"
         />
@@ -84,8 +83,7 @@ onBeforeUnmount(() => {
     <div class="hero-sub hero-sub--sm">
       <figure class="hero-sub__figure">
         <UtilityCoverImage
-          src="/images/hero/item13-800.webp"
-          srcset="/images/hero/item13-400.webp 400w, /images/hero/item13-800.webp 800w, /images/hero/item13-1200.webp 1200w"
+          src="/images/hero/item13.jpg"
           sizes="(min-width: 1024px) 18vw, 47vw"
         />
       </figure>

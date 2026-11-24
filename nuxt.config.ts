@@ -38,13 +38,16 @@ export default defineNuxtConfig({
   ],
 
   // Google Fonts をビルド時に取得して自前で配信する（描画を止める外部 CSS をなくすため）
+  // 斜体は使っていないので normal だけ。欧文は代わりのフォントで描いてから差し替わるのが目立つので、
+  // block で届くまで隠し（最長 3 秒）、HTML を読んだ時点で取りに行かせて隠れる時間を短くする
   fonts: {
     defaults: {
-      styles: ['normal', 'italic'],
+      styles: ['normal'],
+      preload: { subsets: ['latin'] },
     },
     families: [
-      { name: 'Nunito', provider: 'google', weights: [400, 800] },
-      { name: 'Ubuntu', provider: 'google', weights: [400, 700] },
+      { name: 'Nunito', provider: 'google', weights: [400, 800], display: 'block' },
+      { name: 'Ubuntu', provider: 'google', weights: [400, 700], display: 'block' },
     ],
   },
 

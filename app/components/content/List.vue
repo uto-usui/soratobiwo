@@ -36,7 +36,7 @@ const getDate = (date: string) => formatDate(date)
               <UtilityCoverImage
                 :src="item.wp ? item.hero : `/images/${item.hero}`"
                 :srcset="item.heroSrcset"
-                sizes="30vw"
+                sizes="19vw"
                 loading="lazy"
                 desktop-only
               />

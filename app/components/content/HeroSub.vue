@@ -19,12 +19,12 @@ withDefaults(defineProps<Props>(), {
     <h1 v-if="title" class="sub-hero__title" v-html="title" />
     <div class="sub-hero__figure-wrap">
       <figure class="sub-hero__figure">
-        <!-- グレースケールに重ねて見せるので、スマホは密度 2 倍程度で足りる -->
+        <!-- 表示幅は 67vw（スマホは 95vw あるが、グレースケールに重ねて見せるので密度 2 倍程度で足りる） -->
         <UtilityCoverImage
           v-if="image"
           :src="image"
           :srcset="srcset"
-          sizes="(min-width: 1024px) 100vw, 67vw"
+          sizes="67vw"
           fetchpriority="high"
         />
       </figure>
