@@ -31,11 +31,7 @@ export default defineNuxtConfig({
   },
 
   // モジュール
-  modules: [
-    '@pinia/nuxt',
-    '@nuxt/eslint',
-    '@nuxt/fonts',
-  ],
+  modules: ['@pinia/nuxt', '@nuxt/fonts'],
 
   // Google Fonts をビルド時に取得して自前で配信する（描画を止める外部 CSS をなくすため）
   // 斜体は使っていないので normal だけ。欧文は代わりのフォントで描いてから差し替わるのが目立つので、
@@ -54,13 +50,6 @@ export default defineNuxtConfig({
   // TypeScript
   typescript: {
     strict: true,
-  },
-
-  // Viteエイリアス設定
-  alias: {
-    'Sass': '~/assets/sass',
-    'Js': '~/assets/js',
-    'Images': '~/assets/images',
   },
 
   // グローバルCSS
