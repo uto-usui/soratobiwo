@@ -13,17 +13,14 @@ import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const FILES = ['live.json', 'news.json'].map((name) =>
-  resolve(root, 'app/assets/json', name)
-)
+const FILES = ['live.json', 'news.json'].map((name) => resolve(root, 'app/assets/json', name))
 const API = 'https://wp.soratobiwo.com/wp-json/wp/v2/media'
 const MAX_WIDTH = 2000
 
 const dryRun = process.argv.includes('--dry-run')
 
 const read = (file) => JSON.parse(readFileSync(file, 'utf8'))
-const write = (file, data) =>
-  writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`)
+const write = (file, data) => writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`)
 
 // WordPress の REST API はプラグインの PHP 警告を JSON の前に出すことがあるので、配列の開始位置から読む
 async function fetchJsonArray(url) {
@@ -35,7 +32,10 @@ async function fetchJsonArray(url) {
 
 // ファイル名が短いと検索に大量にヒットするので、ページをめくって完全一致を探す
 async function findMedia(sourceUrl) {
-  const stem = sourceUrl.split('/').pop().replace(/\.[^.]+$/, '')
+  const stem = sourceUrl
+    .split('/')
+    .pop()
+    .replace(/\.[^.]+$/, '')
   for (let page = 1; page <= 10; page++) {
     const query = new URLSearchParams({
       search: stem,
@@ -64,8 +64,7 @@ function buildSrcset(sourceUrl, details) {
   for (const c of candidates) {
     if (c.width <= MAX_WIDTH) byWidth.set(c.width, c.url)
   }
-  const pick = (target) =>
-    [...byWidth.keys()].filter((w) => w >= target).sort((a, b) => a - b)[0]
+  const pick = (target) => [...byWidth.keys()].filter((w) => w >= target).sort((a, b) => a - b)[0]
   const widths = new Set([pick(640), pick(1024), Math.max(...byWidth.keys())])
   return [...widths]
     .filter(Boolean)
@@ -88,7 +87,12 @@ for (const file of FILES) {
     // hero の直後に置いて、JSON を読むときに並んで見えるようにする
     data[index] = Object.fromEntries(
       Object.entries(item).flatMap(([key, value]) =>
-        key === 'hero' ? [[key, value], ['heroSrcset', heroSrcset]] : [[key, value]]
+        key === 'hero'
+          ? [
+              [key, value],
+              ['heroSrcset', heroSrcset],
+            ]
+          : [[key, value]]
       )
     )
     changed++

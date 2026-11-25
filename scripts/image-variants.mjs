@@ -16,8 +16,7 @@ import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const json = (name) =>
-  JSON.parse(readFileSync(resolve(root, 'app/assets/json', name), 'utf8'))
+const json = (name) => JSON.parse(readFileSync(resolve(root, 'app/assets/json', name), 'utf8'))
 const OUT = resolve(root, 'app/assets/json/images.json')
 const DEFAULT_WIDTHS = [400, 800, 1200, 1600]
 const PLACEHOLDER_WIDTH = 24
@@ -83,10 +82,7 @@ for (const key of [...entries.keys()].sort()) {
     created++
   }
 
-  const placeholder = await sharp(input)
-    .resize(PLACEHOLDER_WIDTH)
-    .webp({ quality: 40 })
-    .toBuffer()
+  const placeholder = await sharp(input).resize(PLACEHOLDER_WIDTH).webp({ quality: 40 }).toBuffer()
   result[key] = {
     width,
     height,

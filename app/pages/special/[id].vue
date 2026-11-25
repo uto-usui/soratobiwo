@@ -40,11 +40,7 @@ usePageLoading()
       </div>
 
       <div class="special-content">
-        <div
-          v-for="(item, index) in special.items"
-          :key="`item-${index}`"
-          class="special-item"
-        >
+        <div v-for="(item, index) in special.items" :key="`item-${index}`" class="special-item">
           <h2 v-if="item.title" class="item-title">{{ item.title }}</h2>
           <div
             v-if="item.image"
@@ -65,9 +61,7 @@ usePageLoading()
       </div>
 
       <div class="special-back">
-        <NuxtLink to="/" class="back-link">
-          &larr; Back to Home
-        </NuxtLink>
+        <NuxtLink to="/" class="back-link"> &larr; Back to Home </NuxtLink>
       </div>
     </template>
   </div>

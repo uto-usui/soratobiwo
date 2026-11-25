@@ -202,14 +202,7 @@ export class DisplacementSlider {
         // 描画中に後から届いた画像が TEXTURE0〜2 の割り当てを上書きしないよう、空きユニットで転送する
         gl.activeTexture(gl.TEXTURE3)
         gl.bindTexture(gl.TEXTURE_2D, texture)
-        gl.texImage2D(
-          gl.TEXTURE_2D,
-          0,
-          gl.RGBA,
-          gl.RGBA,
-          gl.UNSIGNED_BYTE,
-          image
-        )
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image)
 
         // Set texture parameters for non-power-of-2 textures
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE)
@@ -247,6 +240,8 @@ export class DisplacementSlider {
     this.program = this.webgl.createProgram(vertexShaderSource, transitionFragmentShaderSource)
 
     // Set up geometry (full-screen quad)
+    // 頂点ごとに 1 行で並べたいので整形しない
+    // oxfmt-ignore
     const positions = new Float32Array([
       -1, -1,
       1, -1,
@@ -256,6 +251,7 @@ export class DisplacementSlider {
       1, 1,
     ])
 
+    // oxfmt-ignore
     const texCoords = new Float32Array([
       0, 1,
       1, 1,
@@ -310,7 +306,11 @@ export class DisplacementSlider {
     // Set initial uniform values
     gl.uniform1f(this.uniforms.u_dispFactor, 1.0)
     gl.uniform1f(this.uniforms.u_progress, 0.0)
-    gl.uniform2f(this.uniforms.u_dispScale, this.options.displaceScale[0], this.options.displaceScale[1])
+    gl.uniform2f(
+      this.uniforms.u_dispScale,
+      this.options.displaceScale[0],
+      this.options.displaceScale[1]
+    )
 
     // Set initial image aspects and canvas size
     gl.uniform2f(this.uniforms.u_imageAspect1, firstImage.width, firstImage.height)

@@ -143,7 +143,10 @@ export const useParallaxTilt = () => {
   let animationId: number | null = null
   let isActive = false
 
-  const targets: Map<HTMLElement, { targetX: number; targetY: number; currentX: number; currentY: number }> = new Map()
+  const targets: Map<
+    HTMLElement,
+    { targetX: number; targetY: number; currentX: number; currentY: number }
+  > = new Map()
 
   const lerp = (start: number, end: number, factor: number): number => {
     return start + (end - start) * factor

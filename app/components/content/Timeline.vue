@@ -37,22 +37,14 @@ const groupedByYear = computed(() => {
 
 <template>
   <div class="timeline">
-    <div
-      v-for="group in groupedByYear"
-      :key="group.year"
-      class="timeline__group"
-    >
+    <div v-for="group in groupedByYear" :key="group.year" class="timeline__group">
       <div class="timeline__year">
         <span class="timeline__year-dot" />
         <span class="timeline__year-label">{{ group.year }}</span>
       </div>
 
       <ul class="timeline__list">
-        <li
-          v-for="event in group.events"
-          :key="event.id"
-          class="timeline__item"
-        >
+        <li v-for="event in group.events" :key="event.id" class="timeline__item">
           <time class="timeline__date">{{ formatDate(event.date) }}</time>
           <span class="timeline__title">{{ event.title }}</span>
           <span class="timeline__place">{{ event.place }}</span>
@@ -63,7 +55,7 @@ const groupedByYear = computed(() => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .timeline {
   position: relative;
@@ -75,7 +67,7 @@ const groupedByYear = computed(() => {
 
   // Vertical line
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;

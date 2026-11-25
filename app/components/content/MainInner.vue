@@ -9,7 +9,7 @@
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .main-inner {
   padding: calc(100vw * 30 / 375);

@@ -16,20 +16,12 @@ withDefaults(defineProps<Props>(), {
 
 <template>
   <ul v-if="listData" class="list-follow">
-    <li
-      v-for="(item, index) in listData"
-      :key="`listItem${index}`"
-      class="list-follow__item"
-    >
+    <li v-for="(item, index) in listData" :key="`listItem${index}`" class="list-follow__item">
       <ContentListInner :is-link="false">
         <div class="list-follow__item-inner">
           <div class="list-follow__names-wrap">
             <ul class="list-follow__names">
-              <li
-                v-for="(_item, _index) in item.items"
-                :key="_index"
-                class="list-follow__name"
-              >
+              <li v-for="(_item, _index) in item.items" :key="_index" class="list-follow__name">
                 <a
                   :href="_item.link"
                   target="_blank"
@@ -49,7 +41,7 @@ withDefaults(defineProps<Props>(), {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .list-follow {
   @include desktop {

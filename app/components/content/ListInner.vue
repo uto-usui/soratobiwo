@@ -15,11 +15,7 @@ const routeName = computed(() => route.name?.toString().split('-')[0] || '')
 
 <template>
   <span>
-    <NuxtLink
-      v-if="isLink"
-      :to="`/${routeName}/${slug}/`"
-      class="list-inner"
-    >
+    <NuxtLink v-if="isLink" :to="`/${routeName}/${slug}/`" class="list-inner">
       <slot />
     </NuxtLink>
     <div v-else class="list-inner">
@@ -29,15 +25,14 @@ const routeName = computed(() => route.name?.toString().split('-')[0] || '')
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .list-inner {
   display: block;
   color: inherit;
 
   @include touch {
-    padding: calc(100vw * 25 / 375) calc(100vw * 25 / 375)
-      calc(100vw * 25 / 375);
+    padding: calc(100vw * 25 / 375) calc(100vw * 25 / 375) calc(100vw * 25 / 375);
   }
 }
 </style>

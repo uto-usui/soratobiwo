@@ -11,9 +11,7 @@ const toggleMenu = () => {
 <template>
   <div class="menu-trigger">
     <a href="#" class="menu-trigger__inner" @click.prevent="toggleMenu">
-      <p class="menu-trigger__text">
-        menu
-      </p>
+      <p class="menu-trigger__text">menu</p>
       <div class="menu-trigger__bar-wrap">
         <div class="menu-trigger__bar" />
         <div class="menu-trigger__bar" />
@@ -24,7 +22,7 @@ const toggleMenu = () => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .menu-trigger {
   position: fixed;

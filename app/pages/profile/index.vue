@@ -33,10 +33,7 @@ usePageLoading()
         >
           <ContentTitle2 :item="item" />
           <div v-if="item.artistImage" class="profile__artist-wrap">
-            <div
-              class="profile__artist"
-              :style="aspectRatioStyle(`/images/${item.artistImage}`)"
-            >
+            <div class="profile__artist" :style="aspectRatioStyle(`/images/${item.artistImage}`)">
               <UtilityCoverImage
                 :src="`/images/${item.artistImage}`"
                 sizes="(min-width: 1024px) 67vw, 95vw"

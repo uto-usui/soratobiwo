@@ -19,8 +19,7 @@ const ARCHIVE = resolve(root, 'app/assets/json/liveArchive.json')
 const dryRun = process.argv.includes('--dry-run')
 
 const read = (file) => JSON.parse(readFileSync(file, 'utf8'))
-const write = (file, data) =>
-  writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`)
+const write = (file, data) => writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`)
 
 // ローカル日付を使う。toISOString() は UTC なので朝 9 時前に前日扱いになる
 const now = new Date()
@@ -43,9 +42,7 @@ if (past.length === 0) {
 }
 
 const archiveIds = new Set(archive.map((event) => event.id))
-const collisions = past
-  .filter((event) => archiveIds.has(event.id))
-  .map((event) => event.id)
+const collisions = past.filter((event) => archiveIds.has(event.id)).map((event) => event.id)
 
 if (collisions.length > 0) {
   console.error(`id が liveArchive.json と衝突: ${collisions.join(', ')}`)
@@ -56,7 +53,7 @@ for (const event of past) {
   console.log(`  ${event.date.slice(0, 10)}  ${event.place}  ${event.title}`)
 }
 console.log(
-  `${past.length}件を移行（live.json ${live.length}→${upcoming.length} / liveArchive.json ${archive.length}→${archive.length + past.length}）`,
+  `${past.length}件を移行（live.json ${live.length}→${upcoming.length} / liveArchive.json ${archive.length}→${archive.length + past.length}）`
 )
 
 if (dryRun) {

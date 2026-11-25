@@ -1,4 +1,4 @@
-@use "../variable/variable" as *;
+@use '../variable/variable' as *;
 
 html {
   width: 100%;
@@ -18,13 +18,13 @@ body {
   background-color: $color-white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: "palt";
+  font-feature-settings: 'palt';
 
   //
   //.safari & {
   //  font-feature-settings : "pkna"; // follow back -- ios10 safari10
   //}
-  @media screen\0 {
+  @media screen\0  {
     font-family: $font-ie;
   }
 }
@@ -95,7 +95,7 @@ select {
   .fixed-content,
   .wrapper,
   .page-index,
-  [class^="page-"] {
+  [class^='page-'] {
     opacity: 0 !important;
     pointer-events: none !important;
   }
@@ -106,7 +106,7 @@ select {
   .fixed-content,
   .wrapper,
   .page-index,
-  [class^="page-"] {
+  [class^='page-'] {
     opacity: 1;
     pointer-events: auto;
   }

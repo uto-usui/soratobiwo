@@ -19,7 +19,7 @@ defineProps<Props>()
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .title2 {
   position: relative;

@@ -10,15 +10,13 @@ const openForm = () => {
 
 <template>
   <div class="contact">
-    <a href="#" class="contact__text" @click.prevent="openForm">
-      cont<span>a</span>ct
-    </a>
+    <a href="#" class="contact__text" @click.prevent="openForm"> cont<span>a</span>ct </a>
     <div class="contact__bar" />
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .contact {
   position: fixed;

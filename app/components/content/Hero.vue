@@ -61,11 +61,7 @@ onBeforeUnmount(() => {
         class="hero__placeholder"
         :style="{ backgroundImage: `url(${slidePlaceholder})` }"
       />
-      <canvas
-        ref="canvasRef"
-        class="hero__canvas"
-        :class="{ 'is-ready': isCanvasReady }"
-      />
+      <canvas ref="canvasRef" class="hero__canvas" :class="{ 'is-ready': isCanvasReady }" />
     </div>
 
     <div class="hero-sub hero-sub--lg">
@@ -82,10 +78,7 @@ onBeforeUnmount(() => {
 
     <div class="hero-sub hero-sub--sm">
       <figure class="hero-sub__figure">
-        <UtilityCoverImage
-          src="/images/hero/item13.jpg"
-          sizes="(min-width: 1024px) 18vw, 47vw"
-        />
+        <UtilityCoverImage src="/images/hero/item13.jpg" sizes="(min-width: 1024px) 18vw, 47vw" />
       </figure>
       <div class="hero-sub__overlay" />
       <div class="hero__sub-tape" />
@@ -94,7 +87,7 @@ onBeforeUnmount(() => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .hero {
   //

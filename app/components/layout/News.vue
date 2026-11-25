@@ -16,7 +16,7 @@ const currentYear = new Date().getFullYear()
 
 // Filter news to current year
 const newsData = computed<NewsItem[]>(() => {
-  return (newsJson as NewsItem[]).filter(item => {
+  return (newsJson as NewsItem[]).filter((item) => {
     const itemYear = new Date(item.date).getFullYear()
     return itemYear === currentYear
   })
@@ -82,7 +82,8 @@ onBeforeUnmount(() => {
           ref="textRef"
           :to="`/news/${currentNews.id}/`"
           class="news__target"
-        >{{ currentNews.title }}</NuxtLink>
+          >{{ currentNews.title }}</NuxtLink
+        >
       </p>
     </div>
     <div class="news__bg" />
@@ -90,7 +91,7 @@ onBeforeUnmount(() => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .news {
   position: fixed;
@@ -104,7 +105,10 @@ onBeforeUnmount(() => {
   pointer-events: none;
   border: 5px solid currentColor;
   opacity: 0;
-  transition: top 0.4s 0.4s $easeInOutSine, right 0.4s 0.4s $easeInOutSine, transform 0.4s 0.4s $easeInOutSine;
+  transition:
+    top 0.4s 0.4s $easeInOutSine,
+    right 0.4s 0.4s $easeInOutSine,
+    transform 0.4s 0.4s $easeInOutSine;
 
   @include desktop {
     top: calc(100vh * 375 / 768);
