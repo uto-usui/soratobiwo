@@ -33,7 +33,8 @@ export interface NewsItem {
   hero: string
   /** WordPress の縮小版を並べた srcset。scripts/wp-hero-srcset.mjs が書き込む */
   heroSrcset?: string
-  wp: boolean
+  /** 古い記事には無い。無いときはサイト内の画像（/images/）を使う */
+  wp?: boolean
 }
 
 // Music Album

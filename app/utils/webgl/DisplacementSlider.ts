@@ -281,9 +281,12 @@ export class DisplacementSlider {
       u_canvasSize: this.webgl.getUniformLocation(this.program, 'u_canvasSize'),
     }
 
+    const [firstSrc] = this.options.images
+    if (!firstSrc) return
+
     // 1枚目と displacement だけ待って描き始め、残りは後から読む
     const [firstImage, displacementTexture] = await Promise.all([
-      this.loadImageWithInfo(this.options.images[0]),
+      this.loadImageWithInfo(firstSrc),
       this.webgl.loadTexture(this.options.displacementImage),
     ])
     if (this.isDestroyed) return
@@ -292,11 +295,11 @@ export class DisplacementSlider {
 
     // Set up texture units
     gl.activeTexture(gl.TEXTURE0)
-    gl.bindTexture(gl.TEXTURE_2D, this.imageInfos[0].texture)
+    gl.bindTexture(gl.TEXTURE_2D, firstImage.texture)
     gl.uniform1i(this.uniforms.u_image1, 0)
 
     gl.activeTexture(gl.TEXTURE1)
-    gl.bindTexture(gl.TEXTURE_2D, this.imageInfos[0].texture)
+    gl.bindTexture(gl.TEXTURE_2D, firstImage.texture)
     gl.uniform1i(this.uniforms.u_image2, 1)
 
     gl.activeTexture(gl.TEXTURE2)
@@ -391,7 +394,9 @@ export class DisplacementSlider {
    */
   goTo(index: number): void {
     if (this.isTransitioning || index === this.currentIndex) return
-    if (index < 0 || index >= this.imageInfos.length) return
+    const currentImage = this.imageInfos[this.currentIndex]
+    const nextImage = this.imageInfos[index]
+    if (!currentImage || !nextImage) return
 
     this.isTransitioning = true
     this.nextIndex = index
@@ -399,19 +404,17 @@ export class DisplacementSlider {
     const gl = this.webgl.context
 
     // Update image aspect uniforms
-    const currentImage = this.imageInfos[this.currentIndex]
-    const nextImage = this.imageInfos[this.nextIndex]
 
     gl.uniform2f(this.uniforms!.u_imageAspect1, currentImage.width, currentImage.height)
     gl.uniform2f(this.uniforms!.u_imageAspect2, nextImage.width, nextImage.height)
 
     // Bind current image to texture unit 0
     gl.activeTexture(gl.TEXTURE0)
-    gl.bindTexture(gl.TEXTURE_2D, this.imageInfos[this.currentIndex].texture)
+    gl.bindTexture(gl.TEXTURE_2D, currentImage.texture)
 
     // Bind next image to texture unit 1
     gl.activeTexture(gl.TEXTURE1)
-    gl.bindTexture(gl.TEXTURE_2D, this.imageInfos[this.nextIndex].texture)
+    gl.bindTexture(gl.TEXTURE_2D, nextImage.texture)
 
     // Animate progress
     this.animateProgress(0, 1, this.options.transitionDuration, () => {
@@ -420,11 +423,10 @@ export class DisplacementSlider {
       this.isTransitioning = false
 
       // Update texture unit 0 to current image
-      const newCurrentImage = this.imageInfos[this.currentIndex]
-      gl.uniform2f(this.uniforms!.u_imageAspect1, newCurrentImage.width, newCurrentImage.height)
+      gl.uniform2f(this.uniforms!.u_imageAspect1, nextImage.width, nextImage.height)
 
       gl.activeTexture(gl.TEXTURE0)
-      gl.bindTexture(gl.TEXTURE_2D, this.imageInfos[this.currentIndex].texture)
+      gl.bindTexture(gl.TEXTURE_2D, nextImage.texture)
     })
   }
 

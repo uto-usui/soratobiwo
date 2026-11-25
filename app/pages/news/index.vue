@@ -24,7 +24,7 @@ usePageLoading()
     <ContentMainOuter class="live">
       <ContentHeroSub image="/images/2026/image19.webp" title="news" :get-page-ready="pageReady" />
       <ContentMainInner>
-        <ContentList :list-data="newsData" />
+        <ContentList :list-data="newsData ?? []" />
       </ContentMainInner>
     </ContentMainOuter>
   </LayoutWrapper>

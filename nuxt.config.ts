@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       // ページ移動でローダーが出ている間（is-ready が外れている間）は中身を隠す
       style: [
         {
-          children: `
+          textContent: `
             .body:not(.is-ready) .fixed-content,
             .body:not(.is-ready) .wrapper,
             .body:not(.is-ready) [class^="page-"] {
@@ -60,7 +60,6 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          api: 'modern-compiler',
           additionalData: `
             @use "~/assets/sass/foundation/variable/variable" as *;
             @use "~/assets/sass/foundation/mixin/mixin" as *;
