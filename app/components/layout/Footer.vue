@@ -4,14 +4,12 @@
 
 <template>
   <footer class="footer">
-    <p class="copyright">
-      &copy; soratobiwo
-    </p>
+    <p class="copyright">&copy; soratobiwo</p>
   </footer>
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .footer {
   float: left;

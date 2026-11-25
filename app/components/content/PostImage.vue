@@ -15,7 +15,7 @@ withDefaults(defineProps<Props>(), {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .post-image {
   margin-right: calc(100vw * 30 / 375 * -1);

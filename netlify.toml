@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "24"
+  NODE_VERSION = "26"
 
 # 画像はファイル名にハッシュがないので、差し替えが1日以内に反映される長さにとどめる
 [[headers]]

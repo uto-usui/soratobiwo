@@ -1,6 +1,6 @@
-@forward "animation";
-@forward "responsive";
-@forward "family";
+@forward 'animation';
+@forward 'responsive';
+@forward 'family';
 
 @mixin fontsize($size: 10, $base: 10) {
   font-size: $size + px;
@@ -8,7 +8,7 @@
 }
 
 @mixin placeholder {
-  $placeholders: ":-moz" ":-webkit-input" "-moz" "-ms-input";
+  $placeholders: ':-moz' ':-webkit-input' '-moz' '-ms-input';
 
   @each $placeholder in $placeholders {
     &:#{$placeholder}-placeholder {
@@ -18,7 +18,7 @@
 }
 
 @mixin IE {
-  @media screen\0 {
+  @media screen\0  {
     @content;
   }
 }

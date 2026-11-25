@@ -10,11 +10,7 @@ defineProps<Props>()
 
 <template>
   <ul v-if="listData" class="list-disco">
-    <li
-      v-for="(item, index) in listData"
-      :key="`listItem${index}`"
-      class="list-disco__item"
-    >
+    <li v-for="(item, index) in listData" :key="`listItem${index}`" class="list-disco__item">
       <ContentListInner :is-link="false">
         <div class="list-disco__inner">
           <div class="list-disco__left">
@@ -32,9 +28,7 @@ defineProps<Props>()
             <h3 class="list-disco__subtitle">{{ item.titleSub }}</h3>
             <p v-if="item.fee" class="list-disco__fee" v-html="item.fee" />
             <p v-if="item.text" class="list-disco__text">{{ item.text }}</p>
-            <p v-if="item.soldOut" class="list-disco__sold">
-              Thank you for sold out !
-            </p>
+            <p v-if="item.soldOut" class="list-disco__sold">Thank you for sold out !</p>
             <p v-if="item.special" class="list-disco__special">
               <NuxtLink :to="`/special/${item.slug}/`">{{ item.special }}</NuxtLink>
             </p>
@@ -45,7 +39,9 @@ defineProps<Props>()
                 v-for="(_item, _index) in item.songs"
                 :key="`song${_index}`"
                 class="list-disco__song"
-              >{{ _item }}</li>
+              >
+                {{ _item }}
+              </li>
             </ul>
           </div>
         </div>
@@ -55,7 +51,7 @@ defineProps<Props>()
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .list-disco {
   @include desktop {

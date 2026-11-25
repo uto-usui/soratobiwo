@@ -4,15 +4,13 @@
 
 <template>
   <div class="copy">
-    <div class="copy__circle">
-      c
-    </div>
+    <div class="copy__circle">c</div>
     <small class="copy__text">soratobiwo.com</small>
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .copy {
   position: fixed;

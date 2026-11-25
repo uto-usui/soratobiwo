@@ -1,7 +1,7 @@
 // Display
-@use "../../foundation/mixin/mixin" as *;
+@use '../../foundation/mixin/mixin' as *;
 
-$displays: "block" "flex" "inline" "inline-block" "inline-flex";
+$displays: 'block' 'flex' 'inline' 'inline-block' 'inline-flex';
 
 // Overflow
 

@@ -58,10 +58,7 @@ function initPageData() {
 </script>
 
 <template>
-  <div
-    :class="[{ 'is-ready': pageReady }]"
-    class="body"
-  >
+  <div :class="[{ 'is-ready': pageReady }]" class="body">
     <ContentLoader :get-page-ready="pageReady" />
     <LayoutFixedContent
       :get-page-height="pageData.winH"
@@ -84,8 +81,7 @@ function initPageData() {
 @font-face {
   font-family: 'MyYuGothicM';
   font-weight: normal;
-  src: local('YuGothic-Medium'), local('Yu Gothic Medium'),
-    local('YuGothic-Regular');
+  src: local('YuGothic-Medium'), local('Yu Gothic Medium'), local('YuGothic-Regular');
 }
 
 @font-face {

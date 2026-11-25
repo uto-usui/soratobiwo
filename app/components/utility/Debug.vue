@@ -12,13 +12,13 @@ const getPageMouseY = computed(() => store.getPageMouseY)
 
 <template>
   <div class="debug">
-    {{ getPageWidth }} / {{ getPageHeight }} / {{ getPageScrollY }} /
-    {{ getPageMouseX }} / {{ getPageMouseY }}
+    {{ getPageWidth }} / {{ getPageHeight }} / {{ getPageScrollY }} / {{ getPageMouseX }} /
+    {{ getPageMouseY }}
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .debug {
   position: fixed;

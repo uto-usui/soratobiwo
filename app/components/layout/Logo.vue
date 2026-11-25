@@ -49,10 +49,7 @@
               class="a"
               d="M248.32,13.47V40.13a1.06,1.06,0,1,0,2.11,0V13.47a1.06,1.06,0,1,0-2.11,0Z"
             />
-            <path
-              class="a"
-              d="M252.06,7.74a2.72,2.72,0,1,1-5.37,0,2.71,2.71,0,1,1,5.37,0Z"
-            />
+            <path class="a" d="M252.06,7.74a2.72,2.72,0,1,1-5.37,0,2.71,2.71,0,1,1,5.37,0Z" />
             <path
               class="a"
               d="M278.3,20.68c-.72,5.11-3.75,18.4-9.15,18.4-4.82,0-9-14.64-10.57-23.87a1.05,1.05,0,1,0-2.08.35c.43,2.62,4.48,25.63,12.65,25.63S280.1,23,280.39,21c.74-6,3.11-14.76,5.85-14.76s5.56,8.65,6.63,14.79c.42,2.09,4.27,20.2,12.41,20.2s11.18-23,11.49-25.68a1.06,1.06,0,1,0-2.1-.25c-1.09,9.21-4.61,23.82-9.39,23.82-5.45,0-9.31-13.34-10.33-18.47-.48-2.74-3.14-16.52-8.71-16.52S278.64,17.91,278.3,20.68Z"
@@ -65,7 +62,7 @@
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .logo {
   position: fixed;
@@ -76,24 +73,21 @@
   height: calc(100vw * 55 / 375);
   padding: calc(100vw * 8 / 375);
   background-color: $color-white;
-  transform: rotate(90deg)
-    translate(calc(100vw * 20 / 375), calc(100vw * 20 / 375));
+  transform: rotate(90deg) translate(calc(100vw * 20 / 375), calc(100vw * 20 / 375));
   transform-origin: top left;
 
   @include desktop {
     width: calc(100vw * 396 / 1024);
     height: calc(100vw * 69 / 1024);
     padding: calc(100vw * 10 / 1024);
-    transform: rotate(90deg)
-      translate(calc(100vw * 30 / 1024), calc(100vw * 30 / 1024));
+    transform: rotate(90deg) translate(calc(100vw * 30 / 1024), calc(100vw * 30 / 1024));
   }
 
   @include widescreen {
     width: calc(100vw * 396 / 1280);
     height: calc(100vw * 69 / 1280);
     padding: calc(100vw * 10 / 1280);
-    transform: rotate(90deg)
-      translate(calc(100vw * 30 / 1280), calc(100vw * 30 / 1280));
+    transform: rotate(90deg) translate(calc(100vw * 30 / 1280), calc(100vw * 30 / 1280));
   }
 }
 

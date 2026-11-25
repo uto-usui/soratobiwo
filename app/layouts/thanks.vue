@@ -19,8 +19,7 @@
 @font-face {
   font-family: 'MyYuGothicM';
   font-weight: normal;
-  src: local('YuGothic-Medium'), local('Yu Gothic Medium'),
-    local('YuGothic-Regular');
+  src: local('YuGothic-Medium'), local('Yu Gothic Medium'), local('YuGothic-Regular');
 }
 
 @font-face {

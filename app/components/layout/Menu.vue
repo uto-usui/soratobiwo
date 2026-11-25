@@ -20,32 +20,19 @@ const closeMenu = () => {
 </script>
 
 <template>
-  <div
-    :class="[{ 'is-open': route.fullPath === '/' || getMenuOpen }]"
-    class="menu"
-  >
+  <div :class="[{ 'is-open': route.fullPath === '/' || getMenuOpen }]" class="menu">
     <div class="menu__inner">
       <ul class="menu__list">
         <li class="menu__item menu__item--touch">
           <span class="menu__item-inner">
-            <NuxtLink
-              to="/"
-              class="menu__target"
-              @click="closeMenu"
-            >home</NuxtLink>
+            <NuxtLink to="/" class="menu__target" @click="closeMenu">home</NuxtLink>
           </span>
         </li>
-        <li
-          v-for="(item, index) in links"
-          :key="`menu${index}`"
-          class="menu__item"
-        >
+        <li v-for="(item, index) in links" :key="`menu${index}`" class="menu__item">
           <span class="menu__item-inner">
-            <NuxtLink
-              :to="`/${item}/`"
-              class="menu__target"
-              @click="closeMenu"
-            >{{ item }}</NuxtLink>
+            <NuxtLink :to="`/${item}/`" class="menu__target" @click="closeMenu">{{
+              item
+            }}</NuxtLink>
           </span>
         </li>
       </ul>
@@ -55,7 +42,7 @@ const closeMenu = () => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .menu {
   position: fixed;

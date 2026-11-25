@@ -39,11 +39,7 @@ const clipPathMap: Record<Direction, { reveal: ClipPaths; hide: ClipPaths }> = {
 }
 
 export const useRevealClip = (options: RevealOptions = {}) => {
-  const {
-    duration = 800,
-    easing = 'cubic-bezier(0.77, 0, 0.175, 1)',
-    delay = 0,
-  } = options
+  const { duration = 800, easing = 'cubic-bezier(0.77, 0, 0.175, 1)', delay = 0 } = options
 
   /**
    * Reveal an element with clip-path animation
@@ -58,18 +54,12 @@ export const useRevealClip = (options: RevealOptions = {}) => {
     const finalEasing = customOptions?.easing ?? easing
     const finalDelay = customOptions?.delay ?? delay
 
-    return element.animate(
-      [
-        { clipPath: from },
-        { clipPath: to },
-      ],
-      {
-        duration: finalDuration,
-        easing: finalEasing,
-        delay: finalDelay,
-        fill: 'forwards',
-      }
-    )
+    return element.animate([{ clipPath: from }, { clipPath: to }], {
+      duration: finalDuration,
+      easing: finalEasing,
+      delay: finalDelay,
+      fill: 'forwards',
+    })
   }
 
   /**
@@ -85,18 +75,12 @@ export const useRevealClip = (options: RevealOptions = {}) => {
     const finalEasing = customOptions?.easing ?? easing
     const finalDelay = customOptions?.delay ?? delay
 
-    return element.animate(
-      [
-        { clipPath: from },
-        { clipPath: to },
-      ],
-      {
-        duration: finalDuration,
-        easing: finalEasing,
-        delay: finalDelay,
-        fill: 'forwards',
-      }
-    )
+    return element.animate([{ clipPath: from }, { clipPath: to }], {
+      duration: finalDuration,
+      easing: finalEasing,
+      delay: finalDelay,
+      fill: 'forwards',
+    })
   }
 
   /**
@@ -124,10 +108,14 @@ export const useRevealClip = (options: RevealOptions = {}) => {
       duration: finalDuration * 0.5,
     })
 
-    hide(overlayElement, direction === 'lr' ? 'rl' : direction === 'rl' ? 'lr' : direction === 'tb' ? 'bt' : 'tb', {
-      ...customOptions,
-      duration: finalDuration * 0.5,
-    })
+    hide(
+      overlayElement,
+      direction === 'lr' ? 'rl' : direction === 'rl' ? 'lr' : direction === 'tb' ? 'bt' : 'tb',
+      {
+        ...customOptions,
+        duration: finalDuration * 0.5,
+      }
+    )
 
     await contentAnimation.finished
   }

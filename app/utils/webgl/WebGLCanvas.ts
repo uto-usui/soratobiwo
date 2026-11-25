@@ -11,13 +11,15 @@ export class WebGLCanvas {
 
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas
-    const gl = canvas.getContext('webgl', {
-      premultipliedAlpha: false,
-      alpha: true,
-    }) || canvas.getContext('experimental-webgl', {
-      premultipliedAlpha: false,
-      alpha: true,
-    })
+    const gl =
+      canvas.getContext('webgl', {
+        premultipliedAlpha: false,
+        alpha: true,
+      }) ||
+      canvas.getContext('experimental-webgl', {
+        premultipliedAlpha: false,
+        alpha: true,
+      })
 
     if (!gl) {
       throw new Error('WebGL not supported')

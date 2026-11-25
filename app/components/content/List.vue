@@ -20,11 +20,7 @@ const getDate = (date: string) => formatDate(date)
 
 <template>
   <ul v-if="listData" class="list">
-    <li
-      v-for="(item, index) in listData"
-      :key="`listItem${index}`"
-      class="list__item"
-    >
+    <li v-for="(item, index) in listData" :key="`listItem${index}`" class="list__item">
       <ContentListInner :is-link="true" :slug="item.id">
         <div class="list__content">
           <div class="list__top">
@@ -45,10 +41,7 @@ const getDate = (date: string) => formatDate(date)
           </div>
 
           <div class="list__bottom">
-            <time
-              v-if="item.date"
-              class="list__date"
-            >{{ getDate(item.date) }}</time>
+            <time v-if="item.date" class="list__date">{{ getDate(item.date) }}</time>
             <p v-if="'place' in item && item.place" class="list__place" v-html="item.place" />
           </div>
         </div>
@@ -58,7 +51,7 @@ const getDate = (date: string) => formatDate(date)
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .list {
   @include desktop {
@@ -197,7 +190,9 @@ const getDate = (date: string) => formatDate(date)
 
 .list__figure {
   filter: saturate(0);
-  transition: filter 1s $easeFadeIn, transform 1s $easeFadeIn;
+  transition:
+    filter 1s $easeFadeIn,
+    transform 1s $easeFadeIn;
   will-change: filter, transform;
 
   @include overlay;

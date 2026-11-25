@@ -38,7 +38,7 @@ const markLoaded = 'this.dataset.loaded=""'
       :style="{ backgroundImage: `url(${placeholder})` }"
     />
     <picture>
-      <source v-if="desktopOnly" media="(max-width: 1023px)" :srcset="blankImage">
+      <source v-if="desktopOnly" media="(max-width: 1023px)" :srcset="blankImage" />
       <!-- Vue は書いた順に属性を設定する。src を先に入れると lazy になる前に読み込みが始まるので、src は最後に置く -->
       <img
         class="cover-image__img"
@@ -50,7 +50,7 @@ const markLoaded = 'this.dataset.loaded=""'
         :sizes="sizes"
         :srcset="resolvedSrcset"
         :src="src"
-      >
+      />
     </picture>
   </span>
 </template>

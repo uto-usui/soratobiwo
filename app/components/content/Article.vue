@@ -21,29 +21,18 @@ const getDate = (date: string) => formatDate(date)
           <span class="article__title-mobile" v-html="post.titleMobile" />
         </h1>
         <div class="article__head-inner">
-          <time
-            v-if="post.date"
-            class="article__date"
-          >{{ getDate(post.date) }}</time>
+          <time v-if="post.date" class="article__date">{{ getDate(post.date) }}</time>
           <p v-if="'place' in post && post.place" class="article__place" v-html="post.place" />
         </div>
       </div>
       <div class="article__body">
         <h2 v-if="post.title" class="article__title-sub" v-html="post.title" />
-        <p
-          v-if="'place' in post && post.place"
-          class="article__place-pc"
-          v-html="post.place"
-        />
+        <p v-if="'place' in post && post.place" class="article__place-pc" v-html="post.place" />
         <p v-if="'act' in post && post.act" class="article__act" v-html="post.act" />
         <p v-if="'time' in post && post.time" class="article__time" v-html="post.time" />
         <p v-if="'fee' in post && post.fee" class="article__fee" v-html="post.fee" />
         <div v-if="post.info && post.info[0]" class="article__info">
-          <p
-            v-for="(item, index) in post.info"
-            :key="`postInfo${index}`"
-            v-html="item"
-          />
+          <p v-for="(item, index) in post.info" :key="`postInfo${index}`" v-html="item" />
         </div>
       </div>
       <div class="article__close">
@@ -54,7 +43,7 @@ const getDate = (date: string) => formatDate(date)
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .article {
   position: relative;

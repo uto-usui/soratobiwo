@@ -22,17 +22,14 @@ const isActive = (item: string): boolean => {
 <template>
   <div class="menu">
     <ul class="menu__list">
-      <li
-        v-for="(item, index) in links"
-        :key="`menu${index}`"
-        class="menu__item"
-      >
+      <li v-for="(item, index) in links" :key="`menu${index}`" class="menu__item">
         <span class="menu__item-inner">
           <NuxtLink
             :to="item === 'home' ? '/' : `/${item}/`"
             :class="['menu__target', { 'is-current': isActive(item) }]"
             @click="closeMenu"
-          >{{ item }}</NuxtLink>
+            >{{ item }}</NuxtLink
+          >
         </span>
       </li>
     </ul>
@@ -40,7 +37,7 @@ const isActive = (item: string): boolean => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .menu {
   position: fixed;

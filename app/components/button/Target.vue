@@ -33,11 +33,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div
-    ref="buttonRef"
-    :class="[{ 'is-full': full }]"
-    class="button-target"
-  >
+  <div ref="buttonRef" :class="[{ 'is-full': full }]" class="button-target">
     <slot />
   </div>
 </template>

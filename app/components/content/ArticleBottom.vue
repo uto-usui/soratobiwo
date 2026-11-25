@@ -15,12 +15,7 @@ withDefaults(defineProps<Props>(), {
     <div class="article-bottom__inner">
       <figure class="article-bottom__figure">
         <!-- 表示幅は 67vw（スマホは 95vw あるが、グレースケールに重ねて見せるので密度 2 倍程度で足りる） -->
-        <UtilityCoverImage
-          v-if="image"
-          :src="image"
-          :srcset="srcset"
-          sizes="67vw"
-        />
+        <UtilityCoverImage v-if="image" :src="image" :srcset="srcset" sizes="67vw" />
       </figure>
       <div class="article-bottom__bg" />
     </div>
@@ -29,7 +24,7 @@ withDefaults(defineProps<Props>(), {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .article-bottom {
   position: relative;
@@ -57,7 +52,9 @@ withDefaults(defineProps<Props>(), {
   z-index: 1;
   height: calc(100vh / 2);
   filter: saturate(0);
-  transition: filter 2s $easeOutSine, transform 5s $easeFadeIn;
+  transition:
+    filter 2s $easeOutSine,
+    transform 5s $easeFadeIn;
   will-change: filter, transform;
 
   @include desktop {

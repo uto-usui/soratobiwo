@@ -12,15 +12,13 @@ const getDate = (date: string) => formatDate(date)
 const getFormOpen = computed(() => store.getFormOpen)
 
 const liveData = computed<LiveEvent[]>(() => {
-  return [...(liveJson as LiveEvent[])]
-    .filter(el => !el.soldOut)
-    .reverse()
+  return [...(liveJson as LiveEvent[])].filter((el) => !el.soldOut).reverse()
 })
 
 const roleData = ['ライブ予約', 'ライブオファー', 'メッセージ']
 
 const upcomingLives = computed(() => {
-  return liveData.value.filter(el => new Date(el.date) > new Date())
+  return liveData.value.filter((el) => new Date(el.date) > new Date())
 })
 
 const closeForm = () => {
@@ -58,11 +56,9 @@ const closeForm = () => {
               <span class="form__text">ご用件</span>
               <select class="form__input" name="role">
                 <option value="--">--</option>
-                <option
-                  v-for="(_item, _index) in roleData"
-                  :key="`role${_index}`"
-                  :value="_item"
-                >{{ _item }}</option>
+                <option v-for="(_item, _index) in roleData" :key="`role${_index}`" :value="_item">
+                  {{ _item }}
+                </option>
               </select>
             </label>
           </p>
@@ -75,7 +71,9 @@ const closeForm = () => {
                   v-for="(item, index) in upcomingLives"
                   :key="`event${index}`"
                   :value="`${getDate(item.date)} ${item.place}`"
-                >{{ getDate(item.date) }} {{ item.place }}</option>
+                >
+                  {{ getDate(item.date) }} {{ item.place }}
+                </option>
               </select>
             </label>
           </p>
@@ -88,10 +86,7 @@ const closeForm = () => {
           <p class="form__item">
             <label class="form__label">
               <span class="form__text">メッセージ</span>
-              <textarea
-                class="form__input form__input--ms"
-                name="message"
-              />
+              <textarea class="form__input form__input--ms" name="message" />
             </label>
           </p>
           <p class="form__item form__item--button">
@@ -107,7 +102,7 @@ const closeForm = () => {
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .form {
   position: fixed;
@@ -140,8 +135,7 @@ const closeForm = () => {
 }
 
 .form__inner {
-  padding: calc(100vw * 30 / 375 - 100vw * 20 / 375) calc(100vw * 30 / 375)
-    calc(100vw * 30 / 375);
+  padding: calc(100vw * 30 / 375 - 100vw * 20 / 375) calc(100vw * 30 / 375) calc(100vw * 30 / 375);
 
   @include desktop {
     padding: calc(100vw * 30 / 1024);

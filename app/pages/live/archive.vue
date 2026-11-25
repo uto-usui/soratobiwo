@@ -22,9 +22,7 @@ usePageLoading()
         :get-page-ready="store.pageReady"
       />
       <ContentMainInner>
-        <NuxtLink to="/live/" class="live-link">
-          ← これからのライブはこちら
-        </NuxtLink>
+        <NuxtLink to="/live/" class="live-link"> ← これからのライブはこちら </NuxtLink>
         <ContentTimeline :list-data="liveArchiveJson" />
       </ContentMainInner>
     </ContentMainOuter>
@@ -32,7 +30,7 @@ usePageLoading()
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .live-link {
   display: block;

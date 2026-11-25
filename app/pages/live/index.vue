@@ -28,16 +28,14 @@ usePageLoading()
       />
       <ContentMainInner>
         <ContentList :list-data="liveData" />
-        <NuxtLink to="/live/archive/" class="archive-link">
-          過去のライブはこちら →
-        </NuxtLink>
+        <NuxtLink to="/live/archive/" class="archive-link"> 過去のライブはこちら → </NuxtLink>
       </ContentMainInner>
     </ContentMainOuter>
   </LayoutWrapper>
 </template>
 
 <style lang="scss" scoped>
-@use "../../assets/sass/foundation/mixin/mixin" as *;
+@use '../../assets/sass/foundation/mixin/mixin' as *;
 
 .archive-link {
   display: block;

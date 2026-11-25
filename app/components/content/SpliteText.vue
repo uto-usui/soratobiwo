@@ -21,7 +21,8 @@ withDefaults(defineProps<Props>(), {
       animationDuration: `${duration}s`,
     }"
     class="sprite-text"
-  >{{ item }}</span>
+    >{{ item }}</span
+  >
 </template>
 
 <style lang="scss" scoped>
