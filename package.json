@@ -11,7 +11,8 @@
     "lint": "oxlint --type-aware",
     "lint:fix": "oxlint --type-aware --fix",
     "format": "oxfmt",
-    "format:check": "oxfmt --check"
+    "format:check": "oxfmt --check",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "@nuxt/fonts": "^1.2.0",
@@ -23,6 +24,8 @@
     "vue-router": "^5.5.1"
   },
   "devDependencies": {
+    "@golar/vue": "^0.1.11",
+    "golar": "^0.1.11",
     "oxfmt": "^0.80.0",
     "oxlint": "^1.95.0",
     "oxlint-tsgolint": "^7.0.2008",
