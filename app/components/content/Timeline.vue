@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import type { LiveEvent } from '~/types'
 
+type TimelineEvent = Pick<LiveEvent, 'id' | 'date' | 'title' | 'place'>
+
 interface Props {
-  listData: LiveEvent[]
+  listData: TimelineEvent[]
 }
 
 const props = defineProps<Props>()
@@ -11,8 +13,8 @@ const { formatDate } = useFormatDate()
 
 // Group events by year (descending)
 const groupedByYear = computed(() => {
-  const groups: { year: string; events: LiveEvent[] }[] = []
-  const yearMap = new Map<string, LiveEvent[]>()
+  const groups: { year: string; events: TimelineEvent[] }[] = []
+  const yearMap = new Map<string, TimelineEvent[]>()
 
   for (const event of props.listData) {
     const year = event.date.slice(0, 4)

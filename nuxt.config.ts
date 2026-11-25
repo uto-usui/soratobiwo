@@ -78,8 +78,15 @@ export default defineNuxtConfig({
     },
   },
 
-  // 動的ルート生成フック
+  // ビルドとプリレンダーのフック
   hooks: {
+    // JSON は useAsyncData で書き出し時にだけ読み、データは payload で届く。
+    // ブラウザで読むのは dev のページ移動だけなので、JSON のチャンクを prefetch させない
+    'build:manifest'(manifest) {
+      for (const chunk of Object.values(manifest)) {
+        chunk.dynamicImports = chunk.dynamicImports?.filter((id) => !id.endsWith('.json'))
+      }
+    },
     async 'prerender:routes'(ctx) {
       // live.json からルート生成
       const liveData = await import('./app/assets/json/live.json', { with: { type: 'json' } })

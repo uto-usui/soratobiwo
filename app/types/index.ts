@@ -17,6 +17,11 @@ export interface LiveEvent {
   wp: boolean
 }
 
+// 一覧（ContentList）で使う項目。ライブのときだけ place がある
+export type ListItem = Pick<NewsItem, 'id' | 'title' | 'date' | 'hero' | 'heroSrcset' | 'wp'> & {
+  place?: string
+}
+
 // News Item
 export interface NewsItem {
   date: string

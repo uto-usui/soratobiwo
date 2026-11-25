@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { LiveEvent } from '~/types'
-import liveJson from '~/assets/json/live.json'
 import { useMainStore } from '~/stores/main'
 
 const store = useMainStore()
@@ -11,8 +10,14 @@ const getDate = (date: string) => formatDate(date)
 
 const { formOpen } = storeToRefs(store)
 
-const liveData = computed<LiveEvent[]>(() => {
-  return [...(liveJson as LiveEvent[])].filter((el) => !el.soldOut).reverse()
+// 全ページに載るので、payload には予約フォームで使う項目だけを入れる
+const { data: lives } = await useAsyncData('live-form', async () => {
+  const { default: all } = await import('~/assets/json/live.json')
+  return all.map((item) => pick(item, ['date', 'place', 'soldOut']))
+})
+
+const liveData = computed<Pick<LiveEvent, 'date' | 'place' | 'soldOut'>[]>(() => {
+  return (lives.value ?? []).filter((el) => !el.soldOut).reverse()
 })
 
 const roleData = ['ライブ予約', 'ライブオファー', 'メッセージ']

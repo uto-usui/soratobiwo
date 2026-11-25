@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { NewsItem } from '~/types'
-import newsJson from '~/assets/json/news.json'
 
 interface Props {
   getMenuOpen?: boolean
@@ -14,9 +13,15 @@ const route = useRoute()
 
 const currentYear = new Date().getFullYear()
 
+// 全ページに載るので、payload には表示に使う項目だけを入れる
+const { data: newsAll } = await useAsyncData('news-ticker', async () => {
+  const { default: all } = await import('~/assets/json/news.json')
+  return all.map((item) => pick(item, ['id', 'title', 'date']))
+})
+
 // Filter news to current year
-const newsData = computed<NewsItem[]>(() => {
-  return (newsJson as NewsItem[]).filter((item) => {
+const newsData = computed<Pick<NewsItem, 'id' | 'title' | 'date'>[]>(() => {
+  return (newsAll.value ?? []).filter((item) => {
     const itemYear = new Date(item.date).getFullYear()
     return itemYear === currentYear
   })

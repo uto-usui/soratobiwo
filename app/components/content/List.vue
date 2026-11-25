@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { LiveEvent, NewsItem } from '~/types'
+import type { ListItem } from '~/types'
 
 interface Props {
   getPageReady?: boolean
   title?: string
-  listData: (LiveEvent | NewsItem)[] | null
+  listData: ListItem[] | null
 }
 
 withDefaults(defineProps<Props>(), {

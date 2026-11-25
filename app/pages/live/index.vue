@@ -1,12 +1,17 @@
 <script setup lang="ts">
 import { useMainStore } from '~/stores/main'
-import liveJson from '~/assets/json/live.json'
 
 const store = useMainStore()
 
+// JSON は書き出し時にだけ読み、ページの payload には一覧で使う項目だけを入れる
+const { data: lives } = await useAsyncData('live-list', async () => {
+  const { default: all } = await import('~/assets/json/live.json')
+  return all.map((item) => pick(item, ['id', 'title', 'date', 'hero', 'heroSrcset', 'wp', 'place']))
+})
+
 // Filter future live events and reverse order (latest first)
 const liveData = computed(() => {
-  return liveJson.filter((el) => new Date(el.date) > new Date()).reverse()
+  return (lives.value ?? []).filter((el) => new Date(el.date) > new Date()).reverse()
 })
 
 // SEO
