@@ -1,13 +1,9 @@
 <script setup lang="ts">
 interface Props {
-  getPageHeight?: number
-  getPageScrollY?: number
   getMenuOpen?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
-  getPageHeight: 0,
-  getPageScrollY: 0,
   getMenuOpen: false,
 })
 
@@ -22,12 +18,7 @@ const route = useRoute()
     <LayoutCopy />
     <LayoutNews :get-menu-open="getMenuOpen" />
 
-    <LayoutHeader
-      v-if="false"
-      :get-menu-open="getMenuOpen"
-      :get-page-height="getPageHeight"
-      :get-page-scroll-y="getPageScrollY"
-    />
+    <LayoutHeader v-if="false" :get-menu-open="getMenuOpen" />
     <LayoutMenu :get-menu-open="getMenuOpen" />
     <!-- PC とスマホの出し分けは各コンポーネントの CSS でする。JS で画面幅を見ると、最初の HTML がスマホ表示になる -->
     <LayoutMenuDesktop v-if="route.fullPath !== '/'" />

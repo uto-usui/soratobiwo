@@ -17,6 +17,11 @@ export interface LiveEvent {
   wp: boolean
 }
 
+// 一覧（ContentList）で使う項目。ライブのときだけ place がある
+export type ListItem = Pick<NewsItem, 'id' | 'title' | 'date' | 'hero' | 'heroSrcset' | 'wp'> & {
+  place?: string
+}
+
 // News Item
 export interface NewsItem {
   date: string
@@ -28,7 +33,8 @@ export interface NewsItem {
   hero: string
   /** WordPress の縮小版を並べた srcset。scripts/wp-hero-srcset.mjs が書き込む */
   heroSrcset?: string
-  wp: boolean
+  /** 古い記事には無い。無いときはサイト内の画像（/images/）を使う */
+  wp?: boolean
 }
 
 // Music Album

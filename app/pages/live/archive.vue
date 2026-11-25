@@ -1,8 +1,13 @@
 <script setup lang="ts">
 import { useMainStore } from '~/stores/main'
-import liveArchiveJson from '~/assets/json/liveArchive.json'
 
 const store = useMainStore()
+
+// JSON は書き出し時にだけ読み、ページの payload には年表で使う項目だけを入れる
+const { data: archive } = await useAsyncData('live-archive', async () => {
+  const { default: all } = await import('~/assets/json/liveArchive.json')
+  return all.map((item) => pick(item, ['id', 'date', 'title', 'place']))
+})
 
 // SEO
 usePageSeo({
@@ -23,7 +28,7 @@ usePageLoading()
       />
       <ContentMainInner>
         <NuxtLink to="/live/" class="live-link"> ← これからのライブはこちら </NuxtLink>
-        <ContentTimeline :list-data="liveArchiveJson" />
+        <ContentTimeline :list-data="archive ?? []" />
       </ContentMainInner>
     </ContentMainOuter>
   </LayoutWrapper>

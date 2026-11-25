@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { useMainStore } from '~/stores/main'
-import liveData from '~/assets/json/live.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 const route = useRoute()
 
 // Get the ID from the route params
@@ -12,9 +11,10 @@ const id = computed(() => {
   return Array.isArray(param) ? param[0] : param
 })
 
-// Find the live event by ID
-const post = computed(() => {
-  return liveData.find((item) => item.id === id.value)
+// JSON は書き出し時にだけ読み、ページの payload にはこの 1 件だけを入れる
+const { data: post } = await useAsyncData(`live-${id.value}`, async () => {
+  const { default: all } = await import('~/assets/json/live.json')
+  return all.find((item) => item.id === id.value) ?? null
 })
 
 // 404 if not found
@@ -37,7 +37,7 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="live">
+  <LayoutWrapper :get-page-ready="pageReady" class="live">
     <ContentMainOuter>
       <ContentMainInner>
         <template v-if="post">

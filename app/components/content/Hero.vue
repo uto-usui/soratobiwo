@@ -3,12 +3,10 @@ import { DisplacementSlider } from '~/utils/webgl'
 
 interface Props {
   getPageReady?: boolean
-  getPageHeight?: number
 }
 
 withDefaults(defineProps<Props>(), {
   getPageReady: false,
-  getPageHeight: 0,
 })
 
 // canvas が描けるまで、1枚目のスライドの縮小版をぼかして敷く

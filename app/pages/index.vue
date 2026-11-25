@@ -12,7 +12,7 @@ usePageLoading()
 
 <template>
   <div class="page-index">
-    <ContentHero :get-page-ready="store.pageReady" :get-page-height="store.getPageHeight" />
+    <ContentHero :get-page-ready="store.pageReady" />
   </div>
 </template>
 

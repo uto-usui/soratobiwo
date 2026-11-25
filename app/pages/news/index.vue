@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { useMainStore } from '~/stores/main'
-import newsJson from '~/assets/json/news.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 
-// News data
-const newsData = newsJson
+// JSON は書き出し時にだけ読み、ページの payload には一覧で使う項目だけを入れる
+const { data: newsData } = await useAsyncData('news-list', async () => {
+  const { default: all } = await import('~/assets/json/news.json')
+  return all.map((item) => pick(item, ['id', 'title', 'date', 'hero', 'heroSrcset', 'wp']))
+})
 
 // SEO
 usePageSeo({
@@ -18,15 +20,11 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="live">
+  <LayoutWrapper :get-page-ready="pageReady" class="live">
     <ContentMainOuter class="live">
-      <ContentHeroSub
-        image="/images/2026/image19.webp"
-        title="news"
-        :get-page-ready="getPageReady"
-      />
+      <ContentHeroSub image="/images/2026/image19.webp" title="news" :get-page-ready="pageReady" />
       <ContentMainInner>
-        <ContentList :list-data="newsData" />
+        <ContentList :list-data="newsData ?? []" />
       </ContentMainInner>
     </ContentMainOuter>
   </LayoutWrapper>

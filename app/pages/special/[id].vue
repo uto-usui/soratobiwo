@@ -41,7 +41,6 @@ usePageLoading()
 
       <div class="special-content">
         <div v-for="(item, index) in special.items" :key="`item-${index}`" class="special-item">
-          <h2 v-if="item.title" class="item-title">{{ item.title }}</h2>
           <div
             v-if="item.image"
             class="item-image"
@@ -49,7 +48,7 @@ usePageLoading()
           >
             <UtilityCoverImage
               :src="`/images/${item.image}`"
-              :alt="item.title || ''"
+              alt=""
               sizes="(min-width: 800px) 760px, 95vw"
               loading="lazy"
             />
@@ -93,11 +92,6 @@ usePageLoading()
 
 .special-item {
   margin-bottom: 3rem;
-}
-
-.item-title {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .item-image {

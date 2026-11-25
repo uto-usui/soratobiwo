@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       // ページ移動でローダーが出ている間（is-ready が外れている間）は中身を隠す
       style: [
         {
-          children: `
+          textContent: `
             .body:not(.is-ready) .fixed-content,
             .body:not(.is-ready) .wrapper,
             .body:not(.is-ready) [class^="page-"] {
@@ -60,7 +60,6 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          api: 'modern-compiler',
           additionalData: `
             @use "~/assets/sass/foundation/variable/variable" as *;
             @use "~/assets/sass/foundation/mixin/mixin" as *;
@@ -78,8 +77,15 @@ export default defineNuxtConfig({
     },
   },
 
-  // 動的ルート生成フック
+  // ビルドとプリレンダーのフック
   hooks: {
+    // JSON は useAsyncData で書き出し時にだけ読み、データは payload で届く。
+    // ブラウザで読むのは dev のページ移動だけなので、JSON のチャンクを prefetch させない
+    'build:manifest'(manifest) {
+      for (const chunk of Object.values(manifest)) {
+        chunk.dynamicImports = chunk.dynamicImports?.filter((id) => !id.endsWith('.json'))
+      }
+    },
     async 'prerender:routes'(ctx) {
       // live.json からルート生成
       const liveData = await import('./app/assets/json/live.json', { with: { type: 'json' } })

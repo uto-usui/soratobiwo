@@ -1,14 +1,10 @@
 <script setup lang="ts">
 // Header component
 interface Props {
-  getPageHeight?: number
-  getPageScrollY?: number
   getMenuOpen?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
-  getPageHeight: 0,
-  getPageScrollY: 0,
   getMenuOpen: false,
 })
 </script>

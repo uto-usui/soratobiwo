@@ -3,7 +3,7 @@ import { useMainStore } from '~/stores/main'
 import followJson from '~/assets/json/follow.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 
 // Follow data
 const followData = followJson
@@ -18,12 +18,12 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="follow">
+  <LayoutWrapper :get-page-ready="pageReady" class="follow">
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image15.webp"
         title="follow"
-        :get-page-ready="getPageReady"
+        :get-page-ready="pageReady"
       />
       <ContentMainInner>
         <ContentFollowList :list-data="followData" />
