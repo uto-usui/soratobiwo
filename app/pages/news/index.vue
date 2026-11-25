@@ -3,7 +3,7 @@ import { useMainStore } from '~/stores/main'
 import newsJson from '~/assets/json/news.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 
 // News data
 const newsData = newsJson
@@ -18,13 +18,9 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="live">
+  <LayoutWrapper :get-page-ready="pageReady" class="live">
     <ContentMainOuter class="live">
-      <ContentHeroSub
-        image="/images/2026/image19.webp"
-        title="news"
-        :get-page-ready="getPageReady"
-      />
+      <ContentHeroSub image="/images/2026/image19.webp" title="news" :get-page-ready="pageReady" />
       <ContentMainInner>
         <ContentList :list-data="newsData" />
       </ContentMainInner>

@@ -3,7 +3,7 @@ import { useMainStore } from '~/stores/main'
 import newsData from '~/assets/json/news.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 const route = useRoute()
 
 // Get the ID from the route params
@@ -36,7 +36,7 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="live">
+  <LayoutWrapper :get-page-ready="pageReady" class="live">
     <ContentMainOuter>
       <ContentMainInner>
         <template v-if="post">

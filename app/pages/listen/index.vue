@@ -4,7 +4,7 @@ import listenJson from '~/assets/json/listen.json'
 import musicJson from '~/assets/json/music.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 
 // Data
 const listenData = listenJson
@@ -20,12 +20,12 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="listen">
+  <LayoutWrapper :get-page-ready="pageReady" class="listen">
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image18.webp"
         title="listen"
-        :get-page-ready="getPageReady"
+        :get-page-ready="pageReady"
       />
       <ContentMainInner>
         <div class="listen__list">

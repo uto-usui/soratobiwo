@@ -3,7 +3,7 @@ import { useMainStore } from '~/stores/main'
 import profileJson from '~/assets/json/profile.json'
 
 const store = useMainStore()
-const { getPageReady } = storeToRefs(store)
+const { pageReady } = storeToRefs(store)
 
 // Profile data
 const profileData = profileJson
@@ -18,12 +18,12 @@ usePageLoading()
 </script>
 
 <template>
-  <LayoutWrapper :get-page-ready="getPageReady" class="profile">
+  <LayoutWrapper :get-page-ready="pageReady" class="profile">
     <ContentMainOuter>
       <ContentHeroSub
         image="/images/2026/image12.webp"
         title="profile"
-        :get-page-ready="getPageReady"
+        :get-page-ready="pageReady"
       />
       <ContentMainInner>
         <div

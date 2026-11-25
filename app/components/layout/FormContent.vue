@@ -9,7 +9,7 @@ const { formatDate } = useFormatDate()
 
 const getDate = (date: string) => formatDate(date)
 
-const getFormOpen = computed(() => store.getFormOpen)
+const { formOpen } = storeToRefs(store)
 
 const liveData = computed<LiveEvent[]>(() => {
   return [...(liveJson as LiveEvent[])].filter((el) => !el.soldOut).reverse()
@@ -27,7 +27,7 @@ const closeForm = () => {
 </script>
 
 <template>
-  <div :class="[{ 'is-open': getFormOpen }]" class="form">
+  <div :class="[{ 'is-open': formOpen }]" class="form">
     <div class="form__inner">
       <form
         name="contact"
