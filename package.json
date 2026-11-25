@@ -2,7 +2,7 @@
   "name": "soratobiwo",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@11.28.6",
+  "packageManager": "pnpm@12.23.0+sha512.02da94ffaf133f46074322afe552f90d40b5f71ae259aefbccdacc5085b1d617e98d65e0131f5748b9b67445978ee5055d7d59a473f1eef0d504854fefcd5975",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -16,9 +16,9 @@
     "@nuxt/fonts": "^1.2.0",
     "@pinia/nuxt": "^1.0.3",
     "dayjs": "^1.11.23",
-    "nuxt": "^4.6.4",
+    "nuxt": "^4.7.0",
     "pinia": "^4.1.0",
-    "vue": "^3.5.45",
+    "vue": "^3.5.46",
     "vue-router": "^5.5.1"
   },
   "devDependencies": {
